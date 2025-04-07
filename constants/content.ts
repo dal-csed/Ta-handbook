@@ -23,21 +23,14 @@ export const collapsable : CollapsibleSection[] = [
     {
         id: 1,
         title: "How To Become a Grad TA with the Faculty of Computer Science",
-        content: `Opportunities are there for you to become a TA as a graduate student. At the FCS (Faculty of Computer Science), we have a vested interest in your success in all facets, in your academics, research and professional aspirations to become future academics. Part of that role will most likely entail teaching! A great way to learn the skills necessary to become a successful educator is to involve yourself with aspects of teaching.  
-
- 
+        content: `
+        Opportunities are there for you to become a TA as a graduate student. At the FCS (Faculty of Computer Science), we have a vested interest in your success in all facets, in your academics, research and professional aspirations to become future academics. Part of that role will most likely entail teaching! A great way to learn the skills necessary to become a successful educator is to involve yourself with aspects of teaching.  
 
         At the Faculty, there are different roles: TA (Teaching Assistant), Demonstrators and Makers. A TA position is the best way to secure a longer-term role with one or more classes for a sustained duration, hopefully for the duration of your degree! This is good for the faculty, as we can retain trained TAs who can develop a strong knowledge of a particular course or courses and ensure that the course can be delivered consistently from term to term. This is also very positive for grad students as they can secure funding and develop skills that they will need to be successful instructors in the future. 
 
- 
-
         In the first instance, your supervisor at the Faculty of Computer Science, Dr. Micheal McAllister or the Lab Coordinator (Megan Baker) will be able to inform you of what role could be possible for you at the Faculty. They all have a wealth of information about the various roles and can advise you on what would be the most appropriate placement for you if there are any suitable opportunities. You are best placed to be a TA in a course that matches your skills and competencies; it is very important to have a thorough knowledge of the material covered in the course. If there are gaps in your knowledge, you must speak with the course instructor and learn the required material. 
 
- 
-
         Secondly, there is a Brightspace page set up for TAs, Markers and Demonstrators at the Faculty: FCS TAs and Markers. All students at the Faculty have been enrolled in the site. It requires that you log in with your Dal credentials. If you have any issues accessing it, contact Megan Baker: FCSTA@dal.ca Once logged in, you will able to learn more about various roles, contract lengths, access Job Seeker Registry and much more! 
-
-        
 
         Information about the roles of TAs, Markers and Demonstrators can also be found on the Faculty of Computer Science TA/Marker page3. It outlines the types of support that the various roles have and the hourly remuneration. The page also contains a link to the CUPE 3912 (Canadian Union of Public Employees) webpage. 
         
@@ -46,7 +39,8 @@ export const collapsable : CollapsibleSection[] = [
     {
         id: 2,
         title: "Resources and Training at Dalhousie for TAs",
-        content: `We strive to offer you training that will help you to be successful in your role through this handbook, the FCS TAs & Markers Brightspace site, in-person training sessions at the FCS and via the guidance of the instructor that you will be working with. Computer Science is a distinct discipline that requires specialized support.
+        content: `
+        We strive to offer you training that will help you to be successful in your role through this handbook, the FCS TAs & Markers Brightspace site, in-person training sessions at the FCS and via the guidance of the instructor that you will be working with. Computer Science is a distinct discipline that requires specialized support.
     
         The Centre of Learning and Teaching Assistant Professional Development Days:
         
@@ -69,7 +63,8 @@ export const collapsable : CollapsibleSection[] = [
     {
         id: 3,
         title: "Guiding TAs on Professional Behavior",
-        content: `This section is dedicated to guiding TAs on professional behaviour and best practices during lab sessions, classroom teaching, and office hours. We emphasize the importance of creating an inclusive, respectful, and engaging learning environment. 
+        content: `
+        This section is dedicated to guiding TAs on professional behaviour and best practices during lab sessions, classroom teaching, and office hours. We emphasize the importance of creating an inclusive, respectful, and engaging learning environment. 
 
         As a Teaching Assistant, you play a vital role in supporting student learning and maintaining a positive classroom environment. To demonstrate professional behaviour, it’s important to be punctual (on time), reliable, and respectful in all your interactions with students, professors, and fellow TAs. Adhering to Dalhousie University Policies, maintaining confidentiality, and demonstrating cultural sensitivity are key aspects of your role. Be mindful of using inclusive language, and practicing active listening to create a welcoming and respectful atmosphere. Take advantage of training opportunities that focus on communication skills, conflict resolution, and ethical behaviour, as these will help you develop confidence and professionalism in your interactions. 
 
@@ -105,7 +100,8 @@ export const collapsable : CollapsibleSection[] = [
     {
         id: 4,
         title: "Your Responsibilities as a TA",
-        content: `TA roles differ in tasks depending on the course and the professor you are working with. You must be clear on your responsibilities when you accept a role as TA. Every instructor will have their own needs and ideas for what it is that they would like you to do and how they would like you to approach tasks. The first meeting with the instructor can be seen as an “Orientation Meeting”. This meeting is an opportunity to start your role in a positive and clear direction. To ensure that you are successful in your role, a helpful checklist of questions in this section will help guide your discussion with the instructor of the class as you embark on your TA journey. You will be able to refer to it when you need clarity. Also, you can share specific information you have recorded with your teaching team.
+        content: `
+        TA roles differ in tasks depending on the course and the professor you are working with. You must be clear on your responsibilities when you accept a role as TA. Every instructor will have their own needs and ideas for what it is that they would like you to do and how they would like you to approach tasks. The first meeting with the instructor can be seen as an “Orientation Meeting”. This meeting is an opportunity to start your role in a positive and clear direction. To ensure that you are successful in your role, a helpful checklist of questions in this section will help guide your discussion with the instructor of the class as you embark on your TA journey. You will be able to refer to it when you need clarity. Also, you can share specific information you have recorded with your teaching team.
     
         Teaching Assistant Checklist: Essential Questions to Clarify Your Role
     
@@ -200,18 +196,12 @@ export const collapsable : CollapsibleSection[] = [
       {
         id: 5,
         title: "In the Lab",
-        content: `In the Lab: TAs should foster a supportive atmosphere where students feel comfortable asking questions and engaging with the material. The importance of preparation, clear communication, active listening, and providing constructive feedback are crucial to your effectiveness in the lab. TAs are encouraged to circulate the room, monitor student progress, and facilitate group discussions (when appropriate) to enhance collaborative learning.
+        content: `
+        In the Lab: TAs should foster a supportive atmosphere where students feel comfortable asking questions and engaging with the material. The importance of preparation, clear communication, active listening, and providing constructive feedback are crucial to your effectiveness in the lab. TAs are encouraged to circulate the room, monitor student progress, and facilitate group discussions (when appropriate) to enhance collaborative learning.
     
         No Phones! Unless you are using your mobile phone to communicate with your instructor, locate a resource, or use the timer for activities, you should not be scrolling on your mobile phone. Your job in labs, classes and tutorials is to be attentive to students. This means engaging with them and carefully observing them as they work. Eyes on the class, not on your phone!
         
         You may be leading a teaching team of TAs and Demonstrators. We do encourage you to be collegial with one another and develop positive relationships, but the purpose of lab and tutorial times are to focus on the learning. Be mindful that students will be reticent to approach you for help if you and others leading the sessions are deep in conversation! Always be present, welcoming and observant.
-        
-        Creating a Sense of Belonging for Students
-        
-        It’s important that students feel a sense of belonging. You need to facilitate this!
-        Creating a Sense of Belonging for Students 
-
-    
 
         It’s important that students feel a sense of belonging. You need to facilitate this!  
 

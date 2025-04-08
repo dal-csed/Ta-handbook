@@ -12,32 +12,24 @@ export default function Home() {
 
   return (
     <>
-      {/* Header (Top Black Bar) */}
-      <div className="bg-black text-white text-sm flex justify-between items-center px-4 py-2">
-        <div className="font-semibold">FACULTY OF COMPUTER SCIENCE, DALHOUSIE UNIVERSITY</div>
-        <div className="text-xs text-gray-300">Created by CSEd</div>
-      </div>
-
       {/* Yellow Bar Header */}
-      <div className="bg-[#ffcc00] flex justify-between items-center px-6 py-3">
-        <div className="flex items-center gap-4">
-          <img src="/dal-logo-horizontal-colour (1).png" alt="Dalhousie University" className="h-10" />
-          <h1 className="text-black text-xl font-bold">TA Handbook</h1>
+      <div className="border-b-4 border-[#ffcc00] flex px-6 py-3 flex-row items-center justify-between gap-4">
+        <img src="/dal-logo.png" alt="Dalhousie University" className="h-16" />
+        <p className="text-black text-3xl font-bold">TA Handbook</p>
+        
+        <div className="flex flex-row justify-between gap-x-10">
+          <button className="font-semibold">CSEd</button>
+          <button className="font-semibold">Just In Time Resources</button>
         </div>
-      </div>
-
-      {/* Intro + Banner */}
-
-      <h1 className="text-4xl font-bold text-dalgray border-b border-gray-300 pb-4 mb-10 max-w-4xl mx-auto px-6">
-        Faculty of Computer Science TA Handbook
-      </h1>
+      </div>  
 
 
       <section className="bg-white text-black px-6 py-8 max-w-4xl mx-auto">
+        <h2 className="text-3xl font-bold mb-8">Introduction</h2>
+
         <p className="mb-4">
           {introduction}
         </p>
-      
       </section>
 
       <div className="w-full max-w-5xl mx-auto mb-8 px-6">

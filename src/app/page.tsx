@@ -9,7 +9,7 @@ export default function Home() {
   const toggle = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
   };
-
+  
   return (
     <>
       {/* Yellow Bar Header */}
@@ -31,54 +31,58 @@ export default function Home() {
         </div>
       </div>
 
-
-      <div className="w-[85%] m-auto">
-        <section className=" py-10 px-6">
-          <div className="max-w-7xl mx-auto">
-            <h2 className="text-2xl font-bold font-sans text-[#55585ded] ">Introduction</h2>
-            <div className=" text-gray-800 text-md leading-relaxed">
-              {introduction.map((item, index)=> 
-                <p key={index} className="my-5" >{item}</p>
-              )}
+      <div className="w-[85%] m-auto bg-white">
+          <section className="py-10 px-6">
+            <div className="max-w-7xl mx-auto">
+              <h2 className="text-2xl font-bold font-sans text-[#55585ded] ">Introduction</h2>
+              <div className=" text-gray-800 text-md ">
+                {introduction.map((item, index)=> 
+                  <p key={index} className="my-5" >{item}</p>
+                )}
+              </div>
             </div>
+          </section>
+
+          <div className="w-full max-w-8xl mx-auto mb-8 px-6">
+            <img
+              src="/GoldbergPicture.png"
+              alt="Goldberg Building"
+              className="w-full object-cover rounded shadow-md"
+            />
           </div>
-        </section>
 
-        <div className="w-full max-w-6xl mx-auto mb-8 px-6">
-          <img
-            src="/GoldbergPicture.png"
-            alt="Goldberg Building"
-            className="w-full object-cover rounded shadow-md"
-          />
-        </div>
+          {/* Collapsible Sections */}
+          <section className="max-w-7xl mx-auto space-y-4 mb-16 px-2">
+            {collapsable.map((section, index) => {
+              const isOpen = openIndex === index;
 
-        {/* Collapsible Sections */}
-        <section className="max-w-7xl mx-auto space-y-4 mb-16 px-2">
-          {collapsable.map((section, index) => (
-            <div
-              key={section.id}
-              className=""
-            >
-              <button
-                onClick={() => toggle(index)}
-                className="w-full flex font-bold justify-between items-center px-4 py-3 text-[#55585ded] bg-gray-100 hover:bg-gray-200 text-lg"
+              return (
+                <div
+                key={section.id}
+                className="shadow-md"
               >
-                {section.id}. {section.title}
-                <img
-                  src={openIndex === index ? "/arrow-up.svg" : "/arrow-down.svg"}
-                  alt="toggle"
-                  className="h-5 w-5 ml-2"
-                />
-              </button>
-              {openIndex === index && (
-                <div className="px-6 py-4 whitespace-pre-line text-gray-800 bg-white">
-                  {section.content}
-                </div>
-              )}
-            </div>
-          ))}
-        </section>
-      </div>
+                <button
+                onClick={() => toggle(index)}
+                className={`w-full flex font-bold justify-between items-center px-4 py-3 text-lg transition-colors duration-300
+                  ${isOpen ? "bg-[#55585ded] text-[#e3e6e9]" : "bg-gray-100 text-[#63666b] hover:bg-[#7d7f83] hover:text-[#e3e6e9]"}`}
+              >
+                  {section.id}. {section.title}
+                  <img
+                    src={openIndex === index ? "/arrow-up.svg" : "/arrow-down.svg"}
+                    alt="toggle"
+                    className="h-5 w-5 ml-2"
+                  />
+                </button>
+                {openIndex === index && (
+                  <div className="px-3 py-1 whitespace-pre-line text-gray-800 bg-white">
+                    {section.content}
+                  </div>
+                )}
+              </div>
+              )
+            })}
+          </section>
+        </div>
 
       {/* Footer */}
       <footer className=" bg-black text-white text-xs text-center py-8 border-t-4 border-[#ffcc00]">

@@ -1,2 +1,6 @@
 @import "tailwindcss";
 @tailwind utilities;
+
+:root {
+  --font-sans: "Public Sans", sans-serif;
+}

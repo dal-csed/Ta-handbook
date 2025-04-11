@@ -23,36 +23,25 @@ export default function Home() {
         </div>
       </div>
 
-      {/* <div className="relative w-full h-[300px]">
+      {/* Goldberg Image as Full-Width Backdrop */}
+      <div className="relative w-full lg:h-[700px] overflow-auto">
         <img
-          src="/GoldbergPicture.jpg"
+          src="/GoldbergPicture.png"
           alt="Goldberg Building"
-          className="absolute inset-0 w-full h-full object-cover"
+          className="w-full h-full object-cover object-center bg-cover"
         />
-        <div className="absolute inset-0 bg-black bg-opacity-30" />
-        <div className="relative z-10 flex items-center justify-center h-full">
-          <h2 className="text-white text-4xl font-bold text-center">
-            Faculty of Computer Science TA Handbook
-          </h2>
-        </div>
-      </div> */}
+        <div className="absolute inset-0 bg-black/30" />{" "}
+        {/* optional overlay for contrast */}
+      </div>
 
-      <section className="bg-gray-100 py-10 px-6">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-2xl font-bold mb-4 font-sans">Introduction</h2>
-          <p className="whitespace-pre-line text-gray-800 text-lg leading-relaxed">
+      <section className="-mt-84 relative z-10 bg-gray-100 py-12 px-6 rounded-md shadow-lg max-w-screen-xl mx-auto">
+        <div className="px-16 mx-auto font-sans">
+          <h2 className="text-2xl font-bold mb-6">Introduction</h2>
+          <p className="text-gray-800 text-lg leading-relaxed whitespace-pre-line">
             {introduction}
           </p>
         </div>
       </section>
-
-      <div className="w-full max-w-6xl mx-auto mb-8 px-6">
-        <img
-          src="/GoldbergPicture.jpg"
-          alt="Goldberg Building"
-          className="w-full object-cover rounded shadow-md"
-        />
-      </div>
 
       {/* Collapsible Sections */}
       <section className="max-w-7xl mx-auto space-y-4 mb-16 px-6">

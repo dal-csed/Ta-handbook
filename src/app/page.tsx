@@ -2,21 +2,16 @@
 
 import { useState } from "react";
 import { collapsable, introduction } from "../../constants/content";
+import CollapsibleSection from "../../components/CollapsibleSection";
 
 export default function Home() {
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
-
-  const toggle = (index: number) => {
-    setOpenIndex(openIndex === index ? null : index);
-  };
-  
   return (
     <>
       {/* Yellow Bar Header */}
       <div className="border-b-4 border-[#ffcc00] w-full h-24">
-        <div className="flex px-3 flex-row items-center justify-between gap-4 m-auto w-[85%] h-full"> 
+        <div className="flex px-3 flex-row items-center justify-between gap-4 m-auto max-w-7xl h-full"> 
           <img src="/dal-logo.png" alt="Dalhousie University" className="h-16" />
-          <p className="text-black text-4xl font-semibold">TA Handbook</p>
+          <p className="text-[#474646] text-4xl font-semibold">TA Handbook</p>
 
           <div className="flex flex-row justify-between gap-x-6">
             <a 
@@ -32,18 +27,18 @@ export default function Home() {
       </div>
 
       <div className="w-[85%] m-auto bg-white">
-          <section className="py-10 px-6">
+          <section className="py-10">
             <div className="max-w-7xl mx-auto">
               <h2 className="text-2xl font-bold font-sans text-[#55585ded] ">Introduction</h2>
-              <div className=" text-gray-800 text-md ">
-                {introduction.map((item, index)=> 
-                  <p key={index} className="my-5" >{item}</p>
+              <div className="text-gray-800 text-md">
+                {introduction.map((item, index) => 
+                  <p key={index} className="my-5">{item}</p>
                 )}
               </div>
             </div>
           </section>
 
-          <div className="w-full max-w-8xl mx-auto mb-8 px-6">
+          <div className="w-full max-w-7xl mx-auto mb-8 px-6">
             <img
               src="/GoldbergPicture.png"
               alt="Goldberg Building"
@@ -53,39 +48,18 @@ export default function Home() {
 
           {/* Collapsible Sections */}
           <section className="max-w-7xl mx-auto space-y-4 mb-16 px-2">
-            {collapsable.map((section, index) => {
-              const isOpen = openIndex === index;
-
-              return (
-                <div
+            {collapsable.map((section) => (
+              <CollapsibleSection 
                 key={section.id}
-                className="shadow-md"
-              >
-                <button
-                onClick={() => toggle(index)}
-                className={`w-full flex font-bold justify-between items-center px-4 py-3 text-lg transition-colors duration-300
-                  ${isOpen ? "bg-[#55585ded] text-[#e3e6e9]" : "bg-gray-100 text-[#63666b] hover:bg-[#7d7f83] hover:text-[#e3e6e9]"}`}
-              >
-                  {section.id}. {section.title}
-                  <img
-                    src={openIndex === index ? "/arrow-up.svg" : "/arrow-down.svg"}
-                    alt="toggle"
-                    className="h-5 w-5 ml-2"
-                  />
-                </button>
-                {openIndex === index && (
-                  <div className="px-3 py-1 whitespace-pre-line text-gray-800 bg-white">
-                    {section.content}
-                  </div>
-                )}
-              </div>
-              )
-            })}
+                title={`${section.id}. ${section.title}`}
+                content={section.content}
+              />
+            ))}
           </section>
         </div>
 
       {/* Footer */}
-      <footer className=" bg-black text-white text-xs text-center py-8 border-t-4 border-[#ffcc00]">
+      <footer className="bg-black text-white text-xs text-center py-8 border-t-4 border-[#ffcc00]">
         <div className="flex flex-row w-[85%] m-auto justify-between">
           <div className="flex flex-col gap-y-8">
             <div>

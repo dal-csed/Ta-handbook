@@ -11,11 +11,11 @@ export default function CollapsibleSection({ title, content }: CollapsibleSectio
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="border-b border-gray-300 shadow-sm">
+    <div className="shadow-sm">
       <button
         onClick={() => setIsOpen(!isOpen)}
         className={`
-          w-full flex items-center justify-between py-4 px-4 text-left
+          w-full flex items-center justify-between py-4 px-4 text-left rounded-sm
           font-semibold text-xl transition-colors duration-300
           ${isOpen
             ? "bg-[#242424] text-[#FFFFFF]"                                   // open

@@ -26,37 +26,37 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-[85%] m-auto bg-white">
-          <section className="py-10">
-            <div className="max-w-7xl mx-auto">
-              <h2 className="text-2xl font-bold font-sans text-[#55585ded] ">Introduction</h2>
-              <div className="text-gray-800 text-md">
-                {introduction.map((item, index) => 
-                  <p key={index} className="my-5">{item}</p>
-                )}
-              </div>
-            </div>
-          </section>
-
-          <div className="w-full max-w-7xl mx-auto mb-8 px-6">
-            <img
-              src="/GoldbergPicture.png"
-              alt="Goldberg Building"
-              className="w-full object-cover rounded shadow-md"
-            />
-          </div>
-
-          {/* Collapsible Sections */}
-          <section className="max-w-7xl mx-auto space-y-4 mb-16 px-2">
-            {collapsable.map((section) => (
-              <CollapsibleSection 
-                key={section.id}
-                title={`${section.id}. ${section.title}`}
-                content={section.content}
-              />
-            ))}
-          </section>
+      <div className="max-w-[1500px] m-auto bg-white">
+        <div className="relative w-full h-[300px] md:h-[400px] lg:h-[600px] overflow-hidden">
+          <img
+            src="/GoldbergPicture.png"
+            alt="Goldberg Building"
+            className="w-full object-cover rounded shadow-md"
+          />
         </div>
+
+        <section className="-mt-95 relative z-10 bg-gray-100 py-6 px-6 rounded-md shadow-sm max-w-7xl mx-auto">
+          <div className="mx-auto">
+            <h2 className="text-2xl font-bold font-sans text-[#55585ded] ">Introduction</h2>
+            <div className="text-gray-800 text-md">
+              {introduction.map((item, index) => 
+                <p key={index} className="my-5">{item}</p>
+              )}
+            </div>
+          </div>
+        </section>
+
+        {/* Collapsible Sections */}
+        <section className="max-w-7xl mx-auto my-3 space-y-4 mb-16 ">
+          {collapsable.map((section) => (
+            <CollapsibleSection 
+              key={section.id}
+              title={`${section.id}. ${section.title}`}
+              content={section.content}
+            />
+          ))}
+        </section>
+      </div>
 
       {/* Footer */}
       <footer className="bg-black text-white text-xs text-center py-8 border-t-4 border-[#ffcc00]">

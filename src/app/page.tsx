@@ -35,7 +35,7 @@ export default function Home() {
           />
         </div>
 
-        <section className="-mt-95 relative z-10 bg-gray-100 py-6 px-6 rounded-md shadow-sm max-w-7xl mx-auto">
+        <section className="-mt-95 relative z-10 bg-gray-100 py-6 px-6 rounded-md shadow-sm max-w-[1225px] mx-auto">
           <div className="mx-auto">
             <h2 className="text-2xl font-bold font-sans text-[#55585ded] ">Introduction</h2>
             <div className="text-gray-800 text-md">
@@ -47,7 +47,7 @@ export default function Home() {
         </section>
 
         {/* Collapsible Sections */}
-        <section className="max-w-7xl mx-auto my-3 space-y-4 mb-16 ">
+        <section className="max-w-[1225px] mx-auto my-3 space-y-4 mb-16 ">
           {collapsable.map((section) => (
             <CollapsibleSection 
               key={section.id}

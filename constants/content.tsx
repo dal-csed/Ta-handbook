@@ -2,6 +2,7 @@ import { ReactNode, useState } from "react";
 import ClassroomGuidance from "../components/inTheClassroom";
 import TAResponsibilities from "../components/TaResponsibilities";
 import ProfessionalBehavior from "../components/ProfessionalBehavior";
+import InclusiveClassrooms from "../components/InclusiveClassroom";
 
 export const introduction = [
   'Welcome to the Faculty of Computer Science Teaching Assistant (TA) Handbook! As a Graduate TA, you play a vital role in supporting student learning, fostering engagement, and maintaining the rigour and academic integrity of our courses. Whether you’re leading labs or tutorials, grading assignments, assisting the instructor in various aspects of teaching, or providing one-on-one support, your contributions help shape the learning experience for our students. This is a crucial and important role!',
@@ -56,7 +57,7 @@ export const collapsable : CollapsibleSection[] = [
 
         {/* Intro */}
         <p>
-          Teaching Assistants (TAs) in the Faculty of Computer Science have access to a variety of professional-development opportunities designed to support and enhance your teaching practice. Through a combination of Faculty-led workshops and programs offered by Dalhousie’s Centre for Learning and Teaching (CL​T), TAs can develop key skills in facilitation, inclusive teaching, assessment, and student engagement. Whether you are new to the role or building on previous experience, these training opportunities provide valuable resources and support to help TAs grow as effective educators in the classroom, lab, and beyond.
+          Teaching Assistants (TAs) in the Faculty of Computer Science have access to a variety of professional-development opportunities designed to support and enhance your teaching practice. Through a combination of Faculty-led workshops and programs offered by Dalhousie's Centre for Learning and Teaching (CLT), TAs can develop key skills in facilitation, inclusive teaching, assessment, and student engagement. Whether you are new to the role or building on previous experience, these training opportunities provide valuable resources and support to help TAs grow as effective educators in the classroom, lab, and beyond.
         </p>
 
         {/* ─────────  Faculty-specific  ───────── */}
@@ -65,98 +66,108 @@ export const collapsable : CollapsibleSection[] = [
           We strive to offer you training that will help you be successful in your role through this handbook, the FCS TAs & Markers Brightspace site, in-person training sessions at the FCS, and the guidance of the instructor you will be working with. Computer Science is a distinct discipline that requires specialized support.
         </p>
 
-        {/* ─────────  CLT / Dal resources  ───────── */}
         <h3 className="font-bold text-lg">Centre for Learning & Teaching (CLT) Training Opportunities</h3>
 
-        {/* TA Days */}
-        <p><strong>Teaching Assistant Professional Development Days&nbsp;(TA Days)</strong></p>
-        <p>
-          TA Days provide TAs with strategies, information, and insight to support teaching activities throughout the year. These workshops and webinars give both new and returning TAs a chance to listen, learn, and engage in discussions about effective teaching practices.
-        </p>
-        <p>
-          Link:&nbsp;
-          <a
-            href="https://www.dal.ca/dept/clt/events-news/annual-events/TA_Days.html"
-            target="_blank"
-            className="text-blue-600 underline"
-          >
-            TA Days
-          </a>
-        </p>
+        <h3 className="font-semibold">
+        Professional Development Resources at Dalhousie 
+        </h3>
 
-        {/* TAEP */}
-        <p><strong>Teaching Assistant Enrichment Program (TAEP)</strong></p>
-        <p>
-          TAEP combines workshops, teaching exercises, and reflection on teaching and learning. It recognises a participant’s work toward the development of teaching, offering experience, knowledge, and skills that can be applied immediately to current TA assignments.
-        </p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>
+            <strong>Teaching Assistant Professional Development Days (TA Days)</strong>
+            <p>
+              TA Days provide TAs with strategies, information, and insight to support teaching activities throughout the year. These workshops and webinars give both new and returning TAs a chance to listen, learn, and engage in discussions about effective teaching practices.
+            </p>
+          </li>
 
-        {/* CUTL */}
-        <p><strong>Certificate in University Teaching and Learning (Graduate Students)</strong></p>
-        <p>There are four main requirement elements in the program:</p>
-        <ul className="list-disc pl-6 space-y-1">
-          <li>Theory</li>
-          <li>Teaching&nbsp;Practice</li>
-          <li>Professional&nbsp;Development</li>
-          <li>Capstone&nbsp;– Teaching&nbsp;Dossier</li>
+          <li>
+            <strong>Teaching Assistant Enrichment Program (TAEP)</strong>
+            <p>
+              TAEP combines workshops, teaching exercises, and reflection on teaching and learning. It recognises a participant's work toward the development of teaching, offering experience, knowledge, and skills that can be applied immediately to current TA assignments.
+            </p>
+          </li>
+
+          <li>
+            <strong>Certificate in University Teaching and Learning (Graduate Students)</strong>
+            <p>There are four main requirement elements in the program:</p>
+            <ul className="list-disc pl-6 space-y-1">
+              <li>Theory</li>
+              <li>Teaching Practice</li>
+              <li>Professional Development</li>
+              <li>Capstone – Teaching Dossier</li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Centre for Learning and Teaching (CLT):</strong> Access a range of resources and support services dedicated to improving teaching and learning experiences.
+          </li>
         </ul>
-        <p>
-          For more information visit:&nbsp;
-          <a
-            href="https://www.dal.ca/dept/clt/programs/CUTL.html"
-            target="_blank"
-            className="text-blue-600 underline"
-          >
-            CUTL Program
-          </a>
-          .
-        </p>
 
-        {/* CLT one-liner */}
-        <p>
-          <strong>Centre for Learning and Teaching (CLT):</strong> Access a range of resources and support services dedicated to improving teaching and learning experiences.
-        </p>
-
-        {/* ─────────  Proactive / Active section  ───────── */}
         <h3 className="font-bold text-lg">The Importance of Being Proactive and Active</h3>
         <p>
-          It’s important to stay proactive when it comes to teaching. Don’t sit back passively—engage with your students, set clear expectations from day one, and take the lead both inside and outside the classroom.
+          It’s important to stay proactive when it comes to teaching. You can’t wait for students to take initiative. You have to take action both inside and outside the classroom. Don’t sit back passively; engage with your students and take the lead. 
         </p>
 
-        {/* Managing responsibilities */}
-        <h4 className="font-semibold">Managing the Responsibilities of a TA</h4>
         <p>
-          Being a TA involves balancing your own research, coursework, lecture prep, grading, and possibly office hours. Prioritise tasks, prepare activities before you enter the learning space, and tackle grading as soon as assignments come in. Timely feedback is crucial for student learning.
-        </p>
-        <p>
-          Some students may be too shy to ask for help, so make yourself available—hold regular office hours and encourage email communication. And if you’re scheduled for office hours, make sure you attend them!
-        </p>
-        <p>
-          Communicate regularly with fellow TAs (especially if you share a course) so everyone is on the same page about grading policies, academic-integrity issues, and other course logistics.
+        Gaining the respect of your students is crucial from the first day. If you don’t set clear expectations from the beginning, it becomes much harder to maintain authority throughout the semester. 
         </p>
 
-        {/* Proactive mindset */}
-        <h4 className="font-semibold">Being Proactive as a TA</h4>
-        <p>
-          Focus on anticipating issues rather than reacting to them. Plan each lab or tutorial intentionally with clear communication and coordination with the instructor and teaching team. Establish authority and expectations on the first day to build respect and rapport.
-        </p>
+      {/* Managing responsibilities */}
+      <h4 className="font-semibold">Managing the Responsibilities of a TA</h4>
+      <p>
+      Being a TA comes with a balancing act. You have your own research, coursework, and preparation for lectures. On top of that, you may need to teach classes, grade assignments and possibly hold office hours. It’s important to prioritize your tasks and not get overwhelmed. You can manage your time more effectively by preparing any activities that you may need for labs, classes and tutorials before you enter the learning space. If you are marking, tackle grading as soon as assignments come in rather than letting them pile up. As a TA, you're going to have a lot on your plate. Between (possibly) grading, preparing lectures, attending meetings, and your own coursework or research, it can be easy to feel overwhelmed. The key is to stay organized and manage your time effectively. If you have marking responsibilities, we recommend grading assignments as soon as you receive them. You will most likely be given a timeline for this from the instructor with whom you are working. This will not only make your life easier but also ensure that your students get timely feedback, which is crucial for their learning. 
+      </p>
+      <p>
+      Another thing to remember is that your students might not always come to you with their questions. Some might be too shy or unsure, so it’s important to make yourself available. Hold regular office hours and encourage your students to reach out to you via email if they need help. And remember, if you're offering office hours, be sure to attend them! It may seem like no one will come, but being available is important in case they do.
+      </p>
+      <p>
+      Finally, it’s important to communicate with your fellow TAs, especially if you’re all teaching the same course. Make sure you're on the same page when it comes to grading policies, handling academic dishonesty, and any other issues that may arise during the semester. 
+      </p>
 
-        {/* Engagement */}
-        <h4 className="font-semibold">Engaging Your Students</h4>
-        <p>
-          Students engage more deeply when you engage with them. Active-learning techniques such as “think-pair-share” promote critical thinking and deeper understanding. See the Active Learning section for concrete strategies.
-        </p>
+      <p>
+      Being an active TA requires more than just physically moving around the classroom. It’s about taking the initiative, being proactive, and staying engaged with your students. Whether it’s inside or outside the classroom, there are always opportunities to be an active participant in the learning process. 
+      </p>
 
-        {/* Staying active physically */}
-        <h4 className="font-semibold">Staying Active and Engaged</h4>
-        <p>
-          Move around the classroom, check in with students, and offer assistance—this keeps you approachable and keeps students attentive. Inject energy into your sessions; enthusiasm is contagious!
-        </p>
+      {/* Proactive mindset */}
+      <h4 className="font-semibold">Being Proactive as a TA</h4>
+      <p>
+      To help your students succeed, you must focus on being proactive rather than reactive. If you're always waiting for things to go wrong or waiting for students to ask for help, you'll find yourself constantly playing catch-up. Instead, try to anticipate issues and questions before they arise. That way, you're better prepared to handle them. You need to be intentional in your plan for each lab, tutorial or assistance in class. When you are working with an instructor as support in a class or whether you are leading a lab, tutorial or other TAs, have clear communication and set a plan. 
+      </p>
 
-        {/* Summary */}
-        <p>
-          In short, being an active TA means taking initiative, engaging with students, and staying proactive. These practices benefit your students and make your teaching experience far more rewarding.
-        </p>
-      </div>
+      <p>
+      You also want to set the tone early on. The first day of class is critical. If you don’t establish yourself as an authority figure from day one, it will be much harder to gain the respect of your students later in the semester. 
+      </p>
+
+      {/* Engagement */}
+      <h4 className="font-semibold">Engaging Your Students</h4>
+      <p>
+      Another thing to keep in mind is that your students are much more likely to engage with the material if you're actively engaging with them. This doesn't mean you have to be overly strict or unapproachable, but it does mean that you need to be present and involved in the learning process. 
+      </p>
+
+      <p>
+      Using Active Learning techniques such as "think-pair-share” and other strategies helps students engage with the material and facilitates deeper learning and retention of skills and course content. This not only gets students interacting with each other and the content but incorporates critical thinking. It also gives them the chance to work through any confusion they may have in a low-pressure environment. 
+      </p>
+
+      <p>
+        See the <a className="text-blue-600">Active Learning</a> section for active learning techniques and steps for implementation. 
+      </p>
+
+      {/* Staying active physically */}
+      <h4 className="font-semibold">Staying Active and Engaged</h4>
+      <p>
+      Another tip is to stay physically active in the classroom. Don’t just stand at the front of the room and lecture for the entire period. Move around the classroom, check in with students, and offer assistance when needed. Not only does this make you more approachable, but it also keeps your students on their toes because they know you’re paying attention. 
+      </p>
+
+      <p>
+      You should also strive to bring energy into the classroom. Even if the material isn't doesn’t seem very exciting, your enthusiasm can make a huge difference in how your students respond to it. When you're excited about what you're teaching, that excitement becomes contagious, and your students will be more likely to stay engaged. 
+      </p>
+
+      <p>
+      In summary, being an active TA is about more than just showing up to class and doing the minimum. It's about taking initiative, engaging with your students, and staying proactive both inside and outside the classroom. By doing these things, you’ll not only make your students' lives easier, but you’ll also make your own teaching experience much more rewarding.  
+      </p>
+
+      
+    </div>
     ),
   },
   {
@@ -180,86 +191,84 @@ export const collapsable : CollapsibleSection[] = [
       <ClassroomGuidance />
     )
   },
-      // {
-      //   id: 6,
-      //   title: "Inclusive Classrooms",
-      //   content: `
-      //   In the Lab: TAs should foster a supportive atmosphere where students feel comfortable asking questions and engaging with the material. The importance of preparation, clear communication, active listening, and providing constructive feedback are crucial to your effectiveness in the lab. TAs are encouraged to circulate the room, monitor student progress, and facilitate group discussions (when appropriate) to enhance collaborative learning.
-    
-      //   No Phones! Unless you are using your mobile phone to communicate with your instructor, locate a resource, or use the timer for activities, you should not be scrolling on your mobile phone. Your job in labs, classes and tutorials is to be attentive to students. This means engaging with them and carefully observing them as they work. Eyes on the class, not on your phone!
-        
-      //   You may be leading a teaching team of TAs and Demonstrators. We do encourage you to be collegial with one another and develop positive relationships, but the purpose of lab and tutorial times are to focus on the learning. Be mindful that students will be reticent to approach you for help if you and others leading the sessions are deep in conversation! Always be present, welcoming and observant.
-
-      //   It’s important that students feel a sense of belonging. You need to facilitate this!  
-
-      //   - Start by sharing your name and the names of any Demonstrators in the room. Share something about yourself with your students. Perhaps your course of study, where you are from, your favourite hobby, etc. Even something about your own journey as a CS student. This helps students get to know you and develops a sense of familiarity. 
-
-      //   - Remind your students that, as a TA, your role is to support their learning, which means approaching interactions differently than you would as a peer. 
-
-      //   - You need to make an effort to learn students’ names. A good way of doing this is to have students write their names on labels and wear them on their lapel the first couple of classes or create name tents (folding a piece of paper in half, students write their names on one half, then prop up the paper next to them). Also, encourage students to share their names with other students when they engage with each other for paired or group work.  
-
-      //   - If a student asks a clarifying question after a demonstration or if it is relevant for the whole class, repeat it for everyone in the class to hear before you respond. 
-
-      //   - Use students’ names when speaking to them. If you do not know it, ask them and then repeat it before you respond. “Great question, Ammar…..” 
-
-      //   Click the link for: 4 Strategic Questions and TA-ing in the CS Lab Poster (https://www.canva.com/design/DAGivQP_-Nc/aNCLhTun55NppYm2ysh5Lw/edit?utm_content=DAGivQP_-Nc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)`
-
-      // },
-
-      // {
-      //   id: 7,
-      //   title: "Instructional Modalities",
-      //   content: `
-      //     Instructional modalities refer to the mode or format in which instruction is delivered—how students engage with learning experiences. Modalities focus more on structure, timing, and presence (physical or virtual) in the learning environment. 
-      //     Here are some of the most common instructional modalities at the Faculty of Computer Science: 
-      //     1. Face-to-Face (F2F) / In-Person 
-      //     Instructor and students are physically present in the same location. 
-      //     Traditional modality used in classrooms, labs, or tutorials. 
-      //     Can be lecture-based, active learning, or experiential. 
-      //     2. Online (Fully Online) 
-      //     All course activities happen online, with no in-person meetings. 
-      //     Can be: 
-      //     Asynchronous: no real-time meetings; learners engage on their own schedule (e.g., pre-recorded videos, forums, assignments). 
-      //     Synchronous: real-time online sessions (e.g., via Zoom or Teams). 
-      //     3. Blended / Hybrid 
-      //     Combines online and in-person elements. 
-      //     A portion of learning occurs in person, and the rest is completed online. 
-      //     Often structured with in-person sessions for interaction and online components for content delivery and practice 
-      //     4. HyFlex (Hybrid-Flexible) 
-      //     Students choose how to participate—in-person, online synchronous, or online asynchronous—often switching between them as needed. 
-      //     Provides maximum flexibility. 
-      //     Requires strong planning to ensure all students have an equitable experience. 
-      //     5. Flipped Classroom 
-      //     Instructional content (e.g., readings or videos) is completed before class. 
-      //     Class time is used for active learning (e.g., discussion, problem-solving, labs). 
-      //     Can be applied in any modality—F2F, blended, or online. 
-      //   `
-      // },
-
-      // {
-      //   id: 8,
-      //   title: "In the Lab",
-      //   content: `
-      //   In the Lab: TAs should foster a supportive atmosphere where students feel comfortable asking questions and engaging with the material. The importance of preparation, clear communication, active listening, and providing constructive feedback are crucial to your effectiveness in the lab. TAs are encouraged to circulate the room, monitor student progress, and facilitate group discussions (when appropriate) to enhance collaborative learning.
-    
-      //   No Phones! Unless you are using your mobile phone to communicate with your instructor, locate a resource, or use the timer for activities, you should not be scrolling on your mobile phone. Your job in labs, classes and tutorials is to be attentive to students. This means engaging with them and carefully observing them as they work. Eyes on the class, not on your phone!
-        
-      //   You may be leading a teaching team of TAs and Demonstrators. We do encourage you to be collegial with one another and develop positive relationships, but the purpose of lab and tutorial times are to focus on the learning. Be mindful that students will be reticent to approach you for help if you and others leading the sessions are deep in conversation! Always be present, welcoming and observant.
-
-      //   It’s important that students feel a sense of belonging. You need to facilitate this!  
-
-      //   - Start by sharing your name and the names of any Demonstrators in the room. Share something about yourself with your students. Perhaps your course of study, where you are from, your favourite hobby, etc. Even something about your own journey as a CS student. This helps students get to know you and develops a sense of familiarity. 
-
-      //   - Remind your students that, as a TA, your role is to support their learning, which means approaching interactions differently than you would as a peer. 
-
-      //   - You need to make an effort to learn students’ names. A good way of doing this is to have students write their names on labels and wear them on their lapel the first couple of classes or create name tents (folding a piece of paper in half, students write their names on one half, then prop up the paper next to them). Also, encourage students to share their names with other students when they engage with each other for paired or group work.  
-
-      //   - If a student asks a clarifying question after a demonstration or if it is relevant for the whole class, repeat it for everyone in the class to hear before you respond. 
-
-      //   - Use students’ names when speaking to them. If you do not know it, ask them and then repeat it before you respond. “Great question, Ammar…..” 
-
-      //   Click the link for: 4 Strategic Questions and TA-ing in the CS Lab Poster (https://www.canva.com/design/DAGivQP_-Nc/aNCLhTun55NppYm2ysh5Lw/edit?utm_content=DAGivQP_-Nc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)`
-
-      // }
+  {
+    id: 6,
+    title: "Inclusive Classrooms",
+    content: (
+      <InclusiveClassrooms />
+    ),
+  },
+  {
+    id: 7,
+    title: "Instructional Modalities",
+    content: (
+      <div className="my-3 space-y-4">
+        <p>
+          Instructional modalities refer to the mode or format in which instruction is delivered—how students engage with learning experiences. Modalities focus more on structure, timing, and presence (physical or virtual) in the learning environment.
+        </p>
+  
+        <p>
+          Here are some of the most common instructional modalities at the Faculty of Computer Science:
+        </p>
+  
+        <ul className="list-decimal pl-6 space-y-4">
+          <li>
+            <strong>Face-to-Face (F2F) / In-Person</strong>
+            <ul className="list-disc pl-6 space-y-1">
+              <li>Instructor and students are physically present in the same location.</li>
+              <li>Traditional modality used in classrooms, labs, or tutorials.</li>
+              <li>Can be lecture-based, active learning, or experiential.</li>
+            </ul>
+          </li>
+  
+          <li>
+            <strong>Online (Fully Online)</strong>
+            <ul className="list-disc pl-6 space-y-1">
+              <li>All course activities happen online, with no in-person meetings.</li>
+              <li>
+                Can be:
+                <ul className="list-disc pl-6 space-y-1">
+                  <li>
+                    <strong>Asynchronous:</strong> no real-time meetings; learners engage on their own schedule (e.g., pre-recorded videos, forums, assignments).
+                  </li>
+                  <li>
+                    <strong>Synchronous:</strong> real-time online sessions (e.g., via Zoom or Teams).
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+  
+          <li>
+            <strong>Blended / Hybrid</strong>
+            <ul className="list-disc pl-6 space-y-1">
+              <li>Combines online and in-person elements.</li>
+              <li>A portion of learning occurs in person, and the rest is completed online.</li>
+              <li>Often structured with in-person sessions for interaction and online components for content delivery and practice.</li>
+            </ul>
+          </li>
+  
+          <li>
+            <strong>HyFlex (Hybrid-Flexible)</strong>
+            <ul className="list-disc pl-6 space-y-1">
+              <li>Students choose how to participate—in-person, online synchronous, or online asynchronous.</li>
+              <li>Provides maximum flexibility.</li>
+              <li>Requires strong planning to ensure all students have an equitable experience.</li>
+            </ul>
+          </li>
+  
+          <li>
+            <strong>Flipped Classroom</strong>
+            <ul className="list-disc pl-6 space-y-1">
+              <li>Instructional content (e.g., readings or videos) is completed before class.</li>
+              <li>Class time is used for active learning (e.g., discussion, problem-solving, labs).</li>
+              <li>Can be applied in any modality—F2F, blended, or online.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    ),
+  }
+  
 
 ];

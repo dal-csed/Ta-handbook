@@ -181,6 +181,26 @@ export default function TAProfessionalBehavior() {
           )}
         </div>
       </div>
+
+      <h3 className="font-bold text-lg mt-6">References</h3>
+       <p className="text-sm">
+         Elements of course design for TAs&nbsp;| Centre for Teaching and Learning. (n.d.). <a target="_blank" className="text-blue-600 underline" href="https://www.queensu.ca/ctl/resources/graduate-student-post-doctoral-and-ta/teaching-assistant-toolkit/elements-course-design">https://www.queensu.ca/ctl/resources/graduate-student-post-doctoral-and-ta/teaching-assistant-toolkit/elements-course-design</a>
+       </p>
+       <p className="text-sm">
+         Smith, J. (2024, October&nbsp;3). Communication Techniques for Classroom Assistants. Portobello Institute. <a target="_blank" className="text-blue-600 underline" href="https://blog.portobelloinstitute.com/communication-techniques-for-classroom-assistants">https://blog.portobelloinstitute.com/communication-techniques-for-classroom-assistants</a>
+       </p>
+       <p className="text-sm">
+         Teaching Continuity for Graduate Teaching Assistants&nbsp;- Communicating with Students. (2023, July&nbsp;10). Taylor Institute for Teaching and Learning. <a target="_blank" className="text-blue-600 underline" href="https://taylorinstitute.ucalgary.ca/resources/teaching-continuity-for-graduate-teaching-assistants-communicating-with-students"> https://taylorinstitute.ucalgary.ca/resources/teaching-continuity-for-graduate-teaching-assistants-communicating-with-students</a>
+       </p>
+       <p className="text-sm">
+         Working with Teaching Assistants&nbsp;| Computer Science Instructional Support Group. (n.d.). University of Waterloo. <a target="_blank" className="text-blue-600 underline" href="https://uwaterloo.ca/computer-science-instructional-support-group/instructor-support/guidelines-cs-instructors/working-teaching-assistants"> https://uwaterloo.ca/computer-science-instructional-support-group/instructor-support/guidelines-cs-instructors/working-teaching-assistants</a>
+       </p>
+       <p className="text-sm">
+         Teaching Assistants' Training Program. (2024, May&nbsp;29). Course Instructor–Teaching Assistant Relationship&nbsp;- Teaching Assistants' Training Program. <a target="_blank" className="text-blue-600 underline" href="https://tatp.utoronto.ca/resources/course-instructor-teaching-assistant-relationship/"> https://tatp.utoronto.ca/resources/course-instructor-teaching-assistant-relationship/</a>
+       </p>
+       <p className="text-sm">
+         Learning Module: Teaching Assistant Orientation&nbsp;- Lesson&nbsp;5. (2023, February&nbsp;16). Taylor Institute for Teaching and Learning. <a target="_blank" className="text-blue-600 underline" href="https://taylorinstitute.ucalgary.ca/resources/module/teaching-assistant-orientation/professionalism"> https://taylorinstitute.ucalgary.ca/resources/module/teaching-assistant-orientation/professionalism</a>
+       </p>
     </div>
   );
 }

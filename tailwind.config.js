@@ -8,9 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Public Sans", "sans-serif"],
-        "public-sans": ["Public Sans", "sans-serif"],
-      },
+        sans: "var(--font-public-sans)",
+      },      
 
       colors: {
         dalgold: "#ffcc00",

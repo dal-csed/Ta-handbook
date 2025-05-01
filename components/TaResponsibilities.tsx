@@ -3,6 +3,10 @@ import { useState } from "react";
 export default function TAResponsibilities() {
   const [activeTab, setActiveTab] = useState("checklist");
   
+
+  // TODO: Head TA role tab
+  // Tab name: Head TA role 
+
   return (
     <div className="my-3 space-y-4">
       <h1 className="text-2xl font-bold">Your Responsibilities as a TA</h1>

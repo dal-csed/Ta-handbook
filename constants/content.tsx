@@ -358,6 +358,58 @@ export const collapsable : CollapsibleSection[] = [
             : Instead of repeating feedback individually, <strong>discuss frequent mistakes in class</strong> to save time and reinforce key learning points. 
           </li>
         </ol>
+
+        <h3 className="font-sans font-bold">
+        GPS Model for Effective Feedback           
+        </h3>
+
+        <p>
+        Providing minimal feedback can frustrate students, even those who performed well. The <strong>GPS model</strong> ensures that feedback is clear, actionable, and supportive:
+        </p>
+        <ul className="list-disc list-inside space-y-4">
+          <li>
+            <strong>
+            G – Goal
+            </strong>
+            : Clearly define what success looks like and what students should aim for. 
+          </li>
+          <li>
+            <strong>
+            P – Position
+            </strong>
+            : Help students understand where they currently stand in relation to their goal. 
+          </li>
+          <li>
+            <strong>
+            S – Steps
+            </strong>
+            : Offer specific strategies and guidance on how to improve and progress towards success. 
+          </li>
+        </ul>
+
+        <p>
+        By implementing these principles and strategies, TAs can provide <strong>meaningful and effective feedback</strong> that supports student learning and development. 
+        </p>
+
+        <p>
+        By abiding by and implementing the above steps, markers can be equipped with the necessary tools to perform their responsibilities effectively, foster a transparent grading process, give feedback accordingly and contribute to a fair learning environment. 
+        </p>
+
+        <p>
+        Receiving and giving effective feedback | Centre for Teaching Excellence | University of Waterloo. (n.d.). <a href="https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/receiving-and-giving-effective-feedback" target="_blank" className="text-blue-600">https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/receiving-and-giving-effective-feedback</a>
+        </p>
+
+        <p>
+        Moderation guidance. (2024, February 26). The University of Edinburgh. https://institute-academic-development.ed.ac.uk/learning-teaching/staff/assessment/moderation-guidance#:~:text=This%20involves%20the%20first%20marker,agree%20a%20final%20single%20mark.
+        </p>
+
+        <p>
+        Wimshurst, K., & Manning, M. (2012). Feed-forward assessment, exemplars and peer marking: evidence of efficacy. Assessment & Evaluation in Higher Education, 38(4), 451–465. https://doi.org/10.1080/02602938.2011.646236
+        </p>
+
+        <p>
+        Wimshurst, K., & Manning, M. (2012b). Feed-forward assessment, exemplars and peer marking: evidence of efficacy. Assessment & Evaluation in Higher Education, 38(4), 451–465. https://doi.org/10.1080/02602938.2011.646236
+        </p>
       </div>
     ),
   }

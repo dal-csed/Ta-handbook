@@ -15,11 +15,11 @@ export default function CollapsibleSection({ title, content }: CollapsibleSectio
       <button
         onClick={() => setIsOpen(!isOpen)}
         className={`
-          w-full flex items-center justify-between py-4 px-4 text-left rounded-sm
+          w-full flex items-center justify-between py-4 px-4 text-left 
           font-semibold text-xl transition-colors duration-300
           ${isOpen
-            ? "bg-[#242424] text-[#FFFFFF]"                                   // open
-            : "bg-[#FFFFFF] text-[#242424] hover:bg-[#FFD400] hover:text-[#242424]" // closed + hover
+            ? "bg-[#242424] text-[#FFFFFF] rounded-t-sm"                                   
+            : "bg-[#FFFFFF] text-[#242424] rounded-sm hover:bg-[#FFD400] hover:text-[#242424]" 
           }
         `}
       >

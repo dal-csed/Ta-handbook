@@ -133,13 +133,13 @@ export default function TheLab() {
               
               <p className="font-medium mt-2">Encourage Problem-Solving:</p>
               <ul className="list-disc pl-6 space-y-1">
-                <li>After any demonstrations have been given, guide students through problem-solving processes rather than giving direct answers. This means that you will be asking "Guiding Questions" and pointing to where you may see the problem.</li>
+                <li>After any demonstrations have been given, <strong>guide</strong> students through problem-solving processes rather than giving direct answers. This means that you will be asking "Guiding Questions" and pointing to where you may see the problem.</li>
                 <li>Encourage students to think critically about code errors or debugging challenges.</li>
               </ul>
               
               <p className="font-medium mt-2">Prompt and Clear Assistance:</p>
               <ul className="list-disc pl-6 space-y-1">
-                <li>Move around the lab to offer support while maintaining awareness of the whole group. Observe what students are doing! Sometimes, students struggle with implementing a concept but feel anxious to put their hands up. Just because the room or a particular student is quiet, doesn’t mean that they aren’t struggling with implementing a concept. If you notice a student isn’t progressing in their work, stop and ask them questions. Be supportive and kind in your approach.  </li>
+                <li>Move around the lab to offer support while maintaining awareness of the whole group. <strong>Observe what students are doing!</strong> Sometimes, students struggle with implementing a concept but feel anxious to put their hands up. Just because the room or a particular student is quiet, doesn’t mean that they aren’t struggling with implementing a concept. If you notice a student isn’t progressing in their work, stop and ask them questions. Be supportive and kind in your approach.  </li>
                 <li>Use open-ended questions to prompt students to explain their thought processes. If you notice that students are reluctant to respond, pair them up to discuss a response first, then give feedback to you with an answer or give a means to respond in writing or digitally. </li>
               </ul>
               
@@ -162,7 +162,7 @@ export default function TheLab() {
               <p className="font-medium mt-2">Time Management:</p>
               <ul className="list-disc pl-6 space-y-1">
                 <li>Allocate time efficiently to address individual questions without neglecting the group. It can be helpful to inform students of a time frame for them to complete a task.</li>
-                <li>Use timers or visual cues on the board to indicate progress on activities and keep the class on schedule. This provides a sense of urgency and purpose in the learning environment. </li>
+                <li>Use <strong>timers or visual cues on the board</strong> to indicate progress on activities and keep the class on schedule. This provides a sense of urgency and purpose in the learning environment. </li>
               </ul>
               
               <p className="font-medium mt-2">Student Confidence and Anxiety:</p>

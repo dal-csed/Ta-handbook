@@ -4,6 +4,7 @@ import TAResponsibilities from "../components/TaResponsibilities";
 import ProfessionalBehavior from "../components/ProfessionalBehavior";
 import InclusiveClassrooms from "../components/InclusiveClassroom";
 import TheLab from "../components/TheLab";
+import ReceivingFeedback from "../components/feedback";
 
 export const introduction = [
   'Welcome to the Faculty of Computer Science Teaching Assistant (TA) Handbook! As a Graduate TA, you play a vital role in supporting student learning, fostering engagement, and maintaining the rigour and academic integrity of our courses. Whether you’re leading labs or tutorials, grading assignments, assisting the instructor in various aspects of teaching, or providing one-on-one support, your contributions help shape the learning experience for our students. This is a crucial and important role!',
@@ -275,6 +276,89 @@ export const collapsable : CollapsibleSection[] = [
     title: "The Lab",
     content: (
       <TheLab />
+    ),
+  },
+
+  {
+    id: 9,
+    title: "Receiving Feedback",
+    content: (
+      <ReceivingFeedback />
+    ),
+  },
+
+  {
+    id: 10,
+    title: "Markers",
+    content: (
+      <div className="my-3 space-y-4">
+        <p>
+        This section is focused on maintaining consistency, fairness, and clarity in grading practices. The following key aspects are addressed: 
+        </p>
+        <ol className="list-decimal list-inside space-y-4">
+          <li>
+            <strong>
+            Providing Exemplars
+            </strong>
+            : When grading complex projects, having exemplars of high-quality, average, and below-average work can help markers make objective comparisons. It also gives TAs a better understanding so they can explain it well to students. Exemplars (a worked example) should be selected or created and shared (with the corresponding rubrics) with students to set clear expectations. This practice not only aids students in understanding expectations and helps them to gain clarity on the success criteria applied to similar work of varying quality but also guides markers on how to improve the assessment of the work once it is completed and submitted6.
+          </li>
+          <li>
+            <strong>
+            Establishing a Standard for Better Grading
+            </strong>
+            : Markers should develop a clear, shared understanding of the grading criteria before assessing student work. A great way to do this is to carefully review the rubric for the assessment that has been given and thoroughly discuss it with the instructor or head TA/Marker. The marking team need to understand how to apply the rubric criteria appropriately to grade a piece of work. As highlighted above, using an exemplar of the project or past submissions as calibration tools align expectations and improves the consistency of evaluations across all markers7
+          </li>
+          <li className="space-y-3">
+            <strong>
+            Moderation Techniques
+            </strong>
+            
+            : To maintain consistent grading standards, markers should collaborate through moderation sessions. These sessions involve collectively grading a sample set of submissions and discussing any scoring discrepancies. 
+            
+            
+            <p className="mt-3">A lead marker or instructor can select a few assessments representing high, medium, and low outcomes to establish a shared understanding of the standard and the rationale behind specific success criteria in the rubric. </p>
+
+            <p>During the session, all markers grade the same assessment using the rubric, then compare scores and feedback. This process, known as "calibration," helps markers reach a consensus on the grade and determine effective feedback to guide student improvement. It is an essential strategy to resolve grading differences and ensure consistent application of rubrics. </p>
+          </li>
+          <li>
+            <strong>
+            Grading Policies
+            </strong>
+            : To ensure fairness and adherence to academic standards, maintaining the anonymity of student names (often called Blind Marking) is crucial to avoid bias. Markers must adhere to deadlines for returning graded assignments according to the grading policy set by the instructor (this can often be found in the course syllabus) and handle disputes or requests for re-evaluation. Markers will be instructed on how to communicate feedback constructively, maintain academic integrity, and keep records of graded work for potential audits or appeals by the instructor9. 
+          </li>
+          <li>
+            <strong>
+            Take Regular Breaks to Maintain Fairness
+            </strong>
+            : Grading fatigue can lead to <strong>
+            inconsistent evaluation</strong> or <strong>unfair grading</strong>. Taking breaks ensures that every student receives a <strong>fair and thoughtful assessment</strong>. 
+          </li>
+          <li>
+            <strong>
+            Be Thoughtful in Tone
+            </strong>
+            : Written feedback should be encouraging and constructive, not just critical. Write comments that you would want to receive as a student. 
+          </li>
+          <li>
+            <strong>
+            Prioritize Feedback on Key Issues
+            </strong>
+            : Since time is limited, focus on the most important areas for improvement rather than trying to correct every issue. 
+          </li>
+          <li>
+            <strong>
+            Comment Banks
+            </strong>
+            : Can save time and be effective as comments can be curated. If you aren’t using CrowdMark a <strong>list of common feedback</strong> that can be copied and pasted to streamline grading can be useful. Refer students to external resources (e.g., office hours, the FCS Learning Centre, or Dal’s Writing Centre) for further learning. 
+          </li>
+          <li>
+            <strong>
+            Address Common Errors with the Entire Class
+            </strong>
+            : Instead of repeating feedback individually, <strong>discuss frequent mistakes in class</strong> to save time and reinforce key learning points. 
+          </li>
+        </ol>
+      </div>
     ),
   }
   

@@ -97,7 +97,7 @@ export default function InclusiveClassrooms() {
                 <li>Avoid gendered or ableist language; use terms like "they/them," "everyone," or "folks."</li>
                 <li>Ask students (if comfortable) to share their preferred name and pronouns.</li>
                 <li>Avoid slang or idioms without context.</li>
-                <li>Refer to Dalhousie's Respectful Discourse Guidelines.</li>
+                <li>Refer to Dalhousie's <a href="https://www.dal.ca/about/mission-vision-values/respectful-discourse.html" target="_blank" className="text-blue-600">Respectful Discourse Guidelines.</a></li>
               </ul>
               
               <h4 className="font-semibold mt-3">Accessible Course Materials</h4>
@@ -105,7 +105,7 @@ export default function InclusiveClassrooms() {
                 <li>Use high-contrast visuals, captioned videos, and screen-reader-friendly documents.</li>
                 <li>Upload lecture slides or notes in advance.</li>
                 <li>Avoid small font sizes or excessive use of colour.</li>
-                <li>Create accessible materials using this resource as a guide: Creating Accessible Learning Resources</li>
+                <li>Create accessible materials using this resource as a guide: <a href="https://caul-cbua.pressbooks.pub/creatingaccessiblelearningresources/" target="_blank" className="text-blue-600">Creating Accessible Learning Resources</a></li>
               </ul>
               
               <h4 className="font-semibold mt-3">Curriculum Representation and Content</h4>
@@ -138,9 +138,52 @@ export default function InclusiveClassrooms() {
               
               <h4 className="font-semibold mt-3">Resources You Can Share:</h4>
               <ul className="list-disc pl-6 space-y-1">
-                <li>Mental Health Supports</li>
-                <li>Wellness Hub for Staff and Faculty</li>
+                <li><a href="https://www.dal.ca/campus_life/health-and-wellness/my-health/mental-health.html" className="text-blue-600" target="_blank">Mental Health Supports</a></li>
+                <li><a href="https://dalu.sharepoint.com/sites/hr/SitePages/wellness.aspx" className="text-blue-600" target="_blank">Wellness Hub for Staff and Faculty</a></li>
               </ul>
+
+        
+            <div className="mt-4">
+              <h3 className="font-bold text-lg">Recognizing and Addressing Power Dynamics</h3>
+              
+              <p className="mt-2">
+                As a TA or Instructor, you hold power in the classroom—often more than you realize. Being mindful of that power means avoiding public call-outs, being transparent about grading, and using inclusive language and tone. Also, be aware of your body language and non-verbal cues when addressing students.
+              </p>
+            </div>
+            
+            <div className="mt-4">
+              <h3 className="font-bold text-lg">Building Community in Your Classroom</h3>
+              
+              <p className="mt-2">
+                Inclusivity thrives in classrooms where students feel seen. Consider using small group discussions, weekly check-ins, and anonymous suggestion forms to build trust and inclusivity.
+              </p>
+              
+              <p className="mt-2">
+                Dalhousie's <a href="https://dalu.sharepoint.com/sites/shw/SitePages/Student-Support-Team.aspx" className="text-blue-600" target="_blank">Student Support Team</a> is also available to help if you notice a student who may need more targeted support. Don't hesitate to reach out or refer a student when necessary.
+              </p>
+            </div>
+            
+            <div className="mt-4">        
+              <p className="mt-2">
+                Inclusive teaching isn't about perfection—it's about intention and growth. Mistakes will happen. But if your students see that you care, that you're learning, and that you're willing to listen and adapt, they will respond with trust and engagement.
+              </p>
+              
+              <p className="mt-2">Here's how you can keep growing:</p>
+              
+              <ul className="list-disc pl-6 space-y-1">
+                <li>Attend EDIA workshops or teaching seminars at Dal.</li>
+                <li>Seek feedback from students and peers.</li>
+                <li>Reflect on your assumptions and teaching style after each term.</li>
+              </ul>
+              
+              <p className="mt-3">Want help?</p>
+              
+              <ul className="list-disc pl-6 space-y-1">
+                <li>📩 Contact the Student Support Team: <a href="https://dalu.sharepoint.com/sites/shw/SitePages/Student-Support-Team.aspx" target="_blank" className="text-blue-600">https://dalu.sharepoint.com/sites/shw/SitePages/Student-Support-Team.aspx</a></li>
+                <li>📚 Explore Dalhousie EDIA Resources: <a href="https://www.dal.ca/about/mission-vision-values/equity-diversity-inclusion-and-accessibility.html" target="_blank" className="text-blue-600">https://www.dal.ca/about/mission-vision-values/equity-diversity-inclusion-and-accessibility.html</a></li>
+                <li>🧠 Share Mental Health Resources: <a href="https://www.dal.ca/campus_life/health-and-wellness/my-health/mental-health.html" target="_blank" className="text-blue-600">https://www.dal.ca/campus_life/health-and-wellness/my-health/mental-health.html</a></li>
+              </ul>
+            </div>
             </div>
           )}
           
@@ -148,8 +191,11 @@ export default function InclusiveClassrooms() {
             <div>
               <h4 className="font-semibold">Tips for Being an Exemplary Teaching Assistant - Dr. Amin Ahmadzadeh</h4>
               
-              <p>[Video: https://www.youtube.com/watch?v=bohDEpKeqgY]</p>
-              
+              <iframe 
+                src="https://www.youtube.com/embed/bohDEpKeqgY"
+                allowFullScreen
+                className="h-120 w-174 my-3"
+              />              
               <p className="mt-2">
                 This summary provides insights from a lecture by Dr. Amid Ahmadzadeh on how to be an effective and exemplary teaching assistant (TA). Below are key takeaways and tips shared throughout the talk:
               </p>
@@ -210,7 +256,11 @@ export default function InclusiveClassrooms() {
             <div>
               <h4 className="font-semibold">Our Students Deserve Better - Notes From a Computer Science TA</h4>
               
-              <p>[Video: https://www.youtube.com/watch?v=whfPmPfolRs]</p>
+              <iframe 
+                src="https://www.youtube.com/embed/whfPmPfolRs"
+                allowFullScreen
+                className="h-120 w-174 my-3"
+              />  
               
               <p className="mt-2">
                 This video explores the preconceived notions held by a computer science teaching assistant (TA) before beginning her role. It highlights key insights she gained through her experience:
@@ -234,50 +284,6 @@ export default function InclusiveClassrooms() {
             </div>
           )}
         </div>
-      </div>
-      
-      <div className="mt-4">
-        <h3 className="font-bold text-lg">Recognizing and Addressing Power Dynamics</h3>
-        
-        <p className="mt-2">
-          As a TA or Instructor, you hold power in the classroom—often more than you realize. Being mindful of that power means avoiding public call-outs, being transparent about grading, and using inclusive language and tone. Also, be aware of your body language and non-verbal cues when addressing students.
-        </p>
-      </div>
-      
-      <div className="mt-4">
-        <h3 className="font-bold text-lg">Building Community in Your Classroom</h3>
-        
-        <p className="mt-2">
-          Inclusivity thrives in classrooms where students feel seen. Consider using small group discussions, weekly check-ins, and anonymous suggestion forms to build trust and inclusivity.
-        </p>
-        
-        <p className="mt-2">
-          Dalhousie's Student Support Team is also available to help if you notice a student who may need more targeted support. Don't hesitate to reach out or refer a student when necessary.
-        </p>
-      </div>
-      
-      <div className="mt-4">
-        <h3 className="font-bold text-lg">Continuous Growth and Resources</h3>
-        
-        <p className="mt-2">
-          Inclusive teaching isn't about perfection—it's about intention and growth. Mistakes will happen. But if your students see that you care, that you're learning, and that you're willing to listen and adapt, they will respond with trust and engagement.
-        </p>
-        
-        <p className="mt-2">Here's how you can keep growing:</p>
-        
-        <ul className="list-disc pl-6 space-y-1">
-          <li>Attend EDIA workshops or teaching seminars at Dal.</li>
-          <li>Seek feedback from students and peers.</li>
-          <li>Reflect on your assumptions and teaching style after each term.</li>
-        </ul>
-        
-        <p className="mt-3">Want help?</p>
-        
-        <ul className="list-disc pl-6 space-y-1">
-          <li>📩 Contact the Student Support Team: https://dalu.sharepoint.com/sites/shw/SitePages/Student-Support-Team.aspx</li>
-          <li>📚 Explore Dalhousie EDIA Resources: https://www.dal.ca/about/mission-vision-values/equity-diversity-inclusion-and-accessibility.html</li>
-          <li>🧠 Share Mental Health Resources: https://www.dal.ca/campus_life/health-and-wellness/my-health/mental-health.html</li>
-        </ul>
       </div>
     </div>
   );

@@ -30,7 +30,7 @@ export default function CollapsibleSection({ title, content }: CollapsibleSectio
       </button>
       <div
         className={`transition-max-height duration-500 ease-in-out overflow-hidden px-6 text-gray-800 whitespace-pre-line ${
-          isOpen ? "max-h-[3000px] pb-6" : "max-h-0"
+          isOpen ? "pb-6" : "max-h-0"
         }`}
       >
         {content}

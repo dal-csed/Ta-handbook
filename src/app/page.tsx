@@ -13,15 +13,21 @@ export default function Home() {
           <img src="/dal-logo.png" alt="Dalhousie University" className="h-16" />
           <p className="text-[#474646] text-4xl font-semibold">TA Handbook</p>
 
-          <div className="flex flex-row justify-between gap-x-6">
+          <div className="flex flex-row justify-between gap-x-2">
             <a 
               href="https://csed.cs.dal.ca/" 
               target="_blank" 
-              className="font-semibold rounded-md py-2 px-4 bg-[#ffcc00]"
+              className="font-semibold py-2 px-3 hover:border-b-2 hover:border-[#ffcc00]"
             >
               CSEd
             </a>
-            <a href="https://projects.cs.dal.ca/justintime/dist/index.php" target="_blank" className="font-semibold rounded-md py-2 px-4 bg-[#ffcc00]">Just In Time Resources</a>
+            <a 
+              href="https://projects.cs.dal.ca/justintime/dist/index.php" 
+              target="_blank" 
+              className="font-semibold py-2 px-3 hover:border-b-2 hover:border-[#ffcc00]"
+            >
+              Just In Time Resources
+            </a>
           </div>
         </div>
       </div>

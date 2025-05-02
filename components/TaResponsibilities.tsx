@@ -9,7 +9,6 @@ export default function TAResponsibilities() {
 
   return (
     <div className="my-3 space-y-4">
-      <h1 className="text-2xl font-bold">Your Responsibilities as a TA</h1>
       
       <div className="my-4">
         <p>
@@ -270,11 +269,88 @@ export default function TAResponsibilities() {
             <div>
               
               <p>
-                As a Teaching Assistant (TA) at Dalhousie University, it's essential to familiarize yourself with the university's policies and procedures to ensure compliance and uphold the institution's standards. This section provides an overview of key policies relevant to your role.
+              As a Teaching Assistant (TA) at Dalhousie University, it's essential to familiarize yourself with the university's policies and procedures to ensure compliance and uphold the institution's standards. This section provides an overview of key policies relevant to your role. 
               </p>
                 
-              <p className="mt-4">
-                By familiarizing yourself with Dalhousie University's policies and procedures, you contribute to a respectful, safe, and effective learning environment for all members of the university community.
+              <h3 className=" font-semibold my-2">
+              University Policies Overview 
+              </h3>
+              <p className="my-2">
+              Dalhousie University maintains a comprehensive repository of policies that govern various aspects of university life. These policies are designed to provide direction and ensure consistency across the university community. You can access the full list of policies categorized by area on the <a href="https://www.dal.ca/about/leadership-governance/university-policies.html" target="_blank" className="text-blue-600">University Policies</a> page. 
+              </p>
+
+              <h3 className="text-lg font-bold my-2">
+              Key Policies Relevant to TAs               
+              </h3>
+
+              <ul className="list-disc list-inside space-y-2">
+                <li>
+                  <strong>
+                  Code of Student Conduct
+                  </strong>
+                  : This policy outlines the expectations for student behaviour and the procedures for addressing misconduct. As a TA, understanding this code is crucial for managing classroom behaviour and addressing any issues that may arise.                 
+                  </li>
+
+                <li>
+                  <strong>
+                  Academic Integrity                  
+                  </strong>
+                  : Dalhousie is committed to upholding the highest standards of academic integrity. Familiarize yourself with the policies related to plagiarism, cheating, and other forms of academic dishonesty to effectively guide and assess students. 
+                </li>
+
+                <li>
+                  <strong>
+                  Sexualized Violence Policy
+                  </strong>
+                  : This policy defines sexualized violence and outlines the university's approach to prevention, support, and response. As a TA, you should be aware of the resources available and the procedures for reporting incidents. 
+                </li>
+
+                <li>
+                  <strong>
+                  Privacy Policy
+                  </strong>
+                  : This policy governs the collection, use, and disclosure of personal information within the university. TAs often handle sensitive student information, so it's important to understand your responsibilities under this policy.  
+                </li>
+
+                <li>
+                  <strong>
+                  Environmental Health and Safety Policy
+                  </strong>
+                  : This policy outlines the university's commitment to providing a safe and healthy environment. If your TA duties involve laboratories or other specialized settings, adherence to safety procedures is mandatory.  
+                </li>
+              </ul>
+
+              <h3 className="text-lg font-bold my-2">
+              Procedures and Guidelines                
+              </h3>
+
+              <p className="my-2">
+              In addition to formal policies, Dalhousie provides procedures and guidelines to assist in the implementation of these policies. These documents offer detailed instructions and best practices for various situations you may encounter as a TA. 
+              </p>
+
+              <ul className="list-disc list-inside space-y-2">
+                <li>
+                  <strong>
+                  Academic Accommodation Policy
+                  </strong>
+                  : Guidelines for providing accommodations to students with disabilities to ensure equitable access to education. 
+                </li>
+                <li>
+                  <strong>
+                  Grading Practices Policy
+                  </strong>
+                  : Standards and procedures for fair and consistent grading across the university. 
+                </li>
+                <li>
+                  <strong>
+                  Syllabus Policy
+                  </strong>
+                  : Requirements for course syllabi, including essential components and distribution timelines. 
+                </li>
+              </ul>
+
+              <p className="mt-2">
+              By familiarizing yourself with Dalhousie University's policies and procedures, you contribute to a respectful, safe, and effective learning environment for all members of the university community. 
               </p>
             </div>
           )}

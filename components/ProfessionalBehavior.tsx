@@ -20,8 +20,8 @@ export default function TAProfessionalBehavior() {
               onClick={() => setActiveTab("boundaries")}
               className={`mr-4 py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "boundaries"
-                  ? "border-blue-500 text-blue-600"
-                  : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+                  ? "border-blue-500 font-semibold text-blue-600"
+                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
               }`}
             >
               Boundaries with Students
@@ -31,8 +31,8 @@ export default function TAProfessionalBehavior() {
               onClick={() => setActiveTab("communication")}
               className={`py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "communication"
-                  ? "border-blue-500 text-blue-600"
-                  : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+                  ? "border-blue-500 font-semibold text-blue-600"
+                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
               }`}
             >
               Communication with Professors

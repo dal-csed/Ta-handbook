@@ -710,8 +710,102 @@ export const collapsable : CollapsibleSection[] = [
     id: 11,
     title: "Conducting Office Hours",
     content: (
-      <div>
+      <div className="space-y-2">
+        <p className="mt-3">
+        TAs will receive guidance from their course instructor regarding whether they are required to hold office hours. When hosting office hours, it is essential to create a welcoming and productive environment where students feel comfortable, respected, and supported. Strategies in this section include managing time efficiently, guiding students to think critically rather than providing direct answers, maintaining clear boundaries, and managing one-on-one or group interactions with empathy and fairness.
+        </p>
 
+        <h3 className="text-lg font-bold">
+        Importance of Office Hours
+        </h3>
+
+        <p>
+        Office hours are essential as they offer students structured opportunities to seek assistance and engage in one-on-one interactions with instructors and TAs. This dedicated time helps prevent unscheduled interruptions and fosters a supportive learning environment. Virtual office hours are also encouraged to enhance accessibility for all students.
+        </p>
+
+        <h3 className="text-md font-semibold mt-2 mb-1">
+          Scheduling Office Hours
+        </h3>
+
+        <p>
+          When planning office hours, TAs should consider the following:
+        </p>
+
+        <ul className="list-disc pl-6 ml-1 space-y-1">
+          <li><strong>Consistency:</strong> Hold sessions at the same time and location each week to avoid confusion.</li>
+          <li><strong>Accessibility:</strong> Choose locations that are easily accessible to students, such as a designated office, library, or other public spaces.</li>
+          <li><strong>Flexibility:</strong> Acknowledge that not all students can attend scheduled hours; offer alternatives like appointments before or after class, or communication via email or phone.</li>
+          <li><strong>Student Input:</strong> If possible, provide multiple time options and collaborate with students to determine the most convenient slots for the majority.</li>
+          <li><strong>Optimal Timing:</strong> Avoid inconvenient times, such as late Friday afternoons or early Monday mornings. Scheduling office hours adjacent to class times can be beneficial, as many students prefer to avoid back-to-back classes. </li>
+        </ul>
+
+        <h3 className="text-md font-semibold mt-2 mb-1">
+          Promoting Office Hours
+        </h3>
+
+        <ul className="list-disc pl-6 ml-1 space-y-1">
+          <li><strong>Regular Reminders:</strong> Consistently inform students about your office hours throughout the semester. Although it is most likely in the syllabus, frequent reminders can make students feel welcome. </li>
+          <li><strong>Approachability:</strong> Cultivate a friendly and open atmosphere in the classroom to make students feel comfortable seeking help. Tell them that you hope that they take advantage of that time and why it is there.</li>
+          <li><strong>Mandatory Visits:</strong> For smaller classes, consider requiring/incentivizing at least one office visit during the initial weeks or after the first assignment or test to establish rapport.</li>
+          
+        </ul>
+
+        <h3 className="text-md font-semibold mt-2 mb-1">
+          Best Practices During Office Hours
+        </h3>
+
+        <ul className="list-disc pl-6 ml-1 space-y-1">
+          <li><strong>Punctuality:</strong> Arrive on time to demonstrate respect for students' time.</li>
+
+          <li><strong>Open Door Policy:</strong> Keep the door open during office hours to signal availability.</li>
+
+          <li><strong>Professionalism:</strong> Set aside personal tasks to focus entirely on the student, refraining from distractions like phone calls or emails.</li>
+
+          <li><strong>Preparation Guidance:</strong> Advise students to come prepared with specific questions or topics to discuss.</li>
+
+          <li><strong>Clarify Purpose</strong> : Encourage students to specify their reasons for visiting, allowing for focused and efficient meetings.  </li>
+
+          <li><strong>Group Discussions:</strong>  If multiple students have similar concerns, address them collectively to save time.</li>
+
+          <li><strong>Active Listening:</strong>  Engage in attentive listening by maintaining eye contact, paraphrasing, and summarizing to ensure understanding. Repeat back to the student what they have said to confirm understanding of 
+          their issue.</li>
+
+          <li><strong>Nonverbal Cues:</strong>  Be mindful of body language to fully grasp students' perspectives. <i>Do they seem nervous, shy or upset?</i> Be kind and patient. </li>
+
+          <li><strong>Effective Questioning:</strong>  Use open-ended questions to promote critical thinking and deeper understanding. That is… avoid questions that only require a yes or no as an answer. </li>
+
+          <li><strong>Managing Frustrations: </strong> Handle student frustrations with empathy, offering support and, when necessary, referring them to appropriate resources.  </li>
+
+          <li><strong>Continuous Improvement:  </strong> Use feedback from office hours to identify common issues and adjust teaching methods accordingly. </li>
+        </ul>
+
+        <h3 className="text-md font-semibold mt-2 mb-1">
+          Addressing Common Challenges
+        </h3>
+
+        <ul className="list-disc pl-6 ml-1 space-y-1">
+          <li><strong>Lack of Office Space:</strong> If an office isn't available, promptly inform the course instructor to arrange a temporary meeting space or choose a public area like the library.</li>
+          <li><strong>Personal Problems:</strong> When students present personal issues beyond academic concerns, refer them to qualified professionals or campus services. See the Student Support Flow Diagram or the resources from Dal’s webpage on Student Health and Wellness.</li>
+          <li><strong>Setting Boundaries:</strong> Some students may wish to chat without academic purpose; politely reserve time for those needing assistance.</li>
+          <li><strong>Missed Connections:</strong> If unable to attend scheduled hours due to unforeseen circumstances, notify students and the course instructor promptly, and arrange alternative support.</li>
+          <li><strong>High Demand:</strong> If office hours consistently attract large numbers, consider adding extra sessions to accommodate student needs.</li>
+        </ul>
+
+        <p>
+        By adhering to these guidelines, TAs can create an effective and supportive environment during office hours, enhancing the overall educational experience for their students.
+        </p>
+
+        <p>
+        For more great tips on "Conducting Office Hours" visit the UNBC Teaching Assistant Manual which provides comprehensive guidance for teaching assistants (TAs) on effectively managing office hours to support student learning.
+        </p>
+
+        <h3 className="text-lg font-bold">
+          References:
+        </h3>
+
+        <p>
+        “Conducting Office Hours: UBC Teaching Assistant Manual” by British Columbia/Yukon Pressbooks is licensed under <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/" className="text-blue-600" >CC BY 4.0</a>  <a href="https://pressbooks.bccampus.ca/unbctamanual/chapter/conducting-office-hours/" target="_blank" className="text-blue-600">https://pressbooks.bccampus.ca/unbctamanual/chapter/conducting-office-hours/</a>
+        </p>
       </div>
     ),
   }

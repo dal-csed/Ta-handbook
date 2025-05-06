@@ -41,7 +41,7 @@ export default function Home() {
           />
         </div>
 
-        <section className="-mt-95 relative z-10 bg-gray-100 py-6 px-6 rounded-md shadow-sm max-w-[1225px] mx-auto">
+        <section className="-mt-95 relative z-10 bg-gray-100 py-6 px-6 rounded-md shadow-sm max-w-[1280px] mx-auto">
           <div className="mx-auto">
             <h2 className="text-2xl font-bold font-sans text-[#55585ded] ">Introduction</h2>
             <div className="text-gray-800 text-md">
@@ -53,7 +53,7 @@ export default function Home() {
         </section>
 
         {/* Collapsible Sections */}
-        <section className="max-w-[1225px] mx-auto my-3 space-y-4 mb-16 ">
+        <section className="max-w-[1280px] mx-auto my-3 space-y-4 mb-16 ">
           {collapsable.map((section) => (
             <CollapsibleSection 
               key={section.id}
@@ -66,7 +66,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-black text-white text-xs text-center py-8 border-t-4 border-[#ffcc00]">
-        <div className="flex flex-row w-[85%] m-auto justify-between">
+        <div className="flex flex-row max-w-7xl px-3 m-auto justify-between">
           <div className="flex flex-col gap-y-8">
             <div>
               <p className="font-bold justify-self-start">Faculty of Computer Science</p>

@@ -6,7 +6,6 @@ export default function ToolboxInstructionalStrategies() {
   return (
     <div className="my-3 space-y-4">
       <div className="mb-6">
-        <h2 className="text-xl font-bold mb-4">Toolbox of Instructional Strategies that Work!</h2>
         
         <p className="mb-4">
           As you develop your expertise in various teaching and learning settings, you must develop your "Toolbox of Instructional Strategies" to be an effective educator. Below, are some instructional strategies that can be implemented to help organize the learning environment, assist your students with knowledge and skill acquisition and keep you organized in your approach! As always, you need to be intentional and choose strategies that will work for your specific context.
@@ -61,14 +60,14 @@ export default function ToolboxInstructionalStrategies() {
               
               <h4 className="font-semibold mt-4">2. Labs (or classes where live coding or working on math problems with students is possible)</h4>
               <p className="mt-2">
-                <strong>Guided Practice:</strong> is a teaching strategy where learners practice a new skill or concept with the support and direction of an instructor or facilitator. It's an essential step between direct instruction (teaching or modeling) and independent practice (when learners try it on their own).
+                <strong>Guided Practice:</strong> is a teaching strategy where learners <strong> practice a new skill or concept with the support and direction of an instructor or facilitator</strong>. It's an essential step between direct instruction (teaching or modeling) and independent practice (when learners try it on their own).
               </p>
               
               <h5 className="font-medium mt-3">What Guided Practice Looks Like:</h5>
               <ul className="list-disc pl-6 space-y-1 mt-1">
-                <li>The instructor works alongside students, offering prompts, cues, or corrections.</li>
-                <li>Students try out a task or problem while receiving immediate feedback.</li>
-                <li>The level of support is gradually reduced as students gain confidence and understanding.</li>
+                <li>The instructor works <strong>alongside students</strong>, offering prompts, cues, or corrections.</li>
+                <li>Students try out a task or problem while receiving <strong>immediate feedback</strong>.</li>
+                <li>The level of support is gradually <strong>reduced</strong> as students gain confidence and understanding.</li>
               </ul>
               
               <h5 className="font-medium mt-3">Why It's Important:</h5>
@@ -76,7 +75,7 @@ export default function ToolboxInstructionalStrategies() {
                 <li>Reinforces what was just taught.</li>
                 <li>Helps students catch and correct misunderstandings early.</li>
                 <li>Builds confidence before students are expected to work independently.</li>
-                <li>Encourages active learning and student engagement.</li>
+                <li>Encourages<strong> active learning  </strong>and <strong>student engagement</strong>.</li>
               </ul>
               
               <p className="mt-3">
@@ -125,7 +124,7 @@ export default function ToolboxInstructionalStrategies() {
                   <strong>Guided Practice:</strong> Teacher-led practice sessions. After the demonstration, take a problem and ask students to suggest the next step. (Students can be in pairs to discuss and suggest the next step to you). Question their thinking along the way. Why do you think this is the step you should take? Can anyone suggest another way?
                 </li>
                 <li>
-                  <strong>Independent Practice:</strong> Students practice on their own. Circulate around the room as students are working. Pay attention to what is on their screens, if you notice them making errors, ask them to pause and talk through their choices. See if they can identify where they are going wrong. If they can't, walk them back to where they started making mistakes in their code or work, then provide further guidance so they can achieve success. A good practice is to have a digital resource bank on Brightspace, so they can watch a tutorial on how to do "x" and then circle back to see if they are on the right track after a few moments.
+                  <strong>Independent Practice:</strong> Students practice on their own. Circulate around the room as students are working.<strong> Pay attention </strong> to what is on their screens, if you notice them making errors, ask them to pause and talk through their choices. See if they can identify where they are going wrong. If they can't, walk them back to where they started making mistakes in their code or work, then provide further guidance so they can achieve success. A good practice is to have a digital resource bank on Brightspace, so they can watch a tutorial on how to do "x" and then circle back to see if they are on the right track after a few moments.
                 </li>
                 <li>
                   <strong>Lesson Closure:</strong> Assessing student understanding through questions or small tasks. This can be done by polls, small group discussion.
@@ -148,8 +147,8 @@ export default function ToolboxInstructionalStrategies() {
               <div className="mt-4 pt-4 border-t border-gray-200">
                 <p className="text-sm italic">
                   <strong>Reference</strong><br />
-                  Hermans, F., & Smit, M. (n.d.). Explicit Direct Instruction in Programming Education. 
-                  https://www.ppig.org/files/2018-PPIG-29th-hermans.pdf
+                  Hermans, F., & Smit, M. (n.d.). Explicit Direct Instruction in Programming Education. <a href="https://www.ppig.org/files/2018-PPIG-29th-hermans.pdf " className="text-blue-600" target="_blank">
+                  https://www.ppig.org/files/2018-PPIG-29th-hermans.pdf </a>
                 </p>
               </div>
             </div>

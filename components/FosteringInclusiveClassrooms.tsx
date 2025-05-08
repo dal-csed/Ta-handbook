@@ -54,7 +54,7 @@ export default function FosteringInclusiveClassrooms() {
               </p>
               
               <p className="mt-4">
-                You can explore Dalhousie's full EDIA framework and strategic goals here: Dalhousie EDIA Commitments
+                You can explore Dalhousie's full EDIA framework and strategic goals here: <a href="https://www.dal.ca/about/mission-vision-values/equity-diversity-inclusion-and-accessibility.html" className="text-blue-600 hover:underline" target="_blank">Dalhousie EDIA Commitments</a>
               </p>
               
               <h4 className="font-semibold mt-4">Setting the Tone: Respectful Discourse and Belonging</h4>
@@ -72,14 +72,14 @@ export default function FosteringInclusiveClassrooms() {
                   <li>Avoid gendered or ableist language; use terms like "they/them," "everyone," or "folks."</li>
                   <li>Ask students (if comfortable) to share their preferred name and pronouns.</li>
                   <li>Avoid slang or idioms without context.</li>
-                  <li>Refer to Dalhousie's Respectful Discourse Guidelines.</li>
+                  <li>Refer to Dalhousie's <a href="https://www.dal.ca/about/mission-vision-values/respectful-discourse.html" className="text-blue-600 hover:underline" target="_blank">Respectful Discourse Guidelines.</a></li>
                 </ul>
               </div>
               
               <div className="mt-4">
                 <h4 className="font-semibold">Accessible Course Materials</h4>
                 <ul className="list-disc pl-6 space-y-1 mt-2">
-                  <li>Use the Creating Accessible Learning Resources: A Practical Guide to help you learn how to create accessible learning resources, high-contrast visuals, captioned videos, and screen-reader-friendly documents.</li>
+                  <li>Use the<a href="https://caul-cbua.pressbooks.pub/creatingaccessiblelearningresources/" className="text-blue-600 hover:underline" target="_blank"> Creating Accessible Learning Resources: A Practical Guide</a> to help you learn how to create accessible learning resources, high-contrast visuals, captioned videos, and screen-reader-friendly documents.</li>
                   <li>Create resources that are digital. This helps those students who may need to enlarge documents or use screen readers to access the content.</li>
                   <li>Upload lecture slides or notes in advance.</li>
                 </ul>
@@ -127,14 +127,29 @@ export default function FosteringInclusiveClassrooms() {
               
               <h4 className="font-semibold mt-4">Resources you can share:</h4>
               <ul className="list-disc pl-6 mt-2">
-                <li>Mental Health Supports</li>
-                <li>Wellness Hub for Staff and Faculty</li>
+                <li><a className="text-blue-600 hover:underline" target="_blank" href="https://www.dal.ca/campus_life/health-and-wellness/my-health/mental-health.html">Mental Health Supports</a></li>
+                <li><a className="text-blue-600 hover:underline" target="_blank" href="https://dalu.sharepoint.com/sites/hr/SitePages/wellness.aspx">Wellness Hub for Staff and Faculty</a></li>
               </ul>
               
               <div className="mt-6 pt-4 border-t border-gray-200">
-                <h3 className="font-bold mb-2">Professional Development</h3>
+                <h3 className="font-bold mb-2">Recognizing and Addressing Power Dynamics</h3>
+
+                <p>
+                As a TA or Demonstrator, you hold power in the classroom—often more than you realize. Being mindful of that power dynamic means avoiding public callouts unless necessary, i.e., where a situation in the learning environment may cause undue harm to another individual or groups of individuals. Read <a href="https://edib.harvard.edu/files/dib/files/calling_in_and_calling_out_guide_v4.pdf" className="text-blue-600 hover:underline" target="_blank">Harvard’s Calling In and Calling Out Guide </a>to familiarize yourself with what to do in specific situations where inappropriate behaviours in a learning space need to be addressed.                   
+                </p>
+
+                <h3 className="font-bold mb-2">Building Community in Your Classroom</h3>
+
+                <p>
+                Inclusivity thrives in classrooms where students feel seen. Consider using small group discussions, weekly check-ins, and anonymous suggestion forms to build trust and inclusivity. 
+                </p>
+                <p>
+                  Dalhousie’s <a href="https://dalu.sharepoint.com/sites/shw/SitePages/Student-Support-Team.aspx" className="text-blue-600 hover:underline" target="_blank">Student Support Team </a>is also available to help if you notice a student who may need more targeted support. Don’t hesitate to reach out or refer a student when necessary.
+                </p>
+
+
                 <p className="mb-4">
-                  Inclusive teaching isn't about perfection—it's about intention and growth. Mistakes will happen. But if your students see that you care, that you're learning, and that you're willing to listen and adapt, they will respond with trust and engagement.
+                Inclusive teaching isn’t about perfection—it’s about intention and growth. Mistakes will happen. But if your students see that you care, that you’re learning, and that you’re willing to listen and adapt, they will respond with trust and engagement. 
                 </p>
                 
                 <h4 className="font-semibold mt-3">Here's how you can keep growing:</h4>
@@ -146,9 +161,9 @@ export default function FosteringInclusiveClassrooms() {
                 
                 <h4 className="font-semibold mt-4">Want help?</h4>
                 <ul className="list-none pl-1 space-y-2 mt-2">
-                  <li>📩 Contact the Student Support Team: <a href="https://dalu.sharepoint.com/sites/shw/SitePages/Student-Support-Team.aspx" className="text-blue-600 hover:underline">Student Support Team</a></li>
-                  <li>📚 Explore Dalhousie EDIA Resources: <a href="https://www.dal.ca/about/mission-vision-values/equity-diversity-inclusion-and-accessibility.html" className="text-blue-600 hover:underline">EDIA Resources</a></li>
-                  <li>🧠 Share Mental Health Resources: <a href="https://www.dal.ca/campus_life/health-and-wellness/my-health/mental-health.html" className="text-blue-600 hover:underline">Mental Health Resources</a></li>
+                  <li>📩 Contact the Student Support Team: <a  href="https://dalu.sharepoint.com/sites/shw/SitePages/Student-Support-Team.aspx" className="text-blue-600 hover:underline" target="_blank">Student Support Team</a></li>
+                  <li>📚 Explore Dalhousie EDIA Resources: <a target="_blank" href="https://www.dal.ca/about/mission-vision-values/equity-diversity-inclusion-and-accessibility.html" className="text-blue-600 hover:underline">EDIA Resources</a></li>
+                  <li>🧠 Share Mental Health Resources: <a target="_blank" href="https://www.dal.ca/campus_life/health-and-wellness/my-health/mental-health.html" className="text-blue-600 hover:underline">Mental Health Resources</a></li>
                 </ul>
               </div>
             </div>

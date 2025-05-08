@@ -8,6 +8,7 @@ import ReceivingFeedback from "../components/feedback";
 import CollapsibleSection from "../components/CollapsibleSection";
 import ToolboxInstructionalStrategies from "../components/InstructionalStrategies";
 import FosteringInclusiveClassrooms from "../components/FosteringInclusiveClassrooms";
+import BloomsTax from "../components/BloomsTax";
 
 export const introduction = [
   'Welcome to the Faculty of Computer Science Teaching Assistant (TA) Handbook! As a Graduate TA, you play a vital role in supporting student learning, fostering engagement, and maintaining the rigour and academic integrity of our courses. Whether you’re leading labs or tutorials, grading assignments, assisting the instructor in various aspects of teaching, or providing one-on-one support, your contributions help shape the learning experience for our students. This is a crucial and important role!',
@@ -936,5 +937,12 @@ export const collapsable : CollapsibleSection[] = [
     ),
   },
   
+  {
+    id: 15,
+    title: "Creating Assignments and Labs with Clear Outcomes Using Bloom’s Taxonomy",
+    content: (
+      <BloomsTax />
+    ),
+  },
 
 ];

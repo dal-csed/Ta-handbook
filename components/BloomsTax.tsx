@@ -11,7 +11,7 @@ const BloomsTax = () => {
             
 
             <div className='space-y-1 flex-1'>
-                <h3 className='text-lg text-blue-500 font-semibold'>
+                <h3 className='text-lg text-blue-500 font-semibold mt-3 mb-1'>
                 What is Bloom’s Taxonomy?
                 </h3>
 
@@ -72,7 +72,7 @@ const BloomsTax = () => {
             </div>
         </div>
 
-        <h3 className='text-lg text-blue-500 font-semibold'>
+        <h3 className='text-lg text-blue-500 font-semibold mt-3 mb-1'>
         Writing Clear Learning Outcomes
         </h3>
 
@@ -80,7 +80,7 @@ const BloomsTax = () => {
         When creating assignments or labs, begin by articulating the <strong>intended learning outcomes </strong> using active verbs aligned with Bloom’s Taxonomy. For example:
         </p>
 
-        <ul className="list-disc pl-6 space-y-2 mt-2">
+        <ul className="list-disc pl-6 space-y-2 mt-2 ">
             <li>
             <i>“Students will be able to debug a recursive function to identify logical errors.”</i> (Analyze)
             </li>
@@ -93,7 +93,7 @@ const BloomsTax = () => {
         Avoid vague outcomes like <i>“understand recursion” </i> — instead, specify what students should be able to do with that understanding.
         </p>
 
-        <h3 className='text-lg text-blue-500 font-semibold'>
+        <h3 className='text-lg text-blue-500 font-semibold mt-3 mb-1'>
         Aligning Assignments and Labs
         </h3>
 
@@ -124,7 +124,7 @@ const BloomsTax = () => {
 
         <BloomsTable />
 
-        <h3 className='text-lg text-blue-500 font-semibold'>
+        <h3 className='text-lg text-blue-500 font-semibold mt-3 mb-1'>
             Why it Matters
         </h3>
 
@@ -132,7 +132,7 @@ const BloomsTax = () => {
         Assignments built on clearly defined cognitive goals help students engage meaningfully with course content. For TAs, using Bloom’s Taxonomy supports fair evaluation, improves feedback clarity, and contributes to consistent expectations across course sections
         </p>
 
-        <h3 className='text-lg text-blue-500 font-semibold'>
+        <h3 className='text-lg text-blue-500 font-semibold mt-3 mb-1'>
             References:
         </h3>
 
@@ -144,7 +144,9 @@ const BloomsTax = () => {
         Krathwohl, D. R. (2002). A revision of Bloom’s taxonomy: An overview. Theory into Practice, 41(4), 212-218. <a href='https://doi.org/10.1207/s15430421tip4104_2' className="text-blue-600 hover:underline" target="_blank" >https://doi.org/10.1207/s15430421tip4104_2</a>
         </p>
 
+        <p>
         ACM Committee for Computing Education in Community Colleges. (2023). <i>Bloom’s for Computing: Enhancing Bloom's Revised Taxonomy with Verbs for Computing Disciplines.</i> <a href='https://ccecc.acm.org/assessment/blooms-for-computing' className="text-blue-600 hover:underline" target="_blank">https://ccecc.acm.org/assessment/blooms-for-computing</a>
+        </p>
     </div>
   )
 }

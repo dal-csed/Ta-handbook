@@ -4,27 +4,27 @@ const techResources = [
   {
     name: "Brightspace",
     image: "/brightspace.png",
-    link: "/techbits/brightspace",
+    link: "/brightspace",
   },
   {
     name: "Codio",
     image: "/codio.png",
-    link: "/techbits/codio",
+    link: "/codio",
   },
   {
     name: "Crowdmark",
     image: "/crowdmark.png",
-    link: "/techbits/crowdmark",
+    link: "/crowdmark",
   },
   {
     name: "Moss",
     image: "/moss.png",
-    link: "/techbits/moss",
+    link: "/moss",
   },
   {
     name: "Git",
     image: "/git.png",
-    link: "/techbits/git",
+    link: "/git",
   },
 ];
 

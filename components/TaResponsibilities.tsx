@@ -384,18 +384,18 @@ export default function TAResponsibilities() {
               <h3 className="text-lg font-semibold">Demonstrators may:</h3>
 
               <ul className="list-disc pl-6 space-y-1.5 my-2">
-                <li>assist in launch and shutdown procedures</li>
-                <li>attend coordination briefings</li>
-                <li>interact with students in Lab/Tutorial/Lecture only</li>
-                <li>proctor (admin support and walk the room; may not answer content-related questions)</li>
+                <li>Assist in launch and shutdown procedures</li>
+                <li>Attend coordination briefings</li>
+                <li>Interact with students in Lab/Tutorial/Lecture only</li>
+                <li>Proctor (admin support and walk the room; may not answer content-related questions)</li>
               </ul>
 
               <h3 className="text-lg font-semibold">Demonstrators may not:</h3>
 
               <ul className="list-disc pl-6 space-y-1.5 my-2">
-                <li>lead Labs or Tutorials</li>
-                <li>interact with students outside Labs/Tutorials, including messaging via Teams/email/BrightSpacediscussions/etc.</li>
-                <li>invigilate (answer content-related questions during testing/examinations)</li>
+                <li>Lead Labs or Tutorials</li>
+                <li>Interact with students outside Labs/Tutorials, including messaging via Teams/email/BrightSpacediscussions/etc.</li>
+                <li>Invigilate (answer content-related questions during testing/examinations)</li>
               </ul>
 
               <h3 className="text-lg font-semibold">Resource Allocation:</h3>
@@ -403,13 +403,13 @@ export default function TAResponsibilities() {
               <ul className="list-disc pl-6 space-y-1.5 my-2">
                 <li>Restricted list of duties that Demonstrators may perform.</li>
                 <li>Hourly amounts for each will be detailed in their contract (like we do for TA contracts).</li>
-                <li>meetings</li>
-                <li>lab time</li>
-                <li>tutorial time</li>
-                <li>tech setup/support</li>
-                <li>prep time (expected to be minimal)</li>
-                <li>in-lecture support time</li>
-                <li>training (on an exceptional basis)</li>
+                <li>Meetings</li>
+                <li>Lab time</li>
+                <li>Tutorial time</li>
+                <li>Tech setup/support</li>
+                <li>Prep time (expected to be minimal)</li>
+                <li>In-lecture support time</li>
+                <li>Training (on an exceptional basis)</li>
               </ul>
 
               <h3 className="text-lg font-semibold">Demonstrator Eligibility:</h3>

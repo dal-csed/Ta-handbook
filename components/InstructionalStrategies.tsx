@@ -23,8 +23,8 @@ export default function ToolboxInstructionalStrategies() {
               onClick={() => setActiveTab("active-learning")}
               className={`mr-4 py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "active-learning"
-                  ? "border-blue-500 text-blue-600"
-                  : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+                  ? "border-blue-500 font-semibold text-blue-600"
+                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
               }`}
             >
               Active Learning
@@ -33,8 +33,8 @@ export default function ToolboxInstructionalStrategies() {
               onClick={() => setActiveTab("explicit-direct-instruction")}
               className={`py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "explicit-direct-instruction"
-                  ? "border-blue-500 text-blue-600"
-                  : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+                  ? "border-blue-500 font-semibold text-blue-600"
+                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
               }`}
             >
               Explicit Direct Instruction for the Lab or Lectures

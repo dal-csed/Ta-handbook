@@ -54,8 +54,8 @@ export default function TheLab() {
               onClick={() => setActiveTab("considerations")}
               className={`mr-4 py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "considerations"
-                  ? "border-blue-500 text-blue-600"
-                  : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+                  ? "border-blue-500 font-semibold text-blue-600"
+                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
               }`}
             >
               Important Considerations for a Lab Class
@@ -64,8 +64,8 @@ export default function TheLab() {
               onClick={() => setActiveTab("strategic")}
               className={`mr-4 py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "strategic"
-                  ? "border-blue-500 text-blue-600"
-                  : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+                  ? "border-blue-500 font-semibold text-blue-600"
+                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
               }`}
             >
               4 Strategic Questions Poster
@@ -74,8 +74,8 @@ export default function TheLab() {
               onClick={() => setActiveTab("taing")}
               className={`py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "taing"
-                  ? "border-blue-500 text-blue-600"
-                  : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+                  ? "border-blue-500 font-semibold text-blue-600"
+                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
               }`}
             >
               TA-ing in the CS Lab

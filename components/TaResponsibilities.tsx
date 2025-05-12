@@ -62,8 +62,8 @@ export default function TAResponsibilities() {
               onClick={() => setActiveTab("checklist")}
               className={`mx-4 py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "checklist"
-                  ? "border-blue-500 text-blue-600"
-                  : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+                  ? "border-blue-500 font-semibold text-blue-600"
+                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
               }`}
             >
               Teaching Assistant Checklist: Essential Questions to Clarify Your Role
@@ -72,8 +72,8 @@ export default function TAResponsibilities() {
               onClick={() => setActiveTab("policies")}
               className={`py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "policies"
-                  ? "border-blue-500 text-blue-600"
-                  : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+                  ? "border-blue-500 font-semibold text-blue-600"
+                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
               }`}
             >
                 Understanding Policies and Procedures
@@ -83,8 +83,8 @@ export default function TAResponsibilities() {
               onClick={() => setActiveTab("Demonstrator")}
               className={`mx-4 py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "Demonstrator"
-                  ? "border-blue-500 text-blue-600"
-                  : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+                  ? "border-blue-500 font-semibold text-blue-600"
+                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
               }`}
             >
               Demonstrator Role

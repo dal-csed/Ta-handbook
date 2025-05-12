@@ -60,10 +60,10 @@ export default function TAResponsibilities() {
             
             <button
               onClick={() => setActiveTab("checklist")}
-              className={`mr-4 py-2 px-3 border-b-2 font-medium text-sm ${
+              className={`mx-4 py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "checklist"
-                  ? "border-blue-500 text-blue-600"
-                  : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+                  ? "border-blue-500 font-semibold text-blue-600"
+                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
               }`}
             >
               Teaching Assistant Checklist: Essential Questions to Clarify Your Role
@@ -72,11 +72,22 @@ export default function TAResponsibilities() {
               onClick={() => setActiveTab("policies")}
               className={`py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "policies"
-                  ? "border-blue-500 text-blue-600"
-                  : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+                  ? "border-blue-500 font-semibold text-blue-600"
+                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
               }`}
             >
                 Understanding Policies and Procedures
+            </button>
+
+            <button
+              onClick={() => setActiveTab("Demonstrator")}
+              className={`mx-4 py-2 px-3 border-b-2 font-medium text-sm ${
+                activeTab === "Demonstrator"
+                  ? "border-blue-500 font-semibold text-blue-600"
+                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
+              }`}
+            >
+              Demonstrator Role
             </button>
           </nav>
         </div>
@@ -354,6 +365,78 @@ export default function TAResponsibilities() {
               </p>
             </div>
           )}
+
+          {activeTab === "Demonstrator" && (
+            <div>
+
+              <ul className="list-disc pl-6 space-y-1.5 my-2">
+                <li>
+                  $24.00 per hour paid by timesheet (separate from Marker timesheet).
+                </li>
+                <li>
+                  A non-binding, scheduled casual position impacted by student attendance.
+                </li>
+                <li>20 to 60 students per TA/Demonstrator grouping.</li>
+                <li>Demonstrators support the TA in delivering Lab/Tutorials, answer questions from students.</li>
+                <li>Grandfather clause: TAs returning to the same course cannot be paid Demonstrator rate for same work as previous term(s) and are therefore rehired as TAs.This is course-specific.</li>
+              </ul>
+
+              <h3 className="text-lg font-semibold">Demonstrators may:</h3>
+
+              <ul className="list-disc pl-6 space-y-1.5 my-2">
+                <li>Assist in launch and shutdown procedures</li>
+                <li>Attend coordination briefings</li>
+                <li>Interact with students in Lab/Tutorial/Lecture only</li>
+                <li>Proctor (admin support and walk the room; may not answer content-related questions)</li>
+              </ul>
+
+              <h3 className="text-lg font-semibold">Demonstrators may not:</h3>
+
+              <ul className="list-disc pl-6 space-y-1.5 my-2">
+                <li>Lead Labs or Tutorials</li>
+                <li>Interact with students outside Labs/Tutorials, including messaging via Teams/email/BrightSpacediscussions/etc.</li>
+                <li>Invigilate (answer content-related questions during testing/examinations)</li>
+              </ul>
+
+              <h3 className="text-lg font-semibold">Resource Allocation:</h3>
+
+              <ul className="list-disc pl-6 space-y-1.5 my-2">
+                <li>Restricted list of duties that Demonstrators may perform.</li>
+                <li>Hourly amounts for each will be detailed in their contract (like we do for TA contracts).</li>
+                <li>Meetings</li>
+                <li>Lab time</li>
+                <li>Tutorial time</li>
+                <li>Tech setup/support</li>
+                <li>Prep time (expected to be minimal)</li>
+                <li>In-lecture support time</li>
+                <li>Training (on an exceptional basis)</li>
+              </ul>
+
+              <h3 className="text-lg font-semibold">Demonstrator Eligibility:</h3>
+
+              <ul className="list-disc pl-6 space-y-1.5 my-2">
+                <li>New hires are excellent candidates for the Demonstrator position.</li>
+                <li>If TAd the course before, said TA may not be hired as a Demonstrator. This is course-specific.</li>
+                <li>If TAdbefore but not for this course, they are a Demonstrator unless TA-only duties are required.</li>
+                <li>Proctor (admin support and walk the room; may not answer content-related questions)</li>
+              </ul>
+
+              <h3 className="text-lg font-semibold">Marking:</h3>
+
+              <ul className="list-disc pl-6 space-y-1.5 my-2">
+                <li>If marking, a Marker contract will be added.</li>
+              </ul>
+
+              <h3 className="text-lg font-semibold">Reference:</h3>
+              <p>
+                <a href="https://dal.brightspace.com/d2l/le/content/136347/viewContent/4757580/View"  className="text-blue-600 hover:underline" target="_blank">
+                  [Source: https://dal.brightspace.com/d2l/le/content/136347/viewContent/4757580/View]
+                </a>
+              </p>
+
+            </div>
+          )}
+
         </div>
       </div>
     </div>

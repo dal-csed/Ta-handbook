@@ -202,7 +202,7 @@ export const collapsable : CollapsibleSection[] = [
   },
   {
     id: 6,
-    title: "Inclusive Classrooms",
+    title: "Suggestions for Being a Fantastic TA",
     content: (
       <InclusiveClassrooms />
     ),

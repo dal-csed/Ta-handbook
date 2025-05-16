@@ -5,54 +5,7 @@ export default function InclusiveClassrooms() {
   
   return (
     <div className="my-3 space-y-4">
-      <h2 className="text-2xl font-bold">Creating Inclusive Classrooms at Dalhousie University</h2>
-      
-      <div className="my-4">
-        <p>
-          Creating inclusive classrooms is a foundational part of effective teaching. At Dalhousie University, we believe that every student deserves an educational experience where they feel welcomed, respected, supported, and challenged. Inclusion is not simply about compliance—it's a commitment to building equitable spaces where all learners can thrive.
-        </p>
-        
-        <p className="mt-2">
-          As Teaching Assistants (TAs), Graduate Students, Instructors, and academic staff, you play a key role in shaping this environment. The choices you make around communication, course design, engagement strategies, and classroom norms significantly impact how students experience your class.
-        </p>
-      </div>
-      
-      <div className="my-4">
-        <h3 className="font-bold text-lg">Dalhousie's Commitment to EDIA</h3>
-        
-        <p className="mt-2">
-          Dalhousie is guided by its institutional commitment to Equity, Diversity, Inclusion, and Accessibility (EDIA). These principles are not abstract—they are tied directly to the lived experiences of students, staff, and faculty across our campuses.
-        </p>
-        
-        <p className="mt-2">
-          Equity means recognizing that not all students begin from the same place and that we must create conditions that address systemic barriers to participation and success.
-        </p>
-        
-        <p className="mt-2">
-          Diversity means celebrating and incorporating a wide range of backgrounds, experiences, and identities in our community.
-        </p>
-        
-        <p className="mt-2">
-          Inclusion means actively ensuring that everyone feels like they belong, not just that they are allowed in the room.
-        </p>
-        
-        <p className="mt-2">
-          Accessibility ensures that all students, regardless of disability or need, can fully engage with course materials and learning activities.
-        </p>
-        
-        <p className="mt-2">
-          You can explore Dalhousie's full EDIA framework and strategic goals here: Dalhousie EDIA Commitments
-        </p>
-      </div>
-      
-      <div className="my-4">
-        <h3 className="font-bold text-lg">Setting the Tone: Respectful Discourse and Belonging</h3>
-        
-        <p className="mt-2">
-          A truly inclusive classroom begins with respectful discourse. Dalhousie emphasizes the importance of open, civil, and constructive dialogue—even when opinions differ. This is especially relevant in classes where sensitive topics, cultural differences, or difficult discussions are likely to arise.
-        </p>
-      </div>
-      
+      <p><strong>INTRO</strong></p>
       <div className="mt-6">
         <div className="border-b border-gray-200">
           <nav className="flex -mb-px">
@@ -74,7 +27,7 @@ export default function InclusiveClassrooms() {
                   : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
               }`}
             >
-              Suggestions for Being a Fantastic TA
+              Tips for Being an Exemplary Teaching Assistant
             </button>
             <button
               onClick={() => setActiveTab("insight")}

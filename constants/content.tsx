@@ -2,7 +2,6 @@ import { ReactNode, useState } from "react";
 import ClassroomGuidance from "../components/inTheClassroom";
 import TAResponsibilities from "../components/TaResponsibilities";
 import ProfessionalBehavior from "../components/ProfessionalBehavior";
-import InclusiveClassrooms from "../components/InclusiveClassroom";
 import TheLab from "../components/TheLab";
 import ReceivingFeedback from "../components/feedback";
 import CollapsibleSection from "../components/CollapsibleSection";
@@ -10,6 +9,7 @@ import ToolboxInstructionalStrategies from "../components/InstructionalStrategie
 import FosteringInclusiveClassrooms from "../components/FosteringInclusiveClassrooms";
 import BloomsTax from "../components/BloomsTax";
 import TADemonstratorMarkerTable from "../components/GradTA";
+import FantasticTA from "../components/FantasticTA";
 
 export const introduction = [
   'Welcome to the Faculty of Computer Science Teaching Assistant (TA) Handbook! As a Graduate TA, you play a vital role in supporting student learning, fostering engagement, and maintaining the rigour and academic integrity of our courses. Whether you’re leading labs or tutorials, grading assignments, assisting the instructor in various aspects of teaching, or providing one-on-one support, your contributions help shape the learning experience for our students. This is a crucial and important role!',
@@ -204,7 +204,7 @@ export const collapsable : CollapsibleSection[] = [
     id: 6,
     title: "Suggestions for Being a Fantastic TA",
     content: (
-      <InclusiveClassrooms />
+      <FantasticTA />
     ),
   },
   {
@@ -934,7 +934,7 @@ export const collapsable : CollapsibleSection[] = [
 
   {
     id: 14,
-    title: "Your Role in Fostering Inclusive Classrooms at the Faculty of Computer Science at Dalhousie University",
+    title: "Your Role in Fostering Inclusive Classrooms at the Faculty of Computer Science",
     content: (
       <FosteringInclusiveClassrooms />
     ),

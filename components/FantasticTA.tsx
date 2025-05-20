@@ -1,11 +1,15 @@
 import { useState } from "react";
 
-export default function InclusiveClassrooms() {
+export default function FantasticTA() {
   const [activeTab, setActiveTab] = useState("strategies");
   
   return (
     <div className="my-3 space-y-4">
-      <p><strong>INTRO</strong></p>
+      <p>A fantastic Teaching Assistant (TA) is more than just a support role, they are a bridge between students and instructors, helping to foster understanding, confidence, and academic success. Great TAs are approachable, reliable, and proactive. They anticipate student needs, explain concepts clearly, and create an inclusive environment where every learner feels seen and supported. Whether they're leading tutorials, marking assignments, or guiding labs, fantastic TAs show up with enthusiasm, empathy, and a genuine commitment to student learning. Their impact often extends beyond the classroom, leaving a lasting impression on both students and the academic team.</p>
+
+      <p>
+        To help you grow into this role, the tabs in this section include helpful videos and practical suggestions from seasoned TAs and experienced academics, offering insights, strategies, and encouragement drawn from real classroom experiences.
+      </p>
       <div className="mt-6">
         <div className="border-b border-gray-200">
           <nav className="flex -mb-px">

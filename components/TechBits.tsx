@@ -26,6 +26,11 @@ const techResources = [
     image: "/git.png",
     link: "/git",
   },
+  {
+    name: "MS Teams",
+    image: "/msteams.png",
+    link: "/msteams",
+  },
 ];
 
 export default function TechBits() {
@@ -34,7 +39,7 @@ export default function TechBits() {
       <h2 className="text-2xl font-bold mb-6 text-center">
         Tech Bits: Educational Tools
       </h2>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 text-center">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 text-center">
         {techResources.map((resource) => (
           <div key={resource.name} className="flex flex-col items-center">
             <Link href={resource.link}>

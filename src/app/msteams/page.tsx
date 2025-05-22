@@ -1,8 +1,14 @@
 import React from 'react'
+import CustomHeader from '../../../components/CustomHeader'
+import CustomFooter from '../../../components/CustomFooter'
 
 const page = () => {
   return (
-    <div></div>
+    <div>
+        <CustomHeader />
+
+        <CustomFooter />
+    </div>
   )
 }
 

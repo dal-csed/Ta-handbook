@@ -4,12 +4,14 @@ import { useState } from "react";
 import { collapsable, introduction } from "../../constants/content";
 import CollapsibleSection from "../../components/CollapsibleSection";
 import TechBits from "../../components/TechBits";
+import CustomHeader from "../../components/CustomHeader";
+import CustomFooter from "../../components/CustomFooter";
 
 export default function Home() {
   return (
     <>
       {/* Yellow Bar Header */}
-      <div className="border-b-4 border-[#ffcc00] w-full h-24">
+      {/* <div className="border-b-4 border-[#ffcc00] w-full h-24">
         <div className="flex px-3 flex-row items-center justify-between gap-4 m-auto max-w-7xl h-full">
           <img
             src="/dal-logo.png"
@@ -35,7 +37,9 @@ export default function Home() {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
+
+      <CustomHeader />
 
       <div className="max-w-[1500px] m-auto bg-white">
         <div className="relative w-full h-[300px] md:h-[400px] lg:h-[600px] overflow-hidden">
@@ -76,41 +80,7 @@ export default function Home() {
       <TechBits />
 
       {/* Footer */}
-      <footer className="bg-black text-white text-xs text-center py-8 border-t-4 border-[#ffcc00]">
-        <div className="flex flex-row max-w-7xl px-3 m-auto justify-between">
-          <div className="flex flex-col gap-y-8">
-            <div>
-              <p className="font-bold justify-self-start">
-                Faculty of Computer Science
-              </p>
-              <p className="justify-self-start">
-                Goldberg Computer Science Building
-              </p>
-            </div>
-            <div>
-              <p className="font-bold justify-self-start">
-                Dalhousie University
-              </p>
-              <p className="justify-self-start">
-                Halifax, Nova Scotia, Canada B3H 4R2
-              </p>
-              <p className="justify-self-start">1-902-494-2211</p>
-            </div>
-          </div>
-          <div className="content-center text-lg">
-            <p className="font-semibold justify-self-start">
-              {" "}
-              © Created by CSEd
-            </p>
-            <p className="font-light justify-self-start">
-              Faculty of Computer Science
-            </p>
-            <p className="font-light justify-self-start">
-              Dalhousie University
-            </p>
-          </div>
-        </div>
-      </footer>
+      <CustomFooter />
     </>
   );
 }

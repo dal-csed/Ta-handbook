@@ -9,7 +9,7 @@ const CustomHeader = () => {
             alt="Dalhousie University"
             className="h-16"
           />
-          <p className="text-[#474646] text-4xl font-semibold">TA Handbook</p>
+          <p className="text-[#474646] text-4xl font-semibold">Graduate TA Handbook</p>
 
           <div className="flex flex-row justify-between gap-x-2">
             <a

@@ -40,11 +40,13 @@ export default function Home() {
         {/* Collapsible Sections */}
         <section className="max-w-[1280px] mx-auto my-3 space-y-4 mb-16 ">
           {collapsable.map((section) => (
-            <CollapsibleSection
-              key={section.id}
-              title={`${section.id}. ${section.title}`}
-              content={section.content}
-            />
+            <div id={`section-${section.id}`} key={section.id}>
+              <CollapsibleSection
+                id={section.id}
+                title={`${section.id}. ${section.title}`}
+                content={section.content}
+              />
+            </div>
           ))}
         </section>
       </div>

@@ -83,7 +83,7 @@ export default function TheLab() {
           </nav>
         </div>
         
-        <div className="mt-4 p-4 bg-gray-50 rounded-lg">
+        <div className="mt-4 p-4 bg-gray-50 h-auto rounded-lg">
           {activeTab === "considerations" && (
             <div>
               <p>
@@ -235,14 +235,22 @@ export default function TheLab() {
           )}
           
           {activeTab === "strategic" && (
-            <div className="flex items-center justify-center h-96">
-              <p className="text-gray-500 italic">Image placeholder for 4 Strategic Questions Poster</p>
+            <div className="flex items-center justify-center overflow-auto">
+              <img
+                src="/taPoster.png"
+                className="max-w-full h-auto max-h-[1000px]"
+                alt="TA Poster"
+              />
             </div>
           )}
           
           {activeTab === "taing" && (
-            <div className="flex items-center justify-center h-96">
-              <p className="text-gray-500 italic">Image placeholder for TA-ing in the CS Lab</p>
+            <div className="flex items-center justify-center overflow-auto">
+              <img
+                src="/labPoster.png"
+                className="max-w-full h-auto max-h-[1000px]"
+                alt="Lab Poster"
+              />
             </div>
           )}
         </div>

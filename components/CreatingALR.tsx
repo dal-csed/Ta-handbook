@@ -1,9 +1,33 @@
+import { ST } from 'next/dist/shared/lib/utils';
 import Link from 'next/link';
 import React, { useState } from 'react'
 
 const CreatingALR = () => {
 
   const [activeTab, setActiveTab] = useState("Assignments");
+
+  const rows = [
+    {
+      level: "4 – Excellent",
+      desc:
+        "The presentation is clear, engaging, and well-organized. All group members contribute meaningfully. Demonstrates deep understanding of the problem, thorough testing, and technically sound implementation. Code functionality is effectively demonstrated, with discussion of trade-offs and design decisions. Visuals support communication. Questions from the audience are handled confidently and thoughtfully. Presentation reflects outstanding collaboration, technical proficiency, and communication.",
+    },
+    {
+      level: "3 – Good",
+      desc:
+        "The presentation is mostly clear and organized, with minor issues in delivery or transitions. Most group members participate. Technical content is solid, with minor oversights in explanation or testing. Demonstration is functional but may lack polish or depth in analysis. Visuals are adequate. Questions are answered reasonably well. The project shows evidence of good teamwork and preparation.",
+    },
+    {
+      level: "2 – Satisfactory",
+      desc:
+        "Presentation is uneven or difficult to follow in places. Some group members do not contribute or seem underprepared. Explanation of technical components is vague or incomplete. Project may lack a complete demonstration or reveal partial implementation. Testing or reflection is superficial. Visual aids are used ineffectively. Responses to questions are limited. Collaboration appears unbalanced.",
+    },
+    {
+      level: "1 – Needs Improvement",
+      desc:
+        "Presentation is unclear or disorganized. Minimal team coordination is evident. Significant technical misunderstandings or missing implementation. Demonstration does not function or is not attempted. Little or no discussion of testing or design choices. Visuals are missing or poorly executed. Group struggles to answer questions. Collaboration appears weak or absent.",
+    },
+  ];
   
   return (
     <div className="my-3 space-y-4">
@@ -47,86 +71,15 @@ const CreatingALR = () => {
                   : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
               }`}
             >
-              Rubrics
+              Rubrics in Computer Science Higher Education 
             </button>
           </nav>
         </div>
         
         <div className="mt-4 p-4 bg-gray-50 rounded-lg">
           {activeTab === "Assignments" && (
+
             <div>
-              <h3 className="font-bold mb-2">What is Active Learning?</h3>
-              <p className="mb-4">
-                Creating inclusive classrooms is a foundational part of effective teaching. At Dalhousie University, we believe that every student deserves an educational experience where they feel welcomed, respected, supported, and challenged. Inclusion is not simply about compliance—it’s a commitment to building equitable spaces where all learners can thrive.  
-              </p>
-
-              <p className="mb-4">
-                As Teaching Assistants (TAs), Demonstrators, Markers, Graduate Students, Instructors, and academic staff, you play a key role in shaping this environment. The choices you make around communication, course design, engagement strategies, and classroom norms and how you communicate to students orally and in writing significantly impact how students experience belonging in their classes and learning environments. 
-              </p>
-              
-              <h4 className="font-semibold mt-4">Dalhousie’s Commitment to EDIA</h4>
-
-              <p className="mb-4">
-              Dalhousie is guided by its institutional commitment to Equity, Diversity, Inclusion, and Accessibility (EDIA). These principles are not abstract—they are tied directly to the lived experiences of students, staff, and faculty across our campuses.
-              </p>
-
-              <p className="mb-4">
-              At Dalhousie University, EDIA stands for Equity, Diversity, Inclusion, and Accessibility. It represents a commitment to creating a welcoming and inclusive environment for all members of the university community. This commitment is a core institutional priority, influencing the university's vision, mission, values, and actions. 
-              </p>
-
-              <h2 className="text-lg font-bold">
-                Here's a more detailed look at EDIA at Dalhousie: 
-              </h2>
-
-              <h2 className=" font-semibold">
-                Core Principles  
-              </h2>
-
-              <ul className="list-disc pl-6 space-y-2 mt-2">
-                <li><strong>Think-Pair-Share:</strong> Pose a thought-provoking question and give students a minute to think about their answer. Then, have them discuss with a partner before sharing with the group.</li>
-                <li><strong>Case Studies:</strong> Present a real-world problem and have students work in small groups to develop solutions, discussing their reasoning.</li>
-                <li><strong>Peer Teaching:</strong> Assign small groups to learn and present specific concepts. This helps solidify their understanding while also building presentation skills.</li>
-                <li><strong>Concept Mapping:</strong> Have students create visual representations of relationships between key ideas, either individually or collaboratively.</li>
-              </ul>
-              
-              <h4 className="font-semibold mt-4">2. Labs (or classes where live coding or working on math problems with students is possible)</h4>
-              <p className="mt-2">
-                <strong>Guided Practice:</strong> is a teaching strategy where learners <strong> practice a new skill or concept with the support and direction of an instructor or facilitator</strong>. It's an essential step between direct instruction (teaching or modeling) and independent practice (when learners try it on their own).
-              </p>
-              
-              <h5 className="font-medium mt-3">What Guided Practice Looks Like:</h5>
-              <ul className="list-disc pl-6 space-y-1 mt-1">
-                <li>The instructor works <strong>alongside students</strong>, offering prompts, cues, or corrections.</li>
-                <li>Students try out a task or problem while receiving <strong>immediate feedback</strong>.</li>
-                <li>The level of support is gradually <strong>reduced</strong> as students gain confidence and understanding.</li>
-              </ul>
-              
-              <h5 className="font-medium mt-3">Why It's Important:</h5>
-              <ul className="list-disc pl-6 space-y-1 mt-1">
-                <li>Reinforces what was just taught.</li>
-                <li>Helps students catch and correct misunderstandings early.</li>
-                <li>Builds confidence before students are expected to work independently.</li>
-                <li>Encourages<strong> active learning  </strong>and <strong>student engagement</strong>.</li>
-              </ul>
-              
-              <p className="mt-3">
-                <strong>Guided Inquiry:</strong> Instead of providing detailed instructions, give students a goal and challenge them to determine the steps to achieve it. Guide them as needed but encourage independent problem-solving.
-              </p>
-              
-              <p className="mt-3">
-                <strong>Lab Reports with Reflection:</strong> Have students not only report their findings but also reflect on their process and how they approached challenges.
-              </p>
-              
-              <p className="mt-3">
-                <strong>Interactive Demonstrations:</strong> Allow students to predict outcomes before performing a code-related task and then discuss the results.
-              </p>
-              
-              <h4 className="font-semibold mt-4">Tips for Success</h4>
-              <ul className="list-disc pl-6 space-y-2 mt-2">
-                <li><strong>Set Clear Expectations:</strong> Let students know that active participation is essential.</li>
-                <li><strong>Be Supportive:</strong> Encourage students to take risks and make mistakes as part of the learning process.</li>
-                <li><strong>Debrief Regularly:</strong> Always take a few minutes at the end of an activity to reflect on what was learned and how the process felt.</li>
-              </ul>
             </div>
           )}
           
@@ -328,57 +281,247 @@ const CreatingALR = () => {
           )}
 
           {activeTab === "rubrics" && (
-            <div>
-              <h3 className="font-bold mb-2">Overview of Direct Instruction (DI)</h3>
+            <div className='space-y-1.5'>
               <p className="mb-4">
-                Direct Instruction (DI) is a teacher-led approach where the teacher controls the classroom activities and directs information to students in a structured and sequenced manner. There are various forms of DI, with some being more rigid than others. However, the Modern DI forms are much more effective, such as Explicit Direct Instruction (EDI), which is more flexible and involves eight didactic principles that enhance each other.
+                In Computer Science (CS) education, rubrics are critical for assessing assignments ranging from programming tasks to technical reports and presentations. They provide clarity to students, support consistent grading among multiple TAs, and align assessments with learning outcomes.
+              </p>
+
+              <p>
+                There are three widely used types of rubrics: <strong>Analytic</strong>, <strong>Holistic</strong>, and <strong>Single-Point</strong>. Each offers distinct advantages depending on the nature of the task being evaluated.
               </p>
               
-              <h4 className="font-semibold mt-4">Eight Didactic Principles of EDI</h4>
-              <ul className="list-disc pl-6 space-y-2 mt-2">
-                <li>
-                  <strong>Learning Objectives:</strong> Clearly defined goals that students can understand. "By the end of this session, you will be able to…."
-                </li>
-                <li>
-                  <strong>Activating Prior Knowledge:</strong> Connecting new information to what students already know. "What do you already know about "x"? Where have you seen it being used before?"
-                </li>
-                <li>
-                  <strong>Concept Development:</strong> Detailed explanation of new concepts. How does this concept fit into the big picture of what they are learning? For example, if functions and loops are being taught, give a visual example of what it looks like and what other contexts (areas or systems) where it can be applied.
-                </li>
-                <li>
-                  <strong>Skill Development:</strong> Demonstrating and practicing new skills. Give a demonstration of the new skill. Ensure that everyone can see what you are doing. You can also record this so that students can refer back to it if they need more support during the lab.
-                </li>
-                <li>
-                  <strong>Guided Practice:</strong> Teacher-led practice sessions. After the demonstration, take a problem and ask students to suggest the next step. (Students can be in pairs to discuss and suggest the next step to you). Question their thinking along the way. Why do you think this is the step you should take? Can anyone suggest another way?
-                </li>
-                <li>
-                  <strong>Independent Practice:</strong> Students practice on their own. Circulate around the room as students are working.<strong> Pay attention </strong> to what is on their screens, if you notice them making errors, ask them to pause and talk through their choices. See if they can identify where they are going wrong. If they can't, walk them back to where they started making mistakes in their code or work, then provide further guidance so they can achieve success. A good practice is to have a digital resource bank on Brightspace, so they can watch a tutorial on how to do "x" and then circle back to see if they are on the right track after a few moments.
-                </li>
-                <li>
-                  <strong>Lesson Closure:</strong> Assessing student understanding through questions or small tasks. This can be done by polls, small group discussion.
-                </li>
-                <li>
-                  <strong>Lesson Importance:</strong> Explaining the relevance of the lesson to students.
-                </li>
-              </ul>
-              
-              <h4 className="font-semibold mt-4">Benefits of EDI</h4>
-              <ul className="list-disc pl-6 space-y-2 mt-2">
-                <li>
-                  <strong>Effectiveness:</strong> Research shows that EDI can be more effective than exploratory methods, especially for weaker students.
-                </li>
-                <li>
-                  <strong>Equalizing Effect:</strong> EDI ensures all students receive intentional instruction and opportunities to practice, which can help bridge gaps in prior knowledge.
-                </li>
-              </ul>
-              
-              <div className="mt-4 pt-4 border-t border-gray-200">
-                <p className="text-sm italic">
-                  <strong>Reference</strong><br />
-                  Hermans, F., & Smit, M. (n.d.). Explicit Direct Instruction in Programming Education. <a href="https://www.ppig.org/files/2018-PPIG-29th-hermans.pdf " className="text-blue-600" target="_blank">
-                  https://www.ppig.org/files/2018-PPIG-29th-hermans.pdf </a>
-                </p>
+              <h4 className="font-bold mt-4 text-lg">1. Analytic Rubrics </h4>
+              <p>
+                <strong>Definition</strong>: Analytic rubrics break down an assignment into specific components, each evaluated separately. They are well-suited for assessing multifaceted tasks and offering detailed feedback. 
+              </p>
+
+              <p><strong>Example (Programming Assignment Rubric): </strong> Assignment: <i>Implement a sorting algorithm in Python.</i></p>
+
+              <div className="overflow-x-auto">
+                <table className="min-w-full border border-gray-300 text-sm">
+                  <thead className="bg-gray-100">
+                    <tr>
+                      {["Criteria", "Excellent (5)", "Good (4)", "Fair (3)", "Poor (1–2)"]
+                        .map((h) => (
+                          <th
+                            key={h}
+                            className="border border-gray-300 px-4 py-2 font-semibold text-left"
+                          >
+                            {h}
+                          </th>
+                        ))}
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    {[
+                      {
+                        criteria: "Correctness",
+                        levels: [
+                          "Program executes without errors and passes all test cases",
+                          "Minor bugs; passes most test cases",
+                          "Some bugs; passes half of test cases",
+                          "Many bugs; few or no test cases passed",
+                        ],
+                      },
+                      {
+                        criteria: "Code Efficiency",
+                        levels: [
+                          "Optimal time and space complexity",
+                          "Slightly inefficient but acceptable",
+                          "Noticeably inefficient",
+                          "Very inefficient or incorrect approach",
+                        ],
+                      },
+                      {
+                        criteria: "Readability & Style",
+                        levels: [
+                          "Code is well-commented, consistent, and easy to read",
+                          "Minor issues with readability or style",
+                          "Poor commenting and inconsistent style",
+                          "Difficult to read and understand",
+                        ],
+                      },
+                      {
+                        criteria: "Documentation",
+                        levels: [
+                          "README is clear, complete, and professional",
+                          "README mostly complete",
+                          "README missing key sections",
+                          "No README or very poor quality",
+                        ],
+                      },
+                    ].map(({ criteria, levels }) => (
+                      <tr key={criteria}>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">
+                          {criteria}
+                        </td>
+                        {levels.map((text, i) => (
+                          <td key={i} className="border border-gray-300 px-4 py-2">
+                            {text}
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
               </div>
+
+              <div className="space-y-3 mt-4">
+                <h4 className="text-lg font-bold">
+                  2. Holistic Rubric
+                </h4>
+
+                <p>
+                <strong>Definition</strong>: Holistic rubrics assess student work as a whole, assigning one overall score based on an overall impression. They are useful when detailed component scoring is not necessary. 
+                </p>  
+
+                <p className='font-bold '>Holistic Rubric Example – Capstone Project Final Presentation </p>
+
+                <p className='font-semibold mb-[-2]'>Assignment context:</p>
+                
+                <p>Students present their final software development project, including problem definition, technical implementation, user testing, and reflection on teamwork.</p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-sm">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Level
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Description
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {rows.map(({ level, desc }) => (
+                        <tr key={level}>
+                          <td className="border border-gray-300 px-4 py-2 font-medium">
+                            {level}
+                          </td>
+                          <td className="border border-gray-300 px-4 py-2">{desc}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+
+                <h5 className="font-semibold">When to use this Holistic Rubric</h5>
+                <ul className="list-disc pl-6 space-y-1">
+                  <li>End-of-term capstone or major project presentations, oral presentations, design critiques or reflective journals.  </li>
+                  <li>Final deliverables where integration of content is more important than scoring individual parts.</li>
+                  <li>Assessments where you want to provide a fast, but fair and transparent, global judgment of performance.</li>
+                </ul>
+
+                <h5 className="font-semibold">Best practices for Use</h5>
+                <ul className="list-disc pl-6 space-y-1">
+                  <li>Share the rubric with students ahead of time to clarify expectations.</li>
+                  <li>Consider using this rubric alongside <strong>written feedback or peer/self-assessment</strong> to enhance reflection.</li>
+                  <li>Use in conjunction with formative feedback checkpoints throughout the term to guide student progress.</li>
+                </ul>
+              </div>
+
+              <div className="space-y-3 mt-4">
+                <h4 className="text-lg font-bold">
+                  3. Single-Point Rubric 
+                </h4>
+
+                <p>
+                  <strong>Definition</strong>: A single-point rubric includes only the target level of performance and leaves room for open-ended feedback on how students either exceed or fall short of expectations. 
+                </p>
+
+                <p className='mb-[-1]'><strong>Example (Code Review Assignment): </strong> </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-sm text-center">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        {["Exceeds Expectations", "Meets Expectations", "Below Expectations"].map(
+                          (h) => (
+                            <th
+                              key={h}
+                              className="border border-gray-300 px-4 py-2 font-semibold"
+                            >
+                              {h}
+                            </th>
+                          )
+                        )}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr style={{ height: "7rem" }}>
+                        <td className="border border-gray-300 px-4 py-2 align-top" />
+                        <td className="border border-gray-300 px-4 py-2 text-left">
+                          Code follows consistent style, has meaningful variable names, no
+                          duplication, and clear logic flow.
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2 align-top" />
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <h5 className="font-semibold">Feedback comments</h5>
+                <ul className="list-disc pl-6 space-y-1">
+                  <li>
+                    <em>Above:</em> “Excellent use of functions to reduce redundancy.”
+                  </li>
+                  <li>
+                    <em>Below:</em> “Add more inline comments to clarify logic.”
+                  </li>
+                </ul>
+
+                <p className="text-sm">
+                  <strong>When to use:</strong> Best for <strong>formative </strong>assessments or assignments focused on specific skill development, such as peer review, debugging exercises, or iterative development. 
+                </p>
+
+                <div className='space-y-1'>
+                  <p className='font-semibold'>
+                  Why Rubrics Matter in CS 
+                  </p>
+                  
+                  <p>
+                    Rubrics align assessments with course learning outcomes and industry expectations, including collaboration, documentation, ethical reasoning, and code quality. In collaborative grading environments, rubrics minimize subjectivity and provide a shared standard for evaluation, especially in large courses or multi-section labs. 
+                  </p>
+                </div>
+
+                <h3 className='text-lg text-blue-500 font-semibold mt-3 mb-1'>
+                    References:
+                </h3>
+
+                <p>
+                Brookhart, S. M. (2013). <i>How to create and use rubrics for formative assessment and grading.</i> ASCD. 
+                <a href='https://www.geocities.ws/bdktraining/pdfkur/How%20to%20Create%20and%20Use%20Rubrics%20for%20Formative%20Assessment%20and%20Grading%20(%20PDFDrive%20).pdf' className="text-blue-600 hover:underline" target="_blank">https://www.geocities.ws/.../How%20to%20Create%20and%20Use%20Rubrics%20for%20Formative%20Assessment%20and%20Grading.pdf</a>
+                </p>
+
+                <p>
+                DELTA Teaching Resources. (2025). <i>Rubric best practices, examples, and templates.</i> NC State University. 
+                <a href='https://teaching-resources.delta.ncsu.edu/rubric_best-practices-examples-templates/' className="text-blue-600 hover:underline" target="_blank">https://teaching-resources.delta.ncsu.edu/rubric_best-practices-examples-templates/</a>
+                </p>
+
+                <p>
+                Goodrich, H. (1996). <i>Understanding rubrics.</i> <i>Teaching for Authentic Student Performance, 54</i>(4), 14-17. 
+                <a href='https://www.ascd.org/el/articles/understanding-rubrics' className="text-blue-600 hover:underline" target="_blank">https://www.ascd.org/el/articles/understanding-rubrics</a>
+                </p>
+
+                <p>
+                Gonzalez, J. (2014). <i>Know your terms: Holistic, Analytic, and Single-Point Rubrics.</i> Cult of Pedagogy. 
+                <a href='https://www.cultofpedagogy.com/holistic-analytic-single-point-rubrics/' className="text-blue-600 hover:underline" target="_blank">https://www.cultofpedagogy.com/holistic-analytic-single-point-rubrics/</a>
+                </p>
+
+                <p>
+                Miller, A. (2012). <i>Tame the beast: tips for designing and using rubrics.</i> Edutopia. 
+                <a href='https://www.edutopia.org/blog/designing-using-rubrics-andrew-miller' className="text-blue-600 hover:underline" target="_blank">https://www.edutopia.org/blog/designing-using-rubrics-andrew-miller</a>
+                </p>
+
+                <p>
+                Stevens, D. D., & Levi, A. (2013). <i>Introduction to rubrics: An assessment tool to save grading time, convey effective feedback, and promote student learning</i> (2nd ed.). Stylus.
+                </p>
+
+
+              </div>          
+              
             </div>
           )}
         </div>

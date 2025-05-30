@@ -52,7 +52,7 @@ export default function TAProfessionalBehavior() {
           )}
           
           {activeTab === "communication" && (
-            <div>
+            <div className="space-y-2.5">
               <h2 className="text-xl font-semibold mb-3">Keeping the Instructor Informed & What To Do When You Don’t know What To Do </h2>
               
               <p>

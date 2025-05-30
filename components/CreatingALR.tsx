@@ -51,7 +51,7 @@ const CreatingALR = () => {
                   : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
               }`}
             >
-              Assignments
+              Creating Effective Assignments 
             </button>
             <button
               onClick={() => setActiveTab("labs")}
@@ -61,7 +61,7 @@ const CreatingALR = () => {
                   : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
               }`}
             >
-              Labs
+              Best Practices for Designing CS Lab
             </button>
             <button
               onClick={() => setActiveTab("rubrics")}
@@ -79,7 +79,142 @@ const CreatingALR = () => {
         <div className="mt-4 p-4 bg-gray-50 rounded-lg">
           {activeTab === "Assignments" && (
 
-            <div>
+            <div className='space-y-1.5'>
+              <p>As a Graduate Teaching Assistant (TA), you may contribute to the development or refinement of course assignments. Assignments are not just evaluation tools, they are learning opportunities that reinforce course material, deepen understanding, and help students develop key skills. This section provides best practices for designing assignments that are pedagogically sound, equitable, and aligned with the course structure. </p>
+
+              <h4 className="font-bold mt-4 text-lg">1. Align with Course Learning Outcomes </h4>
+              <p>
+                Every assignment should clearly support one or more of the course’s intended learning outcomes. These outcomes describe what students should be able to do by the end of the course and guide assessment design. 
+              </p>
+
+              <ul className="list-disc pl-6 space-y-1">
+                <li>
+                  Use <strong>action verbs from Bloom’s Taxonomy </strong>that match the cognitive level of the outcome (e.g., . <em>identify, apply, analyze, evaluate, create)</em> 
+                </li>
+                <li>
+                  Ensure there is a clear connection between the <strong>assignment task</strong> and the <strong>outcomes being assessed</strong>. 
+                </li>
+                <li>
+                  Avoid over-assessing minor outcomes while neglecting major course objectives. 
+                </li>
+              </ul>
+
+              <h4 className="font-bold mt-4 text-lg">2. Base on Covered Content and Scaffolding </h4>
+              <p>
+                Assignments should reinforce concepts and skills that have already been introduced in lectures, labs, or tutorials. 
+              </p>
+
+              <ul className="list-disc pl-6 space-y-1">
+                <li>
+                  Do not assess material that students have not yet encountered. 
+                </li>
+                <li>
+                  Include scaffolding—design assignments that build on previous tasks, helping students move from lower-order to higher-order thinking. 
+                </li>
+                <li>
+                  Clearly reference relevant topics or readings and provide examples when introducing new assignment formats or expectations.  
+                </li>
+              </ul>
+
+              <h4 className="font-bold mt-4 text-lg">3. Structure and Clarity</h4>
+              <p>
+                A well-structured assignment minimizes confusion and cognitive overload.
+              </p>
+
+              <ul className="list-disc pl-6 space-y-1">
+                <li>
+                  Clearly state the <strong>purpose</strong>, <strong>task</strong>, <strong>format</strong>, <strong>due&nbsp;date</strong>, <strong>required length</strong>, and <strong>submission instructions</strong>.
+                </li>
+                <li>
+                  Use <strong>headings</strong>, bullet points, and <strong>bolded keywords</strong> to improve readability.
+                </li>
+                <li>
+                  Include an <em>estimated time-on-task</em> to help students plan their workload realistically.
+                </li>
+              </ul>
+
+              <h4 className="font-bold mt-4 text-lg">4. Appropriate Weighting and Challenge</h4>
+              <p>
+                Assignments should reflect the level of difficulty appropriate to the course level and the type of thinking involved.
+              </p>
+
+              <ul className="list-disc pl-6 space-y-1">
+                <li>
+                  Higher-order thinking tasks (e.g., <em>synthesis</em>, <em>evaluation</em>) should be given more <strong>weight</strong> than basic recall or comprehension questions.
+                </li>
+                <li>
+                  Avoid assigning large portions of the final grade to minor, low-effort tasks unless they are part of a formative assessment strategy.
+                </li>
+                <li>
+                  Provide a mix of question types (short answer, applied problems, projects) as appropriate for the discipline.
+                </li>
+              </ul>
+
+
+              <h4 className="font-bold mt-4 text-lg">5. Rubrics and Success Criteria</h4>
+              <p>
+                Transparent and fair assessment depends on clearly defined evaluation criteria.
+              </p>
+
+              <ul className="list-disc pl-6 space-y-1">
+                <li>
+                  Create a <strong>rubric</strong> that outlines how student work will be evaluated&mdash;indicating specific expectations for content, organization, depth, and originality.
+                </li>
+                <li>
+                  Use <em>analytic</em>, <em>holistic</em>, or <em>single-point</em> rubrics, depending on the complexity of the task.
+                </li>
+                <li>
+                  Share the rubric with students when the assignment is released to promote clarity and self-regulation.
+                </li>
+              </ul>
+
+              <h4 className="font-bold mt-4 text-lg">6. Inclusive, Equitable, and Accessible Design</h4>
+              <p>
+                Assignments should support diverse learners and reduce barriers to participation.
+              </p>
+
+              <ul className="list-disc pl-6 space-y-1">
+                <li>
+                  Use <strong>inclusive language</strong> and culturally relevant examples that reflect the diversity of your student population.
+                </li>
+                <li>
+                  Ensure <strong>accessibility</strong>: avoid requiring specific software or formatting that may create barriers; consider alternate formats where possible.
+                </li>
+                <li>
+                  Allow <em>flexible submission formats</em> (e.g., written reports, videos, infographics) where appropriate to support different learner strengths.
+                </li>
+              </ul>
+
+              <h4 className="font-bold mt-4 text-lg">7. Academic Integrity and Expectations</h4>
+              <p>
+                Clarity around citation, collaboration, and use of generative AI is essential.
+              </p>
+
+              <ul className="list-disc pl-6 space-y-1">
+                <li>
+                  State expectations regarding <strong>individual&nbsp;vs.&nbsp;group work</strong>, <strong>collaboration</strong>, and permissible tools (e.g., calculators, coding aids, AI tools).
+                </li>
+                <li>
+                  Include guidance on proper <strong>citation styles</strong> and how students can access support through writing centers or citation guides.
+                </li>
+                <li>
+                  Provide practice opportunities for paraphrasing, referencing, or using tools ethically.
+                </li>
+              </ul>
+
+
+              <h4 className="font-bold mt-4 text-lg">8. Additional Tips for TAs</h4>
+              <ul className="list-disc pl-6 space-y-1">
+                <li>
+                  <strong>Pilot or peer review</strong>: Have a fellow TA or instructor review the assignment for clarity and alignment.
+                </li>
+                <li>
+                  <strong>Estimate difficulty and workload</strong>: Ensure the scope of the assignment matches the credit weight and expected time commitment.
+                </li>
+                <li>
+                  <strong>Provide student support</strong>: Offer reminders, Q&amp;A forums, and clarifications. Encourage students to start early and seek help if needed.
+                </li>
+              </ul>
             </div>
           )}
           

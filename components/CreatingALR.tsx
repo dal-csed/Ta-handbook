@@ -215,6 +215,107 @@ const CreatingALR = () => {
                   <strong>Provide student support</strong>: Offer reminders, Q&amp;A forums, and clarifications. Encourage students to start early and seek help if needed.
                 </li>
               </ul>
+
+              <h2 className="text-2xl mt-6 font-bold">
+                SAMPLE ASSIGNMENT/PROJECT WITH RUBRIC
+              </h2>
+
+              <section className='space-y-0.5'>
+                <h3 className="text-lg font-semibold mb-1">
+                  Project 1 – First-Year Computer Science
+                </h3>
+                <p>
+                  <strong>Course:</strong> CSCI 1XXX – Introduction to Programming
+                </p>
+                <p>
+                  <strong>Project Title:</strong> Student Grading System – Conditional
+                  Logic and Modularity
+                </p>
+                <p>
+                  <strong>Due Date:</strong> Friday, October 4, 2025, by 11:59 PM (submit via Brightspace)
+                </p>
+                <p>
+                  <strong>Weight:</strong> 10% of final grade
+                </p>
+                <p>
+                  <strong>Estimated Time on Task:</strong> 6–8 hours
+                </p>
+              </section>
+
+              <section>
+                <h3 className="text-lg font-semibold mt-2 mb-1">Project Overview</h3>
+                <p>
+                  This project challenges you to design, implement, and test a simple student
+                  grading system using Python. You will apply your understanding of
+                  conditional logic, loops, and modular design to create a user-friendly
+                  program that assigns letter grades based on numeric input.
+                </p>
+              </section>
+
+              <section>
+                <h3 className="text-lg font-semibold mb-1">
+                  Learning Outcomes Addressed
+                </h3>
+                <ul className="list-disc ml-6 space-y-1">
+                  <li>
+                    Apply conditional statements to implement decision-making in a real-world
+                    scenario (Apply – Bloom’s Level 3)
+                  </li>
+                  <li>
+                    Write, test, and debug a modular Python program (Create – Bloom’s Level 6)
+                  </li>
+                  <li>
+                    Demonstrate effective use of user input, output formatting, and control
+                    structures (Understand/Apply – Bloom’s Levels 2–3)
+                  </li>
+                </ul>
+              </section>
+
+              <section>
+                <h3 className="text-lg font-semibold mb-1">Project Requirements</h3>
+                <p className="mb-2">Your program should:</p>
+                <ul className="list-disc ml-6 space-y-1">
+                  <li>Prompt the user to input student names and numeric grades.</li>
+                  <li>
+                    Use if-elif-else statements to assign and display a letter grade (A–F)
+                    based on each numeric score.
+                  </li>
+                  <li>Validate that grades fall within the range of 0 to 100.</li>
+                  <li>Allow the user to process multiple students using a loop.</li>
+                  <li>
+                    Include at least one user-defined function to organize your code (e.g., a
+                    function to calculate and return the letter grade).
+                  </li>
+                  <li>
+                    Display final output for each student, showing name, numeric grade, and
+                    letter grade.
+                  </li>
+                </ul>
+              </section>
+
+              <section>
+                <h3 className="text-lg font-semibold mb-1">Submission Details</h3>
+                <p className="mb-2">Submit the following via Brightspace:</p>
+                <ul className="list-disc ml-6 space-y-1">
+                  <li>A <code>.py</code> file containing your Python code (well-commented).</li>
+                  <li>
+                    A short PDF with screenshots of at least three different test cases,
+                    showing your program’s output.
+                  </li>
+                </ul>
+              </section>
+
+              <section>
+                <h3 className="text-lg font-semibold mb-1">
+                  Academic Integrity Reminder
+                </h3>
+                <p>
+                  This is an individual project. You may discuss approaches with peers, but
+                  all code must be your own. Any external resources used for support must be
+                  cited in comments. Academic dishonesty will be reported in accordance with
+                  university policy.
+                </p>
+              </section>
             </div>
           )}
           

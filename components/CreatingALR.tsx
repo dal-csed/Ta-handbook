@@ -28,6 +28,49 @@ const CreatingALR = () => {
         "Presentation is unclear or disorganized. Minimal team coordination is evident. Significant technical misunderstandings or missing implementation. Demonstration does not function or is not attempted. Little or no discussion of testing or design choices. Visuals are missing or poorly executed. Group struggles to answer questions. Collaboration appears weak or absent.",
     },
   ];
+
+  const criteria = [
+    {
+      name: 'Functionality & Accuracy',
+      excellent: 'Program meets all requirements and runs error-free.',
+      good: 'Minor issues but generally correct.',
+      satisfactory: 'Program runs with errors or missing features.',
+      needsImprovement: 'Fails to run or meet core requirements.',
+      score: '/5',
+    },
+    {
+      name: 'Code Structure & Modularity',
+      excellent: 'Organized code with effective use of functions.',
+      good: 'Some structure and modularity.',
+      satisfactory: 'Limited use of functions; structure unclear.',
+      needsImprovement: 'Poor structure; no functional decomposition.',
+      score: '/5',
+    },
+    {
+      name: 'Use of Control Structures',
+      excellent: 'Correct and efficient use of conditionals/loops.',
+      good: 'Mostly correct use.',
+      satisfactory: 'Misuse or overuse of structures.',
+      needsImprovement: 'Incorrect or absent control logic.',
+      score: '/4',
+    },
+    {
+      name: 'Style & Documentation',
+      excellent: 'Clear comments, consistent formatting.',
+      good: 'Mostly consistent with some comments.',
+      satisfactory: 'Minimal comments or inconsistent style.',
+      needsImprovement: 'No comments; poor formatting.',
+      score: '/3',
+    },
+    {
+      name: 'Testing & Output Evidence',
+      excellent: 'Thorough testing with clear screenshots.',
+      good: 'Testing shown but limited in scope.',
+      satisfactory: 'Some evidence of testing.',
+      needsImprovement: 'No testing or output shown.',
+      score: '/3',
+    },
+  ];
   
   return (
     <div className="my-3 space-y-4">
@@ -310,12 +353,45 @@ const CreatingALR = () => {
                   Academic Integrity Reminder
                 </h3>
                 <p>
-                  This is an individual project. You may discuss approaches with peers, but
-                  all code must be your own. Any external resources used for support must be
-                  cited in comments. Academic dishonesty will be reported in accordance with
-                  university policy.
+                  This is an individual project. You may discuss approaches with peers, but <strong>all code must be your own</strong>. Any external resources used for support must be cited in comments. Academic dishonesty will be reported in accordance with university policy. 
                 </p>
               </section>
+
+              <div className="container mx-auto mt-10">
+                <h1 className="text-2xl font-bold mb-6">Project Evaluation Rubric</h1>
+                <table className="min-w-full border border-gray-300 text-sm text-left">
+                  <thead className="bg-gray-100">
+                    <tr className="bg-gray-100">
+                      <th className="border border-gray-300 px-4 py-2 font-semibold">Criteria</th>
+                      <th className="border border-gray-300 px-4 py-2 font-semibold">Excellent (5)</th>
+                      <th className="border border-gray-300 px-4 py-2 font-semibold">Good (4)</th>
+                      <th className="border border-gray-300 px-4 py-2 font-semibold">Satisfactory (3)</th>
+                      <th className="border border-gray-300 px-4 py-2 font-semibold">Needs Improvement (1–2)</th>
+                      <th className="border border-gray-300 px-4 py-2 font-semibold">Score</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {criteria.map((item, index) => (
+                      <tr key={index} className="hover:bg-gray-50">
+                        <td className="border border-gray-300 px-4 py-2 font-medium">{item.name}</td>
+                        <td className="border border-gray-300 px-4 py-2">{item.excellent}</td>
+                        <td className="border border-gray-300 px-4 py-2">{item.good}</td>
+                        <td className="border border-gray-300 px-4 py-2">{item.satisfactory}</td>
+                        <td className="border border-gray-300 px-4 py-2">{item.needsImprovement}</td>
+                        <td className="border border-gray-300 px-4 py-2 text-center">{item.score}</td>
+                      </tr>
+                    ))}
+                    <tr className="font-bold bg-gray-100">
+                      <td className="border border-gray-300 px-4 py-2">Total</td>
+                      <td className="border border-gray-300 px-4 py-2"></td>
+                      <td className="border border-gray-300 px-4 py-2"></td>
+                      <td className="border border-gray-300 px-4 py-2"></td>
+                      <td className="border border-gray-300 px-4 py-2"></td>
+                      <td className="border border-gray-300 px-4 py-2 text-center">/20</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           )}
           
@@ -537,7 +613,7 @@ const CreatingALR = () => {
                 <table className="min-w-full border border-gray-300 text-sm">
                   <thead className="bg-gray-100">
                     <tr>
-                      {["Criteria", "Excellent (5)", "Good (4)", "Fair (3)", "Poor (1–2)"]
+                      {["Criteria", "Excellent (5)", "Good (4)", "Fair (3)", "Poor (1-2)"]
                         .map((h) => (
                           <th
                             key={h}

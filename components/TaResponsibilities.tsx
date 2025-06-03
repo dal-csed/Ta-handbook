@@ -297,35 +297,35 @@ export default function TAResponsibilities() {
               <ul className="list-disc list-inside space-y-2">
                 <li>
                   <strong>
-                  Code of Student Conduct
+                  <a href="https://www.dal.ca/content/dam/www/about/leadership-and-governance/governing-bodies/code-student-conduct.pdf" className="text-blue-600" target="_blank">Code of Student Conduct</a>
                   </strong>
                   : This policy outlines the expectations for student behaviour and the procedures for addressing misconduct. As a TA, understanding this code is crucial for managing classroom behaviour and addressing any issues that may arise.                 
                   </li>
 
                 <li>
                   <strong>
-                  Academic Integrity                  
+                  <a href="https://www.dal.ca/about/leadership-governance/academic-integrity.html" className="text-blue-600" target="_blank">Academic Integrity    </a>              
                   </strong>
                   : Dalhousie is committed to upholding the highest standards of academic integrity. Familiarize yourself with the policies related to plagiarism, cheating, and other forms of academic dishonesty to effectively guide and assess students. 
                 </li>
 
                 <li>
                   <strong>
-                  Sexualized Violence Policy
+                  <a href="https://www.dal.ca/content/dam/www/about/leadership-and-governance/university-policies/sexualized-violence-policy.pdf" className="text-blue-600" target="_blank">Sexualized Violence Policy</a>
                   </strong>
                   : This policy defines sexualized violence and outlines the university's approach to prevention, support, and response. As a TA, you should be aware of the resources available and the procedures for reporting incidents. 
                 </li>
 
                 <li>
                   <strong>
-                  Privacy Policy
+                  <a href="https://www.dal.ca/content/dam/www/about/leadership-and-governance/university-policies/Privacy-Policy.pdf" className="text-blue-600" target="_blank">Privacy Policy</a>
                   </strong>
                   : This policy governs the collection, use, and disclosure of personal information within the university. TAs often handle sensitive student information, so it's important to understand your responsibilities under this policy.  
                 </li>
 
                 <li>
                   <strong>
-                  Environmental Health and Safety Policy
+                  <a href="https://www.dal.ca/content/dam/www/about/leadership-and-governance/university-policies/environmental-health-and-safety-policy.pdf" className="text-blue-600" target="_blank">Environmental Health and Safety Policy</a>
                   </strong>
                   : This policy outlines the university's commitment to providing a safe and healthy environment. If your TA duties involve laboratories or other specialized settings, adherence to safety procedures is mandatory.  
                 </li>

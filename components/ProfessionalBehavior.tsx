@@ -9,8 +9,6 @@ export default function TAProfessionalBehavior() {
         <p>
         As a Teaching Assistant, you play a vital role in supporting student learning and maintaining a positive classroom environment. To demonstrate professional behaviour, it’s important to be punctual (on time), reliable, and respectful in all your interactions with students, professors, and fellow TAs. Adhering to <a href="https://www.dal.ca/about/leadership-governance/university-policies.html" target="_blank" className="text-blue-600">Dalhousie University Policies</a>, maintaining confidentiality, and demonstrating cultural sensitivity are key aspects of your role. Be mindful of using <a href="https://pros.educ.queensu.ca/blog/inclusivelanguage" target="_blank" className="text-blue-600">inclusive language</a>, and practicing active listening to create a welcoming and respectful atmosphere. Take advantage of training opportunities that focus on communication skills, conflict resolution, and ethical behaviour, as these will help you develop confidence and professionalism in your interactions.   
         </p>
-        
-        
       </div>
       
       <div className="mt-6">
@@ -53,7 +51,7 @@ export default function TAProfessionalBehavior() {
           
           {activeTab === "communication" && (
             <div className="space-y-2.5">
-              <h2 className="text-xl font-semibold mb-3">Keeping the Instructor Informed & What To Do When You Don’t know What To Do </h2>
+              <h2 className="text-2xl font-semibold mb-3">Keeping the Instructor Informed & What To Do When You Don’t know What To Do </h2>
               
               <p>
                 When interacting with professors, maintain open and respectful communication, keeping them informed of any challenges or concerns when they happen. Do not wait until a situation becomes an even bigger problem! At times, you may feel shy or nervous to discuss issues with the instructor, but early resolutions to issues are appreciated. This will also help you to develop your communication skills!  Be proactive in discussing your responsibilities and expectations, and seek clarification whenever needed. Always maintain professionalism, even when sharing feedback or discussing classroom challenges. 
@@ -63,25 +61,25 @@ export default function TAProfessionalBehavior() {
                 Teaching Assistants (TAs) play a crucial role in supporting course instructors and enhancing student learning experiences. However, situations may arise that are beyond your scope of responsibility or expertise, necessitating consultation with the course instructor. Here are key scenarios when a TA should contact the instructor: 
               </p>
               
-              <h3 className="font-semibold mb-2">
+              <h3 className="font-semibold text-xl mt-5">
                 Clarification of Duties and Expectations 
               </h3>
 
-              {/* TODO */}
               <p>
                 At the semester's outset, it's crucial for TAs to have a clear understanding of their duties. If there's ambiguity regarding tasks—such as grading policies, leading discussions, or holding office hours—TAs should seek clarification from the instructor to ensure alignment with course objectives. Please see the <strong>Teaching Assistant Checklist </strong>(hyperlink to section). 
               </p>
               
-              <h3 className="font-semibold mb-2">
+              <h3 className="font-semibold text-xl mt-5">
                Addressing Student Concerns Beyond TA Expertise
               </h3>
 
 
-              <div>
+              <div className="space-y-2">
                 <p>
                 Students may approach TAs with issues that exceed their authority or expertise, including:  
                 </p>
-                <ul>
+
+                <ul className="list-disc pl-6 space-y-1">
                   <li>
                     <strong>Academic Accommodations</strong> Requests related to disabilities, special needs, student accommodation plans, etc., should be directed to the instructor to ensure compliance with institutional policies.  
                   </li>
@@ -95,81 +93,98 @@ export default function TAProfessionalBehavior() {
                 Prompt communication ensures that students receive accurate guidance and support. 
                 </p>
               </div>
-              <h3 className="font-semibold mb-2">
+
+              <div className="my-3">
+                <h3 className="font-semibold">
                 Suspected Academic Integrity Violations
-              </h3>
+                </h3> 
 
-              <p>
-                In cases of suspected academic dishonesty, such as plagiarism or cheating, TAs must report these incidents to the instructor immediately. The instructor can then initiate investigations and initialize the process with the Academic Integrity Team, sanctions may be given in accordance with university policies. In such cases, the instructor relies on the TA
-              </p>
+                <p>
+                  In cases of suspected academic dishonesty, such as plagiarism or cheating, TAs must report these incidents to the instructor immediately. The instructor can then initiate investigations and initialize the process with the Academic Integrity Team, sanctions may be given in accordance with university policies. In such cases, the instructor relies on the TA
+                </p>
+              </div>
 
-              <h3 className="font-semibold mb-2">
+              <div className="my-3">
+                <h3 className="font-semibold">
                 Content-Related Questions Beyond TA Knowledge
-              </h3>
+                </h3>
 
-              <p>
-                When TAs encounter student inquiries about course material that they cannot confidently address, it's advisable to consult the instructor. This approach ensures that students receive accurate information and maintains the integrity of the course content.
-              </p>
+                <p>
+                  When TAs encounter student inquiries about course material that they cannot confidently address, it's advisable to consult the instructor. This approach ensures that students receive accurate information and maintains the integrity of the course content.
+                </p>
+              </div>
 
-              <h3 className="font-semibold mb-2">
+              <div className="my-3">
+                <h3 className="font-semibold">
                 Logistical or Policy Changes
               </h3>
 
               <p>
                 Any proposed alterations to course logistics—such as changes in assignment deadlines, exam schedules, or grading criteria—should be discussed with the instructor before implementation. This coordination maintains consistency and fairness across the course.
               </p>
+              </div>
 
-              <h3 className="font-semibold mb-2">
+              <div className="my-3">
+                <h3 className="font-semibold">
                 Personal Emergencies or Absences
               </h3>
 
               <p>
                 TAs should notify instructors as soon as possible about personal emergencies or situations that might affect their availability, such as illnesses or unforeseen events. Early communication allows the instructor to make necessary adjustments to minimize disruptions to the course.
               </p>
+              </div>
 
-              <h3 className="font-semibold mb-2">
+              <div className="my-3">
+                <h3 className="font-semibold">
                 Professional Boundaries and Ethical Concerns
               </h3>
 
               <p>
                 Situations that challenge professional boundaries or ethical standards—such as conflicts of interest, inappropriate student behavior, or harassment—should be promptly reported to the instructor. Addressing these issues ensures a safe and respectful learning environment for all participants.
               </p>
+              </div>
 
-              <h3 className="font-semibold mb-2">
+              <div className="my-3">
+                <h3 className="font-semibold">
                 Continuous Feedback and Performance Evaluation
               </h3>
 
-              <p>
+              <p className="mb-1">
                 Regular communication with the instructor provides opportunities for feedback on teaching performance. TAs should seek guidance on improving their instructional methods and address any challenges faced during the course. This ongoing dialogue contributes to professional development and enhances the overall educational experience.
               </p>
 
               <p>
                 In all these scenarios, proactive and transparent communication between TAs and instructors is essential. It ensures that issues are addressed promptly, supports student success, and fosters a collaborative teaching environment.
-              </p>
+              </p>                  
 
-              <h3 className="font-semibold mb-2">
-                What to do when you don’t know what to do!
-              </h3>
+              </div>
 
-              <p>
-                There will always be times when you aren’t quite sure about….
-              </p>
+              <div className="my-3">
+                <h3 className="font-semibold">
+                  What to do when you don’t know what to do!
+                </h3>
 
-              <ul className="list-disc ml-6 space-y-1">
-                <li>how to proceed in a particular situation</li>
-                <li>who to go to when “x” happens</li>
-                <li>where to find a learning resource</li>
-                <li>which platform you need to use for assignments</li>
-                <li>what to do when you catch someone cheating</li>
-                <li>how do I learn to use Crowdmark</li>
-                <li>……</li>
-              </ul>
+                <p>
+                  There will always be times when you aren’t quite sure about….
+                </p>
 
-              <p>
-                The answer to the above is always to be proactive and ASK! Reading this handbook will provide you with some information, connecting with other TAs and if you can’t find the answer, ask the course instructor.
-              </p>
+                <ul className="list-disc ml-6 space-y-1">
+                  <li>how to proceed in a particular situation</li>
+                  <li>who to go to when “x” happens</li>
+                  <li>where to find a learning resource</li>
+                  <li>which platform you need to use for assignments</li>
+                  <li>what to do when you catch someone cheating</li>
+                  <li>how do I learn to use Crowdmark</li>
+                  <li>……</li>
+                </ul>
 
-              <h3 className="font-semibold mb-2">
+                <p>
+                  The answer to the above is always to be proactive and ASK! Reading this handbook will provide you with some information, connecting with other TAs and if you can’t find the answer, ask the course instructor.
+                </p>
+              </div>
+
+
+              <h3 className="font-semibold text-xl mt-5">
                 Interacting with other TAs
               </h3>
 

@@ -235,22 +235,28 @@ export default function TheLab() {
           )}
           
           {activeTab === "strategic" && (
-            <div className="flex items-center justify-center overflow-auto">
-              <img
-                src="/taPoster.png"
-                className="max-w-full h-auto max-h-[1000px]"
-                alt="TA Poster"
-              />
+            <div>
+               <a href="https://www.canva.com/design/DAGivQP_-Nc/aNCLhTun55NppYm2ysh5Lw/edit?utm_content=DAGivQP_-Nc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" className="text-blue-600" target="_blank">View poster on Canva</a>
+              <div className="flex items-center justify-center overflow-auto">
+                <img
+                  src="/taPoster.png"
+                  className="max-w-full h-auto max-h-[1000px]"
+                  alt="TA Poster"
+                />
+              </div>
             </div>
           )}
           
           {activeTab === "taing" && (
+            <div>
+              <a href="https://www.canva.com/design/DAGivQP_-Nc/aNCLhTun55NppYm2ysh5Lw/edit?utm_content=DAGivQP_-Nc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" className="text-blue-600" target="_blank">View poster on Canva</a>
             <div className="flex items-center justify-center overflow-auto">
               <img
                 src="/labPoster.png"
                 className="max-w-full h-auto max-h-[1000px]"
                 alt="Lab Poster"
               />
+            </div>
             </div>
           )}
         </div>

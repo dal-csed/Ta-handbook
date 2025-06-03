@@ -48,7 +48,7 @@ export default function FantasticTA() {
         
         <div className="mt-4 p-4 bg-gray-50 rounded-lg">
           {activeTab === "strategies" && (
-            <div>
+            <div className="space-y-1.5">
               <h4 className="font-semibold">Inclusive Language and Communication</h4>
               <ul className="list-disc pl-6 space-y-1">
                 <li>Avoid gendered or ableist language; use terms like "they/them," "everyone," or "folks."</li>

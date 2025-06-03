@@ -1,10 +1,11 @@
+import Image from 'next/image'
 import React from 'react'
 
 const CustomHeader = () => {
   return (
     <div className="border-b-4 border-[#ffcc00] w-full h-24">
         <div className="flex px-3 flex-row items-center justify-between gap-4 m-auto max-w-7xl h-full">
-          <img
+          <Image
             src="/dal-logo.png"
             alt="Dalhousie University"
             className="h-16"

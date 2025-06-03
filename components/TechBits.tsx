@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const techResources = [
@@ -43,7 +44,7 @@ export default function TechBits() {
         {techResources.map((resource) => (
           <div key={resource.name} className="flex flex-col items-center">
             <Link href={resource.link}>
-              <img
+              <Image
                 src={resource.image}
                 alt={resource.name}
                 className="w-28 h-28 object-cover rounded-full shadow-md transition-transform duration-300 hover:scale-110 hover:shadow-xl cursor-pointer"

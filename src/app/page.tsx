@@ -5,6 +5,7 @@ import CollapsibleSection from "../../components/CollapsibleSection";
 import TechBits from "../../components/TechBits";
 import CustomHeader from "../../components/CustomHeader";
 import CustomFooter from "../../components/CustomFooter";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
 
       <div className="max-w-[1500px] m-auto bg-white">
         <div className="relative w-full h-[300px] md:h-[400px] lg:h-[600px] overflow-hidden">
-          <img
+          <Image
             src="/GoldbergPicture.png"
             alt="Goldberg Building"
             className="w-full object-cover rounded shadow-md"

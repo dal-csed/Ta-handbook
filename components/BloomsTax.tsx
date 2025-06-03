@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react'
 
 const BloomsTax = () => {
@@ -64,7 +65,7 @@ const BloomsTax = () => {
             </div>
 
             <div className='w-[40%]'>
-                <img src='Blooms-Taxonomy.jpg' />
+                <Image alt='Blooms Taxonomy' src='Blooms-Taxonomy.jpg' />
 
                 <p>
                 [Source: <a href='cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/' className="text-blue-600 hover:underline" target="_blank">cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/</a>]

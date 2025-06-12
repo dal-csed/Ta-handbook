@@ -1,3 +1,4 @@
+import { ExternalLink } from 'lucide-react';
 import { ST } from 'next/dist/shared/lib/utils';
 import Link from 'next/link';
 import React, { useState } from 'react'
@@ -90,7 +91,7 @@ const CreatingALR = () => {
               onClick={() => setActiveTab("Assignments")}
               className={`mr-4 py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "Assignments"
-                  ? "border-blue-500 font-semibold text-blue-600"
+                  ? "border-blue-800 font-semibold text-blue-800"
                   : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
               }`}
             >
@@ -100,7 +101,7 @@ const CreatingALR = () => {
               onClick={() => setActiveTab("labs")}
               className={`mr-4 py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "labs"
-                  ? "border-blue-500 font-semibold text-blue-600"
+                  ? "border-blue-800 font-semibold text-blue-800"
                   : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
               }`}
             >
@@ -110,7 +111,7 @@ const CreatingALR = () => {
               onClick={() => setActiveTab("rubrics")}
               className={`py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "rubrics"
-                  ? "border-blue-500 font-semibold text-blue-600"
+                  ? "border-blue-800 font-semibold text-blue-800"
                   : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
               }`}
             >
@@ -424,7 +425,7 @@ const CreatingALR = () => {
                   Design tasks to match appropriate cognitive levels (e.g., apply, analyze, create). 
                   <Link 
                     href="#section-15"
-                    className="font-semibold mt-4 block text-blue-600 hover:underline"
+                    className="font-semibold mt-4 block text-blue-800 hover:underline"
                   >
                     See the information in the Bloom's Taxonomy section.
                   </Link>
@@ -513,7 +514,7 @@ const CreatingALR = () => {
               <ul className="list-disc pl-6 space-y-2 mt-2">
                 <li>Clearly state expectations for collaboration, citations, and original work.</li>
                 <li>
-                  Include concrete examples of what is allowed vs.&nbsp;not allowed (e.g., appropriate vs.&nbsp;inappropriate use of Stack Overflow).
+                  Include concrete examples of what is allowed vs not allowed (e.g., appropriate vs inappropriate use of Stack Overflow).
                 </li>
               </ul>
 
@@ -526,21 +527,21 @@ const CreatingALR = () => {
                   Use accessible formats (e.g., screen-reader-compatible PDFs, alt text for images, high-contrast colour schemes).&nbsp;
                   <a
                     href="https://example.com/creating-accessible-learning-resources"
+                    className="text-blue-800 underline inline-flex items-center"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="underline"
                   >
                     Creating Accessible Learning Resources
-                  </a>
+                  <ExternalLink className="ml-1 h-4 w-4" /></a>
                 </li>
                 <li>
                   Avoid relying on colour alone to convey meaning and ensure any video or multimedia content includes captions.
                 </li>
                 <li>
                   For additional support, contact&nbsp;
-                  <a href="mailto:CSEd@dal.ca" className="underline">
+                  <a href="mailto:CSEd@dal.ca" className="text-blue-800 underline inline-flex items-center">
                     CSEd@dal.ca
-                  </a>
+                  <ExternalLink className="ml-1 h-4 w-4" /></a>
                   .
                 </li>
               </ul>
@@ -571,7 +572,7 @@ const CreatingALR = () => {
               <h4 className="font-semibold mt-4">References</h4>
               <ul className="list-disc pl-6 space-y-2 mt-2">
                 <li>
-                  Centre for Teaching Excellence, University of Waterloo. (n.d.). <em>Best Practices for Online Labs</em>. Retrieved from <a href="https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/best-practices-online-labs" className="underline" target="_blank" rel="noopener noreferrer">https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/best-practices-online-labs </a>
+                  Centre for Teaching Excellence, University of Waterloo. (n.d.). <em>Best Practices for Online Labs</em>. Retrieved from <a href="https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/best-practices-online-labs" className="text-blue-800 underline inline-flex items-center" target="_blank" rel="noopener noreferrer">https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/best-practices-online-labs <ExternalLink className="ml-1 h-4 w-4" /></a>
                 </li>
                 <li>
                   Conklin, J. (2005). <em>A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom’s Taxonomy of Educational Objectives Complete Edition</em>. <em>Educational Horizons</em>, 83(3), 154–159.
@@ -583,10 +584,10 @@ const CreatingALR = () => {
                   Felder, R.&nbsp;M., &amp; Brent, R. (2016). <em>Teaching and Learning STEM: A Practical Guide</em>. Jossey-Bass.
                 </li>
                 <li>
-                  Movafaghi, S., &amp; Pournaghshband, H. (2018). <em>Lab Based Curriculum for CIS and Related Technology</em>. <a href="https://doi.org/10.48550/arxiv.1801.06053" className="underline" target="_blank" rel="noopener noreferrer">https://doi.org/10.48550/arxiv.1801.06053</a>
+                  Movafaghi, S., &amp; Pournaghshband, H. (2018). <em>Lab Based Curriculum for CIS and Related Technology</em>. <a href="https://doi.org/10.48550/arxiv.1801.06053" className="text-blue-800 underline inline-flex items-center" target="_blank" rel="noopener noreferrer">https://doi.org/10.48550/arxiv.1801.06053<ExternalLink className="ml-1 h-4 w-4" /></a>
                 </li>
                 <li>
-                  Prince, M.&nbsp;J., &amp; Felder, R.&nbsp;M. (2006). Inductive teaching and learning methods: Definitions, comparisons, and research bases. <em>Journal of Engineering Education</em>, 95(2), 123–138. <a href="https://doi.org/10.1002/j.2168-9830.2006.tb00884.x" className="underline" target="_blank" rel="noopener noreferrer">https://doi.org/10.1002/j.2168-9830.2006.tb00884.x</a>
+                  Prince, M.&nbsp;J., &amp; Felder, R.&nbsp;M. (2006). Inductive teaching and learning methods: Definitions, comparisons, and research bases. <em>Journal of Engineering Education</em>, 95(2), 123–138. <a href="https://doi.org/10.1002/j.2168-9830.2006.tb00884.x" className="text-blue-800 underline inline-flex items-center" target="_blank" rel="noopener noreferrer">https://doi.org/10.1002/j.2168-9830.2006.tb00884.x <ExternalLink className="ml-1 h-4 w-4" /></a> 
                 </li>
               </ul>
             </div>
@@ -798,33 +799,33 @@ const CreatingALR = () => {
                   </p>
                 </div>
 
-                <h3 className='text-lg text-blue-500 font-semibold mt-3 mb-1'>
+                <h3 className='text-lg text-blue-800 font-semibold mt-3 mb-1'>
                     References:
                 </h3>
 
                 <p>
                 Brookhart, S. M. (2013). <i>How to create and use rubrics for formative assessment and grading.</i> ASCD. 
-                <a href='https://www.geocities.ws/bdktraining/pdfkur/How%20to%20Create%20and%20Use%20Rubrics%20for%20Formative%20Assessment%20and%20Grading%20(%20PDFDrive%20).pdf' className="text-blue-600 hover:underline" target="_blank">https://www.geocities.ws/.../How%20to%20Create%20and%20Use%20Rubrics%20for%20Formative%20Assessment%20and%20Grading.pdf</a>
+                <a href='https://www.geocities.ws/bdktraining/pdfkur/How%20to%20Create%20and%20Use%20Rubrics%20for%20Formative%20Assessment%20and%20Grading%20(%20PDFDrive%20).pdf' className="text-blue-800 underline inline-flex items-center" target="_blank">https://www.geocities.ws/.../How%20to%20Create%20and%20Use%20Rubrics%20for%20Formative%20Assessment%20and%20Grading.pdf<ExternalLink className="ml-1 h-4 w-4" /></a>
                 </p>
 
                 <p>
                 DELTA Teaching Resources. (2025). <i>Rubric best practices, examples, and templates.</i> NC State University. 
-                <a href='https://teaching-resources.delta.ncsu.edu/rubric_best-practices-examples-templates/' className="text-blue-600 hover:underline" target="_blank">https://teaching-resources.delta.ncsu.edu/rubric_best-practices-examples-templates/</a>
+                <a href='https://teaching-resources.delta.ncsu.edu/rubric_best-practices-examples-templates/' className="text-blue-800 underline inline-flex items-center" target="_blank">https://teaching-resources.delta.ncsu.edu/rubric_best-practices-examples-templates/<ExternalLink className="ml-1 h-4 w-4" /></a>
                 </p>
 
                 <p>
                 Goodrich, H. (1996). <i>Understanding rubrics.</i> <i>Teaching for Authentic Student Performance, 54</i>(4), 14-17. 
-                <a href='https://www.ascd.org/el/articles/understanding-rubrics' className="text-blue-600 hover:underline" target="_blank">https://www.ascd.org/el/articles/understanding-rubrics</a>
+                <a href='https://www.ascd.org/el/articles/understanding-rubrics' className="text-blue-800 underline inline-flex items-center" target="_blank">https://www.ascd.org/el/articles/understanding-rubrics<ExternalLink className="ml-1 h-4 w-4" /></a>
                 </p>
 
                 <p>
                 Gonzalez, J. (2014). <i>Know your terms: Holistic, Analytic, and Single-Point Rubrics.</i> Cult of Pedagogy. 
-                <a href='https://www.cultofpedagogy.com/holistic-analytic-single-point-rubrics/' className="text-blue-600 hover:underline" target="_blank">https://www.cultofpedagogy.com/holistic-analytic-single-point-rubrics/</a>
+                <a href='https://www.cultofpedagogy.com/holistic-analytic-single-point-rubrics/' className="text-blue-800 underline inline-flex items-center" target="_blank">https://www.cultofpedagogy.com/holistic-analytic-single-point-rubrics/<ExternalLink className="ml-1 h-4 w-4" /></a>
                 </p>
 
                 <p>
                 Miller, A. (2012). <i>Tame the beast: tips for designing and using rubrics.</i> Edutopia. 
-                <a href='https://www.edutopia.org/blog/designing-using-rubrics-andrew-miller' className="text-blue-600 hover:underline" target="_blank">https://www.edutopia.org/blog/designing-using-rubrics-andrew-miller</a>
+                <a href='https://www.edutopia.org/blog/designing-using-rubrics-andrew-miller' className="text-blue-800 underline inline-flex items-center" target="_blank">https://www.edutopia.org/blog/designing-using-rubrics-andrew-miller<ExternalLink className="ml-1 h-4 w-4" /></a>
                 </p>
 
                 <p>

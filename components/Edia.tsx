@@ -23,8 +23,8 @@ export default function EDIA() {
               onClick={() => setActiveTab("active-learning")}
               className={`mr-4 py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "active-learning"
-                  ? "border-blue-500 font-semibold text-blue-600"
-                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
+                  ? "border-blue-800 font-semibold text-blue-800"
+                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-black hover:border-gray-300"
               }`}
             >
               Active Learning
@@ -33,8 +33,8 @@ export default function EDIA() {
               onClick={() => setActiveTab("explicit-direct-instruction")}
               className={`py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "explicit-direct-instruction"
-                  ? "border-blue-500 font-semibold text-blue-600"
-                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
+                  ? "border-blue-800 font-semibold text-blue-800"
+                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-black hover:border-gray-300"
               }`}
             >
               Explicit Direct Instruction for the Lab or Lectures
@@ -168,7 +168,7 @@ export default function EDIA() {
               <div className="mt-4 pt-4 border-t border-gray-200">
                 <p className="text-sm italic">
                   <strong>Reference</strong><br />
-                  Hermans, F., & Smit, M. (n.d.). Explicit Direct Instruction in Programming Education. <a href="https://www.ppig.org/files/2018-PPIG-29th-hermans.pdf " className="text-blue-600" target="_blank">
+                  Hermans, F., & Smit, M. (n.d.). Explicit Direct Instruction in Programming Education. <a href="https://www.ppig.org/files/2018-PPIG-29th-hermans.pdf " className="text-blue-800" target="_blank">
                   https://www.ppig.org/files/2018-PPIG-29th-hermans.pdf </a>
                 </p>
               </div>

@@ -1,3 +1,4 @@
+import { ExternalLink } from "lucide-react";
 import { useState } from "react";
 
 export default function TAProfessionalBehavior() {
@@ -7,7 +8,7 @@ export default function TAProfessionalBehavior() {
     <div className="my-3 space-y-4">
       <div className="my-4">
         <p>
-        As a Teaching Assistant, you play a vital role in supporting student learning and maintaining a positive classroom environment. To demonstrate professional behaviour, it’s important to be punctual (on time), reliable, and respectful in all your interactions with students, professors, and fellow TAs. Adhering to <a href="https://www.dal.ca/about/leadership-governance/university-policies.html" target="_blank" className="text-blue-600">Dalhousie University Policies</a>, maintaining confidentiality, and demonstrating cultural sensitivity are key aspects of your role. Be mindful of using <a href="https://pros.educ.queensu.ca/blog/inclusivelanguage" target="_blank" className="text-blue-600">inclusive language</a>, and practicing active listening to create a welcoming and respectful atmosphere. Take advantage of training opportunities that focus on communication skills, conflict resolution, and ethical behaviour, as these will help you develop confidence and professionalism in your interactions.   
+        As a Teaching Assistant, you play a vital role in supporting student learning and maintaining a positive classroom environment. To demonstrate professional behaviour, it’s important to be punctual (on time), reliable, and respectful in all your interactions with students, professors, and fellow TAs. Adhering to <a href="https://www.dal.ca/about/leadership-governance/university-policies.html" target="_blank" className="text-blue-800 underline inline-flex items-center" >Dalhousie University Policies <ExternalLink className="ml-1 h-4 w-4" /></a>, maintaining confidentiality, and demonstrating cultural sensitivity are key aspects of your role. Be mindful of using <a href="https://pros.educ.queensu.ca/blog/inclusivelanguage" target="_blank" className="text-blue-800 underline inline-flex items-center" >inclusive language <ExternalLink className="ml-1 h-4 w-4" /></a>, and practicing active listening to create a welcoming and respectful atmosphere. Take advantage of training opportunities that focus on communication skills, conflict resolution, and ethical behaviour, as these will help you develop confidence and professionalism in your interactions.   
         </p>
       </div>
       
@@ -85,7 +86,7 @@ export default function TAProfessionalBehavior() {
                   </li>
 
                   <li>
-                    <strong>Personal Matters</strong> : If a student shares personal challenges affecting their academic performance, the TA should inform the instructor who can provide appropriate support or referrals. Also see the section on <a className="text-blue-600 font-semibold">Student Supports at Dal</a> (hyperlink to section) if the student relates personal issues of another nature.
+                    <strong>Personal Matters</strong> : If a student shares personal challenges affecting their academic performance, the TA should inform the instructor who can provide appropriate support or referrals. Also see the section on <a className="text-blue-800 underline inline-flex items-center">Student Supports at Dal </a> (hyperlink to section) if the student relates personal issues of another nature.
                   </li>
                 </ul>
 
@@ -199,22 +200,22 @@ export default function TAProfessionalBehavior() {
 
       <h3 className="font-bold text-lg mt-6">References</h3>
        <p className="text-sm">
-         Elements of course design for TAs&nbsp;| Centre for Teaching and Learning. (n.d.). <a target="_blank" className="text-blue-600 underline" href="https://www.queensu.ca/ctl/resources/graduate-student-post-doctoral-and-ta/teaching-assistant-toolkit/elements-course-design">https://www.queensu.ca/ctl/resources/graduate-student-post-doctoral-and-ta/teaching-assistant-toolkit/elements-course-design</a>
+         Elements of course design for TAs&nbsp;| Centre for Teaching and Learning. (n.d.). <a target="_blank" className="text-blue-800 underline inline-flex items-center" href="https://www.queensu.ca/ctl/resources/graduate-student-post-doctoral-and-ta/teaching-assistant-toolkit/elements-course-design">https://www.queensu.ca/ctl/resources/graduate-student-post-doctoral-and-ta/teaching-assistant-toolkit/elements-course-design <ExternalLink className="ml-1 h-4 w-4" /></a>
        </p>
        <p className="text-sm">
-         Smith, J. (2024, October&nbsp;3). Communication Techniques for Classroom Assistants. Portobello Institute. <a target="_blank" className="text-blue-600 underline" href="https://blog.portobelloinstitute.com/communication-techniques-for-classroom-assistants">https://blog.portobelloinstitute.com/communication-techniques-for-classroom-assistants</a>
+         Smith, J. (2024, October&nbsp;3). Communication Techniques for Classroom Assistants. Portobello Institute. <a target="_blank" className="text-blue-800 underline inline-flex items-center" href="https://blog.portobelloinstitute.com/communication-techniques-for-classroom-assistants">https://blog.portobelloinstitute.com/communication-techniques-for-classroom-assistants <ExternalLink className="ml-1 h-4 w-4" /></a>
        </p>
        <p className="text-sm">
-         Teaching Continuity for Graduate Teaching Assistants&nbsp;- Communicating with Students. (2023, July&nbsp;10). Taylor Institute for Teaching and Learning. <a target="_blank" className="text-blue-600 underline" href="https://taylorinstitute.ucalgary.ca/resources/teaching-continuity-for-graduate-teaching-assistants-communicating-with-students"> https://taylorinstitute.ucalgary.ca/resources/teaching-continuity-for-graduate-teaching-assistants-communicating-with-students</a>
+         Teaching Continuity for Graduate Teaching Assistants&nbsp;- Communicating with Students. (2023, July&nbsp;10). Taylor Institute for Teaching and Learning. <a target="_blank" className="text-blue-800 underline inline-flex items-center" href="https://taylorinstitute.ucalgary.ca/resources/teaching-continuity-for-graduate-teaching-assistants-communicating-with-students"> https://taylorinstitute.ucalgary.ca/resources/teaching-continuity-for-graduate-teaching-assistants-communicating-with-students <ExternalLink className="ml-1 h-4 w-4" /></a>
        </p>
        <p className="text-sm">
-         Working with Teaching Assistants&nbsp;| Computer Science Instructional Support Group. (n.d.). University of Waterloo. <a target="_blank" className="text-blue-600 underline" href="https://uwaterloo.ca/computer-science-instructional-support-group/instructor-support/guidelines-cs-instructors/working-teaching-assistants"> https://uwaterloo.ca/computer-science-instructional-support-group/instructor-support/guidelines-cs-instructors/working-teaching-assistants</a>
+         Working with Teaching Assistants&nbsp;| Computer Science Instructional Support Group. (n.d.). University of Waterloo. <a target="_blank" className="text-blue-800 underline inline-flex items-center" href="https://uwaterloo.ca/computer-science-instructional-support-group/instructor-support/guidelines-cs-instructors/working-teaching-assistants"> https://uwaterloo.ca/computer-science-instructional-support-group/instructor-support/guidelines-cs-instructors/working-teaching-assistants <ExternalLink className="ml-1 h-4 w-4" /></a>
        </p>
        <p className="text-sm">
-         Teaching Assistants' Training Program. (2024, May&nbsp;29). Course Instructor–Teaching Assistant Relationship&nbsp;- Teaching Assistants' Training Program. <a target="_blank" className="text-blue-600 underline" href="https://tatp.utoronto.ca/resources/course-instructor-teaching-assistant-relationship/"> https://tatp.utoronto.ca/resources/course-instructor-teaching-assistant-relationship/</a>
+         Teaching Assistants' Training Program. (2024, May&nbsp;29). Course Instructor–Teaching Assistant Relationship&nbsp;- Teaching Assistants' Training Program. <a target="_blank" className="text-blue-800 underline inline-flex items-center" href="https://tatp.utoronto.ca/resources/course-instructor-teaching-assistant-relationship/"> https://tatp.utoronto.ca/resources/course-instructor-teaching-assistant-relationship/ <ExternalLink className="ml-1 h-4 w-4" /></a>
        </p>
        <p className="text-sm">
-         Learning Module: Teaching Assistant Orientation&nbsp;- Lesson&nbsp;5. (2023, February&nbsp;16). Taylor Institute for Teaching and Learning. <a target="_blank" className="text-blue-600 underline" href="https://taylorinstitute.ucalgary.ca/resources/module/teaching-assistant-orientation/professionalism"> https://taylorinstitute.ucalgary.ca/resources/module/teaching-assistant-orientation/professionalism</a>
+         Learning Module: Teaching Assistant Orientation&nbsp;- Lesson&nbsp;5. (2023, February&nbsp;16). Taylor Institute for Teaching and Learning. <a target="_blank" className="text-blue-800 underline inline-flex items-center" href="https://taylorinstitute.ucalgary.ca/resources/module/teaching-assistant-orientation/professionalism"> https://taylorinstitute.ucalgary.ca/resources/module/teaching-assistant-orientation/professionalism <ExternalLink className="ml-1 h-4 w-4" /></a>
        </p>
     </div>
   );

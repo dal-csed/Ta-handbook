@@ -1,3 +1,4 @@
+import { ExternalLink } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -44,7 +45,7 @@ export default function TheLab() {
         </p>
         
         <p className="mt-2">Lab Teaching | CRLT. (n.d.). 
-          <a href="https://crlt.umich.edu/resources/lab-teaching" className="text-blue-500 hover:text-blue-700">https://crlt.umich.edu/resources/lab-teaching</a>
+          <a href="https://crlt.umich.edu/resources/lab-teaching" className="text-blue-800 underline inline-flex items-center">https://crlt.umich.edu/resources/lab-teaching<ExternalLink className="ml-1 h-4 w-4" /></a>
         </p>
       </div>
       
@@ -56,7 +57,7 @@ export default function TheLab() {
               className={`mr-4 py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "considerations"
                   ? "border-blue-500 font-semibold text-blue-600"
-                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
+                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-black hover:border-gray-300"
               }`}
             >
               Important Considerations for a Lab Class
@@ -66,7 +67,7 @@ export default function TheLab() {
               className={`mr-4 py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "strategic"
                   ? "border-blue-500 font-semibold text-blue-600"
-                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
+                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-black hover:border-gray-300"
               }`}
             >
               4 Strategic Questions Poster
@@ -76,7 +77,7 @@ export default function TheLab() {
               className={`py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "taing"
                   ? "border-blue-500 font-semibold text-blue-600"
-                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
+                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-black hover:border-gray-300"
               }`}
             >
               TA-ing in the CS Lab
@@ -149,7 +150,7 @@ export default function TheLab() {
                 <li>Foster collaborative problem-solving while ensuring that each student is actively participating. Often, students learn better when they can discuss problems in groups. Ensure you incorporate some group work during labs.</li>
                 <li>Monitor for potential issues, such as unequal contribution among group members.</li>
                 <li>Students can record their contributions to problem-solving and feedback in various ways (audio, text, on paper or via digital means)</li>
-                <li>See the section on <a className="text-blue-600">Active Learning</a> for some helpful tips </li>
+                <li>See the section on <a className="text-blue-800 underline inline-flex items-center">Active Learning <ExternalLink className="ml-1 h-4 w-4" /></a> for some helpful tips </li>
               </ul>
               
               <h4 className="font-semibold mt-4">4. Managing Challenges</h4>
@@ -170,7 +171,7 @@ export default function TheLab() {
               <ul className="list-disc pl-6 space-y-1">
                 <li>Be patient and supportive, especially with students who feel overwhelmed or unsure. Suggesting that students approach larger tasks in smaller chunks can help keep them on task and confident.</li>
                 <li>Offer encouragement and acknowledge effort, even when students encounter difficulties. Use phrases like: "Well Tried!", "You're not quite there yet. Have another go at it!", "Would a further demonstration help?"</li>
-                <li>Having a set of <strong>recorded tutorials</strong> or a <strong>resource bank</strong> for students to refer to can be very helpful in reducing stress and anxiety. Try the <a href="https://projects.cs.dal.ca/justintime/dist/index.php" className="text-blue-600">Just in Time Resources</a> created by the CSEd Instructional Support Team. If you would like to contribute to that resource contact <a href="mailto:csed@dal.ca" className="text-blue-600">csed@dal.ca</a> or create a resource bank for the course. </li>
+                <li>Having a set of <strong>recorded tutorials</strong> or a <strong>resource bank</strong> for students to refer to can be very helpful in reducing stress and anxiety. Try the <a href="https://projects.cs.dal.ca/justintime/dist/index.php" className="text-blue-800 underline inline-flex items-center">Just in Time Resources<ExternalLink className="ml-1 h-4 w-4" /></a> created by the CSEd Instructional Support Team. If you would like to contribute to that resource contact <a href="mailto:csed@dal.ca" className="text-blue-800 underline inline-flex items-center">csed@dal.ca<ExternalLink className="ml-1 h-4 w-4" /></a> or create a resource bank for the course. </li>
               </ul>
               
               <h4 className="font-semibold mt-4">5. Safety and Ethical Considerations</h4>
@@ -183,7 +184,7 @@ export default function TheLab() {
               <p className="font-medium mt-2">Ethical Coding Practices and Academic Integrity:</p>
               <ul className="list-disc pl-6 space-y-1">
                 <li>Discuss the ethical implications of programming choices, such as bias in algorithms or data misuse when it's appropriate for a task.</li>
-                <li>Ensure that students are aware that they must submit their own work. Reference the <a href="https://dal.brightspace.com/d2l/home/178166" target="_blank" className="text-blue-600">FCS Academic Integrity</a> course for Computer Science students. All students are expected to complete the course. This will give them the knowledge they need to understand the importance of academic integrity. </li>
+                <li>Ensure that students are aware that they must submit their own work. Reference the <a href="https://dal.brightspace.com/d2l/home/178166" target="_blank" className="text-blue-800 underline inline-flex items-center">FCS Academic Integrity<ExternalLink className="ml-1 h-4 w-4" /></a> course for Computer Science students. All students are expected to complete the course. This will give them the knowledge they need to understand the importance of academic integrity. </li>
               </ul>
               
               <p className="font-medium mt-2">Health and Safety:</p>
@@ -211,7 +212,7 @@ export default function TheLab() {
               <p className="font-medium mt-2">Maintain Approachability:</p>
               <ul className="list-disc pl-6 space-y-1">
                 <li>Create a welcoming environment where students feel comfortable asking questions.</li>
-                <li>Ensure that students are polite and respectful to each other. Remind them of the <a href="https://www.dal.ca/content/dam/www/about/leadership-and-governance/governing-bodies/code-student-conduct.pdf" target="_blank" className="text-blue-600">Student Code of Conduct</a> If there are negative behaviours in the lab, address them immediately and inform the instructor of the course if they persist.  </li>
+                <li>Ensure that students are polite and respectful to each other. Remind them of the <a href="https://www.dal.ca/content/dam/www/about/leadership-and-governance/governing-bodies/code-student-conduct.pdf" target="_blank" className="text-blue-800 underline inline-flex items-center">Student Code of Conduct<ExternalLink className="ml-1 h-4 w-4" /></a> If there are negative behaviours in the lab, address them immediately and inform the instructor of the course if they persist.  </li>
               </ul>
               
               <p className="font-medium mt-2">Professional Conduct:</p>
@@ -237,11 +238,12 @@ export default function TheLab() {
           
           {activeTab === "strategic" && (
             <div>
-               <a href="https://www.canva.com/design/DAGivQP_-Nc/aNCLhTun55NppYm2ysh5Lw/edit?utm_content=DAGivQP_-Nc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" className="text-blue-600" target="_blank">View poster on Canva</a>
-              <div className="flex items-center justify-center overflow-auto">
+               <a href="https://www.canva.com/design/DAGivQP_-Nc/aNCLhTun55NppYm2ysh5Lw/edit?utm_content=DAGivQP_-Nc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" className="text-blue-800 underline inline-flex items-center" target="_blank">View poster on Canva<ExternalLink className="ml-1 h-4 w-4" /></a>
+              <div className="flex items-center w-[650px] h-[1350px] relative justify-center overflow-auto">
                 <Image
-                  src="/taPoster.png"
-                  className="max-w-full h-auto max-h-[1000px]"
+                  fill
+                  className="h-auto w-auto"
+                  src="/labPoster.png"
                   alt="TA Poster"
                 />
               </div>
@@ -250,14 +252,15 @@ export default function TheLab() {
           
           {activeTab === "taing" && (
             <div>
-              <a href="https://www.canva.com/design/DAGivQP_-Nc/aNCLhTun55NppYm2ysh5Lw/edit?utm_content=DAGivQP_-Nc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" className="text-blue-600" target="_blank">View poster on Canva</a>
-            <div className="flex items-center justify-center overflow-auto">
-              <Image
-                src="/labPoster.png"
-                className="max-w-full h-auto max-h-[1000px]"
-                alt="Lab Poster"
-              />
-            </div>
+              <a href="https://www.canva.com/design/DAGivQP_-Nc/aNCLhTun55NppYm2ysh5Lw/edit?utm_content=DAGivQP_-Nc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" className="text-blue-800 underline inline-flex items-center" target="_blank">View poster on Canva<ExternalLink className="ml-1 h-4 w-4" /></a>
+              <div className="flex items-center w-[650px] h-[1350px] relative justify-center overflow-auto">
+                  <Image
+                    fill
+                    src="/taPoster.png"
+                    className="h-auto"
+                    alt="Ta Poster"
+                  />
+              </div>
             </div>
           )}
         </div>

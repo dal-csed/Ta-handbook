@@ -1,3 +1,4 @@
+import { ExternalLink } from 'lucide-react';
 import Image from 'next/image';
 import React from 'react'
 
@@ -12,7 +13,7 @@ const BloomsTax = () => {
             
 
             <div className='space-y-1 flex-1'>
-                <h3 className='text-lg text-blue-500 font-semibold mt-3 mb-1'>
+                <h3 className='text-lg text-blue-800 font-semibold mt-3 mb-1'>
                 What is Bloom’s Taxonomy?
                 </h3>
 
@@ -70,12 +71,12 @@ const BloomsTax = () => {
                 </div>
 
                 <p>
-                [Source: <a href='https://www.vanderbilt.edu/advanced-institute/' className="text-blue-600 hover:underline" target="_blank">cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/</a>]
+                [Source: <a href='https://www.vanderbilt.edu/advanced-institute/' className="text-blue-800 hover:underline" target="_blank">cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/<ExternalLink className="ml-1 h-4 w-4" /><ExternalLink className="ml-1 h-4 w-4" /></a>]
                 </p>
             </div>
         </div>
 
-        <h3 className='text-lg text-blue-500 font-semibold mt-3 mb-1'>
+        <h3 className='text-lg text-blue-800 font-semibold mt-3 mb-1'>
         Writing Clear Learning Outcomes
         </h3>
 
@@ -96,7 +97,7 @@ const BloomsTax = () => {
         Avoid vague outcomes like <i>“understand recursion” </i> — instead, specify what students should be able to do with that understanding.
         </p>
 
-        <h3 className='text-lg text-blue-500 font-semibold mt-3 mb-1'>
+        <h3 className='text-lg text-blue-800 font-semibold mt-3 mb-1'>
         Aligning Assignments and Labs
         </h3>
 
@@ -127,7 +128,7 @@ const BloomsTax = () => {
 
         <BloomsTable />
 
-        <h3 className='text-lg text-blue-500 font-semibold mt-3 mb-1'>
+        <h3 className='text-lg text-blue-800 font-semibold mt-3 mb-1'>
             Why it Matters
         </h3>
 
@@ -135,7 +136,7 @@ const BloomsTax = () => {
         Assignments built on clearly defined cognitive goals help students engage meaningfully with course content. For TAs, using Bloom’s Taxonomy supports fair evaluation, improves feedback clarity, and contributes to consistent expectations across course sections
         </p>
 
-        <h3 className='text-lg text-blue-500 font-semibold mt-3 mb-1'>
+        <h3 className='text-lg text-blue-800 font-semibold mt-3 mb-1'>
             References:
         </h3>
 
@@ -144,11 +145,11 @@ const BloomsTax = () => {
         </p>
 
         <p>
-        Krathwohl, D. R. (2002). A revision of Bloom’s taxonomy: An overview. Theory into Practice, 41(4), 212-218. <a href='https://doi.org/10.1207/s15430421tip4104_2' className="text-blue-600 hover:underline" target="_blank" >https://doi.org/10.1207/s15430421tip4104_2</a>
+        Krathwohl, D. R. (2002). A revision of Bloom’s taxonomy: An overview. Theory into Practice, 41(4), 212-218. <a href='https://doi.org/10.1207/s15430421tip4104_2' className="text-blue-800 underline inline-flex items-center" target="_blank" >https://doi.org/10.1207/s15430421tip4104_2<ExternalLink className="ml-1 h-4 w-4" /></a>
         </p>
 
         <p>
-        ACM Committee for Computing Education in Community Colleges. (2023). <i>Bloom’s for Computing: Enhancing Bloom's Revised Taxonomy with Verbs for Computing Disciplines.</i> <a href='https://ccecc.acm.org/assessment/blooms-for-computing' className="text-blue-600 hover:underline" target="_blank">https://ccecc.acm.org/assessment/blooms-for-computing</a>
+        ACM Committee for Computing Education in Community Colleges. (2023). <i>Bloom’s for Computing: Enhancing Bloom's Revised Taxonomy with Verbs for Computing Disciplines.</i> <a href='https://ccecc.acm.org/assessment/blooms-for-computing' className="text-blue-800 underline inline-flex items-center" target="_blank">https://ccecc.acm.org/assessment/blooms-for-computing<ExternalLink className="ml-1 h-4 w-4" /></a>
         </p>
     </div>
   )

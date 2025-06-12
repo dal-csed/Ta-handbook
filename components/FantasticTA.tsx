@@ -1,3 +1,4 @@
+import { ExternalLink } from "lucide-react";
 import { useState } from "react";
 
 export default function FantasticTA() {
@@ -17,7 +18,7 @@ export default function FantasticTA() {
               onClick={() => setActiveTab("strategies")}
               className={`mr-4 py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "strategies"
-                  ? "border-blue-500 font-semibold text-blue-600"
+                  ? "border-blue-800 font-semibold text-blue-800"
                   : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
               }`}
             >
@@ -27,8 +28,8 @@ export default function FantasticTA() {
               onClick={() => setActiveTab("fantastic")}
               className={`mr-4 py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "fantastic"
-                  ? "border-blue-500 font-semibold text-blue-600"
-                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
+                  ? "border-blue-800 font-semibold text-blue-800"
+                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-black hover:border-gray-300"
               }`}
             >
               Tips for Being an Exemplary Teaching Assistant
@@ -37,8 +38,8 @@ export default function FantasticTA() {
               onClick={() => setActiveTab("insight")}
               className={`py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "insight"
-                  ? "border-blue-500 font-semibold text-blue-600"
-                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
+                  ? "border-blue-800 font-semibold text-blue-800"
+                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-black hover:border-gray-300"
               }`}
             >
               A Teaching Assistant's Insight
@@ -54,7 +55,7 @@ export default function FantasticTA() {
                 <li>Avoid gendered or ableist language; use terms like "they/them," "everyone," or "folks."</li>
                 <li>Ask students (if comfortable) to share their preferred name and pronouns.</li>
                 <li>Avoid slang or idioms without context.</li>
-                <li>Refer to Dalhousie's <a href="https://www.dal.ca/about/mission-vision-values/respectful-discourse.html" target="_blank" className="text-blue-600">Respectful Discourse Guidelines.</a></li>
+                <li>Refer to Dalhousie's <a href="https://www.dal.ca/about/mission-vision-values/respectful-discourse.html" target="_blank" className="text-blue-800 underline inline-flex items-center">Respectful Discourse Guidelines.<ExternalLink className="ml-1 h-4 w-4" /></a></li>
               </ul>
               
               <h4 className="font-semibold mt-3">Accessible Course Materials</h4>
@@ -62,7 +63,7 @@ export default function FantasticTA() {
                 <li>Use high-contrast visuals, captioned videos, and screen-reader-friendly documents.</li>
                 <li>Upload lecture slides or notes in advance.</li>
                 <li>Avoid small font sizes or excessive use of colour.</li>
-                <li>Create accessible materials using this resource as a guide: <a href="https://caul-cbua.pressbooks.pub/creatingaccessiblelearningresources/" target="_blank" className="text-blue-600">Creating Accessible Learning Resources</a></li>
+                <li>Create accessible materials using this resource as a guide: <a href="https://caul-cbua.pressbooks.pub/creatingaccessiblelearningresources/" target="_blank" className="text-blue-800 underline inline-flex items-center">Creating Accessible Learning Resources<ExternalLink className="ml-1 h-4 w-4" /></a></li>
               </ul>
               
               <h4 className="font-semibold mt-3">Curriculum Representation and Content</h4>
@@ -95,8 +96,8 @@ export default function FantasticTA() {
               
               <h4 className="font-semibold mt-3">Resources You Can Share:</h4>
               <ul className="list-disc pl-6 space-y-1">
-                <li><a href="https://www.dal.ca/campus_life/health-and-wellness/my-health/mental-health.html" className="text-blue-600" target="_blank">Mental Health Supports</a></li>
-                <li><a href="https://dalu.sharepoint.com/sites/hr/SitePages/wellness.aspx" className="text-blue-600" target="_blank">Wellness Hub for Staff and Faculty</a></li>
+                <li><a href="https://www.dal.ca/campus_life/health-and-wellness/my-health/mental-health.html" className="text-blue-800 underline inline-flex items-center" target="_blank">Mental Health Supports<ExternalLink className="ml-1 h-4 w-4" /></a></li>
+                <li><a href="https://dalu.sharepoint.com/sites/hr/SitePages/wellness.aspx" className="text-blue-800 underline inline-flex items-center" target="_blank">Wellness Hub for Staff and Faculty<ExternalLink className="ml-1 h-4 w-4" /></a></li>
               </ul>
 
         
@@ -116,7 +117,7 @@ export default function FantasticTA() {
               </p>
               
               <p className="mt-2">
-                Dalhousie's <a href="https://dalu.sharepoint.com/sites/shw/SitePages/Student-Support-Team.aspx" className="text-blue-600" target="_blank">Student Support Team</a> is also available to help if you notice a student who may need more targeted support. Don't hesitate to reach out or refer a student when necessary.
+                Dalhousie's <a href="https://dalu.sharepoint.com/sites/shw/SitePages/Student-Support-Team.aspx" className="text-blue-800 underline inline-flex items-center" target="_blank">Student Support Team<ExternalLink className="ml-1 h-4 w-4" /></a> is also available to help if you notice a student who may need more targeted support. Don't hesitate to reach out or refer a student when necessary.
               </p>
             </div>
             
@@ -136,9 +137,9 @@ export default function FantasticTA() {
               <p className="mt-3">Want help?</p>
               
               <ul className="list-disc pl-6 space-y-1">
-                <li>📩 Contact the Student Support Team: <a href="https://dalu.sharepoint.com/sites/shw/SitePages/Student-Support-Team.aspx" target="_blank" className="text-blue-600">https://dalu.sharepoint.com/sites/shw/SitePages/Student-Support-Team.aspx</a></li>
-                <li>📚 Explore Dalhousie EDIA Resources: <a href="https://www.dal.ca/about/mission-vision-values/equity-diversity-inclusion-and-accessibility.html" target="_blank" className="text-blue-600">https://www.dal.ca/about/mission-vision-values/equity-diversity-inclusion-and-accessibility.html</a></li>
-                <li>🧠 Share Mental Health Resources: <a href="https://www.dal.ca/campus_life/health-and-wellness/my-health/mental-health.html" target="_blank" className="text-blue-600">https://www.dal.ca/campus_life/health-and-wellness/my-health/mental-health.html</a></li>
+                <li>📩 Contact the Student Support Team: <a href="https://dalu.sharepoint.com/sites/shw/SitePages/Student-Support-Team.aspx" target="_blank" className="text-blue-800 underline inline-flex items-center">https://dalu.sharepoint.com/sites/shw/SitePages/Student-Support-Team.aspx<ExternalLink className="ml-1 h-4 w-4" /></a></li>
+                <li>📚 Explore Dalhousie EDIA Resources: <a href="https://www.dal.ca/about/mission-vision-values/equity-diversity-inclusion-and-accessibility.html" target="_blank" className="text-blue-800 underline inline-flex items-center">https://www.dal.ca/about/mission-vision-values/equity-diversity-inclusion-and-accessibility.html<ExternalLink className="ml-1 h-4 w-4" /></a></li>
+                <li>🧠 Share Mental Health Resources: <a href="https://www.dal.ca/campus_life/health-and-wellness/my-health/mental-health.html" target="_blank" className="text-blue-800 underline inline-flex items-center">https://www.dal.ca/campus_life/health-and-wellness/my-health/mental-health.html<ExternalLink className="ml-1 h-4 w-4" /></a></li>
               </ul>
             </div>
             </div>

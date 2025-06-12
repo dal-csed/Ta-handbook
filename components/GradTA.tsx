@@ -87,8 +87,12 @@ export default function TADemonstratorMarkerTable() {
           <tr>
             <td className="border p-2 font-semibold">Invalid Use of Time</td>
             <td className="border p-2">
-              – be hired to mark at the TA rate<br />
-              <em>If a TA needs to do marking, add a Marker contract.</em>
+              <ul className="list-disc ml-4">
+              <li>
+                be hired to mark at the TA rate<br />
+                <em>If a TA needs to do marking, add a Marker contract.</em>
+              </li>
+              </ul>
             </td>
             <td className="border p-2">
               <ul className="list-disc ml-4">

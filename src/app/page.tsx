@@ -19,6 +19,7 @@ export default function Home() {
           <Image
             src="/GoldbergPicture.png"
             alt="Goldberg Building"
+            fill
             className="w-full object-cover rounded shadow-md"
           />
         </div>

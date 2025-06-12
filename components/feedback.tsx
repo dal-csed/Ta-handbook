@@ -27,7 +27,7 @@ export default function ReceivingFeedback() {
               className={`mr-4 py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "students"
                   ? "border-blue-500 font-semibold text-blue-600"
-                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
+                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-black hover:border-gray-300"
               }`}
             >
               Receiving Feedback from Students
@@ -37,7 +37,7 @@ export default function ReceivingFeedback() {
               className={`py-2 px-3 border-b-2 font-medium text-sm ${
                 activeTab === "instructor"
                   ? "border-blue-500 font-semibold text-blue-600"
-                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
+                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-black hover:border-gray-300"
               }`}
             >
                 Receiving Feedback from the Instructor or the Educational Developer at CSEd

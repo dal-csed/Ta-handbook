@@ -291,7 +291,7 @@ export default function ClassroomGuidance() {
               <div className="mt-3">
                 <h4 className="font-medium">Establish Classroom Discussion Norms</h4>
                 <ul className="list-disc ml-6 mt-1">
-                  <li>Collaboratively set discussion guidelines by asking students: "What makes an effective discussion?"</li>
+                  <li>Collaboratively set discussion guidelines by asking students: \"What makes an effective discussion?"</li>
                   <li>Ensure students understand how to maintain respectful and constructive dialogue.</li>
                 </ul>
               </div>

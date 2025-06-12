@@ -44,11 +44,14 @@ export default function TechBits() {
         {techResources.map((resource) => (
           <div key={resource.name} className="flex flex-col items-center">
             <Link href={resource.link}>
-              <Image
-                src={resource.image}
-                alt={resource.name}
-                className="w-28 h-28 object-cover rounded-full shadow-md transition-transform duration-300 hover:scale-110 hover:shadow-xl cursor-pointer"
-              />
+              <div className="w-28 h-28 relative">
+                <Image
+                  fill
+                  src={resource.image}
+                  alt={resource.name}
+                  className="object-cover rounded-full shadow-md transition-transform duration-300 hover:scale-110 hover:shadow-xl cursor-pointer"
+                />
+              </div>
             </Link>
             <h3 className="mt-3 font-semibold">{resource.name}</h3>
           </div>

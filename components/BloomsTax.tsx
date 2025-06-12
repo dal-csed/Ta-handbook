@@ -64,11 +64,13 @@ const BloomsTax = () => {
                 </p>
             </div>
 
-            <div className='w-[40%]'>
-                <Image alt='Blooms Taxonomy' src='Blooms-Taxonomy.jpg' />
+            <div className='w-[40%] relative'>
+                <div>
+                  <Image fill alt='Blooms Taxonomy' src='/Blooms-Taxonomy.jpg' />
+                </div>
 
                 <p>
-                [Source: <a href='cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/' className="text-blue-600 hover:underline" target="_blank">cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/</a>]
+                [Source: <a href='https://www.vanderbilt.edu/advanced-institute/' className="text-blue-600 hover:underline" target="_blank">cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/</a>]
                 </p>
             </div>
         </div>

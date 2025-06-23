@@ -257,7 +257,7 @@ export default function TheLab() {
                   <Image
                     fill
                     src="/taPoster.png"
-                    className="h-auto"
+                    className="h-auto w-auto"
                     alt="Ta Poster"
                   />
               </div>

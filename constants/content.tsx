@@ -12,6 +12,7 @@ import TADemonstratorMarkerTable from "../components/GradTA";
 import FantasticTA from "../components/FantasticTA";
 import EDIA from "../components/Edia";
 import CreatingALR from "../components/CreatingALR";
+import Tutorials from "../components/Tutorials";
 
 export const introduction = [
   'Welcome to the Faculty of Computer Science Teaching Assistant (TA) Handbook! As a Graduate TA, you play a vital role in supporting student learning, fostering engagement, and maintaining the rigour and academic integrity of our courses. Whether you’re leading labs or tutorials, grading assignments, assisting the instructor in various aspects of teaching, or providing one-on-one support, your contributions help shape the learning experience for our students. This is a crucial and important role!',
@@ -469,6 +470,14 @@ export const collapsable : CollapsibleSection[] = [
     title: "Creating Assignment, Labs and Rubrics",
     content: (
       <CreatingALR />
+    ),
+  },
+
+  {
+    id: 16,
+    title: "Creating Effective Tutorials",
+    content: (
+      <Tutorials />
     ),
   },
 

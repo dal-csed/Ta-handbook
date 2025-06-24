@@ -122,7 +122,7 @@ const BloomsTax = () => {
 
       <ul className="list-disc pl-6 space-y-2 mt-2">
         <li>
-          <strong>Match task complexity</strong>
+          <strong>Match task complexity </strong>
           to the course level. First-year labs may focus on “Apply” while
           upper-year projects may emphasize “Analyze” and “Create.”
         </li>
@@ -155,6 +155,22 @@ const BloomsTax = () => {
       </h3>
 
       <p>
+        ACM Committee for Computing Education in Community Colleges. (2023).{" "}
+        <i>
+          Bloom’s for Computing: Enhancing Bloom's Revised Taxonomy with Verbs
+          for Computing Disciplines.
+        </i>{" "}
+        <a
+          href="https://ccecc.acm.org/assessment/blooms-for-computing"
+          className="text-blue-800 underline inline-flex items-center"
+          target="_blank"
+        >
+          https://ccecc.acm.org/assessment/blooms-for-computing
+          <ExternalLink className="ml-1 h-4 w-4" />
+        </a>
+      </p>
+
+      <p>
         Anderson, L. W., & Krathwohl, D. R. (Eds.). (2001).{" "}
         <i>
           A taxonomy for learning, teaching, and assessing: A revision of
@@ -172,22 +188,6 @@ const BloomsTax = () => {
           target="_blank"
         >
           https://doi.org/10.1207/s15430421tip4104_2
-          <ExternalLink className="ml-1 h-4 w-4" />
-        </a>
-      </p>
-
-      <p>
-        ACM Committee for Computing Education in Community Colleges. (2023).{" "}
-        <i>
-          Bloom’s for Computing: Enhancing Bloom's Revised Taxonomy with Verbs
-          for Computing Disciplines.
-        </i>{" "}
-        <a
-          href="https://ccecc.acm.org/assessment/blooms-for-computing"
-          className="text-blue-800 underline inline-flex items-center"
-          target="_blank"
-        >
-          https://ccecc.acm.org/assessment/blooms-for-computing
           <ExternalLink className="ml-1 h-4 w-4" />
         </a>
       </p>

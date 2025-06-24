@@ -445,7 +445,7 @@ export default function TADemonstratorMarkerTable() {
                 or taking on a course that is new to you, it’s essential to
                 clearly understand your responsibilities. The following
                 questions will help you define your role and expectations,
-                ensuring you are prepared for your duties. Taken from{" "}
+                ensuring you are prepared for your duties. Link to{" "}
                 <a
                   href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:18384b70-2761-431f-9693-f2bbeb795e6a"
                   target="_blank"
@@ -454,7 +454,7 @@ export default function TADemonstratorMarkerTable() {
                   Teaching Assistant Checklist: Questions to Ask{" "}
                   <ExternalLink className="ml-1 h-4 w-4" />
                 </a>
-                . Centre for Teaching Excellence, University of Waterloo (2024).
+                , taken from Centre for Teaching Excellence, University of Waterloo (2024).
               </p>
 
               <h3 className="text-lg font-semibold mt-4">

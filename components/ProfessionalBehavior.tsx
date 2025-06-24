@@ -1,4 +1,5 @@
 import { ExternalLink } from "lucide-react";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function TAProfessionalBehavior() {
@@ -126,8 +127,12 @@ export default function TAProfessionalBehavior() {
                 tasks—such as grading policies, leading discussions, or holding
                 office hours—TAs should seek clarification from the instructor
                 to ensure alignment with course objectives. Please see the{" "}
-                <strong>Teaching Assistant Checklist </strong>(hyperlink to
-                section).
+                <Link
+                  href={"#section-1"}
+                  className="text-blue-800 underline mx-1 inline-flex items-center"
+                >
+                  Teaching Assistant Checklist{" "}
+                </Link>
               </p>
 
               <h3 className="font-semibold text-xl mt-5">
@@ -152,12 +157,14 @@ export default function TAProfessionalBehavior() {
                     <strong>Personal Matters</strong> : If a student shares
                     personal challenges affecting their academic performance,
                     the TA should inform the instructor who can provide
-                    appropriate support or referrals. Also see the section on{" "}
-                    <a className="text-blue-800 underline inline-flex items-center">
-                      Student Supports at Dal{" "}
-                    </a>{" "}
-                    (hyperlink to section) if the student relates personal
-                    issues of another nature.
+                    appropriate support or referrals. Also see the section on
+                    <Link
+                      href="#section-14"
+                      className="text-blue-800 underline mx-1 inline-flex items-center"
+                    >
+                      Student Supports at Dal
+                    </Link>
+                    if the student relates personal issues of another nature.
                   </li>
                 </ul>
 

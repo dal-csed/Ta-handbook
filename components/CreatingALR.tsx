@@ -105,7 +105,7 @@ const CreatingALR = () => {
                   : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-gray-700 hover:border-gray-300"
               }`}
             >
-              Best Practices for Designing CS Lab
+              Best Practices for Designing CS Labs
             </button>
             <button
               onClick={() => setActiveTab("rubrics")}

@@ -68,14 +68,18 @@ const BloomsTax = () => {
           </div>
 
           <a
-              href="https://www.vanderbilt.edu/advanced-institute/"
-              className="text-blue-800 underline inline-flex items-center"
-              target="_blank"
-            >
-              cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/
-              <ExternalLink className="ml-1 h-4 w-4" />
-            </a>
+            href="https://www.vanderbilt.edu/advanced-institute/"
+            className="text-blue-800 underline inline-flex items-center"
+            target="_blank"
+          >
+            cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/
+            <ExternalLink className="ml-1 h-4 w-4" />
+          </a>
         </div>
+      </div>
+
+      <div className="flex relative h-[550px] max-w-[930px] m-auto mt-10">
+        <Image fill src={"/BloomsTaxVerbs.png"} alt="Blooms-Taxonomy-Verbs" />
       </div>
 
       <h3 className="text-lg text-blue-800 font-semibold mt-3 mb-1">

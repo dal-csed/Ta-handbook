@@ -18,14 +18,14 @@ const CustomHeader = () => {
             <a
               href="https://csed.cs.dal.ca/"
               target="_blank"
-              className="font-semibold py-2 px-3 hover:border-b-2 hover:border-[#ffcc00]"
+              className="font-semibold py-2 px-3 hover:border-b-2 hover:mb-[-2] hover:border-[#ffcc00]"
             >
               CSEd
             </a>
             <a
               href="https://projects.cs.dal.ca/justintime/dist/index.php"
               target="_blank"
-              className="font-semibold py-2 px-3 hover:border-b-2 hover:border-[#ffcc00]"
+              className="font-semibold py-2 px-3 hover:border-b-2 hover:mb-[-2] hover:border-[#ffcc00]"
             >
               Just In Time Resources
             </a>

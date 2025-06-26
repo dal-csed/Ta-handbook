@@ -447,9 +447,9 @@ const CreatingALR = () => {
               </section>
 
               <div className="container mx-auto mt-10">
-                <h1 className="text-2xl font-bold mb-6">
+                <h3 className="text-2xl font-bold mb-6">
                   Project Evaluation Rubric
-                </h1>
+                </h3>
                 <table className="min-w-full border border-gray-300 text-sm text-left">
                   <thead className="bg-gray-100">
                     <tr className="bg-gray-100">

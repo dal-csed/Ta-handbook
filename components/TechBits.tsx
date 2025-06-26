@@ -53,7 +53,7 @@ export default function TechBits() {
                 />
               </div>
             </Link>
-            <h3 className="mt-3 font-semibold">{resource.name}</h3>
+            <p className="mt-3 font-semibold">{resource.name}</p>
           </div>
         ))}
       </div>

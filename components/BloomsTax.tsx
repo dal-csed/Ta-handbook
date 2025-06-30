@@ -78,7 +78,7 @@ const BloomsTax = () => {
         </div>
       </div>
 
-      <div className="flex relative h-[550px] max-w-[930px] m-auto mt-10">
+      <div className="flex relative h-[450px] max-w-[850px] m-auto mt-10">
         <Image fill src={"/BloomsTaxVerbs.png"} alt="Blooms-Taxonomy-Verbs" />
       </div>
 
@@ -148,6 +148,19 @@ const BloomsTax = () => {
         engage meaningfully with course content. For TAs, using Bloom’s Taxonomy
         supports fair evaluation, improves feedback clarity, and contributes to
         consistent expectations across course sections
+      </p>
+
+      <p className="text-red-700">
+        More in-depth information on Bloom’s Taxonomy can be found on Waterloo’s
+        Bloom’s Taxonomy page:{" "}
+        <a
+          className="text-blue-800 underline inline-flex items-center"
+          target="_blank"
+          href="https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/blooms-taxonomy"
+        >
+          https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/blooms-taxonomy{" "}
+          <ExternalLink className="ml-1 h-4 w-4" />
+        </a>
       </p>
 
       <h3 className="text-lg text-blue-800 font-semibold mt-3 mb-1">

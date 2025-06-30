@@ -364,14 +364,18 @@ export const collapsable: CollapsibleSection[] = [
   },
   {
     id: 5,
-    title: "Suggestions for Being a Fantastic TA",
-    content: <FantasticTA />,
-  },
-
-  {
-    id: 7,
     title: "The Lab",
     content: <TheLab />,
+  },
+  {
+    id: 6,
+    title: "Tutorials",
+    content: <Tutorials />,
+  },
+  {
+    id: 7,
+    title: "Suggestions for Being a Fantastic TA",
+    content: <FantasticTA />,
   },
 
   {
@@ -822,11 +826,5 @@ export const collapsable: CollapsibleSection[] = [
     id: 15,
     title: "Creating Assignment, Labs and Rubrics",
     content: <CreatingALR />,
-  },
-
-  {
-    id: 16,
-    title: "Creating Effective Tutorials",
-    content: <Tutorials />,
   },
 ];

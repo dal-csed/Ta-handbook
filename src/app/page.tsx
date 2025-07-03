@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { collapsable, introduction } from "../../constants/content";
 import CollapsibleSection from "../../components/CollapsibleSection";
 import TechBits from "../../components/TechBits";
@@ -8,10 +9,34 @@ import CustomFooter from "../../components/CustomFooter";
 import Image from "next/image";
 
 export default function Home() {
+  const [expandedStates, setExpandedStates] = useState<boolean[]>(
+    collapsable.map(() => false)
+  );
+
+  // Clear hash on page load to prevent auto-opening sections
+  useEffect(() => {
+    // Clear hash immediately and prevent any hash-based behavior on initial load
+    if (window.location.hash) {
+      window.history.replaceState(null, '', window.location.pathname);
+    }
+    
+    // Set a flag to indicate the page has just loaded
+    sessionStorage.setItem('justLoaded', 'true');
+    
+    // Clear the flag after a short delay to allow normal hash behavior
+    const timer = setTimeout(() => {
+      sessionStorage.removeItem('justLoaded');
+    }, 1000);
+    
+    return () => clearTimeout(timer);
+  }, []);
+
+  // Expand/Collapse all functionality
+  const expandAll = () => setExpandedStates(collapsable.map(() => true));
+  const collapseAll = () => setExpandedStates(collapsable.map(() => false));
+
   return (
     <>
-      {/* Yellow Bar Header */}
-    
       <CustomHeader />
 
       <div className="max-w-[1500px] m-auto bg-white">
@@ -40,13 +65,37 @@ export default function Home() {
         </section>
 
         {/* Collapsible Sections */}
-        <section className="max-w-[1280px] mx-auto my-3 space-y-4 mb-16 ">
-          {collapsable.map((section) => (
+        <section className="max-w-[1280px] mx-auto my-3 space-y-4 mb-16">
+          {/* Add Expand/Collapse buttons */}
+          <div className="flex justify-end space-x-4 mb-4">
+            <button
+              onClick={expandAll}
+              className="px-4 py-2 bg-[#FFD400] text-[#242424] rounded font-medium hover:bg-[#e6bf00]"
+            >
+              Expand All
+            </button>
+            <button
+              onClick={collapseAll}
+              className="px-4 py-2 bg-[#242424] text-white rounded font-medium hover:bg-[#333]"
+            >
+              Collapse All
+            </button>
+          </div>
+
+          {collapsable.map((section, index) => (
             <div id={`section-${section.id}`} key={section.id}>
               <CollapsibleSection
                 id={section.id}
                 title={`${section.id}. ${section.title}`}
                 content={section.content}
+                isOpen={expandedStates[index]}
+                onToggle={() => {
+                  setExpandedStates(prev => {
+                    const newState = [...prev];
+                    newState[index] = !newState[index];
+                    return newState;
+                  });
+                }}
               />
             </div>
           ))}
@@ -54,8 +103,6 @@ export default function Home() {
       </div>
 
       <TechBits />
-
-      {/* Footer */}
       <CustomFooter />
     </>
   );

@@ -49,14 +49,14 @@ export default function Home() {
           />
         </div>
 
-        <section className="-mt-95 relative z-10 bg-gray-100 py-6 px-6 rounded-md shadow-sm max-w-[1280px] mx-auto">
+        <section className="-mt-95 relative z-10 bg-gray-100 py-5 px-6 rounded-md shadow-sm max-w-[1280px] mx-auto">
           <div className="mx-auto">
             <h2 className="text-2xl font-bold font-sans text-[#55585ded] ">
               Introduction
             </h2>
             <div className="text-gray-800 text-md">
               {introduction.map((item, index) => (
-                <p key={index} className="my-5">
+                <p key={index} className="my-3">
                   {item}
                 </p>
               ))}

@@ -69,22 +69,85 @@ export default function TAProfessionalBehavior() {
         <div className="mt-4 p-4 bg-gray-50 rounded-lg">
           {activeTab === "boundaries" && (
             <div>
-              <p>
-                When interacting with students, maintain a clear boundary
-                between professional and personal relationships. There may be
-                times when a classmate from another class you are taking (or a
-                friend) happens to be a student in the lab or tutorial you are
-                leading. You must avoid preferential treatment to any student/s.
-                All students must abide by the same rules and expectations
-                regardless of your personal friendships with them outside of
-                your lab/tutorial. Always communicate respectfully and
-                courteously, both in person and online. Encourage open
-                communication but remain impartial and avoid favouritism.
-                Provide clear and consistent feedback and be patient when
-                explaining complex concepts. If a conflict arises, approach it
-                calmly and professionally, and if necessary, seek guidance from
-                your supervisor.
-              </p>
+              <div className="space-y-2">
+                <h2 className="text-lg font-semibold">
+                  Maintaining Professional Boundaries with Students{" "}
+                </h2>
+                <p>
+                  As a Teaching Assistant (TA), you play a crucial role in
+                  supporting students’ academic success while also contributing
+                  to a positive and respectful learning environment. Building
+                  rapport with students is important, but it's equally essential
+                  to maintain professional boundaries. These boundaries help
+                  preserve academic integrity, prevent misunderstandings, and
+                  support an inclusive and equitable classroom for all.
+                </p>
+                <p className="mt-3">
+                  Crossing or blurring professional boundaries—even
+                  unintentionally—can lead to ethical concerns, conflicts of
+                  interest, or discomfort for both the TA and the student. The
+                  following tips are designed to help you navigate your role
+                  with clarity and confidence.
+                </p>
+              </div>
+
+              <div className="mt-4">
+                <h3 className="text-lg font-semibold">
+                  Top Tips for Maintaining Boundaries{" "}
+                </h3>
+
+                <ol className="list-decimal pl-6 space-y-2 my-2">
+                  <li>
+                    <strong>Be Friendly, Not a Friend</strong>– Be approachable
+                    and supportive, but maintain a professional tone in your
+                    interactions. Avoid overly personal conversations or
+                    becoming socially entangled with students during the term.
+                  </li>
+                  <li>
+                    <strong>Communicate Clearly</strong> – Set expectations
+                    early on about your availability (e.g., office hours,
+                    response times), the scope of your role, and how you will
+                    interact with students (e.g., via university email only).
+                  </li>
+                  <li>
+                    <strong>Avoid Favouritism</strong> – Treat all students
+                    equitably. Refrain from giving any student special
+                    treatment, such as extra help or leniency, unless it is
+                    formally arranged through accommodations.
+                  </li>
+                  <li>
+                    <strong>Keep Communication Transparent</strong> – Use
+                    official university communication channels and keep records
+                    of student interactions when discussing grades, feedback, or
+                    sensitive topics.
+                  </li>
+                  <li>
+                    <strong>Respect Privacy</strong> – Do not share students'
+                    personal information or academic performance with others. If
+                    a student discloses something serious, refer them to
+                    appropriate university support services or your course
+                    instructor.
+                  </li>
+                  <li>
+                    <strong>Avoid Dual Relationships</strong> – f you already
+                    have a personal relationship with a student (e.g., friend,
+                    partner, relative), disclose this to the course instructor.
+                    Avoid grading or tutoring them if possible.
+                  </li>
+                  <li>
+                    <strong>Limit Social Media Contact</strong> – Do not add or
+                    follow students on personal social media accounts. Maintain
+                    your digital boundaries to support professionalism.
+                  </li>
+                  <li>
+                    <strong>Know When to Refer</strong> – If a student is in
+                    distress or you feel unsure about how to handle a situation,
+                    consult the course instructor or a university support office
+                    (link to the section on supporting students in distress).
+                    You are not expected to counsel students.
+                  </li>
+                </ol>
+              </div>
             </div>
           )}
 

@@ -65,7 +65,7 @@ export default function Home() {
         </section>
 
         {/* Collapsible Sections */}
-        <section className="max-w-[1280px] mx-auto my-3 space-y-4 mb-16">
+        <section className="max-w-[1280px] mx-auto my-3 space-y-4 mb-5">
           {/* Add Expand/Collapse buttons */}
           <div className="flex justify-end space-x-4 mb-4">
             <button
@@ -99,6 +99,21 @@ export default function Home() {
               />
             </div>
           ))}
+        </section>
+
+        {/* Microsoft Form Section */}
+        <section className="max-w-[1280px] max-h-[800px] mx-auto my-5 px-6">
+          <h2 className="text-2xl font-bold font-sans text-[#55585ded] mb-3">
+            Feedback Form
+          </h2>
+          <div className="w-full h-[650px] aspect-[1/1.5]">
+            <iframe 
+              src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=mRm4YH8LLUGSo-F9iunj4NzTh9MpfExCrttgO73tTB1URFdHVUE3V05XSDJQTFBPN0swWDQyQVpBNC4u" 
+              title="Feedback Form"
+              className="w-full h-[650px] rounded-lg shadow-md border-none"
+              loading="lazy"
+            />
+          </div>
         </section>
       </div>
 

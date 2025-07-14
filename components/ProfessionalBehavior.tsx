@@ -142,9 +142,14 @@ export default function TAProfessionalBehavior() {
                   <li>
                     <strong>Know When to Refer</strong> – If a student is in
                     distress or you feel unsure about how to handle a situation,
-                    consult the course instructor or a university support office
-                    (link to the section on supporting students in distress).
-                    You are not expected to counsel students.
+                    consult the course instructor or a{" "}
+                    <Link
+                      href="#section-14"
+                      className="font-semibold text-blue-800 underline"
+                    >
+                      university support office
+                    </Link>
+                    . You are not expected to counsel students.
                   </li>
                 </ol>
               </div>
@@ -391,6 +396,20 @@ export default function TAProfessionalBehavior() {
           <ExternalLink className="ml-1 h-4 w-4" />
         </a>
       </p>
+
+      <p className="text-sm">
+        Learning Module: Teaching Assistant Orientation&nbsp;- Lesson&nbsp;5.
+        (2023, February&nbsp;16). Taylor Institute for Teaching and Learning.{" "}
+        <a
+          target="_blank"
+          className="text-blue-800 underline inline-flex items-center"
+          href="https://taylorinstitute.ucalgary.ca/resources/module/teaching-assistant-orientation/professionalism"
+        >
+          {" "}
+          https://taylorinstitute.ucalgary.ca/resources/module/teaching-assistant-orientation/professionalism{" "}
+          <ExternalLink className="ml-1 h-4 w-4" />
+        </a>
+      </p>
       <p className="text-sm">
         Smith, J. (2024, October&nbsp;3). Communication Techniques for Classroom
         Assistants. Portobello Institute.{" "}
@@ -400,6 +419,20 @@ export default function TAProfessionalBehavior() {
           href="https://blog.portobelloinstitute.com/communication-techniques-for-classroom-assistants"
         >
           https://blog.portobelloinstitute.com/communication-techniques-for-classroom-assistants{" "}
+          <ExternalLink className="ml-1 h-4 w-4" />
+        </a>
+      </p>
+      <p className="text-sm">
+        Teaching Assistants' Training Program. (2024, May&nbsp;29). Course
+        Instructor–Teaching Assistant Relationship&nbsp;- Teaching Assistants'
+        Training Program.{" "}
+        <a
+          target="_blank"
+          className="text-blue-800 underline inline-flex items-center"
+          href="https://tatp.utoronto.ca/resources/course-instructor-teaching-assistant-relationship/"
+        >
+          {" "}
+          https://tatp.utoronto.ca/resources/course-instructor-teaching-assistant-relationship/{" "}
           <ExternalLink className="ml-1 h-4 w-4" />
         </a>
       </p>
@@ -427,33 +460,6 @@ export default function TAProfessionalBehavior() {
         >
           {" "}
           https://uwaterloo.ca/computer-science-instructional-support-group/instructor-support/guidelines-cs-instructors/working-teaching-assistants{" "}
-          <ExternalLink className="ml-1 h-4 w-4" />
-        </a>
-      </p>
-      <p className="text-sm">
-        Teaching Assistants' Training Program. (2024, May&nbsp;29). Course
-        Instructor–Teaching Assistant Relationship&nbsp;- Teaching Assistants'
-        Training Program.{" "}
-        <a
-          target="_blank"
-          className="text-blue-800 underline inline-flex items-center"
-          href="https://tatp.utoronto.ca/resources/course-instructor-teaching-assistant-relationship/"
-        >
-          {" "}
-          https://tatp.utoronto.ca/resources/course-instructor-teaching-assistant-relationship/{" "}
-          <ExternalLink className="ml-1 h-4 w-4" />
-        </a>
-      </p>
-      <p className="text-sm">
-        Learning Module: Teaching Assistant Orientation&nbsp;- Lesson&nbsp;5.
-        (2023, February&nbsp;16). Taylor Institute for Teaching and Learning.{" "}
-        <a
-          target="_blank"
-          className="text-blue-800 underline inline-flex items-center"
-          href="https://taylorinstitute.ucalgary.ca/resources/module/teaching-assistant-orientation/professionalism"
-        >
-          {" "}
-          https://taylorinstitute.ucalgary.ca/resources/module/teaching-assistant-orientation/professionalism{" "}
           <ExternalLink className="ml-1 h-4 w-4" />
         </a>
       </p>

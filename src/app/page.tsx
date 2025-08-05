@@ -17,17 +17,17 @@ export default function Home() {
   useEffect(() => {
     // Clear hash immediately and prevent any hash-based behavior on initial load
     if (window.location.hash) {
-      window.history.replaceState(null, '', window.location.pathname);
+      window.history.replaceState(null, "", window.location.pathname);
     }
-    
+
     // Set a flag to indicate the page has just loaded
-    sessionStorage.setItem('justLoaded', 'true');
-    
+    sessionStorage.setItem("justLoaded", "true");
+
     // Clear the flag after a short delay to allow normal hash behavior
     const timer = setTimeout(() => {
-      sessionStorage.removeItem('justLoaded');
+      sessionStorage.removeItem("justLoaded");
     }, 1000);
-    
+
     return () => clearTimeout(timer);
   }, []);
 
@@ -90,7 +90,7 @@ export default function Home() {
                 content={section.content}
                 isOpen={expandedStates[index]}
                 onToggle={() => {
-                  setExpandedStates(prev => {
+                  setExpandedStates((prev) => {
                     const newState = [...prev];
                     newState[index] = !newState[index];
                     return newState;
@@ -102,15 +102,16 @@ export default function Home() {
         </section>
 
         {/* Microsoft Form Section */}
-        <section className="max-w-[1280px] max-h-[800px] mx-auto my-5 px-6">
+        <section className="max-w-[1280px] mx-auto my-5 px-6">
           <h2 className="text-2xl font-bold font-sans text-[#55585ded] mb-3">
             Feedback Form
           </h2>
-          <div className="w-full h-[650px] aspect-[1/1.5]">
-            <iframe 
-              src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=mRm4YH8LLUGSo-F9iunj4NzTh9MpfExCrttgO73tTB1URFdHVUE3V05XSDJQTFBPN0swWDQyQVpBNC4u" 
+          <div className="w-full h-[650px] min-h-[650px] rounded-lg shadow-md overflow-auto">
+            <iframe
+              key="feedback-form"
+              src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=mRm4YH8LLUGSo-F9iunj4NzTh9MpfExCrttgO73tTB1URFdHVUE3V05XSDJQTFBPN0swWDQyQVpBNC4u&embed=true"
               title="Feedback Form"
-              className="w-full h-[650px] rounded-lg shadow-md border-none"
+              className="w-full h-full border-none"
               loading="lazy"
             />
           </div>

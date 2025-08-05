@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function EDIA() {
-  const [activeTab, setActiveTab] = useState("active-learning");
+  const [activeTab, setActiveTab] = useState("explicit-direct-instruction");
   
   return (
     <div className="my-3 space-y-4">
@@ -19,16 +19,7 @@ export default function EDIA() {
       <div className="mt-6">
         <div className="border-b border-gray-200">
           <nav className="flex -mb-px">
-            <button
-              onClick={() => setActiveTab("active-learning")}
-              className={`mr-4 py-2 px-3 border-b-2 font-medium text-sm ${
-                activeTab === "active-learning"
-                  ? "border-blue-800 font-semibold text-blue-800"
-                  : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-black hover:border-gray-300"
-              }`}
-            >
-              Active Learning
-            </button>
+            
             <button
               onClick={() => setActiveTab("explicit-direct-instruction")}
               className={`py-2 px-3 border-b-2 font-medium text-sm ${
@@ -43,82 +34,7 @@ export default function EDIA() {
         </div>
         
         <div className="mt-4 p-4 bg-gray-50 rounded-lg">
-          {activeTab === "active-learning" && (
-            <div>
-              <h3 className="font-bold mb-2">What is Active Learning?</h3>
-              <p className="mb-4">
-                Creating inclusive classrooms is a foundational part of effective teaching. At Dalhousie University, we believe that every student deserves an educational experience where they feel welcomed, respected, supported, and challenged. Inclusion is not simply about compliance—it’s a commitment to building equitable spaces where all learners can thrive.  
-              </p>
-
-              <p className="mb-4">
-                As Teaching Assistants (TAs), Demonstrators, Markers, Graduate Students, Instructors, and academic staff, you play a key role in shaping this environment. The choices you make around communication, course design, engagement strategies, and classroom norms and how you communicate to students orally and in writing significantly impact how students experience belonging in their classes and learning environments. 
-              </p>
-              
-              <h4 className="font-semibold mt-4">Dalhousie’s Commitment to EDIA</h4>
-
-              <p className="mb-4">
-              Dalhousie is guided by its institutional commitment to Equity, Diversity, Inclusion, and Accessibility (EDIA). These principles are not abstract—they are tied directly to the lived experiences of students, staff, and faculty across our campuses.
-              </p>
-
-              <p className="mb-4">
-              At Dalhousie University, EDIA stands for Equity, Diversity, Inclusion, and Accessibility. It represents a commitment to creating a welcoming and inclusive environment for all members of the university community. This commitment is a core institutional priority, influencing the university's vision, mission, values, and actions. 
-              </p>
-
-              <h2 className="text-lg font-bold">
-                Here's a more detailed look at EDIA at Dalhousie: 
-              </h2>
-
-              <h2 className=" font-semibold">
-                Core Principles  
-              </h2>
-
-              <ul className="list-disc pl-6 space-y-2 mt-2">
-                <li><strong>Think-Pair-Share:</strong> Pose a thought-provoking question and give students a minute to think about their answer. Then, have them discuss with a partner before sharing with the group.</li>
-                <li><strong>Case Studies:</strong> Present a real-world problem and have students work in small groups to develop solutions, discussing their reasoning.</li>
-                <li><strong>Peer Teaching:</strong> Assign small groups to learn and present specific concepts. This helps solidify their understanding while also building presentation skills.</li>
-                <li><strong>Concept Mapping:</strong> Have students create visual representations of relationships between key ideas, either individually or collaboratively.</li>
-              </ul>
-              
-              <h4 className="font-semibold mt-4">2. Labs (or classes where live coding or working on math problems with students is possible)</h4>
-              <p className="mt-2">
-                <strong>Guided Practice:</strong> is a teaching strategy where learners <strong> practice a new skill or concept with the support and direction of an instructor or facilitator</strong>. It's an essential step between direct instruction (teaching or modeling) and independent practice (when learners try it on their own).
-              </p>
-              
-              <h5 className="font-medium mt-3">What Guided Practice Looks Like:</h5>
-              <ul className="list-disc pl-6 space-y-1 mt-1">
-                <li>The instructor works <strong>alongside students</strong>, offering prompts, cues, or corrections.</li>
-                <li>Students try out a task or problem while receiving <strong>immediate feedback</strong>.</li>
-                <li>The level of support is gradually <strong>reduced</strong> as students gain confidence and understanding.</li>
-              </ul>
-              
-              <h5 className="font-medium mt-3">Why It's Important:</h5>
-              <ul className="list-disc pl-6 space-y-1 mt-1">
-                <li>Reinforces what was just taught.</li>
-                <li>Helps students catch and correct misunderstandings early.</li>
-                <li>Builds confidence before students are expected to work independently.</li>
-                <li>Encourages<strong> active learning  </strong>and <strong>student engagement</strong>.</li>
-              </ul>
-              
-              <p className="mt-3">
-                <strong>Guided Inquiry:</strong> Instead of providing detailed instructions, give students a goal and challenge them to determine the steps to achieve it. Guide them as needed but encourage independent problem-solving.
-              </p>
-              
-              <p className="mt-3">
-                <strong>Lab Reports with Reflection:</strong> Have students not only report their findings but also reflect on their process and how they approached challenges.
-              </p>
-              
-              <p className="mt-3">
-                <strong>Interactive Demonstrations:</strong> Allow students to predict outcomes before performing a code-related task and then discuss the results.
-              </p>
-              
-              <h4 className="font-semibold mt-4">Tips for Success</h4>
-              <ul className="list-disc pl-6 space-y-2 mt-2">
-                <li><strong>Set Clear Expectations:</strong> Let students know that active participation is essential.</li>
-                <li><strong>Be Supportive:</strong> Encourage students to take risks and make mistakes as part of the learning process.</li>
-                <li><strong>Debrief Regularly:</strong> Always take a few minutes at the end of an activity to reflect on what was learned and how the process felt.</li>
-              </ul>
-            </div>
-          )}
+          
           
           {activeTab === "explicit-direct-instruction" && (
             <div>

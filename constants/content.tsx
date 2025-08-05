@@ -356,36 +356,242 @@ export const collapsable: CollapsibleSection[] = [
     title: "Guiding TAs on Professional Behavior",
     content: <ProfessionalBehavior />,
   },
-
   {
     id: 4,
+    title: "Head TA Leading other TAs and Demonstrators",
+    content: (
+      <div className="space-y-2">
+        <p className="mt-3">
+          Some courses require Head TAs if there is more than one section for
+          the course and/or if the class has many students. As a Head TA, you
+          play a crucial leadership role in supporting other Teaching Assistants
+          (TAs) and Demonstrators, ensuring the smooth operation of lab-based
+          courses and tutorials. Your role centres around clear communication,
+          setting expectations, providing mentorship, and facilitating feedback
+          to promote a successful experience for both TAs, Markers and students.
+        </p>
+
+        <h3 className="font-semibold text-lg mt-2 mb-1">
+          Set Clear Expectations with your team from the start{" "}
+        </h3>
+
+        <p>
+          At the beginning of the term, it's essential to define and communicate
+          the roles and responsibilities of each TA and Demonstrator. As Head
+          TA, you should work with the course instructor to outline
+          expectations, which typically include:
+        </p>
+
+        <ul className="list-disc pl-6 ml-1 space-y-1">
+          <li>Leading lab and/or tutorial sessions </li>
+          <li>Preparing lab, tutorial and possibly class materials </li>
+          <li>
+            Ensuring TAs & Demonstrators know how to use any ed tech and
+            required digital platforms needed for labs and classes (GitHub,
+            GitLab, Codio, etc.){" "}
+          </li>
+          <li>Grading assignments and reports </li>
+          <li>Holding office hours </li>
+          <li>Responding to student inquiries </li>
+        </ul>
+
+        <p>
+          Clarifying these responsibilities early on prevents confusion and sets
+          a professional tone for the term.
+        </p>
+
+        <h3 className="font-semibold text-lg mt-2 mb-1">
+          Facilitate Regular Meetings for Coordination and Support{" "}
+        </h3>
+
+        <p>
+          Organize weekly or biweekly meetings with all TAs to maintain
+          consistent communication. These meetings provide a space to:{" "}
+        </p>
+
+        <ul className="list-disc pl-6 ml-1 space-y-1">
+          <li>Review upcoming lab activities and expectations </li>
+          <li>Address questions or logistical concerns </li>
+          <li>Share grading rubrics and align marking standards </li>
+          <li>Encourage peer collaboration and mutual support </li>
+        </ul>
+
+        <p>
+          As Head TA, your role is to lead these discussions, troubleshoot
+          issues, and act as a liaison between the course instructor and the
+          TAs.{" "}
+        </p>
+
+        <h3 className="font-semibold text-lg mt-2 mb-1">
+          Supporting Lab Observations
+        </h3>
+
+        <p>
+          Occasionally, an instructor may ask you to attend lab sessions or
+          tutorials to help ensure course delivery standards are being met. This
+          also provides mentorship opportunities. When observing:{" "}
+        </p>
+
+        <ul className="list-disc pl-6 ml-1 space-y-1">
+          <li>
+            Coordinate with TAs and Demonstrators beforehand on when you'll
+            attend{" "}
+          </li>
+          <li>
+            Observe respectfully, allowing the TA to lead and the Demonstrator
+            to proceed with the planned session{" "}
+          </li>
+          <li>
+            Step in only if necessary (e.g., safety issues or serious
+            disruptions){" "}
+          </li>
+          <li>Take notes to share with the instructor of the course </li>
+        </ul>
+
+        <p>
+          This approach reinforces your trust in their capabilities while still
+          offering guidance.{" "}
+        </p>
+
+        <h3 className="font-semibold text-lg">Offer Constructive Feedback </h3>
+
+        <p>
+          Regular feedback helps TAs grow as educators. You can foster their
+          development through:{" "}
+        </p>
+
+        <ul className="list-disc pl-6 ml-1 space-y-1">
+          <li>Informal check-ins and debriefs after labs </li>
+          <li>
+            Private discussions focused on teaching techniques and classroom
+            management{" "}
+          </li>
+          <li>
+            Encouraging peer feedback through shared reflection or observation{" "}
+          </li>
+          <li>Include any feedback from the course </li>
+        </ul>
+
+        <p>
+          Always aim to give feedback in a positive, supportive manner to build
+          confidence and skill.{" "}
+        </p>
+
+        <h3 className="font-semibold text-lg mt-2 mb-1">
+          Promote a Collaborative and Professional Environment
+        </h3>
+
+        <p>
+          Your leadership sets the tone for a respectful and growth-oriented
+          team. Strengthen your TA team by:{" "}
+        </p>
+
+        <ul className="list-disc pl-6 ml-1 space-y-1">
+          <li>Treating TAs and Demonstrators as instructional partners </li>
+          <li>Encouraging initiative </li>
+          <li>Sharing resources for professional development </li>
+          <li>Recognizing individual strengths and contributions </li>
+        </ul>
+
+        <p>
+          By nurturing a collaborative environment, you enhance both TA and
+          Marker performance and the student learning experience.{" "}
+        </p>
+
+        <h3 className="font-semibold text-lg mt-2 mb-1">In Summary</h3>
+
+        <p>
+          As a Head TA, your role extends beyond administration—you're a mentor,
+          communicator, and team leader. By establishing clear expectations,
+          maintaining regular communication, observing with care, offering
+          constructive feedback, and fostering a professional learning
+          community, you help build a strong foundation for successful lab and
+          tutorial instruction. This helps students meet course outcomes, and
+          the instructor can focus on teaching course content in classes,
+          knowing that the learning environment is running smoothly in other
+          areas so students can succeed.
+        </p>
+
+        <h3 className="text-lg font-bold mt-2 mb-1">References:</h3>
+
+        <p>
+          Roles and responsibilities of teaching assistants. Graduate Assistant
+          Handbook. (2024, March 21).{" "}
+          <a
+            href="https://uwm.edu/graduate-assistants/handbook/teaching-assistants/roles-and-responsibilities-of-teaching-assistants/"
+            target="_blank"
+            className="text-blue-600"
+          >
+            https://uwm.edu/graduate-assistants/handbook/teaching-assistants/roles-and-responsibilities-of-teaching-assistants/
+          </a>
+        </p>
+
+        <p>
+          Ott, E. T., & Angel, H. Z. (2022, February 12). How to oversee a
+          laboratory course taught by teaching assistants: experiences in the
+          lab and field. Pressbooks.{" "}
+          <a
+            href="https://pressbooks.lib.vt.edu/universityteaching/chapter/how-to-oversee-a-laboratory-course-taught-by-teaching-assistants-experiences-in-the-lab-and-field/ "
+            target="_blank"
+            className="text-blue-600"
+          >
+            https://pressbooks.lib.vt.edu/universityteaching/chapter/how-to-oversee-a-laboratory-course-taught-by-teaching-assistants-experiences-in-the-lab-and-field/
+          </a>
+        </p>
+      </div>
+    ),
+  },
+  {
+    id: 5,
+    title: "Suggestions for Being a Fantastic TA",
+    content: <FantasticTA />,
+  },
+  {
+    id: 6,
+    title:
+      "Creating Assignments and Labs with Clear Outcomes Using Bloom’s Taxonomy",
+    content: <BloomsTax />,
+  },
+  {
+    id: 7,
+    title: "Creating Assignment, Labs and Rubrics",
+    content: <CreatingALR />,
+  },
+  {
+    id: 8,
     title: "In the Classroom",
     content: <ClassroomGuidance />,
   },
   {
-    id: 5,
+    id: 9,
     title: "The Lab",
     content: <TheLab />,
   },
   {
-    id: 6,
+    id: 10,
     title: "Tutorials",
     content: <Tutorials />,
   },
   {
-    id: 7,
-    title: "Suggestions for Being a Fantastic TA",
-    content: <FantasticTA />,
+    id: 11,
+    title: "Toolbox of Instructional Strategies that Work!",
+    content: <ToolboxInstructionalStrategies />,
+  },
+  {
+    id: 12,
+    title:
+      "Equity, Diversity, Inclusion & Accessibility (EDIA) and Supporting Students in Distress",
+    content: <EDIA />,
+  },
+  {
+    id: 13,
+    title:
+      "Your Role in Fostering Inclusive Classrooms at the Faculty of Computer Science",
+    content: <FosteringInclusiveClassrooms />,
   },
 
   {
-    id: 8,
-    title: "Receiving Feedback",
-    content: <ReceivingFeedback />,
-  },
-
-  {
-    id: 9,
+    id: 14,
     title: "Conducting Office Hours",
     content: (
       <div className="space-y-2">
@@ -608,223 +814,9 @@ export const collapsable: CollapsibleSection[] = [
       </div>
     ),
   },
-
-  {
-    id: 10,
-    title: "Head TA Leading other TAs and Demonstrators",
-    content: (
-      <div className="space-y-2">
-        <p className="mt-3">
-          Some courses require Head TAs if there is more than one section for
-          the course and/or if the class has many students. As a Head TA, you
-          play a crucial leadership role in supporting other Teaching Assistants
-          (TAs) and Demonstrators, ensuring the smooth operation of lab-based
-          courses and tutorials. Your role centres around clear communication,
-          setting expectations, providing mentorship, and facilitating feedback
-          to promote a successful experience for both TAs, Markers and students.
-        </p>
-
-        <h3 className="font-semibold text-lg mt-2 mb-1">
-          Set Clear Expectations with your team from the start{" "}
-        </h3>
-
-        <p>
-          At the beginning of the term, it's essential to define and communicate
-          the roles and responsibilities of each TA and Demonstrator. As Head
-          TA, you should work with the course instructor to outline
-          expectations, which typically include:
-        </p>
-
-        <ul className="list-disc pl-6 ml-1 space-y-1">
-          <li>Leading lab and/or tutorial sessions </li>
-          <li>Preparing lab, tutorial and possibly class materials </li>
-          <li>
-            Ensuring TAs & Demonstrators know how to use any ed tech and
-            required digital platforms needed for labs and classes (GitHub,
-            GitLab, Codio, etc.){" "}
-          </li>
-          <li>Grading assignments and reports </li>
-          <li>Holding office hours </li>
-          <li>Responding to student inquiries </li>
-        </ul>
-
-        <p>
-          Clarifying these responsibilities early on prevents confusion and sets
-          a professional tone for the term.
-        </p>
-
-        <h3 className="font-semibold text-lg mt-2 mb-1">
-          Facilitate Regular Meetings for Coordination and Support{" "}
-        </h3>
-
-        <p>
-          Organize weekly or biweekly meetings with all TAs to maintain
-          consistent communication. These meetings provide a space to:{" "}
-        </p>
-
-        <ul className="list-disc pl-6 ml-1 space-y-1">
-          <li>Review upcoming lab activities and expectations </li>
-          <li>Address questions or logistical concerns </li>
-          <li>Share grading rubrics and align marking standards </li>
-          <li>Encourage peer collaboration and mutual support </li>
-        </ul>
-
-        <p>
-          As Head TA, your role is to lead these discussions, troubleshoot
-          issues, and act as a liaison between the course instructor and the
-          TAs.{" "}
-        </p>
-
-        <h3 className="font-semibold text-lg mt-2 mb-1">
-          Supporting Lab Observations
-        </h3>
-
-        <p>
-          Occasionally, an instructor may ask you to attend lab sessions or
-          tutorials to help ensure course delivery standards are being met. This
-          also provides mentorship opportunities. When observing:{" "}
-        </p>
-
-        <ul className="list-disc pl-6 ml-1 space-y-1">
-          <li>
-            Coordinate with TAs and Demonstrators beforehand on when you'll
-            attend{" "}
-          </li>
-          <li>
-            Observe respectfully, allowing the TA to lead and the Demonstrator
-            to proceed with the planned session{" "}
-          </li>
-          <li>
-            Step in only if necessary (e.g., safety issues or serious
-            disruptions){" "}
-          </li>
-          <li>Take notes to share with the instructor of the course </li>
-        </ul>
-
-        <p>
-          This approach reinforces your trust in their capabilities while still
-          offering guidance.{" "}
-        </p>
-
-        <h3 className="font-semibold text-lg">Offer Constructive Feedback </h3>
-
-        <p>
-          Regular feedback helps TAs grow as educators. You can foster their
-          development through:{" "}
-        </p>
-
-        <ul className="list-disc pl-6 ml-1 space-y-1">
-          <li>Informal check-ins and debriefs after labs </li>
-          <li>
-            Private discussions focused on teaching techniques and classroom
-            management{" "}
-          </li>
-          <li>
-            Encouraging peer feedback through shared reflection or observation{" "}
-          </li>
-          <li>Include any feedback from the course </li>
-        </ul>
-
-        <p>
-          Always aim to give feedback in a positive, supportive manner to build
-          confidence and skill.{" "}
-        </p>
-
-        <h3 className="font-semibold text-lg mt-2 mb-1">
-          Promote a Collaborative and Professional Environment
-        </h3>
-
-        <p>
-          Your leadership sets the tone for a respectful and growth-oriented
-          team. Strengthen your TA team by:{" "}
-        </p>
-
-        <ul className="list-disc pl-6 ml-1 space-y-1">
-          <li>Treating TAs and Demonstrators as instructional partners </li>
-          <li>Encouraging initiative </li>
-          <li>Sharing resources for professional development </li>
-          <li>Recognizing individual strengths and contributions </li>
-        </ul>
-
-        <p>
-          By nurturing a collaborative environment, you enhance both TA and
-          Marker performance and the student learning experience.{" "}
-        </p>
-
-        <h3 className="font-semibold text-lg mt-2 mb-1">In Summary</h3>
-
-        <p>
-          As a Head TA, your role extends beyond administration—you're a mentor,
-          communicator, and team leader. By establishing clear expectations,
-          maintaining regular communication, observing with care, offering
-          constructive feedback, and fostering a professional learning
-          community, you help build a strong foundation for successful lab and
-          tutorial instruction. This helps students meet course outcomes, and
-          the instructor can focus on teaching course content in classes,
-          knowing that the learning environment is running smoothly in other
-          areas so students can succeed.
-        </p>
-
-        <h3 className="text-lg font-bold mt-2 mb-1">References:</h3>
-
-        <p>
-          Roles and responsibilities of teaching assistants. Graduate Assistant
-          Handbook. (2024, March 21).{" "}
-          <a
-            href="https://uwm.edu/graduate-assistants/handbook/teaching-assistants/roles-and-responsibilities-of-teaching-assistants/"
-            target="_blank"
-            className="text-blue-600"
-          >
-            https://uwm.edu/graduate-assistants/handbook/teaching-assistants/roles-and-responsibilities-of-teaching-assistants/
-          </a>
-        </p>
-
-        <p>
-          Ott, E. T., & Angel, H. Z. (2022, February 12). How to oversee a
-          laboratory course taught by teaching assistants: experiences in the
-          lab and field. Pressbooks.{" "}
-          <a
-            href="https://pressbooks.lib.vt.edu/universityteaching/chapter/how-to-oversee-a-laboratory-course-taught-by-teaching-assistants-experiences-in-the-lab-and-field/ "
-            target="_blank"
-            className="text-blue-600"
-          >
-            https://pressbooks.lib.vt.edu/universityteaching/chapter/how-to-oversee-a-laboratory-course-taught-by-teaching-assistants-experiences-in-the-lab-and-field/
-          </a>
-        </p>
-      </div>
-    ),
-  },
-
-  {
-    id: 11,
-    title: "Toolbox of Instructional Strategies that Work!",
-    content: <ToolboxInstructionalStrategies />,
-  },
-
-  {
-    id: 12,
-    title:
-      "Your Role in Fostering Inclusive Classrooms at the Faculty of Computer Science",
-    content: <FosteringInclusiveClassrooms />,
-  },
-
-  {
-    id: 13,
-    title:
-      "Creating Assignments and Labs with Clear Outcomes Using Bloom’s Taxonomy",
-    content: <BloomsTax />,
-  },
-
-  {
-    id: 14,
-    title:
-      "Equity, Diversity, Inclusion & Accessibility (EDIA) and Supporting Students in Distress",
-    content: <EDIA />,
-  },
-
   {
     id: 15,
-    title: "Creating Assignment, Labs and Rubrics",
-    content: <CreatingALR />,
+    title: "Receiving Feedback",
+    content: <ReceivingFeedback />,
   },
 ];

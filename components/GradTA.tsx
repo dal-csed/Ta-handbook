@@ -67,7 +67,7 @@ export default function TADemonstratorMarkerTable() {
                 20 to 60 students per TA/Demonstrator grouping
               </td>
               <td className="border p-2">
-                1.5 to 2 hours per student enrolled
+                1 hours per student enrolled
               </td>
             </tr>
 
@@ -83,18 +83,18 @@ export default function TADemonstratorMarkerTable() {
               </td>
               <td className="border p-2 space-y-1">
                 <ul className="list-disc ml-4">
-                  <li>interact with students in lab/tutorial/lecture only</li>
-                  <li>attend coordination briefings</li>
-                  <li>assist in launch and shutdown procedures</li>
-                  <li>proctor (admin support and walk the room only)</li>
+                  <li>Interact with students in lab/tutorial/lecture only</li>
+                  <li>Attend coordination briefings</li>
+                  <li>Assist in launch and shutdown procedures</li>
+                  <li>Proctor (admin support and walk the room only)</li>
                 </ul>
               </td>
               <td className="border p-2 space-y-1">
                 <ul className="list-disc ml-4">
-                  <li>evaluate student work product</li>
-                  <li>attend coordination briefings</li>
-                  <li>edit closed captioning</li>
-                  <li>proctor (admin support and walk the room only)</li>
+                  <li>Evaluate student work product</li>
+                  <li>Attend coordination briefings</li>
+                  <li>Edit closed captioning</li>
+                  <li>Proctor (admin support and walk the room only)</li>
                 </ul>
               </td>
             </tr>
@@ -106,7 +106,7 @@ export default function TADemonstratorMarkerTable() {
               <td className="border p-2">
                 <ul className="list-disc ml-4">
                   <li>
-                    be hired to mark at the TA rate
+                    Be hired to mark at the TA rate
                     <br />
                     <em>If a TA needs to do marking, add a Marker contract.</em>
                   </li>
@@ -115,12 +115,12 @@ export default function TADemonstratorMarkerTable() {
               <td className="border p-2">
                 <ul className="list-disc ml-4">
                   <li>
-                    interact with students outside labs/tutorials including
+                    Interact with students outside labs/tutorials including
                     text/email
                   </li>
-                  <li>lead labs/tutorials</li>
+                  <li>Lead labs/tutorials</li>
                   <li>
-                    invigilate (answer content-related questions during testing)
+                    Invigilate (answer content-related questions during testing)
                   </li>
                 </ul>
                 <em>
@@ -129,13 +129,13 @@ export default function TADemonstratorMarkerTable() {
               </td>
               <td className="border p-2">
                 <ul className="list-disc ml-4">
-                  <li>interact with students, including text/email</li>
+                  <li>Interact with students, including text/email</li>
                   <li>
-                    answer student questions about marked work outside
+                    Answer student questions about marked work outside
                     lab/tutorial/lecture
                   </li>
                   <li>
-                    invigilate (answer content-related questions during testing)
+                    Invigilate (answer content-related questions during testing)
                   </li>
                 </ul>
               </td>

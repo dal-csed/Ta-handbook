@@ -583,15 +583,16 @@ export const collapsable: CollapsibleSection[] = [
       "Equity, Diversity, Inclusion & Accessibility (EDIA) and Supporting Students in Distress",
     content: <EDIA />,
   },
-  {
-    id: 13,
-    title:
-      "Your Role in Fostering Inclusive Classrooms at the Faculty of Computer Science",
-    content: <FosteringInclusiveClassrooms />,
-  },
+  
+  // {
+  //   id: 12,
+  //   title:
+  //     "Your Role in Fostering Inclusive Classrooms at the Faculty of Computer Science",
+  //   content: <FosteringInclusiveClassrooms />,
+  // },
 
   {
-    id: 14,
+    id: 13, 
     title: "Conducting Office Hours",
     content: (
       <div className="space-y-2">
@@ -815,7 +816,7 @@ export const collapsable: CollapsibleSection[] = [
     ),
   },
   {
-    id: 15,
+    id: 14,
     title: "Receiving Feedback",
     content: <ReceivingFeedback />,
   },

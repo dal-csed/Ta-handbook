@@ -1,20 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
-import { ScrambleTextPlugin } from 'gsap/ScrambleTextPlugin';
 
-
-gsap.registerPlugin(ScrambleTextPlugin) 
 
 
 const CustomHeader = () => {
-  useGSAP(() => {
-    gsap.to('.title-page', {
-      duration: 1,
-      scrambleText: "Graduate TA Handbook",
-    });
-  });
 
   return (
     <div className="border-b-4 border-[#ffcc00] w-full h-24">
@@ -23,7 +12,7 @@ const CustomHeader = () => {
           <Image src="/dal-logo.png" alt="Dalhousie University" fill />
         </div>
         <p className="title-page text-[#474646] text-4xl font-semibold">
-          
+          Graduate TA Hnadbook
         </p>
 
         <div className="flex flex-row justify-between gap-x-2">

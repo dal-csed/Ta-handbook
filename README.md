@@ -5,32 +5,49 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
+npm install
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Updating the Website
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Use FileZilla to update the files on the server.
 
-## Learn More
+SFTP Credentials:
 
-To learn more about Next.js, take a look at the following resources:
+- Host: ```sftp://csed-graduate-ta-handbook.cs.dal.ca```
+- Username: ```project-tahandbook```
+- Password: ```Roo7shaeS3codei```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Run project:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. SSH into the server:
 
-## Deploy on Vercel
+    ``` 
+    ssh project-tahandbook@csed-graduate-ta-handbook.cs.dal.ca
+    ```
+2. Start or attach to a tmux session:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```
+    tmux
+    ```
+- To detach: ```Ctrl + b```, then ```d```
+- tmux a 
+- To list sessions: ``` tmus ls ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Project Structure
+
+```components/``` -
+Contains all reusable custom components and row layouts.
+
+```constant/``` -
+Contains static data arrays used throughout the site (e.g., for dynamic rows).
+
+```page.tsx``` - 
+The landing page and main entry point of the site.
+
+ 
+

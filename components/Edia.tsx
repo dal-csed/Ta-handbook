@@ -51,7 +51,8 @@ export default function EDIA() {
                   : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-black hover:border-gray-300"
               }`}
             >
-              <strong>Purple Folder</strong> – Responding to Disclosures of Sexualized Violence
+              <strong>Purple Folder</strong> – Responding to Disclosures of
+              Sexualized Violence
             </button>
 
             <button
@@ -62,7 +63,8 @@ export default function EDIA() {
                   : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-black hover:border-gray-300"
               }`}
             >
-              <strong>Blue Folder</strong> – Recognizing and Responding to Students in Distress
+              <strong>Blue Folder</strong> – Recognizing and Responding to
+              Students in Distress
             </button>
           </nav>
         </div>
@@ -246,6 +248,71 @@ export default function EDIA() {
           )}
 
           {activeTab === "blue" && (
+            <div>
+              <p>
+                The <strong>Blue Folder</strong> is a tool to help faculty and
+                staff recognize signs of student distress and respond with
+                compassion and appropriate referrals. It applies broadly to
+                academic and personal challenges that students may face, ranging
+                from mental health to financial stressors.
+              </p>
+
+              <div className="my-2">
+                <p className="font-semibold mb-1">Recognizing Distress:</p>
+                <ul className="list-disc pl-5 space-y-1">
+                  <li>
+                    <strong>Behavioral Signs</strong>: Withdrawal, irritability,
+                    mood swings, falling asleep in class, disordered eating, or
+                    personal hygiene changes.
+                  </li>
+                  <li>
+                    <strong>Academic Signs</strong>: Drop in performance,
+                    attendance issues, or communication difficulties.
+                  </li>
+                </ul>
+              </div>
+
+              <div className="my-3">
+                <p className="font-semibold mb-1">How to Respond:</p>
+                <ul className="list-disc pl-5 space-y-1">
+                  <li>
+                    Approach students with genuine concern:{" "}
+                    <i>
+                      "I’ve noticed you seem withdrawn, is everything okay?"
+                    </i>
+                  </li>
+                  <li>Listen actively and without judgment.</li>
+                  <li>
+                    Respect confidentiality and only escalate when safety is a
+                    concern.
+                  </li>
+                </ul>
+              </div>
+
+              <div className="my-3">
+                <p className="font-semibold mb-1">Referring Students:</p>
+                <ul className="list-disc pl-5 space-y-1">
+                  <li>
+                    <strong>Student Health & Wellness Centre</strong>: Offers
+                    medical and mental health services, including same-day
+                    counselling.
+                  </li>
+                  <li>
+                    <strong>Student Support Team</strong> : A coordinated
+                    service helping students navigate personal, financial, and
+                    academic difficulties.
+                  </li>
+                  <li>
+                    <strong>Specialized Offices</strong>: Accessibility Centre,
+                    International Centre, Multifaith Services, Black/Indigenous
+                    Student Advising Centres.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          )}
+
+          {activeTab === "yellow" && (
             <div>
               <p>
                 The <strong>Blue Folder</strong> is a tool to help faculty and

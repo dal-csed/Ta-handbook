@@ -105,7 +105,7 @@ export default function Home() {
       <TechBits />
 
       {/* Microsoft Form Section */}
-        <section className="max-w-[1280px] mx-auto my-5 px-6">
+        {/* <section className="max-w-[1280px] mx-auto my-5 px-6">
           <h2 className="text-2xl font-bold font-sans text-[#55585ded] mb-3">
             Feedback Form
           </h2>
@@ -118,7 +118,7 @@ export default function Home() {
               loading="lazy"
             />
           </div>
-        </section>
+        </section> */}
       <CustomFooter />
     </>
   );

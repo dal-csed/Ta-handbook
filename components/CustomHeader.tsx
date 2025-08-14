@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import FlyoutLink, { PricingContent, QRContent } from "./FlyoutLink";
 
 
 
@@ -12,10 +13,10 @@ const CustomHeader = () => {
           <Image src="/dal-logo.png" alt="Dalhousie University" fill />
         </div>
         <p className="title-page text-[#474646] text-4xl font-semibold">
-          Graduate TA Hnadbook
+          Graduate TA Handbook
         </p>
 
-        <div className="flex flex-row justify-between gap-x-2">
+        <div className="flex flex-row items-center justify-between gap-x-1">
           <a
             href="https://csed.cs.dal.ca/"
             target="_blank"
@@ -30,6 +31,10 @@ const CustomHeader = () => {
           >
             Just In Time Resources
           </a>
+
+          <FlyoutLink href="#" FlyoutContent={QRContent}>
+            Feedback
+          </FlyoutLink>
         </div>
       </div>
     </div>

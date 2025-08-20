@@ -59,12 +59,12 @@ export default function TADemonstratorMarkerTable() {
             <tr>
               <td className="border p-2 font-semibold">Ratios</td>
               <td className="border p-2">
-                20 to 60 students per TA,
+                60 students per TA,
                 <br />
                 <em>depends on duties and TA</em>
               </td>
               <td className="border p-2">
-                20 to 60 students per TA/Demonstrator grouping
+                60 students per TA/Demonstrator grouping
               </td>
               <td className="border p-2">
                 1 hours per student enrolled
@@ -180,7 +180,7 @@ export default function TADemonstratorMarkerTable() {
                   : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-black hover:border-gray-300"
               }`}
             >
-              Marking and Feedback (for TAs & Markers)
+              Marking and Feedback (for Markers)
             </button>
 
             <button
@@ -1176,7 +1176,7 @@ export default function TADemonstratorMarkerTable() {
                   A non-binding, scheduled casual position impacted by student
                   attendance.
                 </li>
-                <li>20 to 60 students per TA/Demonstrator grouping.</li>
+                <li>60 students per TA/Demonstrator grouping.</li>
                 <li>
                   Demonstrators support the TA in delivering Lab/Tutorials,
                   answer questions from students.

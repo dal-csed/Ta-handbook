@@ -48,7 +48,7 @@ export const collapsable: CollapsibleSection[] = [
         <p>
           At the Faculty, there are different roles:{" "}
           <strong>TA (Teaching Assistant)</strong>,{" "}
-          <strong>Demonstrators</strong>, and <strong>Makers</strong>. A TA
+          <strong>Demonstrators</strong>, and <strong>Markers</strong>. A TA
           position is the best way to secure a longer-term role with one or more
           classes for a sustained duration—ideally for the length of your
           degree! This benefits the faculty by retaining trained TAs who develop
@@ -155,11 +155,11 @@ export const collapsable: CollapsibleSection[] = [
           Faculty of Computer Science Training Opportunities
         </h3>
         <p>
-          We strive to offer you training that will help you be successful in
-          your role through this handbook, the FCS TAs & Markers Brightspace
-          site, in-person training sessions at the FCS, and the guidance of the
-          instructor you will be working with. Computer Science is a distinct
-          discipline that requires specialized support.
+          We strive to offer you training and information that will help you be
+          successful in your role through this handbook, the FCS TAs & Markers
+          Brightspace site, in-person training sessions at the FCS, and the
+          guidance of the instructor you will be working with. Computer Science
+          is a distinct discipline that requires specialized support.
         </p>
 
         <h3 className="font-bold text-lg">
@@ -167,13 +167,20 @@ export const collapsable: CollapsibleSection[] = [
         </h3>
 
         <h3 className="font-semibold">
-          Professional Development Resources at Dalhousie
+          Professional Development Resources at Dalhousie:
         </h3>
 
         <ul className="list-disc pl-6 space-y-2">
-          <li>
+          <li className="items-center">
             <strong>
-              Teaching Assistant Professional Development Days (TA Days)
+              <a
+                href="https://www.dal.ca/dept/clt/events-news/annual-events/TA_Days.html"
+                target="_blank"
+                className="text-blue-800 underline inline-flex items-center"
+              >
+                Teaching Assistant Professional Development Days{" "}
+              </a>{" "}
+              (TA Days)
             </strong>
             <p>
               TA Days provide TAs with strategies, information, and insight to
@@ -184,7 +191,7 @@ export const collapsable: CollapsibleSection[] = [
             </p>
           </li>
 
-          <li>
+          {/* <li>
             <strong>Teaching Assistant Enrichment Program (TAEP)</strong>
             <p>
               TAEP combines workshops, teaching exercises, and reflection on
@@ -192,14 +199,28 @@ export const collapsable: CollapsibleSection[] = [
               the development of teaching, offering experience, knowledge, and
               skills that can be applied immediately to current TA assignments.
             </p>
-          </li>
+          </li> */}
 
           <li>
             <strong>
-              Certificate in University Teaching and Learning (Graduate
-              Students)
+              <a
+                target="_blank"
+                className="text-blue-800 underline inline-flex items-center"
+                href="https://www.dal.ca/dept/clt/programs/CUTL.html#:~:text=Advantages,documented%20certificate%20and%20transcript%20notation"
+              >
+                Certificate in University Teaching and Learning{" "}
+              </a>{" "}
+              (Graduate Students)
             </strong>
-            <p>There are four main requirement elements in the program:</p>
+            <p>
+              {" "}
+              The Centre for Learning and Teaching (CLT) at Dalhousie University
+              invites graduate students and post-doctoral fellows to participate
+              in the Certificate in University Teaching and Learning (CUTL), a
+              flexible program designed to support and recognize a wide range of
+              teaching development opportunities. There are four main requirement
+              elements in the program:
+            </p>
             <ul className="list-disc pl-6 space-y-1">
               <li>Theory</li>
               <li>Teaching Practice</li>
@@ -209,9 +230,18 @@ export const collapsable: CollapsibleSection[] = [
           </li>
 
           <li>
-            <strong>Centre for Learning and Teaching (CLT):</strong> Access a
-            range of resources and support services dedicated to improving
-            teaching and learning experiences.
+            <strong>Centre for Learning and Teaching (CLT):</strong> The CLT
+            offers a range of webinars and workshops in their{" "}
+            <a
+              target="_blank"
+              className="text-blue-800 font-bold underline inline-flex items-center"
+              href="https://www.dal.ca/dept/clt/events-news/Calendar%20of%20Events.html"
+            >
+              Calendar of Events
+            </a>{" "}
+            dedicated to improving teaching and learning experiences at Dal.
+            Some of the workshops will be open to you, so be sure to check the
+            calendar for learning opportunities.
           </li>
         </ul>
 
@@ -583,7 +613,7 @@ export const collapsable: CollapsibleSection[] = [
       "Equity, Diversity, Inclusion & Accessibility (EDIA) and Supporting Students in Distress",
     content: <EDIA />,
   },
-  
+
   // {
   //   id: 12,
   //   title:
@@ -592,7 +622,7 @@ export const collapsable: CollapsibleSection[] = [
   // },
 
   {
-    id: 13, 
+    id: 13,
     title: "Conducting Office Hours",
     content: (
       <div className="space-y-2">

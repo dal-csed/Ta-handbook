@@ -142,14 +142,16 @@ export default function TAProfessionalBehavior() {
                   <li>
                     <strong>Know When to Refer</strong> – If a student is in
                     distress or you feel unsure about how to handle a situation,
-                    consult the course instructor or a{" "}
+                    consult the course instructor or share the{" "}
                     <Link
-                      href="#section-14"
+                      href="https://www.dal.ca/campus_life/health-and-wellness.html"
                       className="font-semibold text-blue-800 underline"
+                      target="_blank"
                     >
-                      university support office
-                    </Link>
-                    . You are not expected to counsel students.
+                      Student Health and Wellness
+                    </Link>{" "}
+                    website link with them so that they can learn about campus
+                    wellness supports for students. TAs do not counsel students.
                   </li>
                 </ol>
               </div>
@@ -194,10 +196,17 @@ export default function TAProfessionalBehavior() {
                 understanding of their duties. If there's ambiguity regarding
                 tasks—such as grading policies, leading discussions, or holding
                 office hours—TAs should seek clarification from the instructor
-                to ensure alignment with course objectives. Please see the{" "}
+                to ensure alignment with course objectives. The TA contract that
+                you signed should have details about your role; however, a more
+                detailed checklist about the nature of what an instructor
+                expects under the duties outlined in your contract can be
+                helpful. Please see the
                 <Link
-                  href={"#section-1"}
+                  href={
+                    "https://dalu-my.sharepoint.com/:b:/g/personal/sh412475_dal_ca/ET53akMBCmxMkoTy46W5yVgBpgpqRSfEcY7Gzxve-yBewA?e=QzWc5t"
+                  }
                   className="text-blue-800 underline mx-1 inline-flex items-center"
+                  target="_blank"
                 >
                   Teaching Assistant Checklist{" "}
                 </Link>
@@ -225,14 +234,7 @@ export default function TAProfessionalBehavior() {
                     <strong>Personal Matters</strong> : If a student shares
                     personal challenges affecting their academic performance,
                     the TA should inform the instructor who can provide
-                    appropriate support or referrals. Also see the section on
-                    <Link
-                      href="#section-14"
-                      className="text-blue-800 underline mx-1 inline-flex items-center"
-                    >
-                      Student Supports at Dal
-                    </Link>
-                    if the student relates personal issues of another nature.
+                    appropriate support or referrals.
                   </li>
                 </ul>
 
@@ -253,7 +255,7 @@ export default function TAProfessionalBehavior() {
                   immediately. The instructor can then initiate investigations
                   and initialize the process with the Academic Integrity Team,
                   sanctions may be given in accordance with university policies.
-                  In such cases, the instructor relies on the TA
+                  In such cases, the instructor relies on the TA.
                 </p>
               </div>
 
@@ -267,7 +269,10 @@ export default function TAProfessionalBehavior() {
                   that they cannot confidently address, it's advisable to
                   consult the instructor. This approach ensures that students
                   receive accurate information and maintains the integrity of
-                  the course content.
+                  the course content. Students are encouraged to use office
+                  hours to ask questions and seek clarification. Please ask
+                  students to refer to the syllabus for the instructor’s contact
+                  information and scheduled office hours.
                 </p>
               </div>
 
@@ -275,11 +280,9 @@ export default function TAProfessionalBehavior() {
                 <h3 className="font-semibold">Logistical or Policy Changes</h3>
 
                 <p>
-                  Any proposed alterations to course logistics—such as changes
-                  in assignment deadlines, exam schedules, or grading
-                  criteria—should be discussed with the instructor before
-                  implementation. This coordination maintains consistency and
-                  fairness across the course.
+                  Any alterations to course logistics—such as changes in
+                  assignment deadlines, grading criteria of labs, or course
+                  policies—should be communicated by the course instructor.
                 </p>
               </div>
 

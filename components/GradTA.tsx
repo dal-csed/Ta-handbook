@@ -66,9 +66,7 @@ export default function TADemonstratorMarkerTable() {
               <td className="border p-2">
                 60 students per TA/Demonstrator grouping
               </td>
-              <td className="border p-2">
-                1 hours per student enrolled
-              </td>
+              <td className="border p-2">1 hours per student enrolled</td>
             </tr>
 
             <tr>
@@ -207,183 +205,7 @@ export default function TADemonstratorMarkerTable() {
           </nav>
         </div>
 
-        <div className="mt-4 p-4 bg-gray-50 h-auto rounded-lg">
-          {activeTab === "Markers" && (
-            <div className="mb-3 space-y-4">
-              <p>
-                This section is focused on maintaining consistency, fairness,
-                and clarity in grading practices. The following key aspects are
-                addressed:
-              </p>
-              <ol className="list-decimal list-inside space-y-4">
-                <li>
-                  <strong>Providing Exemplars</strong>: When grading complex
-                  projects, having exemplars of high-quality, average, and
-                  below-average work can help markers make objective
-                  comparisons. It also gives TAs a better understanding so they
-                  can explain it well to students. Exemplars (a worked example)
-                  should be selected or created and shared (with the
-                  corresponding rubrics) with students to set clear
-                  expectations. This practice not only aids students in
-                  understanding expectations and helps them to gain clarity on
-                  the success criteria applied to similar work of varying
-                  quality but also guides markers on how to improve the
-                  assessment of the work once it is completed and submitted6.
-                </li>
-                <li>
-                  <strong>Establishing a Standard for Better Grading</strong>:
-                  Markers should develop a clear, shared understanding of the
-                  grading criteria before assessing student work. A great way to
-                  do this is to carefully review the rubric for the assessment
-                  that has been given and thoroughly discuss it with the
-                  instructor or head TA/Marker. The marking team need to
-                  understand how to apply the rubric criteria appropriately to
-                  grade a piece of work. As highlighted above, using an exemplar
-                  of the project or past submissions as calibration tools align
-                  expectations and improves the consistency of evaluations
-                  across all markers7
-                </li>
-                <li className="space-y-3">
-                  <strong>Moderation Techniques</strong>: To maintain consistent
-                  grading standards, markers should collaborate through
-                  moderation sessions. These sessions involve collectively
-                  grading a sample set of submissions and discussing any scoring
-                  discrepancies.
-                  <p className="mt-3">
-                    A lead marker or instructor can select a few assessments
-                    representing high, medium, and low outcomes to establish a
-                    shared understanding of the standard and the rationale
-                    behind specific success criteria in the rubric.{" "}
-                  </p>
-                  <p>
-                    During the session, all markers grade the same assessment
-                    using the rubric, then compare scores and feedback. This
-                    process, known as "calibration," helps markers reach a
-                    consensus on the grade and determine effective feedback to
-                    guide student improvement. It is an essential strategy to
-                    resolve grading differences and ensure consistent
-                    application of rubrics.{" "}
-                  </p>
-                </li>
-                <li>
-                  <strong>Grading Policies</strong>: To ensure fairness and
-                  adherence to academic standards, maintaining the anonymity of
-                  student names (often called Blind Marking) is crucial to avoid
-                  bias. Markers must adhere to deadlines for returning graded
-                  assignments according to the grading policy set by the
-                  instructor (this can often be found in the course syllabus)
-                  and handle disputes or requests for re-evaluation. Markers
-                  will be instructed on how to communicate feedback
-                  constructively, maintain academic integrity, and keep records
-                  of graded work for potential audits or appeals by the
-                  instructor9.
-                </li>
-                <li>
-                  <strong>Take Regular Breaks to Maintain Fairness</strong>:
-                  Grading fatigue can lead to{" "}
-                  <strong>inconsistent evaluation</strong> or{" "}
-                  <strong>unfair grading</strong>. Taking breaks ensures that
-                  every student receives a{" "}
-                  <strong>fair and thoughtful assessment</strong>.
-                </li>
-                <li>
-                  <strong>Be Thoughtful in Tone</strong>: Written feedback
-                  should be encouraging and constructive, not just critical.
-                  Write comments that you would want to receive as a student.
-                </li>
-                <li>
-                  <strong>Prioritize Feedback on Key Issues</strong>: Since time
-                  is limited, focus on the most important areas for improvement
-                  rather than trying to correct every issue.
-                </li>
-                <li>
-                  <strong>Comment Banks</strong>: Can save time and be effective
-                  as comments can be curated. If you aren’t using CrowdMark a{" "}
-                  <strong>list of common feedback</strong> that can be copied
-                  and pasted to streamline grading can be useful. Refer students
-                  to external resources (e.g., office hours, the FCS Learning
-                  Centre, or Dal’s Writing Centre) for further learning.
-                </li>
-                <li>
-                  <strong>Address Common Errors with the Entire Class</strong>:
-                  Instead of repeating feedback individually,{" "}
-                  <strong>discuss frequent mistakes in class</strong> to save
-                  time and reinforce key learning points.
-                </li>
-              </ol>
-
-              <h3 className="font-sans font-bold">
-                GPS Model for Effective Feedback
-              </h3>
-
-              <p>
-                Providing minimal feedback can frustrate students, even those
-                who performed well. The <strong>GPS model</strong> ensures that
-                feedback is clear, actionable, and supportive:
-              </p>
-              <ul className="list-disc list-inside space-y-4">
-                <li>
-                  <strong>G – Goal</strong>: Clearly define what success looks
-                  like and what students should aim for.
-                </li>
-                <li>
-                  <strong>P – Position</strong>: Help students understand where
-                  they currently stand in relation to their goal.
-                </li>
-                <li>
-                  <strong>S – Steps</strong>: Offer specific strategies and
-                  guidance on how to improve and progress towards success.
-                </li>
-              </ul>
-
-              <p>
-                By implementing these principles and strategies, TAs can provide{" "}
-                <strong>meaningful and effective feedback</strong> that supports
-                student learning and development.
-              </p>
-
-              <p>
-                By abiding by and implementing the above steps, markers can be
-                equipped with the necessary tools to perform their
-                responsibilities effectively, foster a transparent grading
-                process, give feedback accordingly and contribute to a fair
-                learning environment.
-              </p>
-
-              <p>
-                Receiving and giving effective feedback | Centre for Teaching
-                Excellence | University of Waterloo. (n.d.).{" "}
-                <a
-                  href="https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/receiving-and-giving-effective-feedback"
-                  target="_blank"
-                  className="text-blue-600"
-                >
-                  https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/receiving-and-giving-effective-feedback
-                </a>
-              </p>
-
-              <p>
-                Moderation guidance. (2024, February 26). The University of
-                Edinburgh.
-                https://institute-academic-development.ed.ac.uk/learning-teaching/staff/assessment/moderation-guidance#:~:text=This%20involves%20the%20first%20marker,agree%20a%20final%20single%20mark.
-              </p>
-
-              <p>
-                Wimshurst, K., & Manning, M. (2012). Feed-forward assessment,
-                exemplars and peer marking: evidence of efficacy. Assessment &
-                Evaluation in Higher Education, 38(4), 451–465.
-                https://doi.org/10.1080/02602938.2011.646236
-              </p>
-
-              <p>
-                Wimshurst, K., & Manning, M. (2012b). Feed-forward assessment,
-                exemplars and peer marking: evidence of efficacy. Assessment &
-                Evaluation in Higher Education, 38(4), 451–465.
-                https://doi.org/10.1080/02602938.2011.646236
-              </p>
-            </div>
-          )}
-
+        <div className="mt-4 p-4 bg-gray-50 rounded-lg">
           {activeTab === "checklist" && (
             <div>
               <p>
@@ -398,7 +220,9 @@ export default function TADemonstratorMarkerTable() {
               </p>
 
               <div className="mt-2 space-y-2">
-                <h3 className="font-semibold text-lg">Basic Responsibilities</h3>
+                <h3 className="font-semibold text-lg">
+                  Basic Responsibilities
+                </h3>
 
                 <ul className="list-disc list-inside">
                   <li>
@@ -447,14 +271,15 @@ export default function TADemonstratorMarkerTable() {
                 questions will help you define your role and expectations,
                 ensuring you are prepared for your duties. Link to{" "}
                 <a
-                  href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:18384b70-2761-431f-9693-f2bbeb795e6a"
+                  href="https://dalu-my.sharepoint.com/:b:/g/personal/sh412475_dal_ca/ET53akMBCmxMkoTy46W5yVgBpgpqRSfEcY7Gzxve-yBewA?e=QzWc5t"
                   target="_blank"
                   className="text-blue-800 underline inline-flex items-center"
                 >
                   Teaching Assistant Checklist: Questions to Ask{" "}
                   <ExternalLink className="ml-1 h-4 w-4" />
                 </a>
-                , taken from Centre for Teaching Excellence, University of Waterloo (2024).
+                , taken from Centre for Teaching Excellence, University of
+                Waterloo (2024).
               </p>
 
               <h3 className="text-lg font-semibold mt-4">
@@ -1005,6 +830,182 @@ export default function TADemonstratorMarkerTable() {
                   </div>
                 }
               />
+            </div>
+          )}
+
+          {activeTab === "Markers" && (
+            <div className="mb-3 space-y-4">
+              <p>
+                This section is focused on maintaining consistency, fairness,
+                and clarity in grading practices. The following key aspects are
+                addressed:
+              </p>
+              <ol className="list-decimal list-inside space-y-4">
+                <li>
+                  <strong>Providing Exemplars</strong>: When grading complex
+                  projects, having exemplars of high-quality, average, and
+                  below-average work can help markers make objective
+                  comparisons. It also gives TAs a better understanding so they
+                  can explain it well to students. Exemplars (a worked example)
+                  should be selected or created and shared (with the
+                  corresponding rubrics) with students to set clear
+                  expectations. This practice not only aids students in
+                  understanding expectations and helps them to gain clarity on
+                  the success criteria applied to similar work of varying
+                  quality but also guides markers on how to improve the
+                  assessment of the work once it is completed and submitted6.
+                </li>
+                <li>
+                  <strong>Establishing a Standard for Better Grading</strong>:
+                  Markers should develop a clear, shared understanding of the
+                  grading criteria before assessing student work. A great way to
+                  do this is to carefully review the rubric for the assessment
+                  that has been given and thoroughly discuss it with the
+                  instructor or head TA/Marker. The marking team need to
+                  understand how to apply the rubric criteria appropriately to
+                  grade a piece of work. As highlighted above, using an exemplar
+                  of the project or past submissions as calibration tools align
+                  expectations and improves the consistency of evaluations
+                  across all markers7
+                </li>
+                <li className="space-y-3">
+                  <strong>Moderation Techniques</strong>: To maintain consistent
+                  grading standards, markers should collaborate through
+                  moderation sessions. These sessions involve collectively
+                  grading a sample set of submissions and discussing any scoring
+                  discrepancies.
+                  <p className="mt-3">
+                    A lead marker or instructor can select a few assessments
+                    representing high, medium, and low outcomes to establish a
+                    shared understanding of the standard and the rationale
+                    behind specific success criteria in the rubric.{" "}
+                  </p>
+                  <p>
+                    During the session, all markers grade the same assessment
+                    using the rubric, then compare scores and feedback. This
+                    process, known as "calibration," helps markers reach a
+                    consensus on the grade and determine effective feedback to
+                    guide student improvement. It is an essential strategy to
+                    resolve grading differences and ensure consistent
+                    application of rubrics.{" "}
+                  </p>
+                </li>
+                <li>
+                  <strong>Grading Policies</strong>: To ensure fairness and
+                  adherence to academic standards, maintaining the anonymity of
+                  student names (often called Blind Marking) is crucial to avoid
+                  bias. Markers must adhere to deadlines for returning graded
+                  assignments according to the grading policy set by the
+                  instructor (this can often be found in the course syllabus)
+                  and handle disputes or requests for re-evaluation. Markers
+                  will be instructed on how to communicate feedback
+                  constructively, maintain academic integrity, and keep records
+                  of graded work for potential audits or appeals by the
+                  instructor9.
+                </li>
+                <li>
+                  <strong>Take Regular Breaks to Maintain Fairness</strong>:
+                  Grading fatigue can lead to{" "}
+                  <strong>inconsistent evaluation</strong> or{" "}
+                  <strong>unfair grading</strong>. Taking breaks ensures that
+                  every student receives a{" "}
+                  <strong>fair and thoughtful assessment</strong>.
+                </li>
+                <li>
+                  <strong>Be Thoughtful in Tone</strong>: Written feedback
+                  should be encouraging and constructive, not just critical.
+                  Write comments that you would want to receive as a student.
+                </li>
+                <li>
+                  <strong>Prioritize Feedback on Key Issues</strong>: Since time
+                  is limited, focus on the most important areas for improvement
+                  rather than trying to correct every issue.
+                </li>
+                <li>
+                  <strong>Comment Banks</strong>: Can save time and be effective
+                  as comments can be curated. If you aren’t using CrowdMark a{" "}
+                  <strong>list of common feedback</strong> that can be copied
+                  and pasted to streamline grading can be useful. Refer students
+                  to external resources (e.g., office hours, the FCS Learning
+                  Centre, or Dal’s Writing Centre) for further learning.
+                </li>
+                <li>
+                  <strong>Address Common Errors with the Entire Class</strong>:
+                  Instead of repeating feedback individually,{" "}
+                  <strong>discuss frequent mistakes in class</strong> to save
+                  time and reinforce key learning points.
+                </li>
+              </ol>
+
+              <h3 className="font-sans font-bold">
+                GPS Model for Effective Feedback
+              </h3>
+
+              <p>
+                Providing minimal feedback can frustrate students, even those
+                who performed well. The <strong>GPS model</strong> ensures that
+                feedback is clear, actionable, and supportive:
+              </p>
+              <ul className="list-disc list-inside space-y-4">
+                <li>
+                  <strong>G – Goal</strong>: Clearly define what success looks
+                  like and what students should aim for.
+                </li>
+                <li>
+                  <strong>P – Position</strong>: Help students understand where
+                  they currently stand in relation to their goal.
+                </li>
+                <li>
+                  <strong>S – Steps</strong>: Offer specific strategies and
+                  guidance on how to improve and progress towards success.
+                </li>
+              </ul>
+
+              <p>
+                By implementing these principles and strategies, TAs can provide{" "}
+                <strong>meaningful and effective feedback</strong> that supports
+                student learning and development.
+              </p>
+
+              <p>
+                By abiding by and implementing the above steps, markers can be
+                equipped with the necessary tools to perform their
+                responsibilities effectively, foster a transparent grading
+                process, give feedback accordingly and contribute to a fair
+                learning environment.
+              </p>
+
+              <p>
+                Receiving and giving effective feedback | Centre for Teaching
+                Excellence | University of Waterloo. (n.d.).{" "}
+                <a
+                  href="https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/receiving-and-giving-effective-feedback"
+                  target="_blank"
+                  className="text-blue-600"
+                >
+                  https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/receiving-and-giving-effective-feedback
+                </a>
+              </p>
+
+              <p>
+                Moderation guidance. (2024, February 26). The University of
+                Edinburgh.
+                https://institute-academic-development.ed.ac.uk/learning-teaching/staff/assessment/moderation-guidance#:~:text=This%20involves%20the%20first%20marker,agree%20a%20final%20single%20mark.
+              </p>
+
+              <p>
+                Wimshurst, K., & Manning, M. (2012). Feed-forward assessment,
+                exemplars and peer marking: evidence of efficacy. Assessment &
+                Evaluation in Higher Education, 38(4), 451–465.
+                https://doi.org/10.1080/02602938.2011.646236
+              </p>
+
+              <p>
+                Wimshurst, K., & Manning, M. (2012b). Feed-forward assessment,
+                exemplars and peer marking: evidence of efficacy. Assessment &
+                Evaluation in Higher Education, 38(4), 451–465.
+                https://doi.org/10.1080/02602938.2011.646236
+              </p>
             </div>
           )}
 

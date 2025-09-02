@@ -218,8 +218,8 @@ export const collapsable: CollapsibleSection[] = [
               invites graduate students and post-doctoral fellows to participate
               in the Certificate in University Teaching and Learning (CUTL), a
               flexible program designed to support and recognize a wide range of
-              teaching development opportunities. There are four main requirement
-              elements in the program:
+              teaching development opportunities. There are four main
+              requirement elements in the program:
             </p>
             <ul className="list-disc pl-6 space-y-1">
               <li>Theory</li>
@@ -230,8 +230,17 @@ export const collapsable: CollapsibleSection[] = [
           </li>
 
           <li>
-            <strong>Centre for Learning and Teaching (CLT):</strong> The CLT
-            offers a range of webinars and workshops in their{" "}
+            <strong>
+              <a
+                target="_blank"
+                className="text-blue-800 underline inline-flex items-center"
+                href="https://www.dal.ca/dept/clt/resources.html"
+              >
+                Centre for Learning and Teaching (CLT)
+              </a>
+              :
+            </strong>{" "}
+            The CLT offers a range of webinars and workshops in their{" "}
             <a
               target="_blank"
               className="text-blue-800 font-bold underline inline-flex items-center"
@@ -244,140 +253,6 @@ export const collapsable: CollapsibleSection[] = [
             calendar for learning opportunities.
           </li>
         </ul>
-
-        <h3 className="font-bold text-lg">
-          The Importance of Being Proactive and Active
-        </h3>
-        <p>
-          It’s important to stay proactive when it comes to teaching. You can’t
-          wait for students to take initiative. You have to take action both
-          inside and outside the classroom. Don’t sit back passively; engage
-          with your students and take the lead.
-        </p>
-
-        <p>
-          Gaining the respect of your students is crucial from the first day. If
-          you don’t set clear expectations from the beginning, it becomes much
-          harder to maintain authority throughout the semester.
-        </p>
-
-        {/* Managing responsibilities */}
-        <h4 className="font-semibold">Managing the Responsibilities of a TA</h4>
-        <p>
-          Being a TA comes with a balancing act. You have your own research,
-          coursework, and preparation for lectures. On top of that, you may need
-          to teach classes, grade assignments and possibly hold office hours.
-          It’s important to prioritize your tasks and not get overwhelmed. You
-          can manage your time more effectively by preparing any activities that
-          you may need for labs, classes and tutorials before you enter the
-          learning space. If you are marking, tackle grading as soon as
-          assignments come in rather than letting them pile up. As a TA, you're
-          going to have a lot on your plate. Between (possibly) grading,
-          preparing lectures, attending meetings, and your own coursework or
-          research, it can be easy to feel overwhelmed. The key is to stay
-          organized and manage your time effectively. If you have marking
-          responsibilities, we recommend grading assignments as soon as you
-          receive them. You will most likely be given a timeline for this from
-          the instructor with whom you are working. This will not only make your
-          life easier but also ensure that your students get timely feedback,
-          which is crucial for their learning.
-        </p>
-        <p>
-          Another thing to remember is that your students might not always come
-          to you with their questions. Some might be too shy or unsure, so it’s
-          important to make yourself available. Hold regular office hours and
-          encourage your students to reach out to you via email if they need
-          help. And remember, if you're offering office hours, be sure to attend
-          them! It may seem like no one will come, but being available is
-          important in case they do.
-        </p>
-        <p>
-          Finally, it’s important to communicate with your fellow TAs,
-          especially if you’re all teaching the same course. Make sure you're on
-          the same page when it comes to grading policies, handling academic
-          dishonesty, and any other issues that may arise during the semester.
-        </p>
-
-        <p>
-          Being an active TA requires more than just physically moving around
-          the classroom. It’s about taking the initiative, being proactive, and
-          staying engaged with your students. Whether it’s inside or outside the
-          classroom, there are always opportunities to be an active participant
-          in the learning process.
-        </p>
-
-        {/* Proactive mindset */}
-        <h4 className="font-semibold">Being Proactive as a TA</h4>
-        <p>
-          To help your students succeed, you must focus on being proactive
-          rather than reactive. If you're always waiting for things to go wrong
-          or waiting for students to ask for help, you'll find yourself
-          constantly playing catch-up. Instead, try to anticipate issues and
-          questions before they arise. That way, you're better prepared to
-          handle them. You need to be intentional in your plan for each lab,
-          tutorial or assistance in class. When you are working with an
-          instructor as support in a class or whether you are leading a lab,
-          tutorial or other TAs, have clear communication and set a plan.
-        </p>
-
-        <p>
-          You also want to set the tone early on. The first day of class is
-          critical. If you don’t establish yourself as an authority figure from
-          day one, it will be much harder to gain the respect of your students
-          later in the semester.
-        </p>
-
-        {/* Engagement */}
-        <h4 className="font-semibold">Engaging Your Students</h4>
-        <p>
-          Another thing to keep in mind is that your students are much more
-          likely to engage with the material if you're actively engaging with
-          them. This doesn't mean you have to be overly strict or
-          unapproachable, but it does mean that you need to be present and
-          involved in the learning process.
-        </p>
-
-        <p>
-          Using Active Learning techniques such as "think-pair-share” and other
-          strategies helps students engage with the material and facilitates
-          deeper learning and retention of skills and course content. This not
-          only gets students interacting with each other and the content but
-          incorporates critical thinking. It also gives them the chance to work
-          through any confusion they may have in a low-pressure environment.
-        </p>
-
-        <p>
-          See the <a className="text-blue-600">Active Learning</a> section for
-          active learning techniques and steps for implementation.
-        </p>
-
-        {/* Staying active physically */}
-        <h4 className="font-semibold">Staying Active and Engaged</h4>
-        <p>
-          Another tip is to stay physically active in the classroom. Don’t just
-          stand at the front of the room and lecture for the entire period. Move
-          around the classroom, check in with students, and offer assistance
-          when needed. Not only does this make you more approachable, but it
-          also keeps your students on their toes because they know you’re paying
-          attention.
-        </p>
-
-        <p>
-          You should also strive to bring energy into the classroom. Even if the
-          material isn't doesn’t seem very exciting, your enthusiasm can make a
-          huge difference in how your students respond to it. When you're
-          excited about what you're teaching, that excitement becomes
-          contagious, and your students will be more likely to stay engaged.
-        </p>
-
-        <p>
-          In summary, being an active TA is about more than just showing up to
-          class and doing the minimum. It's about taking initiative, engaging
-          with your students, and staying proactive both inside and outside the
-          classroom. By doing these things, you’ll not only make your students'
-          lives easier, but you’ll also make your own teaching experience much
-          more rewarding.
-        </p>
       </div>
     ),
   },

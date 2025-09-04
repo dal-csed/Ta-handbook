@@ -16,11 +16,12 @@ import Tutorials from "../components/Tutorials";
 import { ExternalLink } from "lucide-react";
 
 export const introduction = [
-  "Welcome to the Faculty of Computer Science Teaching Assistant (TA) Handbook! As a Graduate TA, you play a vital role in supporting student learning, fostering engagement, and maintaining the rigour and academic integrity of our courses. Whether you’re leading labs or tutorials, grading assignments, assisting the instructor in various aspects of teaching, or providing one-on-one support, your contributions help shape the learning experience for our students. This is a crucial and important role!",
-  "This handbook is designed to equip you with the knowledge, strategies, and best practices necessary to excel in your role. It covers essential topics such as effective teaching techniques (helpful in any lab or tutorial setting), grading and assessment guidelines, communication strategies, and managing common challenges in computer science education.",
+  "Welcome to the Faculty of Computer Science Teaching Assistant (TA) Handbook! As a Graduate TA, you play a vital role in supporting student learning, fostering engagement, and maintaining the rigour and academic integrity of our courses. Whether you’re leading labs or tutorials, assisting the instructor in various aspects of teaching, or providing one-on-one support, your contributions help shape the learning experience for our students. This is a crucial and important role!",
+  "This handbook is designed to equip you with the knowledge, strategies, and best practices necessary to excel in your role. It covers essential topics such as effective teaching techniques (helpful in any lab or tutorial setting), grading and assessment guidelines, communication strategies, and managing common challenges in computer science education. However, each individual TA, Marker or Demonstrator must adhere to the specifics of their contract that was negotiated between the course instructor and the ADA.",
   "As a TA, you will encounter students with diverse backgrounds, learning preferences, and levels of experience in programming theoretical concepts. Your ability to explain complex ideas, facilitate discussions, and provide constructive feedback will be key to their success. This handbook will serve as a resource to help you navigate these responsibilities with confidence!",
   "We encourage you to approach your role with enthusiasm, patience and a commitment to inclusive and supportive teaching. Your work not only impacts individual students and builds upon the work of instructors in the classroom but also contributes to a strong and collaborative learning community at the Faculty of Computer Science.",
   "Developing an effective Teaching Assistant (TA) toolkit is a vital step toward supporting TAs in their multifaceted roles within academia. However, our handbook draws on and integrates unique materials for the Faculty of Computer Science at Dalhousie. By building on established resources and our own bespoke solutions, this toolkit aims to equip TAs with tailored strategies, valuable insights, and best practices to enhance your teaching effectiveness and overall efficiency.",
+  "TAs and Demonstrators, Markers and Proctors are required to interact respectfully and communicate effectively to complete tasks accurately and on time, providing useful feedback and applying the principles of academic integrity, in accordance with the course professor's instructions.",
 ];
 
 interface CollapsibleSection {
@@ -59,22 +60,23 @@ export const collapsable: CollapsibleSection[] = [
         </p>
 
         <p>
-          Initially, reach out to your supervisor at the Faculty of Computer
-          Science, <strong>Dr. Michael McAllister</strong>, or the Lab
-          Coordinator,{" "}
-          <strong>
-            <b>Megan Baker:</b>
-          </strong>{" "}
-          They have extensive knowledge of the various roles available and can
-          guide you on the most suitable placement based on your skills. You'll
-          likely be placed in a course that matches your competencies, and it's
-          crucial to have a thorough understanding of the material. If there are
-          gaps, connect with the course instructor and work on filling them.
+          You'll likely be placed in a course that matches your competencies,
+          and it's crucial to have a thorough understanding of the material. If
+          there are gaps, connect with the course instructor and work on filling
+          them. Anyone wishing to secure a position must use the{" "}
+          <a
+            href="https://dal.brightspace.com/d2l/le/content/136347/Home?itemIdentifier=D2L.LE.Content.ContentObject.ModuleCO-1804406"
+            target="_blank"
+            className="text-blue-800 underline inline-flex items-center"
+          >
+            Job Seekers Registry <ExternalLink className="ml-1 h-4 w-4" />
+          </a>{" "}
+          linked in the BrightSpace module.
         </p>
 
         <p>
-          There is a Brightspace page dedicated to TAs, Markers, and
-          Demonstrators at the Faculty:{" "}
+          This Brightspace page dedicated to TAs, Markers, and Demonstrators at
+          the Faculty:{" "}
           <a
             href="https://dal.brightspace.com/d2l/home/136347"
             target="_blank"
@@ -83,11 +85,10 @@ export const collapsable: CollapsibleSection[] = [
             FCS TAs and Markers <ExternalLink className="ml-1 h-4 w-4" />
           </a>
           . All students are enrolled in this site, accessible using your Dal
-          credentials. If you encounter any access issues, contact{" "}
+          credentials. If you encounter any access issues, contact
           <strong>
-            <b>Megan Baker:</b>
+            <b>:</b>
           </strong>{" "}
-          at{" "}
           <a
             href="mailto:FCSTA@dal.ca"
             className="text-blue-800 underline inline-flex items-center"
@@ -95,15 +96,7 @@ export const collapsable: CollapsibleSection[] = [
             FCSTA@dal.ca
           </a>
           . The site contains detailed information on roles, contract lengths,
-          the{" "}
-          <a
-            href="https://dal.brightspace.com/d2l/le/content/136347/Home?itemIdentifier=D2L.LE.Content.ContentObject.ModuleCO-1804406"
-            target="_blank"
-            className="text-blue-800 underline inline-flex items-center"
-          >
-            Job Seekers Registry <ExternalLink className="ml-1 h-4 w-4" />
-          </a>
-          , and more.
+          and more.
         </p>
 
         <p>
@@ -263,7 +256,7 @@ export const collapsable: CollapsibleSection[] = [
   },
   {
     id: 4,
-    title: "Head TA Leading other TAs and Demonstrators",
+    title: "Head TA leading other TAs, Demonstrators and Markers",
     content: (
       <div className="space-y-2">
         <p className="mt-3">
@@ -295,7 +288,7 @@ export const collapsable: CollapsibleSection[] = [
             required digital platforms needed for labs and classes (GitHub,
             GitLab, Codio, etc.){" "}
           </li>
-          <li>Grading assignments and reports </li>
+          <li>Grading assignments and reports (for Markers only)</li>
           <li>Holding office hours </li>
           <li>Responding to student inquiries </li>
         </ul>
@@ -310,8 +303,9 @@ export const collapsable: CollapsibleSection[] = [
         </h3>
 
         <p>
-          Organize weekly or biweekly meetings with all TAs to maintain
-          consistent communication. These meetings provide a space to:{" "}
+          If it is included in contract and you are instructed to do so by the
+          professor organize weekly or biweekly meetings with all TAs to
+          maintain consistent communication. These meetings provide a space to:{" "}
         </p>
 
         <ul className="list-disc pl-6 ml-1 space-y-1">
@@ -324,7 +318,7 @@ export const collapsable: CollapsibleSection[] = [
         <p>
           As Head TA, your role is to lead these discussions, troubleshoot
           issues, and act as a liaison between the course instructor and the
-          TAs.{" "}
+          TAs, Demonstrators and Markers.{" "}
         </p>
 
         <h3 className="font-semibold text-lg mt-2 mb-1">
@@ -503,24 +497,26 @@ export const collapsable: CollapsibleSection[] = [
       <div className="space-y-2">
         <p className="mt-3">
           TAs will receive guidance from their course instructor regarding
-          whether they are required to hold office hours. When hosting office
-          hours, it is essential to create a welcoming and productive
-          environment where students feel comfortable, respected, and supported.
-          Strategies in this section include managing time efficiently, guiding
-          students to think critically rather than providing direct answers,
-          maintaining clear boundaries, and managing one-on-one or group
-          interactions with empathy and fairness.
+          whether they are required to hold office hours, only if it is included
+          in the TA contract. When hosting office hours, it is essential to
+          create a welcoming and productive environment where students feel
+          comfortable, respected, and supported. Strategies in this section
+          include managing time efficiently, guiding students to think
+          critically rather than providing direct answers, maintaining clear
+          boundaries, and managing one-on-one or group interactions with empathy
+          and fairness.
         </p>
 
         <h3 className="text-lg font-bold">Importance of Office Hours</h3>
 
         <p>
-          Office hours are essential as they offer students structured
-          opportunities to seek assistance and engage in one-on-one interactions
-          with instructors and TAs. This dedicated time helps prevent
-          unscheduled interruptions and fosters a supportive learning
-          environment. Virtual office hours are also encouraged to enhance
-          accessibility for all students.
+          New for Fall 2025: Course TAs will hold Office Hours in the Learning
+          Centre. A schedule will be posted. Office hours are essential as they
+          offer students structured opportunities to seek assistance and engage
+          in one-on-one interactions with instructors and TAs. This dedicated
+          time helps prevent unscheduled interruptions and fosters a supportive
+          learning environment. Virtual office hours are also encouraged to
+          enhance accessibility for all students.
         </p>
 
         <h3 className="text-md font-semibold mt-2 mb-1">

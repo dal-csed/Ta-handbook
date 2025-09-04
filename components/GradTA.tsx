@@ -39,6 +39,17 @@ export default function TADemonstratorMarkerTable() {
                 <em>hours worked submitted by timesheet</em>
               </td>
             </tr>
+            <tr>
+              <td className="border p-2 font-semibold">Eligibility</td>
+              <td className="border p-2">
+                Labs/Tutorials requiring a session lead
+              </td>
+              <td className="border p-2">
+                To supplement eligible Labs/Tutorials and meet target ratio.
+                (see below)
+              </td>
+              <td className="border p-2">Classes with 20+ students</td>
+            </tr>
 
             <tr>
               <td className="border p-2 font-semibold">Total Hours</td>
@@ -49,34 +60,34 @@ export default function TADemonstratorMarkerTable() {
                 maximum of lab or tutorial time
                 <br />
                 <em>
-                  plus minimal other duties: meetings, prep, tech, in-lecture
+                  plus minimal other duties: meetings, prep, tech, lecture
                   support, training
                 </em>
               </td>
-              <td className="border p-2">non-binding and unlimited at FCS</td>
+              <td className="border p-2">
+                Maximum of 1 hours per student over entire term
+              </td>
             </tr>
 
             <tr>
               <td className="border p-2 font-semibold">Ratios</td>
-              <td className="border p-2">
-                60 students per TA,
-                <br />
-                <em>depends on duties and TA</em>
-              </td>
+              <td className="border p-2">60 students per TA</td>
               <td className="border p-2">
                 60 students per TA/Demonstrator grouping
               </td>
-              <td className="border p-2">1 hours per student enrolled</td>
+              <td className="border p-2">see above</td>
             </tr>
 
             <tr>
               <td className="border p-2 font-semibold">Valid Use of Time</td>
               <td className="border p-2 space-y-1">
                 <ul className="list-disc ml-4">
-                  <li>interact with students, running labs/tutorials</li>
-                  <li>attend administrative meetings</li>
-                  <li>assessment testing/development</li>
-                  <li>technology training and additional supports</li>
+                  <li>lead labs and tutorials</li>
+                  <li>attend admin/coord meetings</li>
+                  <li>office Hours</li>
+                  <li>student communication</li>
+                  <li>admin</li>
+                  <li>technology supports</li>
                 </ul>
               </td>
               <td className="border p-2 space-y-1">
@@ -91,7 +102,6 @@ export default function TADemonstratorMarkerTable() {
                 <ul className="list-disc ml-4">
                   <li>Evaluate student work product</li>
                   <li>Attend coordination briefings</li>
-                  <li>Edit closed captioning</li>
                   <li>Proctor (admin support and walk the room only)</li>
                 </ul>
               </td>
@@ -103,10 +113,16 @@ export default function TADemonstratorMarkerTable() {
               </td>
               <td className="border p-2">
                 <ul className="list-disc ml-4">
+                  <li>material development</li>
+                  <li>attending lectures.</li>
+                  <li>training (put on marker contract)</li>
+                  <li>
+                    invigilate (answer content-related questions during testing)
+                  </li>
                   <li>
                     Be hired to mark at the TA rate
                     <br />
-                    <em>If a TA needs to do marking, add a Marker contract.</em>
+                    <em> Add a Marker contract if a TA needs to mark.</em>
                   </li>
                 </ul>
               </td>
@@ -122,7 +138,7 @@ export default function TADemonstratorMarkerTable() {
                   </li>
                 </ul>
                 <em>
-                  If a Demonstrator needs to do marking, add a Marker contract.
+                  Add a Marker contract if a Demonstrator needs to do marking.
                 </em>
               </td>
               <td className="border p-2">
@@ -205,7 +221,7 @@ export default function TADemonstratorMarkerTable() {
           </nav>
         </div>
 
-        <div className="mt-4 p-4 bg-gray-50 rounded-lg">
+        <div className="mt-4 p-4 min-h-screen bg-gray-50 rounded-lg">
           {activeTab === "checklist" && (
             <div>
               <p>
@@ -216,7 +232,11 @@ export default function TADemonstratorMarkerTable() {
                 teaching and support for students. The responsibilities vary
                 across institutions but generally include assisting faculty with
                 course delivery, grading assignments, and supporting students'
-                learning experiences.
+                learning experiences. At the Faculty of Computer Science, TAs do
+                not mark. A separate Marker contract must be created at that
+                rate of pay for that specific role. Your duties and hours as a
+                TA are specified in the offer email; TAs and Demonstrators must
+                track time accordingly.
               </p>
 
               <div className="mt-2 space-y-2">
@@ -231,15 +251,14 @@ export default function TADemonstratorMarkerTable() {
                   </li>
 
                   <li>
-                    <strong>Grading and Feedback</strong>: Mark assignments,
-                    quizzes, or exams, and provide constructive feedback to
+                    <strong>Feedback</strong>: Provide constructive feedback to
                     support student learning.
                   </li>
 
                   <li>
-                    <strong>Office Hours and Student Support</strong>: Host
-                    regular office hours to address student concerns, clarify
-                    concepts, and provide guidance.
+                    <strong>Office Hours and Student Support</strong>: If it's
+                    in your contract host regular office hours to address
+                    student concerns, clarify concepts, and provide guidance.
                   </li>
 
                   <li>
@@ -403,10 +422,10 @@ export default function TADemonstratorMarkerTable() {
                   defined?
                 </li>
                 <li>Who will handle disputes over grades?</li>
-                <li>How much time will I have to complete grading tasks?</li>
                 <li>
-                  Are there platforms that I need to learn for grading
-                  (Crowdmark, Codio, Brightspace, etc.)?
+                  Are there platforms that I need to learn for grading if I'm
+                  given a contract for marking (Crowdmark, Codio, Brightspace,
+                  etc.)?
                 </li>
               </ul>
 
@@ -837,7 +856,8 @@ export default function TADemonstratorMarkerTable() {
             <div className="mb-3 space-y-4">
               <p>
                 This section is focused on maintaining consistency, fairness,
-                and clarity in grading practices. The following key aspects are
+                and clarity in grading practices (only if the professor agrees
+                and funding is approved). The following key aspects are
                 addressed:
               </p>
               <ol className="list-decimal list-inside space-y-4">
@@ -930,41 +950,45 @@ export default function TADemonstratorMarkerTable() {
                   Centre, or Dal’s Writing Centre) for further learning.
                 </li>
                 <li>
-                  <strong>Address Common Errors with the Entire Class</strong>:
-                  Instead of repeating feedback individually,{" "}
-                  <strong>discuss frequent mistakes in class</strong> to save
-                  time and reinforce key learning points.
+                  <strong>
+                    Report Common Errors to the Instructor/Head TA
+                  </strong>
+                  : Instead of repeating feedback individually,{" "}
+                  <strong>frequent mistakes can be discussed class</strong> to
+                  save time and reinforce key learning points.
                 </li>
               </ol>
 
-              <h3 className="font-sans font-bold">
-                GPS Model for Effective Feedback
-              </h3>
+              <div className="space-y-1.5">
+                <h3 className="font-sans font-bold">
+                  GPS Model for Effective Feedback
+                </h3>
+
+                <p>
+                  Providing minimal feedback can frustrate students, even those
+                  who performed well. The <strong>GPS model</strong> ensures
+                  that feedback is clear, actionable, and supportive:
+                </p>
+                <ul className="list-disc list-inside space-y-2">
+                  <li>
+                    <strong>G – Goal</strong>: Clearly define what success looks
+                    like and what students should aim for.
+                  </li>
+                  <li>
+                    <strong>P – Position</strong>: Help students understand
+                    where they currently stand in relation to their goal.
+                  </li>
+                  <li>
+                    <strong>S – Steps</strong>: Offer specific strategies and
+                    guidance on how to improve and progress towards success.
+                  </li>
+                </ul>
+              </div>
 
               <p>
-                Providing minimal feedback can frustrate students, even those
-                who performed well. The <strong>GPS model</strong> ensures that
-                feedback is clear, actionable, and supportive:
-              </p>
-              <ul className="list-disc list-inside space-y-4">
-                <li>
-                  <strong>G – Goal</strong>: Clearly define what success looks
-                  like and what students should aim for.
-                </li>
-                <li>
-                  <strong>P – Position</strong>: Help students understand where
-                  they currently stand in relation to their goal.
-                </li>
-                <li>
-                  <strong>S – Steps</strong>: Offer specific strategies and
-                  guidance on how to improve and progress towards success.
-                </li>
-              </ul>
-
-              <p>
-                By implementing these principles and strategies, TAs can provide{" "}
-                <strong>meaningful and effective feedback</strong> that supports
-                student learning and development.
+                By implementing these principles and strategies,{" "}
+                <strong>meaningful and effective feedback</strong> can be
+                provided that supports student learning and development.
               </p>
 
               <p>
@@ -974,6 +998,8 @@ export default function TADemonstratorMarkerTable() {
                 process, give feedback accordingly and contribute to a fair
                 learning environment.
               </p>
+
+              <h2 className="font-semibold">References:</h2>
 
               <p>
                 Receiving and giving effective feedback | Centre for Teaching
@@ -990,22 +1016,40 @@ export default function TADemonstratorMarkerTable() {
               <p>
                 Moderation guidance. (2024, February 26). The University of
                 Edinburgh.
-                https://institute-academic-development.ed.ac.uk/learning-teaching/staff/assessment/moderation-guidance#:~:text=This%20involves%20the%20first%20marker,agree%20a%20final%20single%20mark.
+                <a
+                  href="https://institute-academic-development.ed.ac.uk/learning-teaching/staff/assessment/moderation-guidance#:~:text=This%20involves%20the%20first%20marker,agree%20a%20final%20single%20mark"
+                  target="_blank"
+                  className="text-blue-600"
+                >
+                  https://institute-academic-development.ed.ac.uk/learning-teaching/staff/assessment/moderation-guidance#:~:text=This%20involves%20the%20first%20marker,agree%20a%20final%20single%20mark.
+                </a>
               </p>
 
               <p>
                 Wimshurst, K., & Manning, M. (2012). Feed-forward assessment,
                 exemplars and peer marking: evidence of efficacy. Assessment &
-                Evaluation in Higher Education, 38(4), 451–465.
-                https://doi.org/10.1080/02602938.2011.646236
+                Evaluation in Higher Education, 38(4), 451–465.{" "}
+                <a
+                  href="https://doi.org/10.1080/02602938.2011.646236"
+                  target="_blank"
+                  className="text-blue-600"
+                >
+                  https://doi.org/10.1080/02602938.2011.646236
+                </a>
               </p>
 
-              <p>
+              {/* <p>
                 Wimshurst, K., & Manning, M. (2012b). Feed-forward assessment,
                 exemplars and peer marking: evidence of efficacy. Assessment &
-                Evaluation in Higher Education, 38(4), 451–465.
-                https://doi.org/10.1080/02602938.2011.646236
-              </p>
+                Evaluation in Higher Education, 38(4), 451–465. {" "}
+                <a
+                  href="https://doi.org/10.1080/02602938.2011.646236"
+                  target="_blank"
+                  className="text-blue-600"
+                >
+                  https://doi.org/10.1080/02602938.2011.646236
+                </a>
+              </p> */}
             </div>
           )}
 
@@ -1218,6 +1262,7 @@ export default function TADemonstratorMarkerTable() {
               <h3 className="text-lg font-semibold">Resource Allocation:</h3>
 
               <ul className="list-disc pl-6 space-y-1.5 my-2">
+                <li>Must stay within contract boundaries.</li>
                 <li>
                   Restricted list of duties that Demonstrators may perform.
                 </li>
@@ -1225,13 +1270,18 @@ export default function TADemonstratorMarkerTable() {
                   Hourly amounts for each will be detailed in their contract
                   (like we do for TA contracts).
                 </li>
-                <li>Meetings</li>
-                <li>Lab time</li>
-                <li>Tutorial time</li>
-                <li>Tech setup/support</li>
-                <li>Prep time (expected to be minimal)</li>
-                <li>In-lecture support time</li>
-                <li>Training (on an exceptional basis)</li>
+                <li>
+                  This is a list of the duties a Demonstrator may perform:
+                  <ul className="list-disc pl-6 space-y-1.5 my-2">
+                    <li>Meetings</li>
+                    <li>Lab time</li>
+                    <li>Tutorial time</li>
+                    <li>Tech setup/support</li>
+                    <li>Prep time (expected to be minimal)</li>
+                    <li>In-lecture support time</li>
+                    <li>Training (on an exceptional basis)</li>
+                  </ul>
+                </li>
               </ul>
 
               <h3 className="text-lg font-semibold">
@@ -1244,12 +1294,12 @@ export default function TADemonstratorMarkerTable() {
                   position.
                 </li>
                 <li>
-                  If TAd the course before, said TA may not be hired as a
-                  Demonstrator. This is course-specific.
+                  If you've been a TA in the same course before, said TA may not
+                  be hired as a Demonstrator. This is course-specific.
                 </li>
                 <li>
-                  If TAdbefore but not for this course, they are a Demonstrator
-                  unless TA-only duties are required.
+                  If you've been a TA before but not for this course, then you
+                  may be a Demonstrator unless TA-only duties are required.
                 </li>
                 <li>
                   Proctor (admin support and walk the room; may not answer

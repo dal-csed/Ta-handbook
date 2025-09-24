@@ -5,6 +5,20 @@ import { ExternalLink } from "lucide-react";
 export default function TADemonstratorMarkerTable() {
   const [activeTab, setActiveTab] = useState("checklist");
 
+  const [openSections, setOpenSections] = useState<Set<number>>(new Set());
+
+  const toggleSection = (id: number) => {
+    setOpenSections((prev) => {
+      const newSet = new Set(prev);
+      if (newSet.has(id)) {
+        newSet.delete(id);
+      } else {
+        newSet.add(id);
+      }
+      return newSet;
+    });
+  };
+
   return (
     <div>
       <div className="overflow-x-auto my-8">
@@ -161,11 +175,12 @@ export default function TADemonstratorMarkerTable() {
           <strong>Source:</strong>{" "}
           <a
             href="https://3912.cupe.ca/"
-            className="text-blue-600 underline"
+            className="text-blue-600 underline inline-flex items-center"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer inline-flex items-center"
           >
             CUPE 3912 collective agreement
+            <ExternalLink className="ml-1 h-3 w-3" />
           </a>
         </p>
         <p className="text-sm italic">
@@ -501,6 +516,8 @@ export default function TADemonstratorMarkerTable() {
               <CollapsibleSection
                 id={10.1}
                 title="Material Distribution, Turnaround Time, and Effective Feedback Strategies"
+                isOpen={openSections.has(10.1)}
+                onToggle={() => toggleSection(10.1)}
                 content={
                   <div>
                     <p className="mt-3">
@@ -570,9 +587,10 @@ export default function TADemonstratorMarkerTable() {
                         <a
                           href="https://www.cast.org/what-we-do/universal-design-for-learning/"
                           target="_blank"
-                          className="text-blue-600"
+                          className="text-blue-800 underline inline-flex items-center"
                         >
-                          Universal Design for Learning (UDL)
+                          Universal Design for Learning (UDL){" "}
+                          <ExternalLink className="ml-1 h-4 w-4" />
                         </a>
                         . We need to ensure we provide opportunities to engage
                         students, offer multiple means of representation of
@@ -764,11 +782,12 @@ export default function TADemonstratorMarkerTable() {
                         Centre for Teaching Excellence. (n.d.). TA Handbook.
                         University of Waterloo. Retrieved from{" "}
                         <a
-                          className="text-blue-600"
+                          className="text-blue-800 underline inline-flex items-center"
                           target="_blank"
                           href="https://uwaterloo.ca/centre-for-teaching-excellence/support-graduate-students/ta-handbook"
                         >
                           https://uwaterloo.ca/centre-for-teaching-excellence/support-graduate-students/ta-handbook {" "}
+                          <ExternalLink className="ml-1 h-4 w-4" />
                         </a>
                       </li>
 
@@ -777,11 +796,12 @@ export default function TADemonstratorMarkerTable() {
                         Giving Effective Feedback. University of Waterloo.
                         Retrieved from{" "}
                         <a
-                          className="text-blue-600"
+                          className="text-blue-800 underline inline-flex items-center"
                           target="_blank"
                           href="https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/receiving-and-giving-effective-feedback"
                         >
                           https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/receiving-and-giving-effective-feedback {" "}
+                          <ExternalLink className="ml-1 h-4 w-4" />
                         </a>
                       </li>
 
@@ -790,11 +810,12 @@ export default function TADemonstratorMarkerTable() {
                         Feedback Basic Guidance. University of Edinburgh.
                         Retrieved from{" "}
                         <a
-                          className="text-blue-600"
+                          className="text-blue-800 underline inline-flex items-center"
                           target="_blank"
                           href="https://institute-academic-development.ed.ac.uk/learning-teaching/staff/assessment/guidance"
                         >
-                          https://institute-academic-development.ed.ac.uk/learning-teaching/staff/assessment/guidance 
+                          https://institute-academic-development.ed.ac.uk/learning-teaching/staff/assessment/guidance {" "}
+                          <ExternalLink className="ml-1 h-4 w-4" />
                         </a>
                       </li>
 
@@ -807,11 +828,12 @@ export default function TADemonstratorMarkerTable() {
                         Stenger, M. (2014). Meaningful Feedback for Students: 5
                         Research-Based Tips. Edutopia. Retrieved from{" "}
                         <a
-                          className="text-blue-600"
+                          className="text-blue-800 underline inline-flex items-center"
                           target="_blank"
                           href="https://www.edutopia.org/blog/tips-providing-students-meaningful-feedback-marianne-stenger"
                         >
-                          https://www.edutopia.org/blog/tips-providing-students-meaningful-feedback-marianne-stenger 
+                          https://www.edutopia.org/blog/tips-providing-students-meaningful-feedback-marianne-stenger {" "}
+                          <ExternalLink className="ml-1 h-4 w-4" />
                         </a>
                       </li>
 
@@ -826,11 +848,12 @@ export default function TADemonstratorMarkerTable() {
                         Education Endowment Foundation. (n.d.). Feedback.
                         Retrieved from{" "}
                         <a
-                          className="text-blue-600"
+                          className="text-blue-800 underline inline-flex items-center"
                           target="_blank"
                           href="https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/feedback"
                         >
-                          https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/feedback
+                          https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/feedback{" "}
+                          <ExternalLink className="ml-1 h-4 w-4" />
                         </a>
                       </li>
 
@@ -838,11 +861,12 @@ export default function TADemonstratorMarkerTable() {
                         The Education Hub. (2016). How to Integrate Effective
                         Feedback into Your Classroom. Retrieved from{" "}
                         <a
-                          className="text-blue-600"
+                          className="text-blue-800 underline inline-flex items-center"
                           target="_blank"
                           href="https://theeducationhub.org.nz/how-to-integrate-effective-feedback-into-your-classroom"
                         >
-                          https://theeducationhub.org.nz/how-to-integrate-effective-feedback-into-your-classroom
+                          https://theeducationhub.org.nz/how-to-integrate-effective-feedback-into-your-classroom{" "}
+                          <ExternalLink className="ml-1 h-4 w-4" />
                         </a>
                       </li>
                     </ul>
@@ -1007,9 +1031,9 @@ export default function TADemonstratorMarkerTable() {
                 <a
                   href="https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/receiving-and-giving-effective-feedback"
                   target="_blank"
-                  className="text-blue-600"
+                  className="text-blue-800 underline inline-flex items-center"
                 >
-                  https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/receiving-and-giving-effective-feedback
+                  https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/receiving-and-giving-effective-feedback <ExternalLink className="ml-1 h-4 w-4" />
                 </a>
               </p>
 
@@ -1019,9 +1043,9 @@ export default function TADemonstratorMarkerTable() {
                 <a
                   href="https://institute-academic-development.ed.ac.uk/learning-teaching/staff/assessment/moderation-guidance#:~:text=This%20involves%20the%20first%20marker,agree%20a%20final%20single%20mark"
                   target="_blank"
-                  className="text-blue-600"
+                  className="text-blue-800 underline inline-flex items-center"
                 >
-                  https://institute-academic-development.ed.ac.uk/learning-teaching/staff/assessment/moderation-guidance#:~:text=This%20involves%20the%20first%20marker,agree%20a%20final%20single%20mark.
+                  https://institute-academic-development.ed.ac.uk/learning-teaching/staff/assessment/moderation-guidance#:~:text=This%20involves%20the%20first%20marker,agree%20a%20final%20single%20mark. 
                 </a>
               </p>
 
@@ -1032,9 +1056,9 @@ export default function TADemonstratorMarkerTable() {
                 <a
                   href="https://doi.org/10.1080/02602938.2011.646236"
                   target="_blank"
-                  className="text-blue-600"
+                  className="text-blue-800 underline inline-flex items-center"
                 >
-                  https://doi.org/10.1080/02602938.2011.646236
+                  https://doi.org/10.1080/02602938.2011.646236 <ExternalLink className="ml-1 h-4 w-4" />
                 </a>
               </p>
 

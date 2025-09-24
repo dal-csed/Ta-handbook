@@ -143,13 +143,13 @@ export default function TAProfessionalBehavior() {
                     <strong>Know When to Refer</strong> – If a student is in
                     distress or you feel unsure about how to handle a situation,
                     consult the course instructor or share the{" "}
-                    <Link
+                    <a
                       href="https://www.dal.ca/campus_life/health-and-wellness.html"
-                      className="font-semibold text-blue-800 underline"
+                      className="font text-blue-800 underline inline-flex items-center"
                       target="_blank"
                     >
-                      Student Health and Wellness
-                    </Link>{" "}
+                      Student Health and Wellness <ExternalLink className="ml-1 h-4 w-4" />
+                    </a>{" "}
                     website link with them so that they can learn about campus
                     wellness supports for students. TAs do not counsel students.
                   </li>
@@ -208,7 +208,7 @@ export default function TAProfessionalBehavior() {
                   className="text-blue-800 underline mx-1 inline-flex items-center"
                   target="_blank"
                 >
-                  Teaching Assistant Checklist{" "}
+                  Teaching Assistant Checklist{" "} <ExternalLink className="ml-1 h-4 w-4" />
                 </Link>
               </p>
 

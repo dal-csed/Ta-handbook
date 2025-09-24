@@ -171,7 +171,7 @@ export const collapsable: CollapsibleSection[] = [
                 target="_blank"
                 className="text-blue-800 underline inline-flex items-center"
               >
-                Teaching Assistant Professional Development Days{" "}
+                Teaching Assistant Professional Development Days{" "} <ExternalLink className="ml-1 h-4 w-4" />
               </a>{" "}
               (TA Days)
             </strong>
@@ -201,7 +201,7 @@ export const collapsable: CollapsibleSection[] = [
                 className="text-blue-800 underline inline-flex items-center"
                 href="https://www.dal.ca/dept/clt/programs/CUTL.html#:~:text=Advantages,documented%20certificate%20and%20transcript%20notation"
               >
-                Certificate in University Teaching and Learning{" "}
+                Certificate in University Teaching and Learning{" "} <ExternalLink className="ml-1 h-4 w-4" />
               </a>{" "}
               (Graduate Students)
             </strong>
@@ -229,7 +229,7 @@ export const collapsable: CollapsibleSection[] = [
                 className="text-blue-800 underline inline-flex items-center"
                 href="https://www.dal.ca/dept/clt/resources.html"
               >
-                Centre for Learning and Teaching (CLT)
+                Centre for Learning and Teaching (CLT) <ExternalLink className="ml-1 h-4 w-4" />
               </a>
               :
             </strong>{" "}
@@ -239,7 +239,7 @@ export const collapsable: CollapsibleSection[] = [
               className="text-blue-800 font-bold underline inline-flex items-center"
               href="https://www.dal.ca/dept/clt/events-news/Calendar%20of%20Events.html"
             >
-              Calendar of Events
+              Calendar of Events <ExternalLink className="ml-1 h-4 w-4" />
             </a>{" "}
             dedicated to improving teaching and learning experiences at Dal.
             Some of the workshops will be open to you, so be sure to check the
@@ -419,9 +419,9 @@ export const collapsable: CollapsibleSection[] = [
           <a
             href="https://uwm.edu/graduate-assistants/handbook/teaching-assistants/roles-and-responsibilities-of-teaching-assistants/"
             target="_blank"
-            className="text-blue-600"
+            className="text-blue-800 underline inline-flex items-center"
           >
-            https://uwm.edu/graduate-assistants/handbook/teaching-assistants/roles-and-responsibilities-of-teaching-assistants/
+            https://uwm.edu/graduate-assistants/handbook/teaching-assistants/roles-and-responsibilities-of-teaching-assistants/ <ExternalLink className="ml-1 h-4 w-4" />
           </a>
         </p>
 
@@ -432,9 +432,9 @@ export const collapsable: CollapsibleSection[] = [
           <a
             href="https://pressbooks.lib.vt.edu/universityteaching/chapter/how-to-oversee-a-laboratory-course-taught-by-teaching-assistants-experiences-in-the-lab-and-field/ "
             target="_blank"
-            className="text-blue-600"
+            className="text-blue-800 underline inline-flex items-center"
           >
-            https://pressbooks.lib.vt.edu/universityteaching/chapter/how-to-oversee-a-laboratory-course-taught-by-teaching-assistants-experiences-in-the-lab-and-field/
+            https://pressbooks.lib.vt.edu/universityteaching/chapter/how-to-oversee-a-laboratory-course-taught-by-teaching-assistants-experiences-in-the-lab-and-field/ <ExternalLink className="ml-1 h-4 w-4" />
           </a>
         </p>
       </div>

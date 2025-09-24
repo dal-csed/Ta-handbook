@@ -561,7 +561,7 @@ const CreatingALR = () => {
                   Design tasks to match appropriate cognitive levels (e.g.,
                   apply, analyze, create).
                   <Link
-                    href="#section-13"
+                    href="#section-6"
                     className="font-semibold my-2 block text-blue-800 underline"
                   >
                     See the information in the Bloom's Taxonomy section.

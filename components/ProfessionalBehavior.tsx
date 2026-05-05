@@ -77,10 +77,11 @@ export default function TAProfessionalBehavior() {
                   As a Teaching Assistant (TA), you play a crucial role in
                   supporting students’ academic success while also contributing
                   to a positive and respectful learning environment. Building
-                  rapport with students is important, but it's equally essential
-                  to maintain professional boundaries. These boundaries help
-                  preserve academic integrity, prevent misunderstandings, and
-                  support an inclusive and equitable classroom for all.
+                  rapport with students is important, but it&apos;s equally
+                  essential to maintain professional boundaries. These
+                  boundaries help preserve academic integrity, prevent
+                  misunderstandings, and support an inclusive and equitable
+                  classroom for all.
                 </p>
                 <p className="mt-3">
                   Crossing or blurring professional boundaries—even
@@ -122,11 +123,11 @@ export default function TAProfessionalBehavior() {
                     sensitive topics.
                   </li>
                   <li>
-                    <strong>Respect Privacy</strong> – Do not share students'
-                    personal information or academic performance with others. If
-                    a student discloses something serious, refer them to
-                    appropriate university support services or your course
-                    instructor.
+                    <strong>Respect Privacy</strong> – Do not share
+                    students&apos; personal information or academic performance
+                    with others. If a student discloses something serious, refer
+                    them to appropriate university support services or your
+                    course instructor.
                   </li>
                   <li>
                     <strong>Avoid Dual Relationships</strong> – f you already
@@ -148,7 +149,8 @@ export default function TAProfessionalBehavior() {
                       className="font text-blue-800 underline inline-flex items-center"
                       target="_blank"
                     >
-                      Student Health and Wellness <ExternalLink className="ml-1 h-4 w-4" />
+                      Student Health and Wellness{" "}
+                      <ExternalLink className="ml-1 h-4 w-4" />
                     </a>{" "}
                     website link with them so that they can learn about campus
                     wellness supports for students. TAs do not counsel students.
@@ -192,15 +194,15 @@ export default function TAProfessionalBehavior() {
               </h3>
 
               <p>
-                At the semester's outset, it's crucial for TAs to have a clear
-                understanding of their duties. If there's ambiguity regarding
-                tasks—such as grading policies, leading discussions, or holding
-                office hours—TAs should seek clarification from the instructor
-                to ensure alignment with course objectives. The TA contract that
-                you signed should have details about your role; however, a more
-                detailed checklist about the nature of what an instructor
-                expects under the duties outlined in your contract can be
-                helpful. Please see the
+                At the semester&apos;s outset, it&apos;s crucial for TAs to have
+                a clear understanding of their duties. If there&apos;s ambiguity
+                regarding tasks—such as grading policies, leading discussions,
+                or holding office hours—TAs should seek clarification from the
+                instructor to ensure alignment with course objectives. The TA
+                contract that you signed should have details about your role;
+                however, a more detailed checklist about the nature of what an
+                instructor expects under the duties outlined in your contract
+                can be helpful. Please see the
                 <Link
                   href={
                     "https://dalu-my.sharepoint.com/:b:/g/personal/sh412475_dal_ca/ET53akMBCmxMkoTy46W5yVgBpgpqRSfEcY7Gzxve-yBewA?e=QzWc5t"
@@ -208,7 +210,8 @@ export default function TAProfessionalBehavior() {
                   className="text-blue-800 underline mx-1 inline-flex items-center"
                   target="_blank"
                 >
-                  Teaching Assistant Checklist{" "} <ExternalLink className="ml-1 h-4 w-4" />
+                  Teaching Assistant Checklist{" "}
+                  <ExternalLink className="ml-1 h-4 w-4" />
                 </Link>
               </p>
 
@@ -266,7 +269,7 @@ export default function TAProfessionalBehavior() {
 
                 <p>
                   When TAs encounter student inquiries about course material
-                  that they cannot confidently address, it's advisable to
+                  that they cannot confidently address, it&apos;s advisable to
                   consult the instructor. This approach ensures that students
                   receive accurate information and maintains the integrity of
                   the course content. Students are encouraged to use office
@@ -369,7 +372,7 @@ export default function TAProfessionalBehavior() {
 
               <p>
                 In your interactions with other TAs, foster a spirit of
-                collaboration and support. Respect each other's ideas and
+                collaboration and support. Respect each other&apos;s ideas and
                 perspectives and avoid gossip or unprofessional discussions
                 about students or faculty. Share resources and strategies that
                 have been effective in your work and be willing to learn from
@@ -426,9 +429,9 @@ export default function TAProfessionalBehavior() {
         </a>
       </p>
       <p className="text-sm">
-        Teaching Assistants' Training Program. (2024, May&nbsp;29). Course
-        Instructor–Teaching Assistant Relationship&nbsp;- Teaching Assistants'
-        Training Program.{" "}
+        Teaching Assistants&apos; Training Program. (2024, May&nbsp;29). Course
+        Instructor–Teaching Assistant Relationship&nbsp;- Teaching
+        Assistants&apos; Training Program.{" "}
         <a
           target="_blank"
           className="text-blue-800 underline inline-flex items-center"

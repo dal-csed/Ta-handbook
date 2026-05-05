@@ -1,8 +1,15 @@
-"use client"
-import React, { useState } from "react";
+"use client";
+import React, { useState, ReactNode } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import Image from "next/image";
 
-const FlyoutLink = ({ children, href, FlyoutContent }) => {
+interface FlyoutLinkProps {
+  children: ReactNode;
+  href: string;
+  FlyoutContent: React.ComponentType;
+}
+
+const FlyoutLink = ({ children, href, FlyoutContent }: FlyoutLinkProps) => {
   const [open, setOpen] = useState(false);
 
   const showFlyout = FlyoutContent && open;
@@ -50,7 +57,7 @@ export const QRContent = () => {
       <div className="mb-4 text-center">
         <h3 className="font-semibold mb-3">Scan QR Code</h3>
         <div className="flex justify-center mb-4">
-          <img
+          <Image
             src="/feedback.png"
             alt="QR Code"
             className="w-32 h-32 rounded-lg"

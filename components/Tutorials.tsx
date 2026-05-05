@@ -158,7 +158,7 @@ const Tutorials = () => {
               className="text-blue-800 underline inline-flex items-center"
               href="https://www.ctl.ox.ac.uk/inclusive-tutorials#:~:text=Use%20students'%20submitted%20work%20to,some%20flexibility%20for%20the%20unexpected. "
             >
-              https://www.ctl.ox.ac.uk/inclusive-tutorials#:~:text=Use%20students'%20submitted%20work%20to,some%20flexibility%20for%20the%20unexpected.{" "}
+              https://www.ctl.ox.ac.uk/inclusive-tutorials#:~:text=Use%20students&apos;%20submitted%20work%20to,some%20flexibility%20for%20the%20unexpected.{" "}
               <ExternalLink className="ml-1 h-4 w-4" />
             </a>
           </li>

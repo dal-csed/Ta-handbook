@@ -17,23 +17,21 @@ export default function CollapsibleSection({
   onToggle,
 }: CollapsibleSectionProps) {
   const contentRef = useRef<HTMLDivElement>(null);
-  const hasHandledInitialHash = useRef(false);
 
   // Handle hash-based section opening (only for hashchange events, not initial load)
   useEffect(() => {
     const handleHashChange = () => {
-      // Don't handle hash changes if the page just loaded
-      if (sessionStorage.getItem('justLoaded')) {
+      if (sessionStorage.getItem("justLoaded")) {
         return;
       }
-      
+
       const hash = window.location.hash.slice(1);
       if (hash === `section-${id}`) {
         // Only open if not already open
         if (!isOpen) {
           onToggle();
         }
-        
+
         // Scroll to section after it's opened
         setTimeout(() => {
           const element = document.getElementById(hash);
@@ -45,37 +43,42 @@ export default function CollapsibleSection({
     };
 
     // Only handle hash changes, not initial load
-    window.addEventListener('hashchange', handleHashChange);
-    
-    return () => window.removeEventListener('hashchange', handleHashChange);
+    window.addEventListener("hashchange", handleHashChange);
+
+    return () => window.removeEventListener("hashchange", handleHashChange);
   }, [id, isOpen, onToggle]);
 
   // Handle direct link clicks
   useEffect(() => {
     const handleLinkClick = (e: MouseEvent) => {
       const target = e.target as HTMLAnchorElement;
-      if (target.tagName === 'A' && target.getAttribute('href') === `#section-${id}`) {
+      if (
+        target.tagName === "A" &&
+        target.getAttribute("href") === `#section-${id}`
+      ) {
         e.preventDefault();
-        
+
         // Don't handle clicks if the page just loaded
-        if (sessionStorage.getItem('justLoaded')) {
+        if (sessionStorage.getItem("justLoaded")) {
           return;
         }
-        
+
         onToggle();
-        
+
         // Update URL without causing page jump
-        window.history.replaceState(null, '', `#section-${id}`);
-        
+        window.history.replaceState(null, "", `#section-${id}`);
+
         // Scroll to section after it's opened
         setTimeout(() => {
-          document.getElementById(`section-${id}`)?.scrollIntoView({ behavior: "smooth" });
+          document
+            .getElementById(`section-${id}`)
+            ?.scrollIntoView({ behavior: "smooth" });
         }, 100);
       }
     };
 
-    document.addEventListener('click', handleLinkClick);
-    return () => document.removeEventListener('click', handleLinkClick);
+    document.addEventListener("click", handleLinkClick);
+    return () => document.removeEventListener("click", handleLinkClick);
   }, [id, onToggle]);
 
   return (

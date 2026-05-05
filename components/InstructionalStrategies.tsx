@@ -9,24 +9,25 @@ export default function ToolboxInstructionalStrategies() {
       <div className="mb-6">
         <p className="mb-4">
           As you develop your expertise in various teaching and learning
-          settings, you must develop your "Toolbox of Instructional Strategies"
-          to be an effective educator. Below, are some instructional strategies
-          that can be implemented to help organize the learning environment,
-          assist your students with knowledge and skill acquisition and keep you
-          organized in your approach! As always, you need to be intentional and
-          choose strategies that will work for your specific context.
+          settings, you must develop your &quot;Toolbox of Instructional
+          Strategies&quot; to be an effective educator. Below, are some
+          instructional strategies that can be implemented to help organize the
+          learning environment, assist your students with knowledge and skill
+          acquisition and keep you organized in your approach! As always, you
+          need to be intentional and choose strategies that will work for your
+          specific context.
         </p>
 
         <p>
-          In today's diverse classrooms, labs and tutorials, educators employ
-          various instructional strategies to meet the unique needs of their
-          students. Among these, (Explicit) Direct Instruction, Guided Practice,
-          and Differentiation are pivotal in enhancing student comprehension and
-          engagement whilst challenging them with learning activities and course
-          outcome-related tasks. Universal Design for Learning must be
-          intentionally woven into the fabric of engagement of students,
-          representation of information and action and expression of outcomes,
-          all in various forms so every learner can achieve success.
+          In today&apos;s diverse classrooms, labs and tutorials, educators
+          employ various instructional strategies to meet the unique needs of
+          their students. Among these, (Explicit) Direct Instruction, Guided
+          Practice, and Differentiation are pivotal in enhancing student
+          comprehension and engagement whilst challenging them with learning
+          activities and course outcome-related tasks. Universal Design for
+          Learning must be intentionally woven into the fabric of engagement of
+          students, representation of information and action and expression of
+          outcomes, all in various forms so every learner can achieve success.
         </p>
       </div>
 
@@ -75,16 +76,17 @@ export default function ToolboxInstructionalStrategies() {
                 className="h-120 w-174 my-3"
               />
               <p className="">
-                  Edutopia. (2017, October 4). What is active learning? [Video]. YouTube. {" "}
-                  <a
-                    href="https://www.youtube.com/watch?v=D8Wc3eSRaLE"
-                    className="text-blue-800 underline inline-flex items-center"
-                    target="_blank"
-                  >
-                    https://www.youtube.com/watch?v=D8Wc3eSRaLE {" "}
-                    <ExternalLink className="ml-1 h-4 w-4" />
-                  </a>
-                </p>
+                Edutopia. (2017, October 4). What is active learning? [Video].
+                YouTube.{" "}
+                <a
+                  href="https://www.youtube.com/watch?v=D8Wc3eSRaLE"
+                  className="text-blue-800 underline inline-flex items-center"
+                  target="_blank"
+                >
+                  https://www.youtube.com/watch?v=D8Wc3eSRaLE{" "}
+                  <ExternalLink className="ml-1 h-4 w-4" />
+                </a>
+              </p>
 
               <h4 className="font-semibold mt-4">1. Classes & Tutorials</h4>
               <ul className="list-disc pl-6 space-y-2 mt-2">
@@ -123,9 +125,9 @@ export default function ToolboxInstructionalStrategies() {
                   practice a new skill or concept with the support and direction
                   of an instructor or facilitator
                 </strong>
-                . It's an essential step between direct instruction (teaching or
-                modeling) and independent practice (when learners try it on
-                their own).
+                . It&apos;s an essential step between direct instruction
+                (teaching or modeling) and independent practice (when learners
+                try it on their own).
               </p>
 
               <h5 className="font-medium mt-3">
@@ -146,7 +148,7 @@ export default function ToolboxInstructionalStrategies() {
                 </li>
               </ul>
 
-              <h5 className="font-medium mt-3">Why It's Important:</h5>
+              <h5 className="font-medium mt-3">Why It&apos;s Important:</h5>
               <ul className="list-disc pl-6 space-y-1 mt-1">
                 <li>Reinforces what was just taught.</li>
                 <li>
@@ -201,7 +203,10 @@ export default function ToolboxInstructionalStrategies() {
               <div className="mt-4 pt-4 space-y-3 border-t border-gray-200">
                 <h4 className="font-semibold">Reference</h4>
                 <p className="">
-                  Deslauriers, L., McCarty, L. S., Miller, K., Callaghan, K., & Kestin, G. (2019). Instructor strategies to aid implementation of active learning: a systematic literature review. International Journal of STEM Education, 6(1), 1–18.  {" "}
+                  Deslauriers, L., McCarty, L. S., Miller, K., Callaghan, K., &
+                  Kestin, G. (2019). Instructor strategies to aid implementation
+                  of active learning: a systematic literature review.
+                  International Journal of STEM Education, 6(1), 1–18.{" "}
                   <a
                     href="https://doi.org/10.1186/s40594-021-00270-7"
                     className="text-blue-800 underline inline-flex items-center"
@@ -213,7 +218,8 @@ export default function ToolboxInstructionalStrategies() {
                 </p>
 
                 <p className="">
-                  Queen’s University Centre for Teaching and Learning. (n.d.). Active learning.  {" "}
+                  Queen’s University Centre for Teaching and Learning. (n.d.).
+                  Active learning.{" "}
                   <a
                     href="https://www.queensu.ca/ctl/resources/instructors/instructional-strategies/field-based-learning"
                     className="text-blue-800 underline inline-flex items-center"
@@ -225,7 +231,8 @@ export default function ToolboxInstructionalStrategies() {
                 </p>
 
                 <p className="">
-                  University of Minnesota. (n.d.). Active learning classroom activities for student innovators.  {" "}
+                  University of Minnesota. (n.d.). Active learning classroom
+                  activities for student innovators.{" "}
                   <a
                     href="https://cei.umn.edu/support-services/tutorials/active-learning"
                     className="text-blue-800 underline inline-flex items-center"
@@ -261,14 +268,14 @@ export default function ToolboxInstructionalStrategies() {
               <ul className="list-disc pl-6 space-y-2 mt-2">
                 <li>
                   <strong>Learning Objectives:</strong> Clearly defined goals
-                  that students can understand. "By the end of this session, you
-                  will be able to…."
+                  that students can understand. &quot;By the end of this
+                  session, you will be able to….&quot;
                 </li>
                 <li>
                   <strong>Activating Prior Knowledge:</strong> Connecting new
-                  information to what students already know. "What do you
-                  already know about "x"? Where have you seen it being used
-                  before?"
+                  information to what students already know. &quot;What do you
+                  already know about &quot;x&quot;? Where have you seen it being
+                  used before?&quot;
                 </li>
                 <li>
                   <strong>Concept Development:</strong> Detailed explanation of
@@ -299,12 +306,13 @@ export default function ToolboxInstructionalStrategies() {
                   <strong> Pay attention </strong> to what is on their screens,
                   if you notice them making errors, ask them to pause and talk
                   through their choices. See if they can identify where they are
-                  going wrong. If they can't, walk them back to where they
+                  going wrong. If they can&apos;t, walk them back to where they
                   started making mistakes in their code or work, then provide
                   further guidance so they can achieve success. A good practice
                   is to have a digital resource bank on Brightspace, so they can
-                  watch a tutorial on how to do "x" and then circle back to see
-                  if they are on the right track after a few moments.
+                  watch a tutorial on how to do &quot;x&quot; and then circle
+                  back to see if they are on the right track after a few
+                  moments.
                 </li>
                 <li>
                   <strong>Lesson Closure:</strong> Assessing student

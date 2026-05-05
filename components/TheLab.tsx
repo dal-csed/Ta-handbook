@@ -45,8 +45,8 @@ export default function TheLab() {
         </h3>
 
         <p className="mt-2">
-          It's important that students feel a sense of belonging. You need to
-          facilitate this!
+          It&apos;s important that students feel a sense of belonging. You need
+          to facilitate this!
         </p>
 
         <ul className="list-disc pl-6 space-y-2 mt-2">
@@ -63,13 +63,13 @@ export default function TheLab() {
             would as a peer.
           </li>
           <li>
-            You need to make an effort to learn students' names. A good way of
-            doing this is to have students write their names on labels and wear
-            them on their lapel the first couple of classes or create name tents
-            (folding a piece of paper in half, students write their names on one
-            half, then prop up the paper next to them). Also, encourage students
-            to share their names with other students when they engage with each
-            other for paired or group work.
+            You need to make an effort to learn students&apos; names. A good way
+            of doing this is to have students write their names on labels and
+            wear them on their lapel the first couple of classes or create name
+            tents (folding a piece of paper in half, students write their names
+            on one half, then prop up the paper next to them). Also, encourage
+            students to share their names with other students when they engage
+            with each other for paired or group work.
           </li>
           <li>
             If a student asks a clarifying question after a demonstration or if
@@ -77,9 +77,9 @@ export default function TheLab() {
             class to hear before you respond.
           </li>
           <li>
-            Use students' names when speaking to them. If you do not know it,
-            ask them and then repeat it before you respond. "Great question,
-            Ammar….."
+            Use students&apos; names when speaking to them. If you do not know
+            it, ask them and then repeat it before you respond. &quot;Great
+            question, Ammar…..&quot;
           </li>
         </ul>
       </div>
@@ -88,7 +88,7 @@ export default function TheLab() {
         <h3 className="font-bold text-lg">More Resources</h3>
 
         <p className="mt-2">
-          The University of Michigan's CRLT page on lab teaching provides a
+          The University of Michigan&apos;s CRLT page on lab teaching provides a
           range of resources designed to assist TAs in effectively teaching
           laboratory classes. Some of these resources aim to enhance
           instructional practices and support TAs in creating an engaging and
@@ -156,8 +156,8 @@ export default function TheLab() {
                 When Teaching Assistants (TAs) in Computer Science are
                 responsible for lab classes, there are several important
                 considerations to keep in mind to ensure a smooth and productive
-                learning environment. Here's a breakdown of the key areas to
-                focus on:
+                learning environment. Here&apos;s a breakdown of the key areas
+                to focus on:
               </p>
 
               <h4 className="font-semibold mt-4">1. Technical Preparedness</h4>
@@ -252,8 +252,8 @@ export default function TheLab() {
                   After any demonstrations have been given,{" "}
                   <strong>guide</strong> students through problem-solving
                   processes rather than giving direct answers. This means that
-                  you will be asking "Guiding Questions" and pointing to where
-                  you may see the problem.
+                  you will be asking &quot;Guiding Questions&quot; and pointing
+                  to where you may see the problem.
                 </li>
                 <li>
                   Encourage students to think critically about code errors or
@@ -350,9 +350,10 @@ export default function TheLab() {
                 </li>
                 <li>
                   Offer encouragement and acknowledge effort, even when students
-                  encounter difficulties. Use phrases like: "Well Tried!",
-                  "You're not quite there yet. Have another go at it!", "Would a
-                  further demonstration help?"
+                  encounter difficulties. Use phrases like: &quot;Well
+                  Tried!&quot;, &quot;You&apos;re not quite there yet. Have
+                  another go at it!&quot;, &quot;Would a further demonstration
+                  help?&quot;
                 </li>
                 <li>
                   Having a set of <strong>recorded tutorials</strong> or a{" "}
@@ -396,8 +397,8 @@ export default function TheLab() {
               <ul className="list-disc pl-6 space-y-1">
                 <li>
                   Discuss the ethical implications of programming choices, such
-                  as bias in algorithms or data misuse when it's appropriate for
-                  a task.
+                  as bias in algorithms or data misuse when it&apos;s
+                  appropriate for a task.
                 </li>
                 <li>
                   Ensure that students are aware that they must submit their own
@@ -425,7 +426,7 @@ export default function TheLab() {
                   take a stretch etc.
                 </li>
                 <li>
-                  Although there aren’t harmful chemicals to deal with in
+                  Although there aren&apos;t harmful chemicals to deal with in
                   computer science labs, it is important to take into account
                   the <strong>physical environment</strong>. Encourage students
                   to be mindful of trailing laptop cables, tucking backpacks
@@ -434,10 +435,10 @@ export default function TheLab() {
                   the space organized can help prevent accidents.{" "}
                 </li>
                 <li>
-                  Promote good practices like taking short "
-                  <strong>Bio-breaks</strong>!" to reduce screen fatigue and
-                  allow the students to stretch their legs, use the washroom,
-                  get a drink of water, etc.
+                  Promote good practices like taking short &quot;
+                  <strong>Bio-breaks</strong>!&quot; to reduce screen fatigue
+                  and allow the students to stretch their legs, use the
+                  washroom, get a drink of water, etc.
                 </li>
               </ul>
 
@@ -447,9 +448,9 @@ export default function TheLab() {
               <ul className="list-disc pl-6 space-y-1">
                 <li>
                   Be consistent and fair when assessing student work, following
-                  clearly defined rubrics. If you aren’t grading the work, you
-                  still need to be aware of how the piece of work is assessed
-                  and be able to explain this to the students.{" "}
+                  clearly defined rubrics. If you aren&apos;t grading the work,
+                  you still need to be aware of how the piece of work is
+                  assessed and be able to explain this to the students.{" "}
                 </li>
                 <li>
                   Offer constructive feedback that highlights both strengths and
@@ -502,8 +503,8 @@ export default function TheLab() {
                   Be punctual, prepared, and responsive to student inquiries.
                 </li>
                 <li>
-                  Maintain confidentiality and respect students' privacy when
-                  discussing grades or performance.
+                  Maintain confidentiality and respect students&apos; privacy
+                  when discussing grades or performance.
                 </li>
               </ul>
 

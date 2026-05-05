@@ -20,12 +20,12 @@ export default function EDIA() {
           Recognizing signs of distress and knowing how to respond with empathy
           and professionalism is equally important. Students may face a range of
           academic, personal, or mental health challenges, and your support can
-          make a meaningful difference. In this section, you’ll find resources
-          on inclusive teaching practices, accessibility considerations, and
-          guidance on how to identify and refer students who may be struggling.
-          By approaching your role with care and awareness, you contribute to a
-          safer, more compassionate, and more effective learning environment for
-          everyone.
+          make a meaningful difference. In this section, you&apos;ll find
+          resources on inclusive teaching practices, accessibility
+          considerations, and guidance on how to identify and refer students who
+          may be struggling. By approaching your role with care and awareness,
+          you contribute to a safer, more compassionate, and more effective
+          learning environment for everyone.
         </p>
       </div>
 
@@ -40,7 +40,7 @@ export default function EDIA() {
                   : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-black hover:border-gray-300"
               }`}
             >
-              Dalhousie's Commitment to EDIA
+              Dalhousie&apos;s Commitment to EDIA
             </button>
 
             <button
@@ -84,8 +84,8 @@ export default function EDIA() {
                 Inclusion, and Accessibility. It represents a commitment to
                 creating a welcoming and inclusive environment for all members
                 of the university community. This commitment is a core
-                institutional priority, influencing the university's vision,
-                mission, values, and actions.
+                institutional priority, influencing the university&apos;s
+                vision, mission, values, and actions.
               </p>
 
               <div className="space-y-3">
@@ -139,8 +139,8 @@ export default function EDIA() {
               </p>
 
               <p className="mt-4">
-                You can explore Dalhousie's full EDIA framework and strategic
-                goals here:{" "}
+                You can explore Dalhousie&apos;s full EDIA framework and
+                strategic goals here:{" "}
                 <a
                   href="https://www.dal.ca/about/mission-vision-values/equity-diversity-inclusion-and-accessibility.html"
                   className="text-blue-800 underline inline-flex items-center"
@@ -173,12 +173,13 @@ export default function EDIA() {
                       <li>
                         Express belief and support:{" "}
                         <i>
-                          "Thank you for sharing your experience with me. You
-                          are not alone. I believe you."
+                          &quot;Thank you for sharing your experience with me.
+                          You are not alone. I believe you.&quot;
                         </i>
                       </li>
                       <li>
-                        Assess safety: <i>"Are you safe right now?"</i>
+                        Assess safety:{" "}
+                        <i>&quot;Are you safe right now?&quot;</i>
                       </li>
                       <li>
                         Offer information on supports and reporting options but
@@ -191,8 +192,8 @@ export default function EDIA() {
                     <ul className="list-inside list-disc pl-5">
                       <li>
                         Avoid victim-blaming questions or coercive suggestions
-                        (e.g., “You should report this,” or “What were you
-                        wearing?”).
+                        (e.g., &quot;You should report this,&quot; or &quot;What
+                        were you wearing?&quot;).
                       </li>
                       <li>Do not minimize or dismiss their experience.</li>
                     </ul>
@@ -278,7 +279,8 @@ export default function EDIA() {
                   <li>
                     Approach students with genuine concern:{" "}
                     <i>
-                      "I’ve noticed you seem withdrawn, is everything okay?"
+                      &quot;Ive noticed you seem withdrawn, is everything
+                      okay?&quot;
                     </i>
                   </li>
                   <li>Listen actively and without judgment.</li>
@@ -343,7 +345,8 @@ export default function EDIA() {
                   <li>
                     Approach students with genuine concern:{" "}
                     <i>
-                      "I’ve noticed you seem withdrawn, is everything okay?"
+                      &quot;I’ve noticed you seem withdrawn, is everything
+                      okay?&quot;
                     </i>
                   </li>
                   <li>Listen actively and without judgment.</li>

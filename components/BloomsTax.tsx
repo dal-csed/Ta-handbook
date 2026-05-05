@@ -11,7 +11,7 @@ const BloomsTax = () => {
         delivery of assignments and labs. Designing these learning activities
         with <strong> clear, measurable outcomes </strong> helps ensure students
         understand what is expected and how their work will be assessed. One
-        effective approach is to use <strong>Bloom’s Taxonomy</strong>, a
+        effective approach is to use <strong>Bloom&apos;s Taxonomy</strong>, a
         framework that categorizes learning objectives according to cognitive
         complexity.
       </p>
@@ -19,12 +19,12 @@ const BloomsTax = () => {
       <div className="flex flex-row">
         <div className="space-y-1 flex-1">
           <h3 className="text-lg text-blue-800 font-semibold mt-3 mb-1">
-            What is Bloom’s Taxonomy?
+            What is Bloom&apos;s Taxonomy?
           </h3>
 
           <p>
-            Bloom’s Taxonomy classifies cognitive skills into six hierarchical
-            levels:
+            Bloom&apos;s Taxonomy classifies cognitive skills into six
+            hierarchical levels:
           </p>
 
           <ol className="list-decimal pl-6 space-y-1.5 my-2">
@@ -89,7 +89,7 @@ const BloomsTax = () => {
       <p>
         When creating assignments or labs, begin by articulating the{" "}
         <strong>intended learning outcomes </strong> using active verbs aligned
-        with Bloom’s Taxonomy. For example:
+        with Bloom&apos;s Taxonomy. For example:
       </p>
 
       <ul className="list-disc pl-6 space-y-2 mt-2 ">
@@ -133,7 +133,8 @@ const BloomsTax = () => {
         </li>
         <li>
           <strong>Provide rubrics or checklists</strong>
-          that mirror the outcomes, helping students focus on what's expected.
+          that mirror the outcomes, helping students focus on what&apos;s
+          expected.
         </li>
       </ul>
 
@@ -145,14 +146,14 @@ const BloomsTax = () => {
 
       <p>
         Assignments built on clearly defined cognitive goals help students
-        engage meaningfully with course content. For TAs, using Bloom’s Taxonomy
-        supports fair evaluation, improves feedback clarity, and contributes to
-        consistent expectations across course sections
+        engage meaningfully with course content. For TAs, using Bloom&apos;s
+        Taxonomy supports fair evaluation, improves feedback clarity, and
+        contributes to consistent expectations across course sections
       </p>
 
       <p className="text-red-700">
-        More in-depth information on Bloom’s Taxonomy can be found on Waterloo’s
-        Bloom’s Taxonomy page:{" "}
+        More in-depth information on Bloom’s Taxonomy can be found on
+        Waterloo&apos;s Bloom&apos;s Taxonomy page:{" "}
         <a
           className="text-blue-800 underline inline-flex items-center"
           target="_blank"
@@ -170,8 +171,8 @@ const BloomsTax = () => {
       <p>
         ACM Committee for Computing Education in Community Colleges. (2023).{" "}
         <i>
-          Bloom’s for Computing: Enhancing Bloom's Revised Taxonomy with Verbs
-          for Computing Disciplines.
+          Bloom&apos;s for Computing: Enhancing Bloom&apos;s Revised Taxonomy
+          with Verbs for Computing Disciplines.
         </i>{" "}
         <a
           href="https://ccecc.acm.org/assessment/blooms-for-computing"
@@ -187,14 +188,14 @@ const BloomsTax = () => {
         Anderson, L. W., & Krathwohl, D. R. (Eds.). (2001).{" "}
         <i>
           A taxonomy for learning, teaching, and assessing: A revision of
-          Bloom's taxonomy of educational objectives.
+          Bloom&apos;s taxonomy of educational objectives.
         </i>{" "}
         Longman.
       </p>
 
       <p>
-        Krathwohl, D. R. (2002). A revision of Bloom’s taxonomy: An overview.
-        Theory into Practice, 41(4), 212-218.{" "}
+        Krathwohl, D. R. (2002). A revision of Bloom&apos;s taxonomy: An
+        overview. Theory into Practice, 41(4), 212-218.{" "}
         <a
           href="https://doi.org/10.1207/s15430421tip4104_2"
           className="text-blue-800 underline inline-flex items-center"
@@ -247,7 +248,9 @@ const BloomsTable = () => {
       <table className="min-w-full border border-gray-300 text-left">
         <thead className="bg-gray-100">
           <tr>
-            <th className="border px-4 py-2 font-semibold">Bloom’s Level</th>
+            <th className="border px-4 py-2 font-semibold">
+              Bloom&apos;s Level
+            </th>
             <th className="border px-4 py-2 font-semibold">
               Example Learning Outcome
             </th>

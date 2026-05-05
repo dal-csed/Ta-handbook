@@ -38,17 +38,17 @@ export default function TADemonstratorMarkerTable() {
             <tr>
               <td className="border p-2 font-semibold">Pay</td>
               <td className="border p-2">
-                $30.05 per hour*
+                $34 per hour*
                 <br />
                 <em>paid in fixed installments</em>
               </td>
               <td className="border p-2">
-                $24.00 per hour*
+                $25.59 per hour*
                 <br />
                 <em>variable hours, submit by timesheet</em>
               </td>
               <td className="border p-2">
-                $24.00 per hour*
+                $25.59 per hour*
                 <br />
                 <em>hours worked submitted by timesheet</em>
               </td>
@@ -246,12 +246,12 @@ export default function TADemonstratorMarkerTable() {
                 role of a Teaching Assistant (TA) is the foundation of effective
                 teaching and support for students. The responsibilities vary
                 across institutions but generally include assisting faculty with
-                course delivery, grading assignments, and supporting students'
-                learning experiences. At the Faculty of Computer Science, TAs do
-                not mark. A separate Marker contract must be created at that
-                rate of pay for that specific role. Your duties and hours as a
-                TA are specified in the offer email; TAs and Demonstrators must
-                track time accordingly.
+                course delivery, grading assignments, and supporting
+                students&apos; learning experiences. At the Faculty of Computer
+                Science, TAs do not mark. A separate Marker contract must be
+                created at that rate of pay for that specific role. Your duties
+                and hours as a TA are specified in the offer email; TAs and
+                Demonstrators must track time accordingly.
               </p>
 
               <div className="mt-2 space-y-2">
@@ -271,9 +271,10 @@ export default function TADemonstratorMarkerTable() {
                   </li>
 
                   <li>
-                    <strong>Office Hours and Student Support</strong>: If it's
-                    in your contract host regular office hours to address
-                    student concerns, clarify concepts, and provide guidance.
+                    <strong>Office Hours and Student Support</strong>: If
+                    it&apos;s in your contract host regular office hours to
+                    address student concerns, clarify concepts, and provide
+                    guidance.
                   </li>
 
                   <li>
@@ -288,19 +289,19 @@ export default function TADemonstratorMarkerTable() {
                 Every instructor will have their own needs and ideas for what
                 they would like you to do and how they would like you to
                 approach tasks. The first meeting with the instructor can be
-                seen as an "Orientation Meeting." This meeting is an opportunity
-                to start your role in a positive and clear direction. To ensure
-                that you are successful in your role, a helpful checklist of
-                questions in this section will help guide your discussion with
-                the instructor of the class as you embark on your TA journey.
-                You will be able to refer to it when you need clarity. Also, you
-                can share specific information you have recorded with your
-                teaching team.
+                seen as an &quot;Orientation Meeting.&quot; This meeting is an
+                opportunity to start your role in a positive and clear
+                direction. To ensure that you are successful in your role, a
+                helpful checklist of questions in this section will help guide
+                your discussion with the instructor of the class as you embark
+                on your TA journey. You will be able to refer to it when you
+                need clarity. Also, you can share specific information you have
+                recorded with your teaching team.
               </p>
 
               <p className="mt-3">
                 Whether you are a <strong>new Teaching Assistant (TA)</strong>{" "}
-                or taking on a course that is new to you, it’s essential to
+                or taking on a course that is new to you, it&quot;s essential to
                 clearly understand your responsibilities. The following
                 questions will help you define your role and expectations,
                 ensuring you are prepared for your duties. Link to{" "}
@@ -438,9 +439,9 @@ export default function TADemonstratorMarkerTable() {
                 </li>
                 <li>Who will handle disputes over grades?</li>
                 <li>
-                  Are there platforms that I need to learn for grading if I'm
-                  given a contract for marking (Crowdmark, Codio, Brightspace,
-                  etc.)?
+                  Are there platforms that I need to learn for grading if
+                  I&apos;m given a contract for marking (Crowdmark, Codio,
+                  Brightspace, etc.)?
                 </li>
               </ul>
 
@@ -467,8 +468,8 @@ export default function TADemonstratorMarkerTable() {
                   differ from the instructor?
                 </li>
                 <li>
-                  If one of the technical platforms that we are using doesn’t
-                  work properly, who do I contact?
+                  If one of the technical platforms that we are using
+                  doesn&quot;t work properly, who do I contact?
                 </li>
               </ul>
 
@@ -927,11 +928,11 @@ export default function TADemonstratorMarkerTable() {
                   <p>
                     During the session, all markers grade the same assessment
                     using the rubric, then compare scores and feedback. This
-                    process, known as "calibration," helps markers reach a
-                    consensus on the grade and determine effective feedback to
-                    guide student improvement. It is an essential strategy to
-                    resolve grading differences and ensure consistent
-                    application of rubrics.{" "}
+                    process, known as &quot;calibration,&quot; helps markers
+                    reach a consensus on the grade and determine effective
+                    feedback to guide student improvement. It is an essential
+                    strategy to resolve grading differences and ensure
+                    consistent application of rubrics.{" "}
                   </p>
                 </li>
                 <li>
@@ -967,11 +968,11 @@ export default function TADemonstratorMarkerTable() {
                 </li>
                 <li>
                   <strong>Comment Banks</strong>: Can save time and be effective
-                  as comments can be curated. If you aren’t using CrowdMark a{" "}
-                  <strong>list of common feedback</strong> that can be copied
+                  as comments can be curated. If you aren&apos;t using CrowdMark
+                  a <strong>list of common feedback</strong> that can be copied
                   and pasted to streamline grading can be useful. Refer students
                   to external resources (e.g., office hours, the FCS Learning
-                  Centre, or Dal’s Writing Centre) for further learning.
+                  Centre, or Dal&apos;s Writing Centre) for further learning.
                 </li>
                 <li>
                   <strong>
@@ -1033,7 +1034,8 @@ export default function TADemonstratorMarkerTable() {
                   target="_blank"
                   className="text-blue-800 underline inline-flex items-center"
                 >
-                  https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/receiving-and-giving-effective-feedback <ExternalLink className="ml-1 h-4 w-4" />
+                  https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/receiving-and-giving-effective-feedback{" "}
+                  <ExternalLink className="ml-1 h-4 w-4" />
                 </a>
               </p>
 
@@ -1045,7 +1047,7 @@ export default function TADemonstratorMarkerTable() {
                   target="_blank"
                   className="text-blue-800 underline inline-flex items-center"
                 >
-                  https://institute-academic-development.ed.ac.uk/learning-teaching/staff/assessment/moderation-guidance#:~:text=This%20involves%20the%20first%20marker,agree%20a%20final%20single%20mark. 
+                  https://institute-academic-development.ed.ac.uk/learning-teaching/staff/assessment/moderation-guidance#:~:text=This%20involves%20the%20first%20marker,agree%20a%20final%20single%20mark.
                 </a>
               </p>
 
@@ -1058,7 +1060,8 @@ export default function TADemonstratorMarkerTable() {
                   target="_blank"
                   className="text-blue-800 underline inline-flex items-center"
                 >
-                  https://doi.org/10.1080/02602938.2011.646236 <ExternalLink className="ml-1 h-4 w-4" />
+                  https://doi.org/10.1080/02602938.2011.646236{" "}
+                  <ExternalLink className="ml-1 h-4 w-4" />
                 </a>
               </p>
 
@@ -1080,11 +1083,11 @@ export default function TADemonstratorMarkerTable() {
           {activeTab === "policies" && (
             <div>
               <p>
-                As a Teaching Assistant (TA) at Dalhousie University, it's
-                essential to familiarize yourself with the university's policies
-                and procedures to ensure compliance and uphold the institution's
-                standards. This section provides an overview of key policies
-                relevant to your role.
+                As a Teaching Assistant (TA) at Dalhousie University, it&apos;s
+                essential to familiarize yourself with the university&apos;s
+                policies and procedures to ensure compliance and uphold the
+                institution&apos;s standards. This section provides an overview
+                of key policies relevant to your role.
               </p>
 
               <h3 className=" font-semibold my-2">
@@ -1157,9 +1160,9 @@ export default function TADemonstratorMarkerTable() {
                     </a>
                   </strong>
                   : This policy defines sexualized violence and outlines the
-                  university's approach to prevention, support, and response. As
-                  a TA, you should be aware of the resources available and the
-                  procedures for reporting incidents.
+                  university&apos;s approach to prevention, support, and
+                  response. As a TA, you should be aware of the resources
+                  available and the procedures for reporting incidents.
                 </li>
 
                 <li>
@@ -1174,8 +1177,8 @@ export default function TADemonstratorMarkerTable() {
                   </strong>
                   : This policy governs the collection, use, and disclosure of
                   personal information within the university. TAs often handle
-                  sensitive student information, so it's important to understand
-                  your responsibilities under this policy.
+                  sensitive student information, so it&apos;s important to
+                  understand your responsibilities under this policy.
                 </li>
 
                 <li>
@@ -1189,7 +1192,7 @@ export default function TADemonstratorMarkerTable() {
                       <ExternalLink className="ml-1 h-4 w-4" />
                     </a>
                   </strong>
-                  : This policy outlines the university's commitment to
+                  : This policy outlines the university&apos;s commitment to
                   providing a safe and healthy environment. If your TA duties
                   involve laboratories or other specialized settings, adherence
                   to safety procedures is mandatory.
@@ -1226,10 +1229,10 @@ export default function TADemonstratorMarkerTable() {
               </ul>
 
               <p className="mt-2">
-                By familiarizing yourself with Dalhousie University's policies
-                and procedures, you contribute to a respectful, safe, and
-                effective learning environment for all members of the university
-                community.
+                By familiarizing yourself with Dalhousie University&apos;s
+                policies and procedures, you contribute to a respectful, safe,
+                and effective learning environment for all members of the
+                university community.
               </p>
             </div>
           )}
@@ -1238,7 +1241,7 @@ export default function TADemonstratorMarkerTable() {
             <div>
               <ul className="list-disc pl-6 space-y-1.5 my-2">
                 <li>
-                  $24.00 per hour paid by timesheet (separate from Marker
+                  $25.59 per hour paid by timesheet (separate from Marker
                   timesheet).
                 </li>
                 <li>
@@ -1318,12 +1321,12 @@ export default function TADemonstratorMarkerTable() {
                   position.
                 </li>
                 <li>
-                  If you've been a TA in the same course before, said TA may not
-                  be hired as a Demonstrator. This is course-specific.
+                  If you&apos;ve been a TA in the same course before, said TA
+                  may not be hired as a Demonstrator. This is course-specific.
                 </li>
                 <li>
-                  If you've been a TA before but not for this course, then you
-                  may be a Demonstrator unless TA-only duties are required.
+                  If you&apos;ve been a TA before but not for this course, then
+                  you may be a Demonstrator unless TA-only duties are required.
                 </li>
                 <li>
                   Proctor (admin support and walk the room; may not answer

@@ -1,5 +1,4 @@
 import { ExternalLink } from "lucide-react";
-import { ST } from "next/dist/shared/lib/utils";
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -128,15 +127,15 @@ const CreatingALR = () => {
               </h4>
               <p>
                 Every assignment should clearly support one or more of the
-                course’s intended learning outcomes. These outcomes describe
-                what students should be able to do by the end of the course and
-                guide assessment design.
+                course&apos;s intended learning outcomes. These outcomes
+                describe what students should be able to do by the end of the
+                course and guide assessment design.
               </p>
 
               <ul className="list-disc pl-6 space-y-1">
                 <li>
-                  Use <strong>action verbs from Bloom’s Taxonomy </strong>that
-                  match the cognitive level of the outcome (e.g., .{" "}
+                  Use <strong>action verbs from Bloom&apos;s Taxonomy </strong>
+                  that match the cognitive level of the outcome (e.g., .{" "}
                   <em>identify, apply, analyze, evaluate, create)</em>
                 </li>
                 <li>
@@ -371,16 +370,16 @@ const CreatingALR = () => {
                 <ul className="list-disc ml-6 space-y-1">
                   <li>
                     Apply conditional statements to implement decision-making in
-                    a real-world scenario (Apply – Bloom’s Level 3)
+                    a real-world scenario (Apply – Bloom&apos;s Level 3)
                   </li>
                   <li>
                     Write, test, and debug a modular Python program (Create –
-                    Bloom’s Level 6)
+                    Bloom&apos;s Level 6)
                   </li>
                   <li>
                     Demonstrate effective use of user input, output formatting,
-                    and control structures (Understand/Apply – Bloom’s Levels
-                    2–3)
+                    and control structures (Understand/Apply – Bloom&apos;s
+                    Levels 2–3)
                   </li>
                 </ul>
               </section>
@@ -428,7 +427,7 @@ const CreatingALR = () => {
                   </li>
                   <li>
                     A short PDF with screenshots of at least three different
-                    test cases, showing your program’s output.
+                    test cases, showing your program&apos;s output.
                   </li>
                 </ul>
               </section>
@@ -554,7 +553,7 @@ const CreatingALR = () => {
               </ul>
 
               <h4 className="font-semibold mt-4">
-                2. Use Bloom’s Taxonomy to Guide Cognitive Challenge{" "}
+                2. Use Bloom&apos;s Taxonomy to Guide Cognitive Challenge{" "}
               </h4>
               <ul className="list-disc pl-6 space-y-2 mt-2">
                 <li>
@@ -564,7 +563,7 @@ const CreatingALR = () => {
                     href="#section-6"
                     className="font-semibold my-2 block text-blue-800 underline"
                   >
-                    See the information in the Bloom's Taxonomy section.
+                    See the information in the Bloom&apos;s Taxonomy section.
                   </Link>
                 </li>
                 <li>
@@ -572,8 +571,8 @@ const CreatingALR = () => {
                   later labs can increase in complexity.
                 </li>
                 <li>
-                  Consider using Bloom’s verbs in learning goals: e.g., “debug,”
-                  “design,” “optimize,” “implement,” “evaluate.”
+                  Consider using Bloom&apos;s verbs in learning goals: e.g.,
+                  “debug,” “design,” “optimize,” “implement,” “evaluate.”
                 </li>
               </ul>
 
@@ -633,8 +632,8 @@ const CreatingALR = () => {
                   or videos.
                 </li>
                 <li>
-                  Offer a “What to do if you’re stuck” section with step-by-step
-                  self-help strategies.
+                  Offer a “What to do if you&apos;re stuck” section with
+                  step-by-step self-help strategies.
                 </li>
                 <li>
                   Emphasize that reasonable struggle, persistence, and tenacity
@@ -922,7 +921,8 @@ const CreatingALR = () => {
                 </p>
 
                 <p className="font-bold ">
-                  Holistic Rubric Example – Capstone Project Final Presentation{" "}
+                  Holistic Rubric Example – Capstone Project Final
+                  Presentation{" "}
                 </p>
 
                 <p className="font-semibold mb-[-2]">Assignment context:</p>

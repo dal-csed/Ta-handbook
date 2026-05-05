@@ -12,7 +12,7 @@ export default function FantasticTA() {
         understanding, confidence, and academic success. Great TAs are
         approachable, reliable, and proactive. They anticipate student needs,
         explain concepts clearly, and create an inclusive environment where
-        every learner feels seen and supported. Whether they're leading
+        every learner feels seen and supported. Whether they&apos;re leading
         tutorials, marking assignments, or guiding labs, fantastic TAs show up
         with enthusiasm, empathy, and a genuine commitment to student learning.
         Their impact often extends beyond the classroom, leaving a lasting
@@ -67,7 +67,7 @@ export default function FantasticTA() {
                   : "border-transparent bg-blue-400 text-white rounded-t-md hover:text-black hover:border-gray-300"
               }`}
             >
-              A Teaching Assistant's Insight
+              A Teaching Assistant&apos;s Insight
             </button>
           </nav>
         </div>
@@ -76,17 +76,17 @@ export default function FantasticTA() {
           {activeTab === "proactive" && (
             <div className="space-y-3">
               <p>
-                It’s important to stay proactive when it comes to teaching. You
-                can’t wait for students to take initiative. You have to take
-                action both inside and outside the classroom. Don’t sit back
-                passively; engage with your students and take the lead.
+                It&apos;s important to stay proactive when it comes to teaching.
+                You can&apos;t wait for students to take initiative. You have to
+                take action both inside and outside the classroom. Don&apos;t
+                sit back passively; engage with your students and take the lead.
               </p>
 
               <p>
                 Gaining the respect of your students is crucial from the first
-                day. If you don’t set clear expectations from the beginning, it
-                becomes much harder to maintain authority throughout the
-                semester.
+                day. If you don&apos;t set clear expectations from the
+                beginning, it becomes much harder to maintain authority
+                throughout the semester.
               </p>
 
               {/* Managing responsibilities */}
@@ -97,89 +97,91 @@ export default function FantasticTA() {
                 Being a TA comes with a balancing act. You have your own
                 research, coursework, and preparation for lectures. On top of
                 that, you may need to teach classes, grade assignments and
-                possibly hold office hours. It’s important to prioritize your
-                tasks and not get overwhelmed. You can manage your time more
-                effectively by preparing any activities that you may need for
-                labs, classes and tutorials before you enter the learning space.
-                If you are marking, tackle grading as soon as assignments come
-                in rather than letting them pile up. As a TA, you're going to
-                have a lot on your plate. Between (possibly) grading, preparing
-                lectures, attending meetings, and your own coursework or
-                research, it can be easy to feel overwhelmed. The key is to stay
-                organized and manage your time effectively. If you have marking
-                responsibilities, we recommend grading assignments as soon as
-                you receive them. You will most likely be given a timeline for
-                this from the instructor with whom you are working. This will
-                not only make your life easier but also ensure that your
-                students get timely feedback, which is crucial for their
+                possibly hold office hours. It&apos;s important to prioritize
+                your tasks and not get overwhelmed. You can manage your time
+                more effectively by preparing any activities that you may need
+                for labs, classes and tutorials before you enter the learning
+                space. If you are marking, tackle grading as soon as assignments
+                come in rather than letting them pile up. As a TA, you&apos;re
+                going to have a lot on your plate. Between (possibly) grading,
+                preparing lectures, attending meetings, and your own coursework
+                or research, it can be easy to feel overwhelmed. The key is to
+                stay organized and manage your time effectively. If you have
+                marking responsibilities, we recommend grading assignments as
+                soon as you receive them. You will most likely be given a
+                timeline for this from the instructor with whom you are working.
+                This will not only make your life easier but also ensure that
+                your students get timely feedback, which is crucial for their
                 learning.
               </p>
               <p>
                 Another thing to remember is that your students might not always
                 come to you with their questions. Some might be too shy or
-                unsure, so it’s important to make yourself available. Hold
+                unsure, so it&apos;s important to make yourself available. Hold
                 regular office hours and encourage your students to reach out to
-                you via email if they need help. And remember, if you're
+                you via email if they need help. And remember, if you&apos;re
                 offering office hours, be sure to attend them! It may seem like
                 no one will come, but being available is important in case they
                 do.
               </p>
               <p>
-                Finally, it’s important to communicate with your fellow TAs,
-                especially if you’re all teaching the same course. Make sure
-                you're on the same page when it comes to grading policies,
-                handling academic dishonesty, and any other issues that may
-                arise during the semester.
+                Finally, it&apos;s important to communicate with your fellow
+                TAs, especially if you&apos;re all teaching the same course.
+                Make sure you&apos;re on the same page when it comes to grading
+                policies, handling academic dishonesty, and any other issues
+                that may arise during the semester.
               </p>
 
               <p>
                 Being an active TA requires more than just physically moving
-                around the classroom. It’s about taking the initiative, being
-                proactive, and staying engaged with your students. Whether it’s
-                inside or outside the classroom, there are always opportunities
-                to be an active participant in the learning process.
+                around the classroom. It&apos;s about taking the initiative,
+                being proactive, and staying engaged with your students. Whether
+                it&apos;s inside or outside the classroom, there are always
+                opportunities to be an active participant in the learning
+                process.
               </p>
 
               {/* Proactive mindset */}
               <h4 className="font-semibold">Being Proactive as a TA</h4>
               <p>
                 To help your students succeed, you must focus on being proactive
-                rather than reactive. If you're always waiting for things to go
-                wrong or waiting for students to ask for help, you'll find
-                yourself constantly playing catch-up. Instead, try to anticipate
-                issues and questions before they arise. That way, you're better
-                prepared to handle them. You need to be intentional in your plan
-                for each lab, tutorial or assistance in class. When you are
-                working with an instructor as support in a class or whether you
-                are leading a lab, tutorial or other TAs, have clear
-                communication and set a plan.
+                rather than reactive. If you&apos;re always waiting for things
+                to go wrong or waiting for students to ask for help, you&apos;ll
+                find yourself constantly playing catch-up. Instead, try to
+                anticipate issues and questions before they arise. That way,
+                you&apos;re better prepared to handle them. You need to be
+                intentional in your plan for each lab, tutorial or assistance in
+                class. When you are working with an instructor as support in a
+                class or whether you are leading a lab, tutorial or other TAs,
+                have clear communication and set a plan.
               </p>
 
               <p>
                 You also want to set the tone early on. The first day of class
-                is critical. If you don’t establish yourself as an authority
-                figure from day one, it will be much harder to gain the respect
-                of your students later in the semester.
+                is critical. If you don&apos;t establish yourself as an
+                authority figure from day one, it will be much harder to gain
+                the respect of your students later in the semester.
               </p>
 
               {/* Engagement */}
               <h4 className="font-semibold">Engaging Your Students</h4>
               <p>
                 Another thing to keep in mind is that your students are much
-                more likely to engage with the material if you're actively
-                engaging with them. This doesn't mean you have to be overly
+                more likely to engage with the material if you&apos;re actively
+                engaging with them. This doesn&apos;t mean you have to be overly
                 strict or unapproachable, but it does mean that you need to be
                 present and involved in the learning process.
               </p>
 
               <p>
-                Using Active Learning techniques such as "think-pair-share” and
-                other strategies helps students engage with the material and
-                facilitates deeper learning and retention of skills and course
-                content. This not only gets students interacting with each other
-                and the content but incorporates critical thinking. It also
-                gives them the chance to work through any confusion they may
-                have in a low-pressure environment.
+                Using Active Learning techniques such as
+                &quot;think-pair-share&quot; and other strategies helps students
+                engage with the material and facilitates deeper learning and
+                retention of skills and course content. This not only gets
+                students interacting with each other and the content but
+                incorporates critical thinking. It also gives them the chance to
+                work through any confusion they may have in a low-pressure
+                environment.
               </p>
 
               <p>
@@ -190,30 +192,31 @@ export default function FantasticTA() {
               {/* Staying active physically */}
               <h4 className="font-semibold">Staying Active and Engaged</h4>
               <p>
-                Another tip is to stay physically active in the classroom. Don’t
-                just stand at the front of the room and lecture for the entire
-                period. Move around the classroom, check in with students, and
-                offer assistance when needed. Not only does this make you more
-                approachable, but it also keeps your students on their toes
-                because they know you’re paying attention.
+                Another tip is to stay physically active in the classroom.
+                Don&apos;t just stand at the front of the room and lecture for
+                the entire period. Move around the classroom, check in with
+                students, and offer assistance when needed. Not only does this
+                make you more approachable, but it also keeps your students on
+                their toes because they know you&apos;re paying attention.
               </p>
 
               <p>
                 You should also strive to bring energy into the classroom. Even
-                if the material isn't doesn’t seem very exciting, your
+                if the material isn&apos;t doesn&apos;t seem very exciting, your
                 enthusiasm can make a huge difference in how your students
-                respond to it. When you're excited about what you're teaching,
-                that excitement becomes contagious, and your students will be
-                more likely to stay engaged.
+                respond to it. When you&apos;re excited about what you&apos;re
+                teaching, that excitement becomes contagious, and your students
+                will be more likely to stay engaged.
               </p>
 
               <p>
                 In summary, being an active TA is about more than just showing
-                up to class and doing the minimum. It's about taking initiative,
-                engaging with your students, and staying proactive both inside
-                and outside the classroom. By doing these things, you’ll not
-                only make your students' lives easier, but you’ll also make your
-                own teaching experience much more rewarding.
+                up to class and doing the minimum. It&apos;s about taking
+                initiative, engaging with your students, and staying proactive
+                both inside and outside the classroom. By doing these things,
+                you&apos;ll not only make your students&apos; lives easier, but
+                you&apos;ll also make your own teaching experience much more
+                rewarding.
               </p>
             </div>
           )}
@@ -226,7 +229,8 @@ export default function FantasticTA() {
               <ul className="list-disc pl-6 space-y-1">
                 <li>
                   Avoid gendered or ableist language; use terms like
-                  "they/them," "everyone," or "folks."
+                  &quot;they/them,&quot; &quot;everyone,&quot; or
+                  &quot;folks.&quot;
                 </li>
                 <li>
                   Ask students (if comfortable) to share their preferred name
@@ -234,7 +238,7 @@ export default function FantasticTA() {
                 </li>
                 <li>Avoid slang or idioms without context.</li>
                 <li>
-                  Refer to Dalhousie's{" "}
+                  Refer to Dalhousie&apos;s{" "}
                   <a
                     href="https://www.dal.ca/about/mission-vision-values/respectful-discourse.html"
                     target="_blank"
@@ -311,7 +315,7 @@ export default function FantasticTA() {
                   syllabus.
                 </li>
                 <li>
-                  Remind students that it's okay to ask for help, and that
+                  Remind students that it&apos;s okay to ask for help, and that
                   Dalhousie has confidential and free supports.
                 </li>
                 <li>
@@ -371,7 +375,7 @@ export default function FantasticTA() {
                 </p>
 
                 <p className="mt-2">
-                  Dalhousie's{" "}
+                  Dalhousie&apos;s{" "}
                   <a
                     href="https://dalu.sharepoint.com/sites/shw/SitePages/Student-Support-Team.aspx"
                     className="text-blue-800 underline inline-flex items-center"
@@ -381,21 +385,21 @@ export default function FantasticTA() {
                     <ExternalLink className="ml-1 h-4 w-4" />
                   </a>{" "}
                   is also available to help if you notice a student who may need
-                  more targeted support. Don't hesitate to reach out or refer a
-                  student when necessary.
+                  more targeted support. Don&apos;t hesitate to reach out or
+                  refer a student when necessary.
                 </p>
               </div>
 
               <div className="mt-4">
                 <p className="mt-2">
-                  Inclusive teaching isn't about perfection—it's about intention
-                  and growth. Mistakes will happen. But if your students see
-                  that you care, that you're learning, and that you're willing
-                  to listen and adapt, they will respond with trust and
-                  engagement.
+                  Inclusive teaching isn&apos;t about perfection—it&apos;s about
+                  intention and growth. Mistakes will happen. But if your
+                  students see that you care, that you&apos;re learning, and
+                  that you&apos;re willing to listen and adapt, they will
+                  respond with trust and engagement.
                 </p>
 
-                <p className="mt-2">Here's how you can keep growing:</p>
+                <p className="mt-2">Here&apos;s how you can keep growing:</p>
 
                 <ul className="list-disc pl-6 space-y-1">
                   <li>Attend EDIA workshops or teaching seminars at Dal.</li>
@@ -511,8 +515,8 @@ export default function FantasticTA() {
                   <ul className="list-disc pl-6 space-y-1 mt-1">
                     <li>
                       International students may face challenges with verbal
-                      communication. If you're an international TA, make every
-                      effort to improve your English and practice speaking
+                      communication. If you&apos;re an international TA, make
+                      every effort to improve your English and practice speaking
                       clearly and slowly.
                     </li>
                     <li>
@@ -523,7 +527,7 @@ export default function FantasticTA() {
                       delivering the material confidently.
                     </li>
                     <li>
-                      Encourage students to raise questions if they don't
+                      Encourage students to raise questions if they don&apos;t
                       understand. Repeat questions asked by students to ensure
                       everyone is on the same page.
                     </li>
@@ -572,7 +576,7 @@ export default function FantasticTA() {
                 <strong>Take-Home Messages:</strong> Be prepared, knowledgeable,
                 and confident in your abilities. Remember that teaching is a
                 rewarding experience, and as a TA, you play a crucial role in
-                shaping students' learning journey.
+                shaping students&apos; learning journey.
               </p>
             </div>
           )}
@@ -598,8 +602,8 @@ export default function FantasticTA() {
               <p className="mt-3">
                 <strong>Collaboration matters:</strong> Contrary to common
                 assumptions, students enjoy communicating and working together
-                to solve problems. It's important to design learning activities
-                that foster collaboration and peer learning.
+                to solve problems. It&apos;s important to design learning
+                activities that foster collaboration and peer learning.
               </p>
 
               <p className="mt-2">
@@ -613,19 +617,19 @@ export default function FantasticTA() {
                 <strong>Feedback must be constructive:</strong> The video
                 emphasizes the harm caused by a lack of meaningful feedback.
                 Appropriate feedback helps students identify their mistakes,
-                understand why they went wrong, and learn how to improve. It's a
-                critical component of the learning process.
+                understand why they went wrong, and learn how to improve.
+                It&apos;s a critical component of the learning process.
               </p>
 
               <p className="mt-2">
                 <strong>Students need to learn how to learn:</strong> A
                 widespread issue in many computer science programs is that
                 students lack metacognitive strategies. The TA talks about this
-                issue in the study body that she works with: students' lack of
-                effective study techniques which are required for academic
-                success. In education terms, this is called "Learning to learn",
-                it is the ability to understand, manage, and improve your
-                learning processes.
+                issue in the study body that she works with: students&apos; lack
+                of effective study techniques which are required for academic
+                success. In education terms, this is called &quot;Learning to
+                learn&quot;, it is the ability to understand, manage, and
+                improve your learning processes.
               </p>
             </div>
           )}

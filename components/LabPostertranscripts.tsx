@@ -92,7 +92,7 @@ const LabTranscripts = () => {
               </p>
               <ul className="list-disc pl-6 space-y-1 text-gray-600">
                 <li>
-                  Familiarize yourself with the lab's learning goals and
+                  Familiarize yourself with the lab&apos;s learning goals and
                   understand why they matter.
                 </li>
                 <li>

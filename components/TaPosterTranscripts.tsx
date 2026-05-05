@@ -35,9 +35,9 @@ const TaLabTranscripts = () => {
               </p>
               <ul className="list-disc pl-6 space-y-2 text-gray-600">
                 <li>
-                  Welcome students as they arrive and ensure they're following
-                  any required protocols (e.g., logging into systems, setting up
-                  their environments).
+                  Welcome students as they arrive and ensure they&apos;re
+                  following any required protocols (e.g., logging into systems,
+                  setting up their environments).
                 </li>
                 <li>
                   Clarify the <strong>learning outcomes</strong> of the lab —
@@ -46,12 +46,12 @@ const TaLabTranscripts = () => {
                 </li>
                 <li>
                   Review key concepts from <strong>previous labs</strong>,
-                  especially those related to today's work.
+                  especially those related to today&apos;s work.
                 </li>
                 <li>
                   Walk through the <strong>structure of the lab</strong>:
                   outline the tasks or challenges, and explain any tools,
-                  environments, or datasets they'll be using.
+                  environments, or datasets they&apos;ll be using.
                 </li>
                 <li>
                   Highlight any{" "}
@@ -84,8 +84,8 @@ const TaLabTranscripts = () => {
                       errors or syntax problems.
                     </li>
                     <li>
-                      If their code isn't working, encourage them to articulate
-                      what they expected vs. what happened.
+                      If their code isn&apos;t working, encourage them to
+                      articulate what they expected vs. what happened.
                     </li>
                     <li>
                       Help them learn how to read error messages or use
@@ -118,8 +118,9 @@ const TaLabTranscripts = () => {
                   to clarify.
                 </li>
                 <li>
-                  If you're unsure of an answer, it's fine to say, "I'll look
-                  into that and get back to you," and follow up later.
+                  If you&apos;re unsure of an answer, it&apos;s fine to say,
+                  &quot;I&apos;ll look into that and get back to you,&quot; and
+                  follow up later.
                 </li>
               </ul>
             </div>
@@ -186,8 +187,8 @@ const TaLabTranscripts = () => {
                 After the Lab:
               </h3>
               <p className="text-gray-600 mb-3">
-                <strong>Review students' work</strong> for recurring issues or
-                misconceptions.
+                <strong>Review students&apos; work</strong> for recurring issues
+                or misconceptions.
               </p>
               <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
                 <li>
@@ -207,7 +208,7 @@ const TaLabTranscripts = () => {
               <ul className="list-disc pl-6 space-y-2 text-gray-600 mb-4">
                 <li>
                   <strong>Specific</strong> – Help students understand what
-                  worked and what didn't
+                  worked and what didn&apos;t
                 </li>
                 <li>
                   <strong>Balanced</strong> – Point out both strengths and areas

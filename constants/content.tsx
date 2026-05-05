@@ -21,7 +21,7 @@ export const introduction = [
   "As a TA, you will encounter students with diverse backgrounds, learning preferences, and levels of experience in programming theoretical concepts. Your ability to explain complex ideas, facilitate discussions, and provide constructive feedback will be key to their success. This handbook will serve as a resource to help you navigate these responsibilities with confidence!",
   "We encourage you to approach your role with enthusiasm, patience and a commitment to inclusive and supportive teaching. Your work not only impacts individual students and builds upon the work of instructors in the classroom but also contributes to a strong and collaborative learning community at the Faculty of Computer Science.",
   "Developing an effective Teaching Assistant (TA) toolkit is a vital step toward supporting TAs in their multifaceted roles within academia. However, our handbook draws on and integrates unique materials for the Faculty of Computer Science at Dalhousie. By building on established resources and our own bespoke solutions, this toolkit aims to equip TAs with tailored strategies, valuable insights, and best practices to enhance your teaching effectiveness and overall efficiency.",
-  "TAs and Demonstrators, Markers and Proctors are required to interact respectfully and communicate effectively to complete tasks accurately and on time, providing useful feedback and applying the principles of academic integrity, in accordance with the course professor's instructions.",
+  "TAs and Demonstrators, Markers and Proctors are required to interact respectfully and communicate effectively to complete tasks accurately and on time, providing useful feedback and applying the principles of academic integrity, in accordance with the course professor&apos;s instructions.",
 ];
 
 interface CollapsibleSection {
@@ -60,10 +60,11 @@ export const collapsable: CollapsibleSection[] = [
         </p>
 
         <p>
-          You'll likely be placed in a course that matches your competencies,
-          and it's crucial to have a thorough understanding of the material. If
-          there are gaps, connect with the course instructor and work on filling
-          them. Anyone wishing to secure a position must use the{" "}
+          You&apos;ll likely be placed in a course that matches your
+          competencies, and it&apos;s crucial to have a thorough understanding
+          of the material. If there are gaps, connect with the course instructor
+          and work on filling them. Anyone wishing to secure a position must use
+          the{" "}
           <a
             href="https://dal.brightspace.com/d2l/le/content/136347/Home?itemIdentifier=D2L.LE.Content.ContentObject.ModuleCO-1804406"
             target="_blank"
@@ -117,7 +118,7 @@ export const collapsable: CollapsibleSection[] = [
 
         <p>
           Thank you for your dedication to teaching and learning at the FCS.
-          Let's get started!
+          Let&apos;s get started!
         </p>
 
         <TADemonstratorMarkerTable />
@@ -134,8 +135,8 @@ export const collapsable: CollapsibleSection[] = [
           Teaching Assistants (TAs) in the Faculty of Computer Science have
           access to a variety of professional-development opportunities designed
           to support and enhance your teaching practice. Through a combination
-          of Faculty-led workshops and programs offered by Dalhousie's Centre
-          for Learning and Teaching (CLT), TAs can develop key skills in
+          of Faculty-led workshops and programs offered by Dalhousie&apos;s
+          Centre for Learning and Teaching (CLT), TAs can develop key skills in
           facilitation, inclusive teaching, assessment, and student engagement.
           Whether you are new to the role or building on previous experience,
           these training opportunities provide valuable resources and support to
@@ -171,7 +172,8 @@ export const collapsable: CollapsibleSection[] = [
                 target="_blank"
                 className="text-blue-800 underline inline-flex items-center"
               >
-                Teaching Assistant Professional Development Days{" "} <ExternalLink className="ml-1 h-4 w-4" />
+                Teaching Assistant Professional Development Days{" "}
+                <ExternalLink className="ml-1 h-4 w-4" />
               </a>{" "}
               (TA Days)
             </strong>
@@ -188,7 +190,7 @@ export const collapsable: CollapsibleSection[] = [
             <strong>Teaching Assistant Enrichment Program (TAEP)</strong>
             <p>
               TAEP combines workshops, teaching exercises, and reflection on
-              teaching and learning. It recognises a participant's work toward
+              teaching and learning. It recognises a participant&apos;s work toward
               the development of teaching, offering experience, knowledge, and
               skills that can be applied immediately to current TA assignments.
             </p>
@@ -201,7 +203,8 @@ export const collapsable: CollapsibleSection[] = [
                 className="text-blue-800 underline inline-flex items-center"
                 href="https://www.dal.ca/dept/clt/programs/CUTL.html#:~:text=Advantages,documented%20certificate%20and%20transcript%20notation"
               >
-                Certificate in University Teaching and Learning{" "} <ExternalLink className="ml-1 h-4 w-4" />
+                Certificate in University Teaching and Learning{" "}
+                <ExternalLink className="ml-1 h-4 w-4" />
               </a>{" "}
               (Graduate Students)
             </strong>
@@ -229,7 +232,8 @@ export const collapsable: CollapsibleSection[] = [
                 className="text-blue-800 underline inline-flex items-center"
                 href="https://www.dal.ca/dept/clt/resources.html"
               >
-                Centre for Learning and Teaching (CLT) <ExternalLink className="ml-1 h-4 w-4" />
+                Centre for Learning and Teaching (CLT){" "}
+                <ExternalLink className="ml-1 h-4 w-4" />
               </a>
               :
             </strong>{" "}
@@ -274,10 +278,10 @@ export const collapsable: CollapsibleSection[] = [
         </h3>
 
         <p>
-          At the beginning of the term, it's essential to define and communicate
-          the roles and responsibilities of each TA and Demonstrator. As Head
-          TA, you should work with the course instructor to outline
-          expectations, which typically include:
+          At the beginning of the term, it&apos;s essential to define and
+          communicate the roles and responsibilities of each TA and
+          Demonstrator. As Head TA, you should work with the course instructor
+          to outline expectations, which typically include:
         </p>
 
         <ul className="list-disc pl-6 ml-1 space-y-1">
@@ -305,7 +309,8 @@ export const collapsable: CollapsibleSection[] = [
         <p>
           If it is included in contract and you are instructed to do so by the
           professor organize weekly or biweekly meetings with all TAs to
-          maintain consistent communication. These meetings provide a space to:{" "}
+          maintain consistent communication. These meetings provide a space
+          to:{" "}
         </p>
 
         <ul className="list-disc pl-6 ml-1 space-y-1">
@@ -333,7 +338,7 @@ export const collapsable: CollapsibleSection[] = [
 
         <ul className="list-disc pl-6 ml-1 space-y-1">
           <li>
-            Coordinate with TAs and Demonstrators beforehand on when you'll
+            Coordinate with TAs and Demonstrators beforehand on when you&apos;ll
             attend{" "}
           </li>
           <li>
@@ -366,7 +371,8 @@ export const collapsable: CollapsibleSection[] = [
             management{" "}
           </li>
           <li>
-            Encouraging peer feedback through shared reflection or observation{" "}
+            Encouraging peer feedback through shared reflection or
+            observation{" "}
           </li>
           <li>Include any feedback from the course </li>
         </ul>
@@ -400,10 +406,10 @@ export const collapsable: CollapsibleSection[] = [
         <h3 className="font-semibold text-lg mt-2 mb-1">In Summary</h3>
 
         <p>
-          As a Head TA, your role extends beyond administration—you're a mentor,
-          communicator, and team leader. By establishing clear expectations,
-          maintaining regular communication, observing with care, offering
-          constructive feedback, and fostering a professional learning
+          As a Head TA, your role extends beyond administration—you&apos;re a
+          mentor, communicator, and team leader. By establishing clear
+          expectations, maintaining regular communication, observing with care,
+          offering constructive feedback, and fostering a professional learning
           community, you help build a strong foundation for successful lab and
           tutorial instruction. This helps students meet course outcomes, and
           the instructor can focus on teaching course content in classes,
@@ -421,7 +427,8 @@ export const collapsable: CollapsibleSection[] = [
             target="_blank"
             className="text-blue-800 underline inline-flex items-center"
           >
-            https://uwm.edu/graduate-assistants/handbook/teaching-assistants/roles-and-responsibilities-of-teaching-assistants/ <ExternalLink className="ml-1 h-4 w-4" />
+            https://uwm.edu/graduate-assistants/handbook/teaching-assistants/roles-and-responsibilities-of-teaching-assistants/{" "}
+            <ExternalLink className="ml-1 h-4 w-4" />
           </a>
         </p>
 
@@ -434,7 +441,8 @@ export const collapsable: CollapsibleSection[] = [
             target="_blank"
             className="text-blue-800 underline inline-flex items-center"
           >
-            https://pressbooks.lib.vt.edu/universityteaching/chapter/how-to-oversee-a-laboratory-course-taught-by-teaching-assistants-experiences-in-the-lab-and-field/ <ExternalLink className="ml-1 h-4 w-4" />
+            https://pressbooks.lib.vt.edu/universityteaching/chapter/how-to-oversee-a-laboratory-course-taught-by-teaching-assistants-experiences-in-the-lab-and-field/{" "}
+            <ExternalLink className="ml-1 h-4 w-4" />
           </a>
         </p>
       </div>
@@ -584,7 +592,7 @@ export const collapsable: CollapsibleSection[] = [
         <ul className="list-disc pl-6 ml-1 space-y-1">
           <li>
             <strong>Punctuality:</strong> Arrive on time to demonstrate respect
-            for students' time.
+            for students&apos; time.
           </li>
 
           <li>
@@ -623,7 +631,7 @@ export const collapsable: CollapsibleSection[] = [
 
           <li>
             <strong>Nonverbal Cues:</strong> Be mindful of body language to
-            fully grasp students' perspectives.{" "}
+            fully grasp students&apos; perspectives.{" "}
             <i>Do they seem nervous, shy or upset?</i> Be kind and patient.{" "}
           </li>
 
@@ -652,16 +660,16 @@ export const collapsable: CollapsibleSection[] = [
 
         <ul className="list-disc pl-6 ml-1 space-y-1">
           <li>
-            <strong>Lack of Office Space:</strong> If an office isn't available,
-            promptly inform the course instructor to arrange a temporary meeting
-            space or choose a public area like the library.
+            <strong>Lack of Office Space:</strong> If an office isn&apos;t
+            available, promptly inform the course instructor to arrange a
+            temporary meeting space or choose a public area like the library.
           </li>
           <li>
             <strong>Personal Problems:</strong> When students present personal
             issues beyond academic concerns, refer them to qualified
             professionals or campus services. See the Student Support Flow
-            Diagram or the resources from Dal’s webpage on Student Health and
-            Wellness.
+            Diagram or the resources from Dal&apos;s webpage on Student Health
+            and Wellness.
           </li>
           <li>
             <strong>Setting Boundaries:</strong> Some students may wish to chat

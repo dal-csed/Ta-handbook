@@ -1,9 +1,6 @@
 import { ExternalLink } from "lucide-react";
-import { useState } from "react";
 
 export default function FosteringInclusiveClassrooms() {
-  const [activeTab, setActiveTab] = useState("overview");
-
   return (
     <div className="my-3 space-y-4">
       <div className="mb-6">
@@ -12,8 +9,8 @@ export default function FosteringInclusiveClassrooms() {
           teaching. At Dalhousie University, we believe that every student
           deserves an educational experience where they feel welcomed,
           respected, supported, and challenged. Inclusion is not simply about
-          compliance—it's a commitment to building equitable spaces where all
-          learners can thrive.
+          compliance—it&apos;s a commitment to building equitable spaces where
+          all learners can thrive.
         </p>
 
         <p>
@@ -29,7 +26,9 @@ export default function FosteringInclusiveClassrooms() {
 
       <div className="mt-4 p-4 bg-gray-50 rounded-lg">
         <div>
-          <h3 className="font-bold mb-2">Dalhousie's Commitment to EDIA</h3>
+          <h3 className="font-bold mb-2">
+            Dalhousie&apos;s Commitment to EDIA
+          </h3>
           <p className="mb-4">
             Dalhousie is guided by its institutional commitment to Equity,
             Diversity, Inclusion, and Accessibility (EDIA). These principles are
@@ -42,8 +41,8 @@ export default function FosteringInclusiveClassrooms() {
             Inclusion, and Accessibility. It represents a commitment to creating
             a welcoming and inclusive environment for all members of the
             university community. This commitment is a core institutional
-            priority, influencing the university's vision, mission, values, and
-            actions.
+            priority, influencing the university&apos;s vision, mission, values,
+            and actions.
           </p>
 
           <h4 className="font-semibold mt-4">Core Principles</h4>
@@ -92,8 +91,8 @@ export default function FosteringInclusiveClassrooms() {
           </p>
 
           <p className="mt-4">
-            You can explore Dalhousie's full EDIA framework and strategic goals
-            here:{" "}
+            You can explore Dalhousie&apos;s full EDIA framework and strategic
+            goals here:{" "}
             <a
               href="https://www.dal.ca/about/mission-vision-values/equity-diversity-inclusion-and-accessibility.html"
               className="text-blue-800 underline inline-flex items-center"
@@ -127,8 +126,9 @@ export default function FosteringInclusiveClassrooms() {
             </h4>
             <ul className="list-disc pl-6 space-y-1 mt-2">
               <li>
-                Avoid gendered or ableist language; use terms like "they/them,"
-                "everyone," or "folks."
+                Avoid gendered or ableist language; use terms like
+                &quot;they/them,&quot; &quot;everyone,&quot; or
+                &quot;folks.&quot;
               </li>
               <li>
                 Ask students (if comfortable) to share their preferred name and
@@ -136,7 +136,7 @@ export default function FosteringInclusiveClassrooms() {
               </li>
               <li>Avoid slang or idioms without context.</li>
               <li>
-                Refer to Dalhousie's{" "}
+                Refer to Dalhousie&apos;s{" "}
                 <a
                   href="https://www.dal.ca/about/mission-vision-values/respectful-discourse.html"
                   className="text-blue-800 underline inline-flex items-center"
@@ -196,10 +196,10 @@ export default function FosteringInclusiveClassrooms() {
               more than you realize. Being mindful of that power dynamic means
               avoiding public callouts unless necessary, i.e., where a situation
               in the learning environment may cause undue harm to another
-              individual or groups of individuals. Read Harvard's Calling In and
-              Calling Out Guide to familiarize yourself with what to do in
-              specific situations where inappropriate behaviours in a learning
-              space need to be addressed.
+              individual or groups of individuals. Read Harvard&apos;s Calling
+              In and Calling Out Guide to familiarize yourself with what to do
+              in specific situations where inappropriate behaviours in a
+              learning space need to be addressed.
             </p>
           </div>
 
@@ -213,9 +213,10 @@ export default function FosteringInclusiveClassrooms() {
               anonymous suggestion forms to build trust and inclusivity.
             </p>
             <p className="mt-2">
-              Dalhousie's Student Support Team is also available to help if you
-              notice a student who may need more targeted support. Don't
-              hesitate to reach out or refer a student when necessary.
+              Dalhousie&apos;s Student Support Team is also available to help if
+              you notice a student who may need more targeted support.
+              Don&apos;t hesitate to reach out or refer a student when
+              necessary.
             </p>
           </div>
         </div>
@@ -239,8 +240,8 @@ export default function FosteringInclusiveClassrooms() {
               supports listed below.
             </li>
             <li>
-              Remind students that it's okay to ask for help and that Dalhousie
-              has confidential and free support available to them.
+              Remind students that it&apos;s okay to ask for help and that
+              Dalhousie has confidential and free support available to them.
             </li>
             <li>
               Be flexible with deadlines where reasonable; rigidity can
@@ -289,7 +290,7 @@ export default function FosteringInclusiveClassrooms() {
                 className="text-blue-800 underline inline-flex items-center"
                 target="_blank"
               >
-                Harvard’s Calling In and Calling Out Guide{" "}
+                Harvard&apos;s Calling In and Calling Out Guide{" "}
                 <ExternalLink className="ml-1 h-4 w-4" />
               </a>
               to familiarize yourself with what to do in specific situations
@@ -316,19 +317,20 @@ export default function FosteringInclusiveClassrooms() {
                 Student Support Team <ExternalLink className="ml-1 h-4 w-4" />
               </a>
               is also available to help if you notice a student who may need
-              more targeted support. Don’t hesitate to reach out or refer a
+              more targeted support. Don&apos;t hesitate to reach out or refer a
               student when necessary.
             </p>
 
             <p className="mb-4">
-              Inclusive teaching isn’t about perfection—it’s about intention and
-              growth. Mistakes will happen. But if your students see that you
-              care, that you’re learning, and that you’re willing to listen and
-              adapt, they will respond with trust and engagement. 
+              Inclusive teaching isn&apos;t about perfection—it&apos;s about
+              intention and growth. Mistakes will happen. But if your students
+              see that you care, that you&apos;re learning, and that you&apos;re
+              willing to listen and adapt, they will respond with trust and
+              engagement. 
             </p>
 
             <h4 className="font-semibold mt-3">
-              Here's how you can keep growing:
+              Here&apos;s how you can keep growing:
             </h4>
             <ul className="list-disc pl-6 space-y-2 mt-2">
               <li>Attend EDIA workshops or teaching seminars at Dal.</li>

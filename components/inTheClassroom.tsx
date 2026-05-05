@@ -35,13 +35,14 @@ export default function ClassroomGuidance() {
 
         <p className="mt-2">
           Encouraging active learning helps students move beyond passive
-          reception of information. Simple strategies like "think-pair-share"
-          can promote engagement and deeper understanding of the material.
+          reception of information. Simple strategies like
+          &quot;think-pair-share&quot; can promote engagement and deeper
+          understanding of the material.
         </p>
 
         <p className="mt-2">
           Effective communication is another essential skill. Practice active
-          listening and make a conscious effort to use students' names in
+          listening and make a conscious effort to use students&apos; names in
           conversation. This not only personalizes interactions but also fosters
           a sense of community.
         </p>
@@ -50,7 +51,7 @@ export default function ClassroomGuidance() {
           In the physical space, your movement around the classroom matters.
           Walking around to interact with students signals attentiveness and
           allows you to identify who might need help. Lastly, your energy as an
-          educator sets the tone. Even if the topic isn't your favourite,
+          educator sets the tone. Even if the topic isn&apos;t your favourite,
           showing enthusiasm will inspire students to stay engaged. Your
           attitude can transform the learning experience.
         </p>
@@ -124,7 +125,7 @@ export default function ClassroomGuidance() {
                 Importance of First Impressions
               </h4>
               <p>
-                The first interaction shapes students' perceptions of the
+                The first interaction shapes students&apos; perceptions of the
                 instructor, the course, and their own role as learners. A
                 positive, engaging, and approachable tone fosters confidence and
                 motivation.
@@ -210,8 +211,8 @@ export default function ClassroomGuidance() {
                 </li>
                 <li>
                   <strong>Name Recognition:</strong> Use name tents in labs or
-                  small classes to help instructors and peers learn each other's
-                  names quickly.
+                  small classes to help instructors and peers learn each
+                  other&apos;s names quickly.
                 </li>
                 <li>
                   <strong>Group Work:</strong> Assign students to small
@@ -251,7 +252,7 @@ export default function ClassroomGuidance() {
                 <li>Improved thinking and writing abilities</li>
                 <li>Enhanced attitudes towards learning</li>
                 <li>Increased motivation for further study</li>
-                <li>Greater awareness of one's learning process</li>
+                <li>Greater awareness of one&apos;s learning process</li>
               </ul>
 
               <h3 className="text-lg font-bold mt-4">
@@ -355,7 +356,7 @@ export default function ClassroomGuidance() {
                 Explicit Direct Instruction (EDI) in programming education is a
                 modern teaching framework rooted in traditional Direct
                 Instruction (DI), but with a more flexible and student-centered
-                approach. It's particularly effective in fields like
+                approach. It&apos;s particularly effective in fields like
                 programming, where learners must grasp complex concepts
                 step-by-step.
               </p>
@@ -369,8 +370,8 @@ export default function ClassroomGuidance() {
                 <p>
                   Every lesson begins with a simple, clearly stated goal—written
                   in everyday language. This helps students understand what
-                  they're learning and why, focusing their attention and giving
-                  them direction.
+                  they&apos;re learning and why, focusing their attention and
+                  giving them direction.
                 </p>
               </div>
 
@@ -416,8 +417,8 @@ export default function ClassroomGuidance() {
                 <h4 className="font-semibold">6. Independent Practice</h4>
                 <p>
                   Students then tackle problems on their own, applying what
-                  they've learned. This stage helps solidify understanding and
-                  reveals areas that need more attention.
+                  they&apos;ve learned. This stage helps solidify understanding
+                  and reveals areas that need more attention.
                 </p>
               </div>
 
@@ -488,8 +489,8 @@ export default function ClassroomGuidance() {
                 <h4 className="font-semibold">Build Community</h4>
                 <ul className="list-disc ml-6 mt-1">
                   <li>
-                    Encourage students to learn each other's names using name
-                    cards (in-person) or by setting display names (online).
+                    Encourage students to learn each other&apos;s names using
+                    name cards (in-person) or by setting display names (online).
                   </li>
                   <li>
                     Engage students by asking about their interests, reasons for
@@ -506,7 +507,7 @@ export default function ClassroomGuidance() {
                 <ul className="list-disc ml-6 mt-1">
                   <li>
                     Collaboratively set discussion guidelines by asking
-                    students: \"What makes an effective discussion?"
+                    students: &quot;What makes an effective discussion?&quot;
                   </li>
                   <li>
                     Ensure students understand how to maintain respectful and
@@ -579,8 +580,8 @@ export default function ClassroomGuidance() {
                     responding to every comment.
                   </li>
                   <li>
-                    Use open-ended questions like "What do you think of...?" to
-                    stimulate discussion.
+                    Use open-ended questions like &quot;What do you think
+                    of...?&quot; to stimulate discussion.
                   </li>
                 </ul>
               </div>

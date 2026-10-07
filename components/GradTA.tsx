@@ -100,6 +100,7 @@ export default function TADemonstratorMarkerTable() {
                   <li>attend admin/coord meetings</li>
                   <li>office Hours</li>
                   <li>student communication</li>
+                  <li>student project support</li>
                   <li>admin</li>
                   <li>technology supports</li>
                 </ul>
@@ -183,9 +184,30 @@ export default function TADemonstratorMarkerTable() {
             <ExternalLink className="ml-1 h-3 w-3" />
           </a>
         </p>
+
         <p className="text-sm italic">
           *Pay rates effective September 1, 2023.
         </p>
+
+        <p className="mt-4 text-sm underline font-semibold">
+          Bona Fide Occupational Requirements for all FCS Teaching Assistants, Demonstrators and Markers
+        </p>
+
+        <ol className="list-decimal list-inside mt-1 text-sm">
+          <li>These positions are for our students, prioritizing FCS funded graduate students first.</li>
+          <li>Candidates must confirm availability to work at the appointed time(s) prior to extending offers.</li>
+          <li>Candidates may not have academic integrity violations on their transcript.</li>
+          <li>
+            Returning employees must have completed the three mandatory training modules.<br />
+            <span className="ml-4">(New employees will have three hours added to their contract to complete the mandatory training modules.)</span>
+          </li>
+          <li>
+            Providing <em>further</em> feedback on graded assessments is a TA duty.<br />
+            <span className="ml-4">A Demonstrator may only provide further feedback in the lab / tutorial / lecture.</span><br />
+            <span className="ml-4">A Marker may only provide their contact details on graded assessments if they are also the student's TA.</span>
+          </li>
+        </ol>
+
       </div>
 
       <div className="mt-6">
